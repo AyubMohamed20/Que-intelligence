@@ -1,0 +1,5690 @@
+{
+  "generatedAt": "2026-07-21T06:25:38.345Z",
+  "inputFiles": [
+    "research/hospitality-leads.json",
+    "research/wellness-leads.json",
+    "research/visual-service-leads.json"
+  ],
+  "summary": {
+    "leadCount": 20,
+    "outreachReadyCount": 20,
+    "validationErrorCount": 0,
+    "reachableWebsiteCount": 20,
+    "duplicateIdCount": 0,
+    "duplicateCompanyUrlCount": 0,
+    "duplicateSocialUrlCount": 0,
+    "excludedClientMatchCount": 0
+  },
+  "audits": [
+    {
+      "id": "moo-shu-ice-cream-kitchen",
+      "name": "Moo Shu Ice Cream & Kitchen",
+      "sourceFile": "research/hospitality-leads.json",
+      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "validation": {
+        "file": "research/hospitality-leads.json",
+        "errors": []
+      },
+      "website": {
+        "requestedUrl": "https://www.mooshuicecream.com/",
+        "finalUrl": "https://www.mooshuicecream.com/",
+        "httpStatus": 200,
+        "reachable": true,
+        "title": "Moo Shu Ice Cream",
+        "metaDescription": "Flavour forward small-batch ice cream in Ottawa made with pure Ontario dairy. Creative flavours, vegan options, and scratch-made cones!",
+        "score": 100,
+        "checks": [
+          {
+            "id": "reachable",
+            "label": "Website returns a successful response",
+            "points": 20,
+            "passed": true,
+            "earned": 20,
+            "observation": "HTTP 200"
+          },
+          {
+            "id": "https",
+            "label": "Website uses HTTPS",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "https://www.mooshuicecream.com/"
+          },
+          {
+            "id": "title",
+            "label": "Page has a descriptive title",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Moo Shu Ice Cream"
+          },
+          {
+            "id": "description",
+            "label": "Page has a meta description",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Flavour forward small-batch ice cream in Ottawa made with pure Ontario dairy. Creative flavours, vegan options, and scratch-made cones!"
+          },
+          {
+            "id": "viewport",
+            "label": "Page declares a mobile viewport",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Viewport declaration found"
+          },
+          {
+            "id": "h1",
+            "label": "Page has a primary heading",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "H1 found"
+          },
+          {
+            "id": "contact",
+            "label": "Page exposes a contact or booking action",
+            "points": 15,
+            "passed": true,
+            "earned": 15,
+            "observation": "Contact action found"
+          },
+          {
+            "id": "social",
+            "label": "Page links to a verified social account",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "3 supplied social link(s) found"
+          },
+          {
+            "id": "structured-data",
+            "label": "Page includes structured data",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "JSON-LD found"
+          },
+          {
+            "id": "canonical",
+            "label": "Page declares a canonical URL",
+            "points": 3,
+            "passed": true,
+            "earned": 3,
+            "observation": "Canonical found"
+          },
+          {
+            "id": "open-graph",
+            "label": "Page includes Open Graph metadata",
+            "points": 2,
+            "passed": true,
+            "earned": 2,
+            "observation": "Open Graph metadata found"
+          }
+        ],
+        "discoveredSocialLinks": [
+          {
+            "platform": "x",
+            "url": "https://twitter.com/mooshuicecream"
+          },
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/mooshuicecream"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://instagram.com/mooshuicecream"
+          }
+        ],
+        "suppliedSocialsMissingFromOfficialSite": [],
+        "officialSocialsMissingFromResearch": [
+          {
+            "platform": "x",
+            "url": "https://twitter.com/mooshuicecream"
+          },
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/mooshuicecream"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://instagram.com/mooshuicecream"
+          }
+        ]
+      },
+      "contactVerification": {
+        "phone": null,
+        "email": {
+          "value": "mooshuicecream@gmail.com",
+          "listedOnWebsite": true
+        }
+      },
+      "socialChecks": [
+        {
+          "platform": "Instagram",
+          "handle": "@mooshuicecream",
+          "url": "https://www.instagram.com/mooshuicecream",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmooshuicecream&is_from_rle",
+          "error": null
+        },
+        {
+          "platform": "Facebook",
+          "handle": "mooshuicecream",
+          "url": "https://www.facebook.com/mooshuicecream",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fmooshuicecream",
+          "error": null
+        },
+        {
+          "platform": "X",
+          "handle": "@mooshuicecream",
+          "url": "https://twitter.com/mooshuicecream",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://x.com/mooshuicecream",
+          "error": null
+        }
+      ],
+      "sourceChecks": [
+        {
+          "label": "Official homepage and contact details",
+          "url": "https://www.mooshuicecream.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.mooshuicecream.com/",
+          "error": null
+        },
+        {
+          "label": "Official team and employment page",
+          "url": "https://www.mooshuicecream.com/pages/our-team",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.mooshuicecream.com/pages/our-team",
+          "error": null
+        },
+        {
+          "label": "Ottawa ice-cream guide and owner identification",
+          "url": "https://ottawatourism.ca/en/ottawa-insider/best-ice-cream-and-other-frozen-treats-ottawa",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://ottawatourism.ca/en/ottawa-insider/best-ice-cream-and-other-frozen-treats-ottawa",
+          "error": null
+        },
+        {
+          "label": "Recent Ottawa-area ice-cream guide",
+          "url": "https://caaneo.ca/magazine/travel/ice-cream-shops-around-ottawa/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://caaneo.ca/magazine/travel/ice-cream-shops-around-ottawa/",
+          "error": null
+        },
+        {
+          "label": "https://www.instagram.com/mooshuicecream",
+          "url": "https://www.instagram.com/mooshuicecream",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmooshuicecream&is_from_rle",
+          "error": null
+        },
+        {
+          "label": "https://www.facebook.com/mooshuicecream",
+          "url": "https://www.facebook.com/mooshuicecream",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fmooshuicecream",
+          "error": null
+        },
+        {
+          "label": "https://twitter.com/mooshuicecream",
+          "url": "https://twitter.com/mooshuicecream",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://x.com/mooshuicecream",
+          "error": null
+        },
+        {
+          "label": "https://www.mooshuicecream.com/pages/workshops",
+          "url": "https://www.mooshuicecream.com/pages/workshops",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.mooshuicecream.com/pages/workshops",
+          "error": null
+        },
+        {
+          "label": "https://themerrydairy.com/",
+          "url": "https://themerrydairy.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://themerrydairy.com/",
+          "error": null
+        },
+        {
+          "label": "https://www.farinellaeats.com/",
+          "url": "https://www.farinellaeats.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.farinellaeats.com/",
+          "error": null
+        }
+      ],
+      "reachableSourceCount": 4,
+      "sourceCount": 4,
+      "outreachReady": true
+    },
+    {
+      "id": "beyond-the-pale-brewing-company",
+      "name": "Beyond the Pale Brewing Company",
+      "sourceFile": "research/hospitality-leads.json",
+      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "validation": {
+        "file": "research/hospitality-leads.json",
+        "errors": []
+      },
+      "website": {
+        "requestedUrl": "https://btpshop.ca/",
+        "finalUrl": "https://btpshop.ca/",
+        "httpStatus": 200,
+        "reachable": true,
+        "title": "Beyond the Pale Brewing Company. Located in Ottawa selling beer. &ndash; Beyond The Pale Brewing Company",
+        "metaDescription": "Ottawa based homegrown brewery. What started as a talk over some home brews, has grown into the business before you. Located in the heart of Ottawa at Unit 108, 250 City Centre, we now produce a wide range of amazing tasting craft beers. With a large taproom, patio and retail space open every day of week.",
+        "score": 100,
+        "checks": [
+          {
+            "id": "reachable",
+            "label": "Website returns a successful response",
+            "points": 20,
+            "passed": true,
+            "earned": 20,
+            "observation": "HTTP 200"
+          },
+          {
+            "id": "https",
+            "label": "Website uses HTTPS",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "https://btpshop.ca/"
+          },
+          {
+            "id": "title",
+            "label": "Page has a descriptive title",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Beyond the Pale Brewing Company. Located in Ottawa selling beer. &ndash; Beyond The Pale Brewing Company"
+          },
+          {
+            "id": "description",
+            "label": "Page has a meta description",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Ottawa based homegrown brewery. What started as a talk over some home brews, has grown into the business before you. Located in the heart of Ottawa at Unit 108, 250 City Centre, we now produce a wide range of amazing tasting craft beers. With a large taproom, patio and retail space open every day of week."
+          },
+          {
+            "id": "viewport",
+            "label": "Page declares a mobile viewport",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Viewport declaration found"
+          },
+          {
+            "id": "h1",
+            "label": "Page has a primary heading",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "H1 found"
+          },
+          {
+            "id": "contact",
+            "label": "Page exposes a contact or booking action",
+            "points": 15,
+            "passed": true,
+            "earned": 15,
+            "observation": "Contact action found"
+          },
+          {
+            "id": "social",
+            "label": "Page links to a verified social account",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "6 supplied social link(s) found"
+          },
+          {
+            "id": "structured-data",
+            "label": "Page includes structured data",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "JSON-LD found"
+          },
+          {
+            "id": "canonical",
+            "label": "Page declares a canonical URL",
+            "points": 3,
+            "passed": true,
+            "earned": 3,
+            "observation": "Canonical found"
+          },
+          {
+            "id": "open-graph",
+            "label": "Page includes Open Graph metadata",
+            "points": 2,
+            "passed": true,
+            "earned": 2,
+            "observation": "Open Graph metadata found"
+          }
+        ],
+        "discoveredSocialLinks": [
+          {
+            "platform": "x",
+            "url": "https://x.com/BTPBrewing"
+          },
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/BeyondThePaleBrewingCompany"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/btpbrewing"
+          },
+          {
+            "platform": "tiktok",
+            "url": "https://www.tiktok.com/@beyondthepalebrewery"
+          },
+          {
+            "platform": "youtube",
+            "url": "https://www.youtube.com/@beyondthepalebrewingcompany"
+          },
+          {
+            "platform": "threads",
+            "url": "https://www.threads.net/@btpbrewing"
+          }
+        ],
+        "suppliedSocialsMissingFromOfficialSite": [],
+        "officialSocialsMissingFromResearch": [
+          {
+            "platform": "x",
+            "url": "https://x.com/BTPBrewing"
+          },
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/BeyondThePaleBrewingCompany"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/btpbrewing"
+          },
+          {
+            "platform": "tiktok",
+            "url": "https://www.tiktok.com/@beyondthepalebrewery"
+          },
+          {
+            "platform": "youtube",
+            "url": "https://www.youtube.com/@beyondthepalebrewingcompany"
+          },
+          {
+            "platform": "threads",
+            "url": "https://www.threads.net/@btpbrewing"
+          }
+        ]
+      },
+      "contactVerification": {
+        "phone": {
+          "value": "613-668-2337",
+          "listedOnWebsite": true
+        },
+        "email": {
+          "value": "reservations@btpbeer.com",
+          "listedOnWebsite": true
+        }
+      },
+      "socialChecks": [
+        {
+          "platform": "Instagram",
+          "handle": "@btpbrewing",
+          "url": "https://www.instagram.com/btpbrewing/",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fbtpbrewing%2F&is_from_rle",
+          "error": null
+        },
+        {
+          "platform": "Facebook",
+          "handle": "BeyondThePaleBrewingCompany",
+          "url": "https://www.facebook.com/BeyondThePaleBrewingCompany",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/BeyondThePaleBrewingCompany",
+          "error": null
+        },
+        {
+          "platform": "TikTok",
+          "handle": "@beyondthepalebrewery",
+          "url": "https://www.tiktok.com/@beyondthepalebrewery",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.tiktok.com/@beyondthepalebrewery",
+          "error": null
+        },
+        {
+          "platform": "YouTube",
+          "handle": "@beyondthepalebrewingcompany",
+          "url": "https://www.youtube.com/@beyondthepalebrewingcompany",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.youtube.com/@beyondthepalebrewingcompany",
+          "error": null
+        },
+        {
+          "platform": "Threads",
+          "handle": "@btpbrewing",
+          "url": "https://www.threads.com/@btpbrewing",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.threads.com/login/?next=https%3A%2F%2Fwww.threads.com%2F%40btpbrewing%2F",
+          "error": null
+        },
+        {
+          "platform": "X",
+          "handle": "@BTPBrewing",
+          "url": "https://x.com/BTPBrewing",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://x.com/BTPBrewing",
+          "error": null
+        }
+      ],
+      "sourceChecks": [
+        {
+          "label": "Official about, locations, contact, and social links",
+          "url": "https://btpshop.ca/pages/about-beyond-the-pale-brewing-company",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://btpshop.ca/pages/about-beyond-the-pale-brewing-company",
+          "error": null
+        },
+        {
+          "label": "Official City Centre events",
+          "url": "https://btpshop.ca/pages/events",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://btpshop.ca/pages/events",
+          "error": null
+        },
+        {
+          "label": "Official ByWard events",
+          "url": "https://btpshop.ca/pages/byward-market-events",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://btpshop.ca/pages/byward-market-events",
+          "error": null
+        },
+        {
+          "label": "Co-owner and ByWard expansion profile",
+          "url": "https://obj.ca/beyond-the-pale-taproom-former-courtyard-restaurant/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://obj.ca/beyond-the-pale-taproom-former-courtyard-restaurant/",
+          "error": null
+        },
+        {
+          "label": "https://www.instagram.com/btpbrewing/",
+          "url": "https://www.instagram.com/btpbrewing/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fbtpbrewing%2F&is_from_rle",
+          "error": null
+        },
+        {
+          "label": "https://www.facebook.com/BeyondThePaleBrewingCompany",
+          "url": "https://www.facebook.com/BeyondThePaleBrewingCompany",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/BeyondThePaleBrewingCompany",
+          "error": null
+        },
+        {
+          "label": "https://www.tiktok.com/@beyondthepalebrewery",
+          "url": "https://www.tiktok.com/@beyondthepalebrewery",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.tiktok.com/@beyondthepalebrewery",
+          "error": null
+        },
+        {
+          "label": "https://www.youtube.com/@beyondthepalebrewingcompany",
+          "url": "https://www.youtube.com/@beyondthepalebrewingcompany",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.youtube.com/@beyondthepalebrewingcompany",
+          "error": null
+        },
+        {
+          "label": "https://www.threads.com/@btpbrewing",
+          "url": "https://www.threads.com/@btpbrewing",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.threads.com/login/?next=https%3A%2F%2Fwww.threads.com%2F%40btpbrewing%2F",
+          "error": null
+        },
+        {
+          "label": "https://x.com/BTPBrewing",
+          "url": "https://x.com/BTPBrewing",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://x.com/BTPBrewing",
+          "error": null
+        },
+        {
+          "label": "https://www.dominioncity.ca/",
+          "url": "https://www.dominioncity.ca/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.dominioncity.ca/",
+          "error": null
+        },
+        {
+          "label": "https://toothandnailbeer.com/",
+          "url": "https://toothandnailbeer.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://toothandnailbeer.com/",
+          "error": null
+        }
+      ],
+      "reachableSourceCount": 4,
+      "sourceCount": 4,
+      "outreachReady": true
+    },
+    {
+      "id": "dominion-city-brewing-co",
+      "name": "Dominion City Brewing Co.",
+      "sourceFile": "research/hospitality-leads.json",
+      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "validation": {
+        "file": "research/hospitality-leads.json",
+        "errors": []
+      },
+      "website": {
+        "requestedUrl": "https://www.dominioncity.ca/",
+        "finalUrl": "https://www.dominioncity.ca/",
+        "httpStatus": 200,
+        "reachable": true,
+        "title": "Dominion City Brewing Co. - Ottawa, Ontario",
+        "metaDescription": "Proudly brewing beer in Ottawa since 2014. Order through our online store for pick up from our brewery drive-thru.",
+        "score": 85,
+        "checks": [
+          {
+            "id": "reachable",
+            "label": "Website returns a successful response",
+            "points": 20,
+            "passed": true,
+            "earned": 20,
+            "observation": "HTTP 200"
+          },
+          {
+            "id": "https",
+            "label": "Website uses HTTPS",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "https://www.dominioncity.ca/"
+          },
+          {
+            "id": "title",
+            "label": "Page has a descriptive title",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Dominion City Brewing Co. - Ottawa, Ontario"
+          },
+          {
+            "id": "description",
+            "label": "Page has a meta description",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Proudly brewing beer in Ottawa since 2014. Order through our online store for pick up from our brewery drive-thru."
+          },
+          {
+            "id": "viewport",
+            "label": "Page declares a mobile viewport",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Viewport declaration found"
+          },
+          {
+            "id": "h1",
+            "label": "Page has a primary heading",
+            "points": 10,
+            "passed": false,
+            "earned": 0,
+            "observation": "H1 not found in fetched HTML"
+          },
+          {
+            "id": "contact",
+            "label": "Page exposes a contact or booking action",
+            "points": 15,
+            "passed": true,
+            "earned": 15,
+            "observation": "Contact action found"
+          },
+          {
+            "id": "social",
+            "label": "Page links to a verified social account",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "4 supplied social link(s) found"
+          },
+          {
+            "id": "structured-data",
+            "label": "Page includes structured data",
+            "points": 5,
+            "passed": false,
+            "earned": 0,
+            "observation": "JSON-LD not found"
+          },
+          {
+            "id": "canonical",
+            "label": "Page declares a canonical URL",
+            "points": 3,
+            "passed": true,
+            "earned": 3,
+            "observation": "Canonical found"
+          },
+          {
+            "id": "open-graph",
+            "label": "Page includes Open Graph metadata",
+            "points": 2,
+            "passed": true,
+            "earned": 2,
+            "observation": "Open Graph metadata found"
+          }
+        ],
+        "discoveredSocialLinks": [
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/dominioncitybrewingco"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://instagram.com/dominioncity"
+          },
+          {
+            "platform": "tiktok",
+            "url": "https://www.tiktok.com/@dominioncitybrewing"
+          },
+          {
+            "platform": "youtube",
+            "url": "https://www.youtube.com/channel/UC8Rn-KJS0rrAXglucVJXVdQ"
+          }
+        ],
+        "suppliedSocialsMissingFromOfficialSite": [],
+        "officialSocialsMissingFromResearch": [
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/dominioncitybrewingco"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://instagram.com/dominioncity"
+          },
+          {
+            "platform": "tiktok",
+            "url": "https://www.tiktok.com/@dominioncitybrewing"
+          },
+          {
+            "platform": "youtube",
+            "url": "https://www.youtube.com/channel/UC8Rn-KJS0rrAXglucVJXVdQ"
+          }
+        ]
+      },
+      "contactVerification": {
+        "phone": {
+          "value": "613-688-6207",
+          "listedOnWebsite": true
+        },
+        "email": {
+          "value": "info@dominioncity.ca",
+          "listedOnWebsite": true
+        }
+      },
+      "socialChecks": [
+        {
+          "platform": "Instagram",
+          "handle": "@dominioncity",
+          "url": "https://instagram.com/dominioncity",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdominioncity&is_from_rle",
+          "error": null
+        },
+        {
+          "platform": "Facebook",
+          "handle": "dominioncitybrewingco",
+          "url": "https://www.facebook.com/dominioncitybrewingco",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fdominioncitybrewingco",
+          "error": null
+        },
+        {
+          "platform": "TikTok",
+          "handle": "@dominioncitybrewing",
+          "url": "https://www.tiktok.com/@dominioncitybrewing",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.tiktok.com/@dominioncitybrewing",
+          "error": null
+        },
+        {
+          "platform": "YouTube",
+          "handle": null,
+          "url": "https://www.youtube.com/channel/UC8Rn-KJS0rrAXglucVJXVdQ",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.youtube.com/channel/UC8Rn-KJS0rrAXglucVJXVdQ",
+          "error": null
+        }
+      ],
+      "sourceChecks": [
+        {
+          "label": "Official company story, values, contact, and social links",
+          "url": "https://www.dominioncity.ca/pages/us",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.dominioncity.ca/pages/us",
+          "error": null
+        },
+        {
+          "label": "Official brewery and taproom details",
+          "url": "https://www.dominioncity.ca/pages/the-brewery",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.dominioncity.ca/pages/the-brewery",
+          "error": null
+        },
+        {
+          "label": "Official news and current launches",
+          "url": "https://www.dominioncity.ca/blogs/news",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.dominioncity.ca/blogs/news",
+          "error": null
+        },
+        {
+          "label": "Founder profile",
+          "url": "https://carleton.ca/news/story/graduate-dominion-city-brewing/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://carleton.ca/news/story/graduate-dominion-city-brewing/",
+          "error": null
+        },
+        {
+          "label": "https://instagram.com/dominioncity",
+          "url": "https://instagram.com/dominioncity",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdominioncity&is_from_rle",
+          "error": null
+        },
+        {
+          "label": "https://www.facebook.com/dominioncitybrewingco",
+          "url": "https://www.facebook.com/dominioncitybrewingco",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fdominioncitybrewingco",
+          "error": null
+        },
+        {
+          "label": "https://www.tiktok.com/@dominioncitybrewing",
+          "url": "https://www.tiktok.com/@dominioncitybrewing",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.tiktok.com/@dominioncitybrewing",
+          "error": null
+        },
+        {
+          "label": "https://www.youtube.com/channel/UC8Rn-KJS0rrAXglucVJXVdQ",
+          "url": "https://www.youtube.com/channel/UC8Rn-KJS0rrAXglucVJXVdQ",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.youtube.com/channel/UC8Rn-KJS0rrAXglucVJXVdQ",
+          "error": null
+        },
+        {
+          "label": "https://www.dominioncity.ca/pages/friends-of-the-dominion",
+          "url": "https://www.dominioncity.ca/pages/friends-of-the-dominion",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.dominioncity.ca/pages/friends-of-the-dominion",
+          "error": null
+        },
+        {
+          "label": "https://www.dominioncity.ca/",
+          "url": "https://www.dominioncity.ca/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.dominioncity.ca/",
+          "error": null
+        },
+        {
+          "label": "https://www.dominioncity.ca/pages/dominion-city-app",
+          "url": "https://www.dominioncity.ca/pages/dominion-city-app",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.dominioncity.ca/pages/dominion-city-app",
+          "error": null
+        },
+        {
+          "label": "https://www.dominioncity.ca/pages/shipping",
+          "url": "https://www.dominioncity.ca/pages/shipping",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.dominioncity.ca/pages/shipping",
+          "error": null
+        },
+        {
+          "label": "https://btpshop.ca/",
+          "url": "https://btpshop.ca/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://btpshop.ca/",
+          "error": null
+        },
+        {
+          "label": "https://straydogbrewing.ca/",
+          "url": "https://straydogbrewing.ca/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://straydogbrewing.ca/",
+          "error": null
+        }
+      ],
+      "reachableSourceCount": 4,
+      "sourceCount": 4,
+      "outreachReady": true
+    },
+    {
+      "id": "house-of-targ",
+      "name": "House of TARG",
+      "sourceFile": "research/hospitality-leads.json",
+      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "validation": {
+        "file": "research/hospitality-leads.json",
+        "errors": []
+      },
+      "website": {
+        "requestedUrl": "https://www.houseoftarg.com/",
+        "finalUrl": "https://www.houseoftarg.com/",
+        "httpStatus": 200,
+        "reachable": true,
+        "title": "House of TARG",
+        "metaDescription": "House of TARG is a perogi restaurant in Ottawa Canada.",
+        "score": 100,
+        "checks": [
+          {
+            "id": "reachable",
+            "label": "Website returns a successful response",
+            "points": 20,
+            "passed": true,
+            "earned": 20,
+            "observation": "HTTP 200"
+          },
+          {
+            "id": "https",
+            "label": "Website uses HTTPS",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "https://www.houseoftarg.com/"
+          },
+          {
+            "id": "title",
+            "label": "Page has a descriptive title",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "House of TARG"
+          },
+          {
+            "id": "description",
+            "label": "Page has a meta description",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "House of TARG is a perogi restaurant in Ottawa Canada."
+          },
+          {
+            "id": "viewport",
+            "label": "Page declares a mobile viewport",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Viewport declaration found"
+          },
+          {
+            "id": "h1",
+            "label": "Page has a primary heading",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "H1 found"
+          },
+          {
+            "id": "contact",
+            "label": "Page exposes a contact or booking action",
+            "points": 15,
+            "passed": true,
+            "earned": 15,
+            "observation": "Contact action found"
+          },
+          {
+            "id": "social",
+            "label": "Page links to a verified social account",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "2 supplied social link(s) found"
+          },
+          {
+            "id": "structured-data",
+            "label": "Page includes structured data",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "JSON-LD found"
+          },
+          {
+            "id": "canonical",
+            "label": "Page declares a canonical URL",
+            "points": 3,
+            "passed": true,
+            "earned": 3,
+            "observation": "Canonical found"
+          },
+          {
+            "id": "open-graph",
+            "label": "Page includes Open Graph metadata",
+            "points": 2,
+            "passed": true,
+            "earned": 2,
+            "observation": "Open Graph metadata found"
+          }
+        ],
+        "discoveredSocialLinks": [
+          {
+            "platform": "facebook",
+            "url": "https://l.facebook.com/l.php"
+          }
+        ],
+        "suppliedSocialsMissingFromOfficialSite": [],
+        "officialSocialsMissingFromResearch": [
+          {
+            "platform": "facebook",
+            "url": "https://l.facebook.com/l.php"
+          }
+        ]
+      },
+      "contactVerification": {
+        "phone": {
+          "value": "613-680-8274",
+          "listedOnWebsite": true
+        },
+        "email": {
+          "value": "yogi@houseoftarg.com",
+          "listedOnWebsite": true
+        }
+      },
+      "socialChecks": [
+        {
+          "platform": "Instagram",
+          "handle": "@houseoftarg",
+          "url": "https://www.instagram.com/houseoftarg/",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fhouseoftarg%2F&is_from_rle",
+          "error": null
+        },
+        {
+          "platform": "Facebook",
+          "handle": "houseoftarghouseoftarg",
+          "url": "https://www.facebook.com/houseoftarghouseoftarg/",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fhouseoftarghouseoftarg%2F",
+          "error": null
+        }
+      ],
+      "sourceChecks": [
+        {
+          "label": "Official homepage, live schedule, recurring free-play, address, email, and phone",
+          "url": "https://www.houseoftarg.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.houseoftarg.com/",
+          "error": null
+        },
+        {
+          "label": "Official contact, group policy, and family information",
+          "url": "https://www.houseoftarg.com/contact-us",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.houseoftarg.com/contact-us",
+          "error": null
+        },
+        {
+          "label": "Official Instagram profile",
+          "url": "https://www.instagram.com/houseoftarg/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fhouseoftarg%2F&is_from_rle",
+          "error": null
+        },
+        {
+          "label": "Co-owner and booker profile",
+          "url": "https://apt613.ca/future-of-ottawa-music-venues-with-paul-yogi-granger/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://apt613.ca/future-of-ottawa-music-venues-with-paul-yogi-granger/",
+          "error": null
+        },
+        {
+          "label": "Founder and venue history profile",
+          "url": "https://ottawa.citynews.ca/2022/01/19/from-punk-rock-to-perogies-ottawas-house-of-targ-aims-to-outlast-covid-4967062/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://ottawa.citynews.ca/2022/01/19/from-punk-rock-to-perogies-ottawas-house-of-targ-aims-to-outlast-covid-4967062/",
+          "error": null
+        },
+        {
+          "label": "https://www.facebook.com/houseoftarghouseoftarg/",
+          "url": "https://www.facebook.com/houseoftarghouseoftarg/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fhouseoftarghouseoftarg%2F",
+          "error": null
+        },
+        {
+          "label": "https://www.houseoftarg.com/freeplay",
+          "url": "https://www.houseoftarg.com/freeplay",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.houseoftarg.com/freeplay",
+          "error": null
+        },
+        {
+          "label": "https://www.houseoftarg.com/party",
+          "url": "https://www.houseoftarg.com/party",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.houseoftarg.com/party",
+          "error": null
+        },
+        {
+          "label": "https://levelonegamepub.com/",
+          "url": "https://levelonegamepub.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.levelonegamepub.com/",
+          "error": null
+        },
+        {
+          "label": "https://www.funhaven.com/",
+          "url": "https://www.funhaven.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.funhaven.com/",
+          "error": null
+        }
+      ],
+      "reachableSourceCount": 5,
+      "sourceCount": 5,
+      "outreachReady": true
+    },
+    {
+      "id": "stolen-goods-cocktail-bar",
+      "name": "Stolen Goods Cocktail Bar",
+      "sourceFile": "research/hospitality-leads.json",
+      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "validation": {
+        "file": "research/hospitality-leads.json",
+        "errors": []
+      },
+      "website": {
+        "requestedUrl": "https://www.stolengoodscocktailbar.com/",
+        "finalUrl": "https://www.stolengoodscocktailbar.com/",
+        "httpStatus": 200,
+        "reachable": true,
+        "title": "Stolen Goods Cocktail Bar",
+        "metaDescription": "Unconventional Cocktail Bar in Ottawa, ON.  Amorphous in Nature",
+        "score": 90,
+        "checks": [
+          {
+            "id": "reachable",
+            "label": "Website returns a successful response",
+            "points": 20,
+            "passed": true,
+            "earned": 20,
+            "observation": "HTTP 200"
+          },
+          {
+            "id": "https",
+            "label": "Website uses HTTPS",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "https://www.stolengoodscocktailbar.com/"
+          },
+          {
+            "id": "title",
+            "label": "Page has a descriptive title",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Stolen Goods Cocktail Bar"
+          },
+          {
+            "id": "description",
+            "label": "Page has a meta description",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Unconventional Cocktail Bar in Ottawa, ON.  Amorphous in Nature"
+          },
+          {
+            "id": "viewport",
+            "label": "Page declares a mobile viewport",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Viewport declaration found"
+          },
+          {
+            "id": "h1",
+            "label": "Page has a primary heading",
+            "points": 10,
+            "passed": false,
+            "earned": 0,
+            "observation": "H1 not found in fetched HTML"
+          },
+          {
+            "id": "contact",
+            "label": "Page exposes a contact or booking action",
+            "points": 15,
+            "passed": true,
+            "earned": 15,
+            "observation": "Contact action found"
+          },
+          {
+            "id": "social",
+            "label": "Page links to a verified social account",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "2 supplied social link(s) found"
+          },
+          {
+            "id": "structured-data",
+            "label": "Page includes structured data",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "JSON-LD found"
+          },
+          {
+            "id": "canonical",
+            "label": "Page declares a canonical URL",
+            "points": 3,
+            "passed": true,
+            "earned": 3,
+            "observation": "Canonical found"
+          },
+          {
+            "id": "open-graph",
+            "label": "Page includes Open Graph metadata",
+            "points": 2,
+            "passed": true,
+            "earned": 2,
+            "observation": "Open Graph metadata found"
+          }
+        ],
+        "discoveredSocialLinks": [
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/stolengoodscocktailbar"
+          },
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/Stolen-Goods-Cocktail-Bar-102599701604892"
+          }
+        ],
+        "suppliedSocialsMissingFromOfficialSite": [],
+        "officialSocialsMissingFromResearch": [
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/stolengoodscocktailbar"
+          },
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/Stolen-Goods-Cocktail-Bar-102599701604892"
+          }
+        ]
+      },
+      "contactVerification": {
+        "phone": null,
+        "email": {
+          "value": "stolengoodscocktailbar@outlook.com",
+          "listedOnWebsite": true
+        }
+      },
+      "socialChecks": [
+        {
+          "platform": "Instagram",
+          "handle": "@stolengoodscocktailbar",
+          "url": "https://www.instagram.com/stolengoodscocktailbar",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fstolengoodscocktailbar&is_from_rle",
+          "error": null
+        },
+        {
+          "platform": "Facebook",
+          "handle": "Stolen-Goods-Cocktail-Bar-102599701604892",
+          "url": "https://www.facebook.com/Stolen-Goods-Cocktail-Bar-102599701604892",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fstolengoodscocktailbar",
+          "error": null
+        }
+      ],
+      "sourceChecks": [
+        {
+          "label": "Official location, email, hours, social links, and closure dates",
+          "url": "https://www.stolengoodscocktailbar.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.stolengoodscocktailbar.com/",
+          "error": null
+        },
+        {
+          "label": "Final-year closure and co-owner profile",
+          "url": "https://obj.ca/stolen-goods-closing-sparks-st-owners-crazy-things-planned/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://obj.ca/stolen-goods-closing-sparks-st-owners-crazy-things-planned/",
+          "error": null
+        },
+        {
+          "label": "Owner, sourcing, and brand-profile interview",
+          "url": "https://edibleottawa.ediblecommunities.com/stories/sipping-outside-the-lines/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://edibleottawa.ediblecommunities.com/stories/sipping-outside-the-lines/",
+          "error": null
+        },
+        {
+          "label": "Public mirror of recent social posts",
+          "url": "https://www.findglocal.com/CA/Ottawa/102599701604892/Stolen-Goods-Cocktail-Bar",
+          "reachable": false,
+          "httpStatus": 500,
+          "finalUrl": "https://www.findglocal.com/CA/Ottawa/102599701604892/Stolen-Goods-Cocktail-Bar",
+          "error": "HTTP 500"
+        },
+        {
+          "label": "https://www.instagram.com/stolengoodscocktailbar",
+          "url": "https://www.instagram.com/stolengoodscocktailbar",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fstolengoodscocktailbar&is_from_rle",
+          "error": null
+        },
+        {
+          "label": "https://www.facebook.com/Stolen-Goods-Cocktail-Bar-102599701604892",
+          "url": "https://www.facebook.com/Stolen-Goods-Cocktail-Bar-102599701604892",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fstolengoodscocktailbar",
+          "error": null
+        },
+        {
+          "label": "https://www.wardfourteen.com/",
+          "url": "https://www.wardfourteen.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.wardfourteen.com/",
+          "error": null
+        },
+        {
+          "label": "https://dineriviera.com/",
+          "url": "https://dineriviera.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://dineriviera.com/",
+          "error": null
+        }
+      ],
+      "reachableSourceCount": 3,
+      "sourceCount": 4,
+      "outreachReady": true
+    },
+    {
+      "id": "escape-manor-ottawa",
+      "name": "Escape Manor Ottawa",
+      "sourceFile": "research/hospitality-leads.json",
+      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "validation": {
+        "file": "research/hospitality-leads.json",
+        "errors": []
+      },
+      "website": {
+        "requestedUrl": "https://www.escapemanor.com/ottawa/",
+        "finalUrl": "https://www.escapemanor.com/ottawa/",
+        "httpStatus": 200,
+        "reachable": true,
+        "title": "Escape Manor | Ottawa&#x27;s Top Rated Escape Games",
+        "metaDescription": "A door slams shut behind you, you&#x27;re locked in! Explore the escape room to discover clues. You have 45 minutes to work together to find the key to get out before ...",
+        "score": 100,
+        "checks": [
+          {
+            "id": "reachable",
+            "label": "Website returns a successful response",
+            "points": 20,
+            "passed": true,
+            "earned": 20,
+            "observation": "HTTP 200"
+          },
+          {
+            "id": "https",
+            "label": "Website uses HTTPS",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "https://www.escapemanor.com/ottawa/"
+          },
+          {
+            "id": "title",
+            "label": "Page has a descriptive title",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Escape Manor | Ottawa&#x27;s Top Rated Escape Games"
+          },
+          {
+            "id": "description",
+            "label": "Page has a meta description",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "A door slams shut behind you, you&#x27;re locked in! Explore the escape room to discover clues. You have 45 minutes to work together to find the key to get out before ..."
+          },
+          {
+            "id": "viewport",
+            "label": "Page declares a mobile viewport",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Viewport declaration found"
+          },
+          {
+            "id": "h1",
+            "label": "Page has a primary heading",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "H1 found"
+          },
+          {
+            "id": "contact",
+            "label": "Page exposes a contact or booking action",
+            "points": 15,
+            "passed": true,
+            "earned": 15,
+            "observation": "Contact action found"
+          },
+          {
+            "id": "social",
+            "label": "Page links to a verified social account",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "3 supplied social link(s) found"
+          },
+          {
+            "id": "structured-data",
+            "label": "Page includes structured data",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "JSON-LD found"
+          },
+          {
+            "id": "canonical",
+            "label": "Page declares a canonical URL",
+            "points": 3,
+            "passed": true,
+            "earned": 3,
+            "observation": "Canonical found"
+          },
+          {
+            "id": "open-graph",
+            "label": "Page includes Open Graph metadata",
+            "points": 2,
+            "passed": true,
+            "earned": 2,
+            "observation": "Open Graph metadata found"
+          }
+        ],
+        "discoveredSocialLinks": [
+          {
+            "platform": "tiktok",
+            "url": "https://analytics.tiktok.com"
+          },
+          {
+            "platform": "x",
+            "url": "https://twitter.com/EscapeManor"
+          },
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/EscapeManor"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://instagram.com/escape_manor"
+          }
+        ],
+        "suppliedSocialsMissingFromOfficialSite": [],
+        "officialSocialsMissingFromResearch": [
+          {
+            "platform": "tiktok",
+            "url": "https://analytics.tiktok.com"
+          },
+          {
+            "platform": "x",
+            "url": "https://twitter.com/EscapeManor"
+          },
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/EscapeManor"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://instagram.com/escape_manor"
+          }
+        ]
+      },
+      "contactVerification": {
+        "phone": {
+          "value": "613-695-1655",
+          "listedOnWebsite": true
+        },
+        "email": {
+          "value": "elgin@escapemanor.com",
+          "listedOnWebsite": true
+        }
+      },
+      "socialChecks": [
+        {
+          "platform": "Instagram",
+          "handle": "@escape_manor",
+          "url": "https://instagram.com/escape_manor",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fescape_manor&is_from_rle",
+          "error": null
+        },
+        {
+          "platform": "Facebook",
+          "handle": "EscapeManor",
+          "url": "https://www.facebook.com/EscapeManor",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FEscapeManor",
+          "error": null
+        },
+        {
+          "platform": "X",
+          "handle": "@EscapeManor",
+          "url": "https://twitter.com/EscapeManor",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://x.com/EscapeManor",
+          "error": null
+        }
+      ],
+      "sourceChecks": [
+        {
+          "label": "Official Ottawa experiences, locations, highlights, and socials",
+          "url": "https://www.escapemanor.com/ottawa/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.escapemanor.com/ottawa/",
+          "error": null
+        },
+        {
+          "label": "Official Ottawa FAQ and phone",
+          "url": "https://www.escapemanor.com/ottawa/faq",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.escapemanor.com/ottawa/faq",
+          "error": null
+        },
+        {
+          "label": "Official group-events contacts",
+          "url": "https://www.escapemanor.com/ottawa/groups",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.escapemanor.com/ottawa/groups",
+          "error": null
+        },
+        {
+          "label": "Current CMO and Rogers Centre partnership",
+          "url": "https://obj.ca/escape-manor-rogers-centre-ottawa-experiences-corp-events/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://obj.ca/escape-manor-rogers-centre-ottawa-experiences-corp-events/",
+          "error": null
+        },
+        {
+          "label": "Official July booking inventory",
+          "url": "https://www.escapemanor.com/ottawa/booking",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.escapemanor.com/ottawa/booking",
+          "error": null
+        },
+        {
+          "label": "https://instagram.com/escape_manor",
+          "url": "https://instagram.com/escape_manor",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fescape_manor&is_from_rle",
+          "error": null
+        },
+        {
+          "label": "https://www.facebook.com/EscapeManor",
+          "url": "https://www.facebook.com/EscapeManor",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FEscapeManor",
+          "error": null
+        },
+        {
+          "label": "https://twitter.com/EscapeManor",
+          "url": "https://twitter.com/EscapeManor",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://x.com/EscapeManor",
+          "error": null
+        },
+        {
+          "label": "https://www.roomescape.ca/",
+          "url": "https://www.roomescape.ca/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.roomescape.ca/",
+          "error": null
+        },
+        {
+          "label": "https://jigsawescape.com/ottawa/",
+          "url": "https://jigsawescape.com/ottawa/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://jigsawescape.com/ottawa/",
+          "error": null
+        }
+      ],
+      "reachableSourceCount": 5,
+      "sourceCount": 5,
+      "outreachReady": true
+    },
+    {
+      "id": "the-merry-dairy",
+      "name": "The Merry Dairy",
+      "sourceFile": "research/hospitality-leads.json",
+      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "validation": {
+        "file": "research/hospitality-leads.json",
+        "errors": []
+      },
+      "website": {
+        "requestedUrl": "https://themerrydairy.com/",
+        "finalUrl": "https://themerrydairy.com/",
+        "httpStatus": 200,
+        "reachable": true,
+        "title": "Home Page &#8226; The Merry Dairy",
+        "metaDescription": "The Merry Dairy is Ottawa&#039;s home for nut-free original recipe frozen custard and premium ice cream. Scoops, pints, cakes, and shakes available in store. And throughout Ottawa with The Merry Dairy truck! Track the Truck at TheMerryDairy.com. Gift certificates and cakes also available for purchase online. 613-680-3144.",
+        "score": 100,
+        "checks": [
+          {
+            "id": "reachable",
+            "label": "Website returns a successful response",
+            "points": 20,
+            "passed": true,
+            "earned": 20,
+            "observation": "HTTP 200"
+          },
+          {
+            "id": "https",
+            "label": "Website uses HTTPS",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "https://themerrydairy.com/"
+          },
+          {
+            "id": "title",
+            "label": "Page has a descriptive title",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Home Page &#8226; The Merry Dairy"
+          },
+          {
+            "id": "description",
+            "label": "Page has a meta description",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "The Merry Dairy is Ottawa&#039;s home for nut-free original recipe frozen custard and premium ice cream. Scoops, pints, cakes, and shakes available in store. And throughout Ottawa with The Merry Dairy truck! Track the Truck at TheMerryDairy.com. Gift certificates and cakes also available for purchase online. 613-680-3144."
+          },
+          {
+            "id": "viewport",
+            "label": "Page declares a mobile viewport",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Viewport declaration found"
+          },
+          {
+            "id": "h1",
+            "label": "Page has a primary heading",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "H1 found"
+          },
+          {
+            "id": "contact",
+            "label": "Page exposes a contact or booking action",
+            "points": 15,
+            "passed": true,
+            "earned": 15,
+            "observation": "Contact action found"
+          },
+          {
+            "id": "social",
+            "label": "Page links to a verified social account",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "6 supplied social link(s) found"
+          },
+          {
+            "id": "structured-data",
+            "label": "Page includes structured data",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "JSON-LD found"
+          },
+          {
+            "id": "canonical",
+            "label": "Page declares a canonical URL",
+            "points": 3,
+            "passed": true,
+            "earned": 3,
+            "observation": "Canonical found"
+          },
+          {
+            "id": "open-graph",
+            "label": "Page includes Open Graph metadata",
+            "points": 2,
+            "passed": true,
+            "earned": 2,
+            "observation": "Open Graph metadata found"
+          }
+        ],
+        "discoveredSocialLinks": [
+          {
+            "platform": "youtube",
+            "url": "https://www.youtube.com/themerrydairy/+Themerrydairy/posts"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://instagram.com/themerrydairy"
+          },
+          {
+            "platform": "facebook",
+            "url": "https://facebook.com/themerrydairy"
+          },
+          {
+            "platform": "x",
+            "url": "https://twitter.com/themerrydairy"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/p/Da5xDmxlYs2"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/p/Da3x_zfO2Uq"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/p/DaygZmsgImT"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/p/Daszz3MjnUp"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/themerrydairy"
+          },
+          {
+            "platform": "youtube",
+            "url": "https://www.youtube.com/themerrydairy"
+          },
+          {
+            "platform": "x",
+            "url": "https://x.com/themerrydairy"
+          },
+          {
+            "platform": "tiktok",
+            "url": "https://www.tiktok.com/@themerrydairy"
+          },
+          {
+            "platform": "youtube",
+            "url": "https://music.youtube.com/@Themerrydairy"
+          },
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/photo"
+          },
+          {
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/hellodollypastries"
+          },
+          {
+            "platform": "youtube",
+            "url": "https://youtu.be/EbQxt_gTSFQ"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/amelias.coffee.bake"
+          }
+        ],
+        "suppliedSocialsMissingFromOfficialSite": [],
+        "officialSocialsMissingFromResearch": [
+          {
+            "platform": "youtube",
+            "url": "https://www.youtube.com/themerrydairy/+Themerrydairy/posts"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://instagram.com/themerrydairy"
+          },
+          {
+            "platform": "facebook",
+            "url": "https://facebook.com/themerrydairy"
+          },
+          {
+            "platform": "x",
+            "url": "https://twitter.com/themerrydairy"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/p/Da5xDmxlYs2"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/p/Da3x_zfO2Uq"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/p/DaygZmsgImT"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/p/Daszz3MjnUp"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/themerrydairy"
+          },
+          {
+            "platform": "youtube",
+            "url": "https://www.youtube.com/themerrydairy"
+          },
+          {
+            "platform": "x",
+            "url": "https://x.com/themerrydairy"
+          },
+          {
+            "platform": "tiktok",
+            "url": "https://www.tiktok.com/@themerrydairy"
+          },
+          {
+            "platform": "youtube",
+            "url": "https://music.youtube.com/@Themerrydairy"
+          },
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/photo"
+          },
+          {
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/hellodollypastries"
+          },
+          {
+            "platform": "youtube",
+            "url": "https://youtu.be/EbQxt_gTSFQ"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/amelias.coffee.bake"
+          }
+        ]
+      },
+      "contactVerification": {
+        "phone": {
+          "value": "613-680-3144",
+          "listedOnWebsite": true
+        },
+        "email": {
+          "value": "info@themerrydairy.com",
+          "listedOnWebsite": true
+        }
+      },
+      "socialChecks": [
+        {
+          "platform": "Instagram",
+          "handle": "@themerrydairy",
+          "url": "https://instagram.com/themerrydairy",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fthemerrydairy&is_from_rle",
+          "error": null
+        },
+        {
+          "platform": "Facebook",
+          "handle": "themerrydairy",
+          "url": "https://facebook.com/themerrydairy",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fthemerrydairy",
+          "error": null
+        },
+        {
+          "platform": "Bluesky",
+          "handle": "@themerrydairy.bsky.social",
+          "url": "https://bsky.app/profile/themerrydairy.bsky.social",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://bsky.app/profile/themerrydairy.bsky.social",
+          "error": null
+        },
+        {
+          "platform": "X",
+          "handle": "@themerrydairy",
+          "url": "https://x.com/themerrydairy",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://x.com/themerrydairy",
+          "error": null
+        },
+        {
+          "platform": "TikTok",
+          "handle": "@themerrydairy",
+          "url": "https://www.tiktok.com/@themerrydairy",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.tiktok.com/@themerrydairy",
+          "error": null
+        },
+        {
+          "platform": "YouTube",
+          "handle": "themerrydairy",
+          "url": "https://www.youtube.com/themerrydairy",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.youtube.com/themerrydairy",
+          "error": null
+        }
+      ],
+      "sourceChecks": [
+        {
+          "label": "Official contact, social links, and offer navigation",
+          "url": "https://themerrydairy.com/contact/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://themerrydairy.com/contact/",
+          "error": null
+        },
+        {
+          "label": "Official founder and company history",
+          "url": "https://themerrydairy.com/our-story/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://themerrydairy.com/our-story/",
+          "error": null
+        },
+        {
+          "label": "Official 2026 Name Days campaign",
+          "url": "https://themerrydairy.com/whats-in-a-name/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://themerrydairy.com/whats-in-a-name/",
+          "error": null
+        },
+        {
+          "label": "Official blog",
+          "url": "https://themerrydairy.com/blog/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://themerrydairy.com/blog/",
+          "error": null
+        },
+        {
+          "label": "https://instagram.com/themerrydairy",
+          "url": "https://instagram.com/themerrydairy",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fthemerrydairy&is_from_rle",
+          "error": null
+        },
+        {
+          "label": "https://facebook.com/themerrydairy",
+          "url": "https://facebook.com/themerrydairy",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fthemerrydairy",
+          "error": null
+        },
+        {
+          "label": "https://bsky.app/profile/themerrydairy.bsky.social",
+          "url": "https://bsky.app/profile/themerrydairy.bsky.social",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://bsky.app/profile/themerrydairy.bsky.social",
+          "error": null
+        },
+        {
+          "label": "https://x.com/themerrydairy",
+          "url": "https://x.com/themerrydairy",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://x.com/themerrydairy",
+          "error": null
+        },
+        {
+          "label": "https://www.tiktok.com/@themerrydairy",
+          "url": "https://www.tiktok.com/@themerrydairy",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.tiktok.com/@themerrydairy",
+          "error": null
+        },
+        {
+          "label": "https://www.youtube.com/themerrydairy",
+          "url": "https://www.youtube.com/themerrydairy",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.youtube.com/themerrydairy",
+          "error": null
+        },
+        {
+          "label": "https://www.mooshuicecream.com/",
+          "url": "https://www.mooshuicecream.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.mooshuicecream.com/",
+          "error": null
+        },
+        {
+          "label": "https://www.farinellaeats.com/",
+          "url": "https://www.farinellaeats.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.farinellaeats.com/",
+          "error": null
+        }
+      ],
+      "reachableSourceCount": 4,
+      "sourceCount": 4,
+      "outreachReady": true
+    },
+    {
+      "id": "anatomy-physiotherapy-clinic",
+      "name": "Anatomy Physiotherapy Clinic",
+      "sourceFile": "research/wellness-leads.json",
+      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "validation": {
+        "file": "research/wellness-leads.json",
+        "errors": []
+      },
+      "website": {
+        "requestedUrl": "https://anatomyphysioclinic.com/",
+        "finalUrl": "https://anatomyphysioclinic.com/",
+        "httpStatus": 200,
+        "reachable": true,
+        "title": "Physiotherapy Orléans, Ottawa &amp; Stittsville | Anatomy Physio",
+        "metaDescription": "Experience expert physiotherapy in Orléans, Ottawa, &amp; Stittsville, ON at Anatomy Physiotherapy Clinic. Personalized care awaits you.",
+        "score": 100,
+        "checks": [
+          {
+            "id": "reachable",
+            "label": "Website returns a successful response",
+            "points": 20,
+            "passed": true,
+            "earned": 20,
+            "observation": "HTTP 200"
+          },
+          {
+            "id": "https",
+            "label": "Website uses HTTPS",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "https://anatomyphysioclinic.com/"
+          },
+          {
+            "id": "title",
+            "label": "Page has a descriptive title",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Physiotherapy Orléans, Ottawa &amp; Stittsville | Anatomy Physio"
+          },
+          {
+            "id": "description",
+            "label": "Page has a meta description",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Experience expert physiotherapy in Orléans, Ottawa, &amp; Stittsville, ON at Anatomy Physiotherapy Clinic. Personalized care awaits you."
+          },
+          {
+            "id": "viewport",
+            "label": "Page declares a mobile viewport",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Viewport declaration found"
+          },
+          {
+            "id": "h1",
+            "label": "Page has a primary heading",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "H1 found"
+          },
+          {
+            "id": "contact",
+            "label": "Page exposes a contact or booking action",
+            "points": 15,
+            "passed": true,
+            "earned": 15,
+            "observation": "Contact action found"
+          },
+          {
+            "id": "social",
+            "label": "Page links to a verified social account",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "3 supplied social link(s) found"
+          },
+          {
+            "id": "structured-data",
+            "label": "Page includes structured data",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "JSON-LD found"
+          },
+          {
+            "id": "canonical",
+            "label": "Page declares a canonical URL",
+            "points": 3,
+            "passed": true,
+            "earned": 3,
+            "observation": "Canonical found"
+          },
+          {
+            "id": "open-graph",
+            "label": "Page includes Open Graph metadata",
+            "points": 2,
+            "passed": true,
+            "earned": 2,
+            "observation": "Open Graph metadata found"
+          }
+        ],
+        "discoveredSocialLinks": [
+          {
+            "platform": "facebook",
+            "url": "https://m.facebook.com/Anatomy-Physiotherapy-Clinic-351991932114882"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/anatomyphysiotherapyclinic"
+          },
+          {
+            "platform": "linkedin",
+            "url": "https://www.linkedin.com/company/anatomy-physiotherapy-clinic"
+          }
+        ],
+        "suppliedSocialsMissingFromOfficialSite": [],
+        "officialSocialsMissingFromResearch": [
+          {
+            "platform": "facebook",
+            "url": "https://m.facebook.com/Anatomy-Physiotherapy-Clinic-351991932114882"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/anatomyphysiotherapyclinic"
+          },
+          {
+            "platform": "linkedin",
+            "url": "https://www.linkedin.com/company/anatomy-physiotherapy-clinic"
+          }
+        ]
+      },
+      "contactVerification": {
+        "phone": {
+          "value": "613-680-4477",
+          "listedOnWebsite": true
+        },
+        "email": null
+      },
+      "socialChecks": [
+        {
+          "platform": "Facebook",
+          "handle": null,
+          "url": "https://m.facebook.com/Anatomy-Physiotherapy-Clinic-351991932114882/",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://m.facebook.com/login/?next=https%3A%2F%2Fm.facebook.com%2FAnatomy-Physiotherapy-Clinic-351991932114882%2F&refsrc=deprecated&_rdr",
+          "error": null
+        },
+        {
+          "platform": "Instagram",
+          "handle": "@anatomyphysiotherapyclinic",
+          "url": "https://www.instagram.com/anatomyphysiotherapyclinic/",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fanatomyphysiotherapyclinic%2F&is_from_rle",
+          "error": null
+        },
+        {
+          "platform": "LinkedIn",
+          "handle": "anatomy-physiotherapy-clinic",
+          "url": "https://www.linkedin.com/company/anatomy-physiotherapy-clinic",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.linkedin.com/company/anatomy-physiotherapy-clinic",
+          "error": null
+        }
+      ],
+      "sourceChecks": [
+        {
+          "label": "Official homepage and location footer",
+          "url": "https://anatomyphysioclinic.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://anatomyphysioclinic.com/",
+          "error": null
+        },
+        {
+          "label": "Official practice page",
+          "url": "https://anatomyphysioclinic.com/our-practice/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://anatomyphysioclinic.com/our-practice/",
+          "error": null
+        },
+        {
+          "label": "Official team page",
+          "url": "https://anatomyphysioclinic.com/our-team/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://anatomyphysioclinic.com/our-team/",
+          "error": null
+        },
+        {
+          "label": "Founder professional profile",
+          "url": "https://ca.linkedin.com/in/andrew-dings-5a8858210",
+          "reachable": false,
+          "httpStatus": 999,
+          "finalUrl": "https://ca.linkedin.com/in/andrew-dings-5a8858210",
+          "error": "HTTP 999"
+        },
+        {
+          "label": "Official LinkedIn company page",
+          "url": "https://www.linkedin.com/company/anatomy-physiotherapy-clinic",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.linkedin.com/company/anatomy-physiotherapy-clinic",
+          "error": null
+        },
+        {
+          "label": "https://m.facebook.com/Anatomy-Physiotherapy-Clinic-351991932114882/",
+          "url": "https://m.facebook.com/Anatomy-Physiotherapy-Clinic-351991932114882/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://m.facebook.com/login/?next=https%3A%2F%2Fm.facebook.com%2FAnatomy-Physiotherapy-Clinic-351991932114882%2F&refsrc=deprecated&_rdr",
+          "error": null
+        },
+        {
+          "label": "https://www.instagram.com/anatomyphysiotherapyclinic/",
+          "url": "https://www.instagram.com/anatomyphysiotherapyclinic/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fanatomyphysiotherapyclinic%2F&is_from_rle",
+          "error": null
+        },
+        {
+          "label": "https://optsc.ca/",
+          "url": "https://optsc.ca/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://optsc.ca/",
+          "error": null
+        },
+        {
+          "label": "https://vitalitypt.ca/",
+          "url": "https://vitalitypt.ca/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://vitalitypt.ca/",
+          "error": null
+        }
+      ],
+      "reachableSourceCount": 4,
+      "sourceCount": 5,
+      "outreachReady": true
+    },
+    {
+      "id": "where-i-thrive",
+      "name": "Where I Thrive",
+      "sourceFile": "research/wellness-leads.json",
+      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "validation": {
+        "file": "research/wellness-leads.json",
+        "errors": []
+      },
+      "website": {
+        "requestedUrl": "https://whereithrive.ca/",
+        "finalUrl": "https://whereithrive.ca/",
+        "httpStatus": 200,
+        "reachable": true,
+        "title": "Where I Thrive",
+        "metaDescription": "",
+        "score": 83,
+        "checks": [
+          {
+            "id": "reachable",
+            "label": "Website returns a successful response",
+            "points": 20,
+            "passed": true,
+            "earned": 20,
+            "observation": "HTTP 200"
+          },
+          {
+            "id": "https",
+            "label": "Website uses HTTPS",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "https://whereithrive.ca/"
+          },
+          {
+            "id": "title",
+            "label": "Page has a descriptive title",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Where I Thrive"
+          },
+          {
+            "id": "description",
+            "label": "Page has a meta description",
+            "points": 10,
+            "passed": false,
+            "earned": 0,
+            "observation": "No meta description found"
+          },
+          {
+            "id": "viewport",
+            "label": "Page declares a mobile viewport",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Viewport declaration found"
+          },
+          {
+            "id": "h1",
+            "label": "Page has a primary heading",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "H1 found"
+          },
+          {
+            "id": "contact",
+            "label": "Page exposes a contact or booking action",
+            "points": 15,
+            "passed": true,
+            "earned": 15,
+            "observation": "Contact action found"
+          },
+          {
+            "id": "social",
+            "label": "Page links to a verified social account",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "3 supplied social link(s) found"
+          },
+          {
+            "id": "structured-data",
+            "label": "Page includes structured data",
+            "points": 5,
+            "passed": false,
+            "earned": 0,
+            "observation": "JSON-LD not found"
+          },
+          {
+            "id": "canonical",
+            "label": "Page declares a canonical URL",
+            "points": 3,
+            "passed": true,
+            "earned": 3,
+            "observation": "Canonical found"
+          },
+          {
+            "id": "open-graph",
+            "label": "Page includes Open Graph metadata",
+            "points": 2,
+            "passed": false,
+            "earned": 0,
+            "observation": "Open Graph metadata not found"
+          }
+        ],
+        "discoveredSocialLinks": [
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/WhereIThrive"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/whereithriveccc"
+          }
+        ],
+        "suppliedSocialsMissingFromOfficialSite": [],
+        "officialSocialsMissingFromResearch": [
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/WhereIThrive"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/whereithriveccc"
+          }
+        ]
+      },
+      "contactVerification": {
+        "phone": {
+          "value": "613-422-3482",
+          "listedOnWebsite": true
+        },
+        "email": {
+          "value": "studio@whereithrive.ca",
+          "listedOnWebsite": true
+        }
+      },
+      "socialChecks": [
+        {
+          "platform": "Instagram",
+          "handle": "@whereithriveccc",
+          "url": "https://www.instagram.com/whereithriveccc",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fwhereithriveccc&is_from_rle",
+          "error": null
+        },
+        {
+          "platform": "Facebook",
+          "handle": "WhereIThrive",
+          "url": "https://www.facebook.com/WhereIThrive",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FWhereIThrive",
+          "error": null
+        },
+        {
+          "platform": "LinkedIn",
+          "handle": "whereithrive",
+          "url": "https://ca.linkedin.com/company/whereithrive",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://ca.linkedin.com/company/whereithrive",
+          "error": null
+        }
+      ],
+      "sourceChecks": [
+        {
+          "label": "Official homepage",
+          "url": "https://whereithrive.ca/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://whereithrive.ca/",
+          "error": null
+        },
+        {
+          "label": "Official about page",
+          "url": "https://whereithrive.ca/about-thrive/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://whereithrive.ca/about-thrive/",
+          "error": null
+        },
+        {
+          "label": "Official pricing and student summer offer",
+          "url": "https://whereithrive.ca/pricing/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://whereithrive.ca/pricing/",
+          "error": null
+        },
+        {
+          "label": "Official Mom and Baby series",
+          "url": "https://whereithrive.ca/mom-baby-series/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://whereithrive.ca/mom-baby-series/",
+          "error": null
+        },
+        {
+          "label": "Official Strength for Longevity series",
+          "url": "https://whereithrive.ca/strength-and-longevity/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://whereithrive.ca/strength-and-longevity/",
+          "error": null
+        },
+        {
+          "label": "Co-owner identification",
+          "url": "https://glebereport.ca/wp-content/uploads/2025/04/Glebe20Report_20MARCH2072C202025_WEB.pdf",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://glebereport.ca/wp-content/uploads/2025/04/Glebe20Report_20MARCH2072C202025_WEB.pdf",
+          "error": null
+        },
+        {
+          "label": "Official LinkedIn company page",
+          "url": "https://ca.linkedin.com/company/whereithrive",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://ca.linkedin.com/company/whereithrive",
+          "error": null
+        },
+        {
+          "label": "https://www.instagram.com/whereithriveccc",
+          "url": "https://www.instagram.com/whereithriveccc",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fwhereithriveccc&is_from_rle",
+          "error": null
+        },
+        {
+          "label": "https://www.facebook.com/WhereIThrive",
+          "url": "https://www.facebook.com/WhereIThrive",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FWhereIThrive",
+          "error": null
+        },
+        {
+          "label": "https://whereithrive.ca/personal-training/",
+          "url": "https://whereithrive.ca/personal-training/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://whereithrive.ca/personal-training/",
+          "error": null
+        },
+        {
+          "label": "https://innersoul.ca/home",
+          "url": "https://innersoul.ca/home",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://innersoul.ca/home",
+          "error": null
+        },
+        {
+          "label": "https://www.pureyogaottawa.com/",
+          "url": "https://www.pureyogaottawa.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.pureyogaottawa.com/",
+          "error": null
+        }
+      ],
+      "reachableSourceCount": 7,
+      "sourceCount": 7,
+      "outreachReady": true
+    },
+    {
+      "id": "arro-wellness",
+      "name": "Arro Wellness",
+      "sourceFile": "research/wellness-leads.json",
+      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "validation": {
+        "file": "research/wellness-leads.json",
+        "errors": []
+      },
+      "website": {
+        "requestedUrl": "https://arrowellness.ca/",
+        "finalUrl": "https://arrowellness.ca/",
+        "httpStatus": 200,
+        "reachable": true,
+        "title": "Physiotherapy Ottawa [Arro Wellness - Physiotherapy Clinic]",
+        "metaDescription": "At Arro Wellness in Ottawa, we build a thoughtful Physiotherapy plan around you, combining expert care, hands-on therapy, and smart training to move you forward.",
+        "score": 100,
+        "checks": [
+          {
+            "id": "reachable",
+            "label": "Website returns a successful response",
+            "points": 20,
+            "passed": true,
+            "earned": 20,
+            "observation": "HTTP 200"
+          },
+          {
+            "id": "https",
+            "label": "Website uses HTTPS",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "https://arrowellness.ca/"
+          },
+          {
+            "id": "title",
+            "label": "Page has a descriptive title",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Physiotherapy Ottawa [Arro Wellness - Physiotherapy Clinic]"
+          },
+          {
+            "id": "description",
+            "label": "Page has a meta description",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "At Arro Wellness in Ottawa, we build a thoughtful Physiotherapy plan around you, combining expert care, hands-on therapy, and smart training to move you forward."
+          },
+          {
+            "id": "viewport",
+            "label": "Page declares a mobile viewport",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Viewport declaration found"
+          },
+          {
+            "id": "h1",
+            "label": "Page has a primary heading",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "H1 found"
+          },
+          {
+            "id": "contact",
+            "label": "Page exposes a contact or booking action",
+            "points": 15,
+            "passed": true,
+            "earned": 15,
+            "observation": "Contact action found"
+          },
+          {
+            "id": "social",
+            "label": "Page links to a verified social account",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "3 supplied social link(s) found"
+          },
+          {
+            "id": "structured-data",
+            "label": "Page includes structured data",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "JSON-LD found"
+          },
+          {
+            "id": "canonical",
+            "label": "Page declares a canonical URL",
+            "points": 3,
+            "passed": true,
+            "earned": 3,
+            "observation": "Canonical found"
+          },
+          {
+            "id": "open-graph",
+            "label": "Page includes Open Graph metadata",
+            "points": 2,
+            "passed": true,
+            "earned": 2,
+            "observation": "Open Graph metadata found"
+          }
+        ],
+        "discoveredSocialLinks": [
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/arrowellness.ca"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/arrowellness.ca"
+          },
+          {
+            "platform": "tiktok",
+            "url": "https://www.tiktok.com/@arrowellness.ca"
+          }
+        ],
+        "suppliedSocialsMissingFromOfficialSite": [],
+        "officialSocialsMissingFromResearch": [
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/arrowellness.ca"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/arrowellness.ca"
+          },
+          {
+            "platform": "tiktok",
+            "url": "https://www.tiktok.com/@arrowellness.ca"
+          }
+        ]
+      },
+      "contactVerification": {
+        "phone": {
+          "value": "613-627-8808",
+          "listedOnWebsite": true
+        },
+        "email": {
+          "value": "info@arrowellness.ca",
+          "listedOnWebsite": true
+        }
+      },
+      "socialChecks": [
+        {
+          "platform": "Facebook",
+          "handle": "arrowellness.ca",
+          "url": "https://www.facebook.com/arrowellness.ca",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Farrowellness.ca",
+          "error": null
+        },
+        {
+          "platform": "Instagram",
+          "handle": "@arrowellness.ca",
+          "url": "https://www.instagram.com/arrowellness.ca",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Farrowellness.ca&is_from_rle",
+          "error": null
+        },
+        {
+          "platform": "TikTok",
+          "handle": "@arrowellness.ca",
+          "url": "https://www.tiktok.com/@arrowellness.ca",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.tiktok.com/@arrowellness.ca",
+          "error": null
+        }
+      ],
+      "sourceChecks": [
+        {
+          "label": "Official homepage",
+          "url": "https://arrowellness.ca/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://arrowellness.ca/",
+          "error": null
+        },
+        {
+          "label": "Official rebrand and move story",
+          "url": "https://arrowellness.ca/the-next-chapter/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://arrowellness.ca/the-next-chapter/",
+          "error": null
+        },
+        {
+          "label": "Official about and owner page",
+          "url": "https://arrowellness.ca/about-us/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://arrowellness.ca/about-us/",
+          "error": null
+        },
+        {
+          "label": "Official fitness studio page",
+          "url": "https://arrowellness.ca/fitness-studio-ottawa/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://arrowellness.ca/fitness-studio-ottawa/",
+          "error": null
+        },
+        {
+          "label": "Official booking portal",
+          "url": "https://oprc.janeapp.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://oprc.janeapp.com/",
+          "error": null
+        },
+        {
+          "label": "https://www.facebook.com/arrowellness.ca",
+          "url": "https://www.facebook.com/arrowellness.ca",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Farrowellness.ca",
+          "error": null
+        },
+        {
+          "label": "https://www.instagram.com/arrowellness.ca",
+          "url": "https://www.instagram.com/arrowellness.ca",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Farrowellness.ca&is_from_rle",
+          "error": null
+        },
+        {
+          "label": "https://www.tiktok.com/@arrowellness.ca",
+          "url": "https://www.tiktok.com/@arrowellness.ca",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.tiktok.com/@arrowellness.ca",
+          "error": null
+        },
+        {
+          "label": "https://vitalitypt.ca/",
+          "url": "https://vitalitypt.ca/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://vitalitypt.ca/",
+          "error": null
+        },
+        {
+          "label": "https://www.integrateottawa.ca/",
+          "url": "https://www.integrateottawa.ca/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.integrateottawa.ca/",
+          "error": null
+        }
+      ],
+      "reachableSourceCount": 5,
+      "sourceCount": 5,
+      "outreachReady": true
+    },
+    {
+      "id": "iron-north-studio",
+      "name": "Iron North Studio",
+      "sourceFile": "research/wellness-leads.json",
+      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "validation": {
+        "file": "research/wellness-leads.json",
+        "errors": []
+      },
+      "website": {
+        "requestedUrl": "https://www.ironnorthstudio.com/",
+        "finalUrl": "https://www.ironnorthstudio.com/",
+        "httpStatus": 200,
+        "reachable": true,
+        "title": "HOME | Iron North Studio",
+        "metaDescription": "",
+        "score": 90,
+        "checks": [
+          {
+            "id": "reachable",
+            "label": "Website returns a successful response",
+            "points": 20,
+            "passed": true,
+            "earned": 20,
+            "observation": "HTTP 200"
+          },
+          {
+            "id": "https",
+            "label": "Website uses HTTPS",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "https://www.ironnorthstudio.com/"
+          },
+          {
+            "id": "title",
+            "label": "Page has a descriptive title",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "HOME | Iron North Studio"
+          },
+          {
+            "id": "description",
+            "label": "Page has a meta description",
+            "points": 10,
+            "passed": false,
+            "earned": 0,
+            "observation": "No meta description found"
+          },
+          {
+            "id": "viewport",
+            "label": "Page declares a mobile viewport",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Viewport declaration found"
+          },
+          {
+            "id": "h1",
+            "label": "Page has a primary heading",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "H1 found"
+          },
+          {
+            "id": "contact",
+            "label": "Page exposes a contact or booking action",
+            "points": 15,
+            "passed": true,
+            "earned": 15,
+            "observation": "Contact action found"
+          },
+          {
+            "id": "social",
+            "label": "Page links to a verified social account",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "3 supplied social link(s) found"
+          },
+          {
+            "id": "structured-data",
+            "label": "Page includes structured data",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "JSON-LD found"
+          },
+          {
+            "id": "canonical",
+            "label": "Page declares a canonical URL",
+            "points": 3,
+            "passed": true,
+            "earned": 3,
+            "observation": "Canonical found"
+          },
+          {
+            "id": "open-graph",
+            "label": "Page includes Open Graph metadata",
+            "points": 2,
+            "passed": true,
+            "earned": 2,
+            "observation": "Open Graph metadata found"
+          }
+        ],
+        "discoveredSocialLinks": [
+          {
+            "platform": "facebook",
+            "url": "http://www.facebook.com/ironnorthstudio"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/ironnorthstudio"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://instagram.com/ironnorthstudio"
+          },
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/wix"
+          },
+          {
+            "platform": "x",
+            "url": "https://www.twitter.com/wix"
+          },
+          {
+            "platform": "linkedin",
+            "url": "https://www.linkedin.com/company/wix-com"
+          }
+        ],
+        "suppliedSocialsMissingFromOfficialSite": [],
+        "officialSocialsMissingFromResearch": [
+          {
+            "platform": "facebook",
+            "url": "http://www.facebook.com/ironnorthstudio"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/ironnorthstudio"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://instagram.com/ironnorthstudio"
+          },
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/wix"
+          },
+          {
+            "platform": "x",
+            "url": "https://www.twitter.com/wix"
+          },
+          {
+            "platform": "linkedin",
+            "url": "https://www.linkedin.com/company/wix-com"
+          }
+        ]
+      },
+      "contactVerification": {
+        "phone": {
+          "value": "613-695-2453",
+          "listedOnWebsite": true
+        },
+        "email": {
+          "value": "info@ironnorthstudio.com",
+          "listedOnWebsite": true
+        }
+      },
+      "socialChecks": [
+        {
+          "platform": "Instagram",
+          "handle": "@ironnorthstudio",
+          "url": "https://www.instagram.com/ironnorthstudio",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fironnorthstudio&is_from_rle",
+          "error": null
+        },
+        {
+          "platform": "Facebook",
+          "handle": "ironnorthstudio",
+          "url": "https://www.facebook.com/ironnorthstudio",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fironnorthstudio",
+          "error": null
+        },
+        {
+          "platform": "LinkedIn",
+          "handle": "iron-north-studio",
+          "url": "https://ca.linkedin.com/company/iron-north-studio",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://ca.linkedin.com/company/iron-north-studio",
+          "error": null
+        }
+      ],
+      "sourceChecks": [
+        {
+          "label": "Official homepage and contact",
+          "url": "https://www.ironnorthstudio.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.ironnorthstudio.com/",
+          "error": null
+        },
+        {
+          "label": "Official careers page",
+          "url": "https://www.ironnorthstudio.com/coming-soon-03",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.ironnorthstudio.com/coming-soon-03",
+          "error": null
+        },
+        {
+          "label": "Official team page",
+          "url": "https://www.ironnorthstudio.com/team-4",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.ironnorthstudio.com/team-4",
+          "error": null
+        },
+        {
+          "label": "Owner identification",
+          "url": "https://ottawa.dressforsuccess.org/get-involved/events/awe-2022/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://ottawa.dressforsuccess.org/get-involved/events/awe-2022/",
+          "error": null
+        },
+        {
+          "label": "Local run-club profile",
+          "url": "https://www.runottawa.ca/affiliate-running-clubs/",
+          "reachable": false,
+          "httpStatus": null,
+          "finalUrl": null,
+          "error": "This operation was aborted"
+        },
+        {
+          "label": "https://www.instagram.com/ironnorthstudio",
+          "url": "https://www.instagram.com/ironnorthstudio",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fironnorthstudio&is_from_rle",
+          "error": null
+        },
+        {
+          "label": "https://www.facebook.com/ironnorthstudio",
+          "url": "https://www.facebook.com/ironnorthstudio",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fironnorthstudio",
+          "error": null
+        },
+        {
+          "label": "https://ca.linkedin.com/company/iron-north-studio",
+          "url": "https://ca.linkedin.com/company/iron-north-studio",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://ca.linkedin.com/company/iron-north-studio",
+          "error": null
+        },
+        {
+          "label": "https://www.crossfithintonburg.com/",
+          "url": "https://www.crossfithintonburg.com/",
+          "reachable": false,
+          "httpStatus": null,
+          "finalUrl": null,
+          "error": "fetch failed"
+        },
+        {
+          "label": "https://bodiesbyphil.com/",
+          "url": "https://bodiesbyphil.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.bodiesbyphil.com/",
+          "error": null
+        }
+      ],
+      "reachableSourceCount": 4,
+      "sourceCount": 5,
+      "outreachReady": true
+    },
+    {
+      "id": "refine-ottawa",
+      "name": "Refine Ottawa",
+      "sourceFile": "research/wellness-leads.json",
+      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "validation": {
+        "file": "research/wellness-leads.json",
+        "errors": []
+      },
+      "website": {
+        "requestedUrl": "https://www.refineottawa.com/",
+        "finalUrl": "https://www.refineottawa.com/",
+        "httpStatus": 200,
+        "reachable": true,
+        "title": "Refine Ottawa | Rehab Centre Ottawa",
+        "metaDescription": "Discover a path to recovery at Refine Ottawa, a leading rehab centre. Our dedicated team provides compassionate, personalized care to support you on your journey to wellness.",
+        "score": 100,
+        "checks": [
+          {
+            "id": "reachable",
+            "label": "Website returns a successful response",
+            "points": 20,
+            "passed": true,
+            "earned": 20,
+            "observation": "HTTP 200"
+          },
+          {
+            "id": "https",
+            "label": "Website uses HTTPS",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "https://www.refineottawa.com/"
+          },
+          {
+            "id": "title",
+            "label": "Page has a descriptive title",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Refine Ottawa | Rehab Centre Ottawa"
+          },
+          {
+            "id": "description",
+            "label": "Page has a meta description",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Discover a path to recovery at Refine Ottawa, a leading rehab centre. Our dedicated team provides compassionate, personalized care to support you on your journey to wellness."
+          },
+          {
+            "id": "viewport",
+            "label": "Page declares a mobile viewport",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Viewport declaration found"
+          },
+          {
+            "id": "h1",
+            "label": "Page has a primary heading",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "H1 found"
+          },
+          {
+            "id": "contact",
+            "label": "Page exposes a contact or booking action",
+            "points": 15,
+            "passed": true,
+            "earned": 15,
+            "observation": "Contact action found"
+          },
+          {
+            "id": "social",
+            "label": "Page links to a verified social account",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "1 supplied social link(s) found"
+          },
+          {
+            "id": "structured-data",
+            "label": "Page includes structured data",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "JSON-LD found"
+          },
+          {
+            "id": "canonical",
+            "label": "Page declares a canonical URL",
+            "points": 3,
+            "passed": true,
+            "earned": 3,
+            "observation": "Canonical found"
+          },
+          {
+            "id": "open-graph",
+            "label": "Page includes Open Graph metadata",
+            "points": 2,
+            "passed": true,
+            "earned": 2,
+            "observation": "Open Graph metadata found"
+          }
+        ],
+        "discoveredSocialLinks": [
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/refineottawa"
+          }
+        ],
+        "suppliedSocialsMissingFromOfficialSite": [],
+        "officialSocialsMissingFromResearch": [
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/refineottawa"
+          }
+        ]
+      },
+      "contactVerification": {
+        "phone": {
+          "value": "613-233-8852",
+          "listedOnWebsite": true
+        },
+        "email": {
+          "value": "hello@refineottawa.com",
+          "listedOnWebsite": true
+        }
+      },
+      "socialChecks": [
+        {
+          "platform": "Instagram",
+          "handle": "@refineottawa",
+          "url": "https://www.instagram.com/refineottawa/",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frefineottawa%2F&is_from_rle",
+          "error": null
+        }
+      ],
+      "sourceChecks": [
+        {
+          "label": "Official homepage",
+          "url": "https://www.refineottawa.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.refineottawa.com/",
+          "error": null
+        },
+        {
+          "label": "Official founder story",
+          "url": "https://www.refineottawa.com/about",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.refineottawa.com/about",
+          "error": null
+        },
+        {
+          "label": "Official team page",
+          "url": "https://www.refineottawa.com/our-team",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.refineottawa.com/our-team",
+          "error": null
+        },
+        {
+          "label": "Official Join Our Team page",
+          "url": "https://www.refineottawa.com/joinourteam",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.refineottawa.com/joinourteam",
+          "error": null
+        },
+        {
+          "label": "Official booking contact",
+          "url": "https://refineottawa.janeapp.com/locations/refine-wellness-and-rehab",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://refineottawa.janeapp.com/locations/refine-wellness-and-rehab",
+          "error": null
+        },
+        {
+          "label": "https://www.instagram.com/refineottawa/",
+          "url": "https://www.instagram.com/refineottawa/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frefineottawa%2F&is_from_rle",
+          "error": null
+        },
+        {
+          "label": "https://anatomyphysioclinic.com/",
+          "url": "https://anatomyphysioclinic.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://anatomyphysioclinic.com/",
+          "error": null
+        },
+        {
+          "label": "https://glebe.curavita.com/",
+          "url": "https://glebe.curavita.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://glebe.curavita.com/",
+          "error": null
+        },
+        {
+          "label": "https://www.refineottawa.com/dr-andrea-desgroseilliers",
+          "url": "https://www.refineottawa.com/dr-andrea-desgroseilliers",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.refineottawa.com/dr-andrea-desgroseilliers",
+          "error": null
+        }
+      ],
+      "reachableSourceCount": 5,
+      "sourceCount": 5,
+      "outreachReady": true
+    },
+    {
+      "id": "the-aesthetic-lounge",
+      "name": "The Aesthetic Lounge",
+      "sourceFile": "research/wellness-leads.json",
+      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "validation": {
+        "file": "research/wellness-leads.json",
+        "errors": []
+      },
+      "website": {
+        "requestedUrl": "https://theaestheticlounge.ca/",
+        "finalUrl": "https://theaestheticlounge.ca/",
+        "httpStatus": 200,
+        "reachable": true,
+        "title": "Best Medical Spa Ottawa | Ottawa Medical Spa Services",
+        "metaDescription": "Experience rejuvenation at The Aesthetic Lounge, the best medical spa Ottawa. Our Ottawa medical spa offers skincare, laser, and wellness treatments.",
+        "score": 100,
+        "checks": [
+          {
+            "id": "reachable",
+            "label": "Website returns a successful response",
+            "points": 20,
+            "passed": true,
+            "earned": 20,
+            "observation": "HTTP 200"
+          },
+          {
+            "id": "https",
+            "label": "Website uses HTTPS",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "https://theaestheticlounge.ca/"
+          },
+          {
+            "id": "title",
+            "label": "Page has a descriptive title",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Best Medical Spa Ottawa | Ottawa Medical Spa Services"
+          },
+          {
+            "id": "description",
+            "label": "Page has a meta description",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Experience rejuvenation at The Aesthetic Lounge, the best medical spa Ottawa. Our Ottawa medical spa offers skincare, laser, and wellness treatments."
+          },
+          {
+            "id": "viewport",
+            "label": "Page declares a mobile viewport",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Viewport declaration found"
+          },
+          {
+            "id": "h1",
+            "label": "Page has a primary heading",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "H1 found"
+          },
+          {
+            "id": "contact",
+            "label": "Page exposes a contact or booking action",
+            "points": 15,
+            "passed": true,
+            "earned": 15,
+            "observation": "Contact action found"
+          },
+          {
+            "id": "social",
+            "label": "Page links to a verified social account",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "4 supplied social link(s) found"
+          },
+          {
+            "id": "structured-data",
+            "label": "Page includes structured data",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "JSON-LD found"
+          },
+          {
+            "id": "canonical",
+            "label": "Page declares a canonical URL",
+            "points": 3,
+            "passed": true,
+            "earned": 3,
+            "observation": "Canonical found"
+          },
+          {
+            "id": "open-graph",
+            "label": "Page includes Open Graph metadata",
+            "points": 2,
+            "passed": true,
+            "earned": 2,
+            "observation": "Open Graph metadata found"
+          }
+        ],
+        "discoveredSocialLinks": [
+          {
+            "platform": "linkedin",
+            "url": "https://www.linkedin.com/company/the-aesthetic-lounge-ottawa"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/the.aesthetic.lounge"
+          },
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/The-Aesthetic-Lounge-184548009769381"
+          }
+        ],
+        "suppliedSocialsMissingFromOfficialSite": [],
+        "officialSocialsMissingFromResearch": [
+          {
+            "platform": "linkedin",
+            "url": "https://www.linkedin.com/company/the-aesthetic-lounge-ottawa"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/the.aesthetic.lounge"
+          },
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/The-Aesthetic-Lounge-184548009769381"
+          }
+        ]
+      },
+      "contactVerification": {
+        "phone": {
+          "value": "613-729-8086",
+          "listedOnWebsite": true
+        },
+        "email": {
+          "value": "info@theaestheticlounge.ca",
+          "listedOnWebsite": true
+        }
+      },
+      "socialChecks": [
+        {
+          "platform": "Instagram",
+          "handle": "@the.aesthetic.lounge",
+          "url": "https://www.instagram.com/the.aesthetic.lounge/",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fthe.aesthetic.lounge%2F&is_from_rle",
+          "error": null
+        },
+        {
+          "platform": "Facebook",
+          "handle": "the.aesthetic.lounge",
+          "url": "https://www.facebook.com/the.aesthetic.lounge",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fthe.aesthetic.lounge",
+          "error": null
+        },
+        {
+          "platform": "LinkedIn",
+          "handle": "the-aesthetic-lounge-ottawa",
+          "url": "https://www.linkedin.com/company/the-aesthetic-lounge-ottawa",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.linkedin.com/company/the-aesthetic-lounge-ottawa",
+          "error": null
+        },
+        {
+          "platform": "YouTube",
+          "handle": "@theaestheticlounge7072",
+          "url": "https://www.youtube.com/@theaestheticlounge7072",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.youtube.com/@theaestheticlounge7072",
+          "error": null
+        }
+      ],
+      "sourceChecks": [
+        {
+          "label": "Official homepage",
+          "url": "https://theaestheticlounge.ca/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://theaestheticlounge.ca/",
+          "error": null
+        },
+        {
+          "label": "Official contact page",
+          "url": "https://theaestheticlounge.ca/contact/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://theaestheticlounge.ca/contact/",
+          "error": null
+        },
+        {
+          "label": "Official founder and team page",
+          "url": "https://theaestheticlounge.ca/about-us/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://theaestheticlounge.ca/about-us/",
+          "error": null
+        },
+        {
+          "label": "Official blog index",
+          "url": "https://theaestheticlounge.ca/blog/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://theaestheticlounge.ca/blog/",
+          "error": null
+        },
+        {
+          "label": "Official LinkedIn company page",
+          "url": "https://www.linkedin.com/company/the-aesthetic-lounge-ottawa",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.linkedin.com/company/the-aesthetic-lounge-ottawa",
+          "error": null
+        },
+        {
+          "label": "https://www.instagram.com/the.aesthetic.lounge/",
+          "url": "https://www.instagram.com/the.aesthetic.lounge/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fthe.aesthetic.lounge%2F&is_from_rle",
+          "error": null
+        },
+        {
+          "label": "https://www.facebook.com/the.aesthetic.lounge",
+          "url": "https://www.facebook.com/the.aesthetic.lounge",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fthe.aesthetic.lounge",
+          "error": null
+        },
+        {
+          "label": "https://www.youtube.com/@theaestheticlounge7072",
+          "url": "https://www.youtube.com/@theaestheticlounge7072",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.youtube.com/@theaestheticlounge7072",
+          "error": null
+        },
+        {
+          "label": "https://theaestheticlounge.ca/service-treatments/",
+          "url": "https://theaestheticlounge.ca/service-treatments/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://theaestheticlounge.ca/service-treatments/",
+          "error": null
+        },
+        {
+          "label": "https://www.dermisadvancedskincare.com/",
+          "url": "https://www.dermisadvancedskincare.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.dermisadvancedskincare.com/",
+          "error": null
+        },
+        {
+          "label": "https://ottawamedicalspa.ca/",
+          "url": "https://ottawamedicalspa.ca/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://ottawamedicalspa.ca/",
+          "error": null
+        }
+      ],
+      "reachableSourceCount": 5,
+      "sourceCount": 5,
+      "outreachReady": true
+    },
+    {
+      "id": "apartmint-hair-studio",
+      "name": "ApartMint Hair Studio",
+      "sourceFile": "research/wellness-leads.json",
+      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "validation": {
+        "file": "research/wellness-leads.json",
+        "errors": []
+      },
+      "website": {
+        "requestedUrl": "https://www.apartminthairstudio.ca/",
+        "finalUrl": "https://www.apartminthairstudio.ca/",
+        "httpStatus": 200,
+        "reachable": true,
+        "title": "Home | Mysite",
+        "metaDescription": "",
+        "score": 85,
+        "checks": [
+          {
+            "id": "reachable",
+            "label": "Website returns a successful response",
+            "points": 20,
+            "passed": true,
+            "earned": 20,
+            "observation": "HTTP 200"
+          },
+          {
+            "id": "https",
+            "label": "Website uses HTTPS",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "https://www.apartminthairstudio.ca/"
+          },
+          {
+            "id": "title",
+            "label": "Page has a descriptive title",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Home | Mysite"
+          },
+          {
+            "id": "description",
+            "label": "Page has a meta description",
+            "points": 10,
+            "passed": false,
+            "earned": 0,
+            "observation": "No meta description found"
+          },
+          {
+            "id": "viewport",
+            "label": "Page declares a mobile viewport",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Viewport declaration found"
+          },
+          {
+            "id": "h1",
+            "label": "Page has a primary heading",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "H1 found"
+          },
+          {
+            "id": "contact",
+            "label": "Page exposes a contact or booking action",
+            "points": 15,
+            "passed": true,
+            "earned": 15,
+            "observation": "Contact action found"
+          },
+          {
+            "id": "social",
+            "label": "Page links to a verified social account",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "2 supplied social link(s) found"
+          },
+          {
+            "id": "structured-data",
+            "label": "Page includes structured data",
+            "points": 5,
+            "passed": false,
+            "earned": 0,
+            "observation": "JSON-LD not found"
+          },
+          {
+            "id": "canonical",
+            "label": "Page declares a canonical URL",
+            "points": 3,
+            "passed": true,
+            "earned": 3,
+            "observation": "Canonical found"
+          },
+          {
+            "id": "open-graph",
+            "label": "Page includes Open Graph metadata",
+            "points": 2,
+            "passed": true,
+            "earned": 2,
+            "observation": "Open Graph metadata found"
+          }
+        ],
+        "discoveredSocialLinks": [
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/apart.mint"
+          },
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/apartmintottawa"
+          },
+          {
+            "platform": "instagram",
+            "url": "http://instagram.com/apart.mint"
+          }
+        ],
+        "suppliedSocialsMissingFromOfficialSite": [],
+        "officialSocialsMissingFromResearch": [
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/apart.mint"
+          },
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/apartmintottawa"
+          },
+          {
+            "platform": "instagram",
+            "url": "http://instagram.com/apart.mint"
+          }
+        ]
+      },
+      "contactVerification": {
+        "phone": {
+          "value": "613-722-3133",
+          "listedOnWebsite": true
+        },
+        "email": {
+          "value": "contact@apartminthairstudio.ca",
+          "listedOnWebsite": true
+        }
+      },
+      "socialChecks": [
+        {
+          "platform": "Instagram",
+          "handle": "@apart.mint",
+          "url": "https://www.instagram.com/apart.mint/",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fapart.mint%2F&is_from_rle",
+          "error": null
+        },
+        {
+          "platform": "Facebook",
+          "handle": "apartmintottawa",
+          "url": "https://www.facebook.com/apartmintottawa",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fapartmintottawa",
+          "error": null
+        }
+      ],
+      "sourceChecks": [
+        {
+          "label": "Official homepage and contact",
+          "url": "https://www.apartminthairstudio.ca/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.apartminthairstudio.ca/",
+          "error": null
+        },
+        {
+          "label": "Official founder and cancer-care story",
+          "url": "https://www.apartminthairstudio.ca/about-me-text",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.apartminthairstudio.ca/about-me-text",
+          "error": null
+        },
+        {
+          "label": "Owner and launch profile",
+          "url": "https://kitchissippi.com/apartmint-hair-studio-opens-doors-and-offers-cancer-care-services/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://kitchissippi.com/apartmint-hair-studio-opens-doors-and-offers-cancer-care-services/",
+          "error": null
+        },
+        {
+          "label": "Owner professional profile",
+          "url": "https://ca.linkedin.com/in/kristen-atkinson-078b7456",
+          "reachable": false,
+          "httpStatus": 999,
+          "finalUrl": "https://ca.linkedin.com/in/kristen-atkinson-078b7456",
+          "error": "HTTP 999"
+        },
+        {
+          "label": "https://www.instagram.com/apart.mint/",
+          "url": "https://www.instagram.com/apart.mint/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fapart.mint%2F&is_from_rle",
+          "error": null
+        },
+        {
+          "label": "https://www.facebook.com/apartmintottawa",
+          "url": "https://www.facebook.com/apartmintottawa",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fapartmintottawa",
+          "error": null
+        },
+        {
+          "label": "https://maisonnoi.com/",
+          "url": "https://maisonnoi.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://maisonnoi.com/",
+          "error": null
+        },
+        {
+          "label": "https://jetblackottawa.com/",
+          "url": "https://jetblackottawa.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://jetblackottawa.com/",
+          "error": null
+        }
+      ],
+      "reachableSourceCount": 3,
+      "sourceCount": 4,
+      "outreachReady": true
+    },
+    {
+      "id": "saunders-farm",
+      "name": "Saunders Farm",
+      "sourceFile": "research/visual-service-leads.json",
+      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "validation": {
+        "file": "research/visual-service-leads.json",
+        "errors": []
+      },
+      "website": {
+        "requestedUrl": "https://saundersfarm.com/",
+        "finalUrl": "https://saundersfarm.com/",
+        "httpStatus": 200,
+        "reachable": true,
+        "title": "Saunders Farm",
+        "metaDescription": "",
+        "score": 83,
+        "checks": [
+          {
+            "id": "reachable",
+            "label": "Website returns a successful response",
+            "points": 20,
+            "passed": true,
+            "earned": 20,
+            "observation": "HTTP 200"
+          },
+          {
+            "id": "https",
+            "label": "Website uses HTTPS",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "https://saundersfarm.com/"
+          },
+          {
+            "id": "title",
+            "label": "Page has a descriptive title",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Saunders Farm"
+          },
+          {
+            "id": "description",
+            "label": "Page has a meta description",
+            "points": 10,
+            "passed": false,
+            "earned": 0,
+            "observation": "No meta description found"
+          },
+          {
+            "id": "viewport",
+            "label": "Page declares a mobile viewport",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Viewport declaration found"
+          },
+          {
+            "id": "h1",
+            "label": "Page has a primary heading",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "H1 found"
+          },
+          {
+            "id": "contact",
+            "label": "Page exposes a contact or booking action",
+            "points": 15,
+            "passed": true,
+            "earned": 15,
+            "observation": "Contact action found"
+          },
+          {
+            "id": "social",
+            "label": "Page links to a verified social account",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "4 supplied social link(s) found"
+          },
+          {
+            "id": "structured-data",
+            "label": "Page includes structured data",
+            "points": 5,
+            "passed": false,
+            "earned": 0,
+            "observation": "JSON-LD not found"
+          },
+          {
+            "id": "canonical",
+            "label": "Page declares a canonical URL",
+            "points": 3,
+            "passed": true,
+            "earned": 3,
+            "observation": "Canonical found"
+          },
+          {
+            "id": "open-graph",
+            "label": "Page includes Open Graph metadata",
+            "points": 2,
+            "passed": false,
+            "earned": 0,
+            "observation": "Open Graph metadata not found"
+          }
+        ],
+        "discoveredSocialLinks": [
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/SaundersFarmFans"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/saundersfarmfun"
+          },
+          {
+            "platform": "tiktok",
+            "url": "https://www.tiktok.com/@saundersfarm"
+          }
+        ],
+        "suppliedSocialsMissingFromOfficialSite": [],
+        "officialSocialsMissingFromResearch": [
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/SaundersFarmFans"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/saundersfarmfun"
+          },
+          {
+            "platform": "tiktok",
+            "url": "https://www.tiktok.com/@saundersfarm"
+          }
+        ]
+      },
+      "contactVerification": {
+        "phone": {
+          "value": "613-838-5440",
+          "listedOnWebsite": false
+        },
+        "email": {
+          "value": "info@saundersfarm.com",
+          "listedOnWebsite": true
+        }
+      },
+      "socialChecks": [
+        {
+          "platform": "Instagram",
+          "handle": "@saundersfarmfun",
+          "url": "https://www.instagram.com/saundersfarmfun/",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsaundersfarmfun%2F&is_from_rle",
+          "error": null
+        },
+        {
+          "platform": "Facebook",
+          "handle": "@SaundersFarmFans",
+          "url": "https://www.facebook.com/SaundersFarmFans/",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FSaundersFarmFans%2F",
+          "error": null
+        },
+        {
+          "platform": "TikTok",
+          "handle": "@saundersfarm",
+          "url": "https://www.tiktok.com/@saundersfarm",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.tiktok.com/@saundersfarm",
+          "error": null
+        },
+        {
+          "platform": "LinkedIn",
+          "handle": "Saunders Farm",
+          "url": "https://ca.linkedin.com/company/saunders-farm",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://ca.linkedin.com/company/saunders-farm",
+          "error": null
+        }
+      ],
+      "sourceChecks": [
+        {
+          "label": "Official homepage",
+          "url": "https://saundersfarm.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://saundersfarm.com/",
+          "error": null
+        },
+        {
+          "label": "Farm information and hours",
+          "url": "https://saundersfarm.com/farm-info/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://saundersfarm.com/farm-info/",
+          "error": null
+        },
+        {
+          "label": "Official contact page",
+          "url": "https://saundersfarm.com/contact/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://saundersfarm.com/contact/",
+          "error": null
+        },
+        {
+          "label": "Official story",
+          "url": "https://saundersfarm.com/our-story/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://saundersfarm.com/our-story/",
+          "error": null
+        },
+        {
+          "label": "Company LinkedIn",
+          "url": "https://ca.linkedin.com/company/saunders-farm",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://ca.linkedin.com/company/saunders-farm",
+          "error": null
+        },
+        {
+          "label": "Ottawa Festival Network listing",
+          "url": "https://www.ottawafestivals.ca/member-directory/saunders-farm",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.ottawafestivals.ca/member-directory/saunders-farm",
+          "error": null
+        },
+        {
+          "label": "Map business listing",
+          "url": "https://www.mapquest.com/ca/ontario/saunders-farm-523018580",
+          "reachable": true,
+          "httpStatus": 202,
+          "finalUrl": "https://www.mapquest.com/ca/ontario/saunders-farm-523018580",
+          "error": null
+        },
+        {
+          "label": "https://www.instagram.com/saundersfarmfun/",
+          "url": "https://www.instagram.com/saundersfarmfun/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsaundersfarmfun%2F&is_from_rle",
+          "error": null
+        },
+        {
+          "label": "https://www.facebook.com/SaundersFarmFans/",
+          "url": "https://www.facebook.com/SaundersFarmFans/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FSaundersFarmFans%2F",
+          "error": null
+        },
+        {
+          "label": "https://www.tiktok.com/@saundersfarm",
+          "url": "https://www.tiktok.com/@saundersfarm",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.tiktok.com/@saundersfarm",
+          "error": null
+        },
+        {
+          "label": "https://proulxfarm.com/",
+          "url": "https://proulxfarm.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://proulxfarm.com/",
+          "error": null
+        },
+        {
+          "label": "https://stanleysfarm.com/",
+          "url": "https://stanleysfarm.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://stanleysfarm.com/",
+          "error": null
+        }
+      ],
+      "reachableSourceCount": 7,
+      "sourceCount": 7,
+      "outreachReady": true
+    },
+    {
+      "id": "automindz",
+      "name": "Automindz",
+      "sourceFile": "research/visual-service-leads.json",
+      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "validation": {
+        "file": "research/visual-service-leads.json",
+        "errors": []
+      },
+      "website": {
+        "requestedUrl": "https://www.automindz.ca/",
+        "finalUrl": "https://www.automindz.ca/",
+        "httpStatus": 200,
+        "reachable": true,
+        "title": "Automindz",
+        "metaDescription": "",
+        "score": 72,
+        "checks": [
+          {
+            "id": "reachable",
+            "label": "Website returns a successful response",
+            "points": 20,
+            "passed": true,
+            "earned": 20,
+            "observation": "HTTP 200"
+          },
+          {
+            "id": "https",
+            "label": "Website uses HTTPS",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "https://www.automindz.ca/"
+          },
+          {
+            "id": "title",
+            "label": "Page has a descriptive title",
+            "points": 10,
+            "passed": false,
+            "earned": 0,
+            "observation": "Automindz"
+          },
+          {
+            "id": "description",
+            "label": "Page has a meta description",
+            "points": 10,
+            "passed": false,
+            "earned": 0,
+            "observation": "No meta description found"
+          },
+          {
+            "id": "viewport",
+            "label": "Page declares a mobile viewport",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Viewport declaration found"
+          },
+          {
+            "id": "h1",
+            "label": "Page has a primary heading",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "H1 found"
+          },
+          {
+            "id": "contact",
+            "label": "Page exposes a contact or booking action",
+            "points": 15,
+            "passed": true,
+            "earned": 15,
+            "observation": "Contact action found"
+          },
+          {
+            "id": "social",
+            "label": "Page links to a verified social account",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "1 supplied social link(s) found"
+          },
+          {
+            "id": "structured-data",
+            "label": "Page includes structured data",
+            "points": 5,
+            "passed": false,
+            "earned": 0,
+            "observation": "JSON-LD not found"
+          },
+          {
+            "id": "canonical",
+            "label": "Page declares a canonical URL",
+            "points": 3,
+            "passed": false,
+            "earned": 0,
+            "observation": "Canonical not found"
+          },
+          {
+            "id": "open-graph",
+            "label": "Page includes Open Graph metadata",
+            "points": 2,
+            "passed": true,
+            "earned": 2,
+            "observation": "Open Graph metadata found"
+          }
+        ],
+        "discoveredSocialLinks": [],
+        "suppliedSocialsMissingFromOfficialSite": [],
+        "officialSocialsMissingFromResearch": []
+      },
+      "contactVerification": {
+        "phone": {
+          "value": "613-851-9990",
+          "listedOnWebsite": true
+        },
+        "email": {
+          "value": "Automindz.ottawa@gmail.com",
+          "listedOnWebsite": true
+        }
+      },
+      "socialChecks": [
+        {
+          "platform": "Instagram",
+          "handle": "@automindz.ottawa",
+          "url": "https://www.instagram.com/automindz.ottawa/",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fautomindz.ottawa%2F&is_from_rle",
+          "error": null
+        }
+      ],
+      "sourceChecks": [
+        {
+          "label": "Official website",
+          "url": "https://www.automindz.ca/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.automindz.ca/",
+          "error": null
+        },
+        {
+          "label": "Official Instagram",
+          "url": "https://www.instagram.com/automindz.ottawa/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fautomindz.ottawa%2F&is_from_rle",
+          "error": null
+        },
+        {
+          "label": "Garage Knights contact page",
+          "url": "https://garageknights.com/contact",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://garageknights.com/quote",
+          "error": null
+        },
+        {
+          "label": "Waxed contact page",
+          "url": "https://waxed.biz/contact-us/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://waxed.biz/contact-us/",
+          "error": null
+        },
+        {
+          "label": "https://garageknights.com/",
+          "url": "https://garageknights.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://garageknights.com/",
+          "error": null
+        },
+        {
+          "label": "https://waxed.biz/",
+          "url": "https://waxed.biz/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://waxed.biz/",
+          "error": null
+        }
+      ],
+      "reachableSourceCount": 4,
+      "sourceCount": 4,
+      "outreachReady": true
+    },
+    {
+      "id": "artium-design-build-renovations",
+      "name": "ARTium Design Build Renovations",
+      "sourceFile": "research/visual-service-leads.json",
+      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "validation": {
+        "file": "research/visual-service-leads.json",
+        "errors": []
+      },
+      "website": {
+        "requestedUrl": "https://artiumdesignbuild.com/",
+        "finalUrl": "https://artiumdesignbuild.com/",
+        "httpStatus": 200,
+        "reachable": true,
+        "title": "Ottawa Design Build Firm | Custom Renovations | ARTium",
+        "metaDescription": "Design build firm in Ottawa for custom renovations. 2025 NKBA winners, BBB A+ rated. Book a consultation and plan your space with us.",
+        "score": 100,
+        "checks": [
+          {
+            "id": "reachable",
+            "label": "Website returns a successful response",
+            "points": 20,
+            "passed": true,
+            "earned": 20,
+            "observation": "HTTP 200"
+          },
+          {
+            "id": "https",
+            "label": "Website uses HTTPS",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "https://artiumdesignbuild.com/"
+          },
+          {
+            "id": "title",
+            "label": "Page has a descriptive title",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Ottawa Design Build Firm | Custom Renovations | ARTium"
+          },
+          {
+            "id": "description",
+            "label": "Page has a meta description",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Design build firm in Ottawa for custom renovations. 2025 NKBA winners, BBB A+ rated. Book a consultation and plan your space with us."
+          },
+          {
+            "id": "viewport",
+            "label": "Page declares a mobile viewport",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Viewport declaration found"
+          },
+          {
+            "id": "h1",
+            "label": "Page has a primary heading",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "H1 found"
+          },
+          {
+            "id": "contact",
+            "label": "Page exposes a contact or booking action",
+            "points": 15,
+            "passed": true,
+            "earned": 15,
+            "observation": "Contact action found"
+          },
+          {
+            "id": "social",
+            "label": "Page links to a verified social account",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "4 supplied social link(s) found"
+          },
+          {
+            "id": "structured-data",
+            "label": "Page includes structured data",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "JSON-LD found"
+          },
+          {
+            "id": "canonical",
+            "label": "Page declares a canonical URL",
+            "points": 3,
+            "passed": true,
+            "earned": 3,
+            "observation": "Canonical found"
+          },
+          {
+            "id": "open-graph",
+            "label": "Page includes Open Graph metadata",
+            "points": 2,
+            "passed": true,
+            "earned": 2,
+            "observation": "Open Graph metadata found"
+          }
+        ],
+        "discoveredSocialLinks": [
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/artiumdesignbuild"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/artium_justbasements"
+          },
+          {
+            "platform": "pinterest",
+            "url": "https://www.pinterest.com/justbasements"
+          }
+        ],
+        "suppliedSocialsMissingFromOfficialSite": [
+          {
+            "platform": "LinkedIn",
+            "url": "https://ca.linkedin.com/company/just-basements"
+          }
+        ],
+        "officialSocialsMissingFromResearch": [
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/artiumdesignbuild"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/artium_justbasements"
+          },
+          {
+            "platform": "pinterest",
+            "url": "https://www.pinterest.com/justbasements"
+          }
+        ]
+      },
+      "contactVerification": {
+        "phone": {
+          "value": "613-836-0306",
+          "listedOnWebsite": true
+        },
+        "email": {
+          "value": "info@artiumdesignbuild.com",
+          "listedOnWebsite": true
+        }
+      },
+      "socialChecks": [
+        {
+          "platform": "Instagram",
+          "handle": "@artium_justbasements",
+          "url": "https://www.instagram.com/artium_justbasements/",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fartium_justbasements%2F&is_from_rle",
+          "error": null
+        },
+        {
+          "platform": "Facebook",
+          "handle": "@artiumdesignbuild",
+          "url": "https://www.facebook.com/artiumdesignbuild/",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fartiumdesignbuild%2F",
+          "error": null
+        },
+        {
+          "platform": "LinkedIn",
+          "handle": "ARTium Design Build + Just Basements",
+          "url": "https://ca.linkedin.com/company/just-basements",
+          "listedOnWebsite": false,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://ca.linkedin.com/company/just-basements",
+          "error": null
+        },
+        {
+          "platform": "Houzz",
+          "handle": "artiumdesignbuild",
+          "url": "https://www.houzz.com/pro/artiumdesignbuild/__public",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.houzz.com/professionals/kitchen-and-bath-remodelers/artium-design-build-pfvwus-pf~26407039",
+          "error": null
+        },
+        {
+          "platform": "Pinterest",
+          "handle": "@justbasements",
+          "url": "https://www.pinterest.com/justbasements/",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.pinterest.com/justbasements/",
+          "error": null
+        }
+      ],
+      "sourceChecks": [
+        {
+          "label": "Official website",
+          "url": "https://artiumdesignbuild.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://artiumdesignbuild.com/",
+          "error": null
+        },
+        {
+          "label": "Official About page",
+          "url": "https://artiumdesignbuild.com/about/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://artiumdesignbuild.com/about/",
+          "error": null
+        },
+        {
+          "label": "Official ownership announcement",
+          "url": "https://artiumdesignbuild.com/exciting-news/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://artiumdesignbuild.com/exciting-news/",
+          "error": null
+        },
+        {
+          "label": "Matching company LinkedIn",
+          "url": "https://ca.linkedin.com/company/just-basements",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://ca.linkedin.com/company/just-basements",
+          "error": null
+        },
+        {
+          "label": "Company profile hosted by ARTium",
+          "url": "https://artiumdesignbuild.com/wp-content/uploads/OH_OTTAWA_Fall_2024_OPTIMIZED-1-ARTium.pdf",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://artiumdesignbuild.com/wp-content/uploads/OH_OTTAWA_Fall_2024_OPTIMIZED-1-ARTium.pdf",
+          "error": null
+        },
+        {
+          "label": "Amsted official website",
+          "url": "https://amsted.ca/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://amsted.ca/",
+          "error": null
+        },
+        {
+          "label": "Lagois official website",
+          "url": "https://www.lagois.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.lagois.com/",
+          "error": null
+        },
+        {
+          "label": "https://www.instagram.com/artium_justbasements/",
+          "url": "https://www.instagram.com/artium_justbasements/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fartium_justbasements%2F&is_from_rle",
+          "error": null
+        },
+        {
+          "label": "https://www.facebook.com/artiumdesignbuild/",
+          "url": "https://www.facebook.com/artiumdesignbuild/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fartiumdesignbuild%2F",
+          "error": null
+        },
+        {
+          "label": "https://www.houzz.com/pro/artiumdesignbuild/__public",
+          "url": "https://www.houzz.com/pro/artiumdesignbuild/__public",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.houzz.com/professionals/kitchen-and-bath-remodelers/artium-design-build-pfvwus-pf~26407039",
+          "error": null
+        },
+        {
+          "label": "https://www.pinterest.com/justbasements/",
+          "url": "https://www.pinterest.com/justbasements/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.pinterest.com/justbasements/",
+          "error": null
+        }
+      ],
+      "reachableSourceCount": 7,
+      "sourceCount": 7,
+      "outreachReady": true
+    },
+    {
+      "id": "stonefields-estate",
+      "name": "Stonefields Estate",
+      "sourceFile": "research/visual-service-leads.json",
+      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "validation": {
+        "file": "research/visual-service-leads.json",
+        "errors": []
+      },
+      "website": {
+        "requestedUrl": "https://stonefieldsweddings.com/",
+        "finalUrl": "https://stonefieldsweddings.com/",
+        "httpStatus": 200,
+        "reachable": true,
+        "title": "Stonefields Estate | HOME",
+        "metaDescription": "Steeped in history and surrounded by windswept fields, Stonefields Estate features lovingly restored buildings that date back 200 years. From the original stone farmhouse to our reclaimed local barn, find out what makes this wedding venue unlike any other.",
+        "score": 100,
+        "checks": [
+          {
+            "id": "reachable",
+            "label": "Website returns a successful response",
+            "points": 20,
+            "passed": true,
+            "earned": 20,
+            "observation": "HTTP 200"
+          },
+          {
+            "id": "https",
+            "label": "Website uses HTTPS",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "https://stonefieldsweddings.com/"
+          },
+          {
+            "id": "title",
+            "label": "Page has a descriptive title",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Stonefields Estate | HOME"
+          },
+          {
+            "id": "description",
+            "label": "Page has a meta description",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Steeped in history and surrounded by windswept fields, Stonefields Estate features lovingly restored buildings that date back 200 years. From the original stone farmhouse to our reclaimed local barn, find out what makes this wedding venue unlike any other."
+          },
+          {
+            "id": "viewport",
+            "label": "Page declares a mobile viewport",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Viewport declaration found"
+          },
+          {
+            "id": "h1",
+            "label": "Page has a primary heading",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "H1 found"
+          },
+          {
+            "id": "contact",
+            "label": "Page exposes a contact or booking action",
+            "points": 15,
+            "passed": true,
+            "earned": 15,
+            "observation": "Contact action found"
+          },
+          {
+            "id": "social",
+            "label": "Page links to a verified social account",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "3 supplied social link(s) found"
+          },
+          {
+            "id": "structured-data",
+            "label": "Page includes structured data",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "JSON-LD found"
+          },
+          {
+            "id": "canonical",
+            "label": "Page declares a canonical URL",
+            "points": 3,
+            "passed": true,
+            "earned": 3,
+            "observation": "Canonical found"
+          },
+          {
+            "id": "open-graph",
+            "label": "Page includes Open Graph metadata",
+            "points": 2,
+            "passed": true,
+            "earned": 2,
+            "observation": "Open Graph metadata found"
+          }
+        ],
+        "discoveredSocialLinks": [
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/p/Da50EACjfRQ"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/p/Da0UKynjQu7"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/p/DaneBhqjTZO"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/p/DaijjpzDeRQ"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/p/Dad3FQ7DebA"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/p/DaViQHvkd-5"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/p/DaTcViXtXGw"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/p/DaTB-beFuxM"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/p/DZ-TV0eDUC9"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/p/DZ2b1TLDeR6"
+          },
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/stonefieldsestate"
+          },
+          {
+            "platform": "instagram",
+            "url": "http://instagram.com/stonefields_estate"
+          }
+        ],
+        "suppliedSocialsMissingFromOfficialSite": [],
+        "officialSocialsMissingFromResearch": [
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/p/Da50EACjfRQ"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/p/Da0UKynjQu7"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/p/DaneBhqjTZO"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/p/DaijjpzDeRQ"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/p/Dad3FQ7DebA"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/p/DaViQHvkd-5"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/p/DaTcViXtXGw"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/p/DaTB-beFuxM"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/p/DZ-TV0eDUC9"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/p/DZ2b1TLDeR6"
+          },
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/stonefieldsestate"
+          },
+          {
+            "platform": "instagram",
+            "url": "http://instagram.com/stonefields_estate"
+          }
+        ]
+      },
+      "contactVerification": {
+        "phone": {
+          "value": "613-253-3313",
+          "listedOnWebsite": true
+        },
+        "email": {
+          "value": "info@stonefieldsweddings.com",
+          "listedOnWebsite": true
+        }
+      },
+      "socialChecks": [
+        {
+          "platform": "Instagram",
+          "handle": "@stonefields_estate",
+          "url": "https://www.instagram.com/stonefields_estate",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fstonefields_estate&is_from_rle",
+          "error": null
+        },
+        {
+          "platform": "Facebook",
+          "handle": "@stonefieldsestate",
+          "url": "https://www.facebook.com/stonefieldsestate/",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fstonefieldsestate%2F",
+          "error": null
+        },
+        {
+          "platform": "Pinterest",
+          "handle": "@stonefieldsestate",
+          "url": "https://www.pinterest.ca/stonefieldsestate/",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://ca.pinterest.com/stonefieldsestate/",
+          "error": null
+        }
+      ],
+      "sourceChecks": [
+        {
+          "label": "Official homepage",
+          "url": "https://stonefieldsweddings.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://stonefieldsweddings.com/",
+          "error": null
+        },
+        {
+          "label": "Official contact page",
+          "url": "https://stonefieldsweddings.com/contact-us/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://stonefieldsweddings.com/contact-us/",
+          "error": null
+        },
+        {
+          "label": "Official Stonefields story",
+          "url": "https://stonefieldsweddings.com/our-story/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://stonefieldsweddings.com/our-story/",
+          "error": null
+        },
+        {
+          "label": "Evermore official website",
+          "url": "https://evermoreweddingsandevents.ca/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://evermoreweddingsandevents.ca/",
+          "error": null
+        },
+        {
+          "label": "Aquatopia weddings and events",
+          "url": "https://www.aquatopia.world/weddings-events/weddings-events",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.aquatopia.world/weddings-events/weddings-events",
+          "error": null
+        },
+        {
+          "label": "https://www.instagram.com/stonefields_estate",
+          "url": "https://www.instagram.com/stonefields_estate",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fstonefields_estate&is_from_rle",
+          "error": null
+        },
+        {
+          "label": "https://www.facebook.com/stonefieldsestate/",
+          "url": "https://www.facebook.com/stonefieldsestate/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fstonefieldsestate%2F",
+          "error": null
+        },
+        {
+          "label": "https://www.pinterest.ca/stonefieldsestate/",
+          "url": "https://www.pinterest.ca/stonefieldsestate/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://ca.pinterest.com/stonefieldsestate/",
+          "error": null
+        }
+      ],
+      "reachableSourceCount": 5,
+      "sourceCount": 5,
+      "outreachReady": true
+    },
+    {
+      "id": "lagois-design-build-renovate",
+      "name": "Lagois Design Build Renovate",
+      "sourceFile": "research/visual-service-leads.json",
+      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "validation": {
+        "file": "research/visual-service-leads.json",
+        "errors": []
+      },
+      "website": {
+        "requestedUrl": "https://www.lagois.com/",
+        "finalUrl": "https://www.lagois.com/",
+        "httpStatus": 200,
+        "reachable": true,
+        "title": "Lagois Design Build Renovate | Ottawa Renovations | 5921 Prince of Wales Dr, North Gower, Ottawa, ON K0A 2T0, Canada | Home renovations Ottawa",
+        "metaDescription": "Transform your Ottawa home with Lagois Design Build Renovate. Our three-phase design-build process creates spaces for living. Perfect for families, empty nesters, and seniors.",
+        "score": 100,
+        "checks": [
+          {
+            "id": "reachable",
+            "label": "Website returns a successful response",
+            "points": 20,
+            "passed": true,
+            "earned": 20,
+            "observation": "HTTP 200"
+          },
+          {
+            "id": "https",
+            "label": "Website uses HTTPS",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "https://www.lagois.com/"
+          },
+          {
+            "id": "title",
+            "label": "Page has a descriptive title",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Lagois Design Build Renovate | Ottawa Renovations | 5921 Prince of Wales Dr, North Gower, Ottawa, ON K0A 2T0, Canada | Home renovations Ottawa"
+          },
+          {
+            "id": "description",
+            "label": "Page has a meta description",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Transform your Ottawa home with Lagois Design Build Renovate. Our three-phase design-build process creates spaces for living. Perfect for families, empty nesters, and seniors."
+          },
+          {
+            "id": "viewport",
+            "label": "Page declares a mobile viewport",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Viewport declaration found"
+          },
+          {
+            "id": "h1",
+            "label": "Page has a primary heading",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "H1 found"
+          },
+          {
+            "id": "contact",
+            "label": "Page exposes a contact or booking action",
+            "points": 15,
+            "passed": true,
+            "earned": 15,
+            "observation": "Contact action found"
+          },
+          {
+            "id": "social",
+            "label": "Page links to a verified social account",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "6 supplied social link(s) found"
+          },
+          {
+            "id": "structured-data",
+            "label": "Page includes structured data",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "JSON-LD found"
+          },
+          {
+            "id": "canonical",
+            "label": "Page declares a canonical URL",
+            "points": 3,
+            "passed": true,
+            "earned": 3,
+            "observation": "Canonical found"
+          },
+          {
+            "id": "open-graph",
+            "label": "Page includes Open Graph metadata",
+            "points": 2,
+            "passed": true,
+            "earned": 2,
+            "observation": "Open Graph metadata found"
+          }
+        ],
+        "discoveredSocialLinks": [
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/lagoisdesignbuild"
+          },
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/LagoisDesignBuildRenovate"
+          },
+          {
+            "platform": "linkedin",
+            "url": "https://www.linkedin.com/company/lagois-design-build-renovate"
+          },
+          {
+            "platform": "pinterest",
+            "url": "https://ca.pinterest.com/lagoisdesign"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/wix"
+          },
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/WixStudio"
+          },
+          {
+            "platform": "x",
+            "url": "https://twitter.com/WixStudio"
+          },
+          {
+            "platform": "linkedin",
+            "url": "https://www.linkedin.com/company/wix-com"
+          },
+          {
+            "platform": "youtube",
+            "url": "https://www.youtube.com/user/Wix"
+          },
+          {
+            "platform": "tiktok",
+            "url": "https://www.tiktok.com/@wix"
+          },
+          {
+            "platform": "linkedin",
+            "url": "https://www.linkedin.com/company/5295581/admin/dashboard"
+          }
+        ],
+        "suppliedSocialsMissingFromOfficialSite": [],
+        "officialSocialsMissingFromResearch": [
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/lagoisdesignbuild"
+          },
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/LagoisDesignBuildRenovate"
+          },
+          {
+            "platform": "linkedin",
+            "url": "https://www.linkedin.com/company/lagois-design-build-renovate"
+          },
+          {
+            "platform": "pinterest",
+            "url": "https://ca.pinterest.com/lagoisdesign"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/wix"
+          },
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/WixStudio"
+          },
+          {
+            "platform": "x",
+            "url": "https://twitter.com/WixStudio"
+          },
+          {
+            "platform": "linkedin",
+            "url": "https://www.linkedin.com/company/wix-com"
+          },
+          {
+            "platform": "youtube",
+            "url": "https://www.youtube.com/user/Wix"
+          },
+          {
+            "platform": "tiktok",
+            "url": "https://www.tiktok.com/@wix"
+          },
+          {
+            "platform": "linkedin",
+            "url": "https://www.linkedin.com/company/5295581/admin/dashboard"
+          }
+        ]
+      },
+      "contactVerification": {
+        "phone": {
+          "value": "613-489-2345",
+          "listedOnWebsite": true
+        },
+        "email": {
+          "value": "info@lagois.com",
+          "listedOnWebsite": true
+        }
+      },
+      "socialChecks": [
+        {
+          "platform": "Instagram",
+          "handle": "@lagoisdesignbuild",
+          "url": "https://www.instagram.com/lagoisdesignbuild/",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Flagoisdesignbuild%2F&is_from_rle",
+          "error": null
+        },
+        {
+          "platform": "Facebook",
+          "handle": "@LagoisDesignBuildRenovate",
+          "url": "https://www.facebook.com/LagoisDesignBuildRenovate",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FLagoisDesignBuildRenovate",
+          "error": null
+        },
+        {
+          "platform": "LinkedIn",
+          "handle": "Lagois Design Build Renovate",
+          "url": "https://www.linkedin.com/company/lagois-design-build-renovate/",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.linkedin.com/company/lagois-design-build-renovate/",
+          "error": null
+        },
+        {
+          "platform": "YouTube",
+          "handle": "@lagoisdesignbuildrenovate",
+          "url": "https://www.youtube.com/@lagoisdesignbuildrenovate",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.youtube.com/@lagoisdesignbuildrenovate",
+          "error": null
+        },
+        {
+          "platform": "Pinterest",
+          "handle": "@lagoisdesign",
+          "url": "https://ca.pinterest.com/lagoisdesign/",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://ca.pinterest.com/lagoisdesign/",
+          "error": null
+        },
+        {
+          "platform": "Houzz",
+          "handle": "lagoisdesignbuild",
+          "url": "https://www.houzz.com/pro/lagoisdesignbuild",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.houzz.com/professionals/design-build-firms/lagois-design-build-renovate-pfvwus-pf~1737270448",
+          "error": null
+        }
+      ],
+      "sourceChecks": [
+        {
+          "label": "Official homepage",
+          "url": "https://www.lagois.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.lagois.com/",
+          "error": null
+        },
+        {
+          "label": "Official contact page",
+          "url": "https://www.lagois.com/get-in-touch",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.lagois.com/get-in-touch",
+          "error": null
+        },
+        {
+          "label": "Official team page",
+          "url": "https://www.lagois.com/our-team",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.lagois.com/our-team",
+          "error": null
+        },
+        {
+          "label": "Official Linktree",
+          "url": "https://linktr.ee/lagoisdesignbuild",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://linktr.ee/lagoisdesignbuild",
+          "error": null
+        },
+        {
+          "label": "Public company LinkedIn",
+          "url": "https://www.linkedin.com/company/lagois-design-build-renovate/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.linkedin.com/company/lagois-design-build-renovate/",
+          "error": null
+        },
+        {
+          "label": "Amsted official website",
+          "url": "https://amsted.ca/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://amsted.ca/",
+          "error": null
+        },
+        {
+          "label": "OakWood official website",
+          "url": "https://oakwood.ca/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://oakwood.ca/",
+          "error": null
+        },
+        {
+          "label": "https://www.instagram.com/lagoisdesignbuild/",
+          "url": "https://www.instagram.com/lagoisdesignbuild/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Flagoisdesignbuild%2F&is_from_rle",
+          "error": null
+        },
+        {
+          "label": "https://www.facebook.com/LagoisDesignBuildRenovate",
+          "url": "https://www.facebook.com/LagoisDesignBuildRenovate",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FLagoisDesignBuildRenovate",
+          "error": null
+        },
+        {
+          "label": "https://www.youtube.com/@lagoisdesignbuildrenovate",
+          "url": "https://www.youtube.com/@lagoisdesignbuildrenovate",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.youtube.com/@lagoisdesignbuildrenovate",
+          "error": null
+        },
+        {
+          "label": "https://ca.pinterest.com/lagoisdesign/",
+          "url": "https://ca.pinterest.com/lagoisdesign/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://ca.pinterest.com/lagoisdesign/",
+          "error": null
+        },
+        {
+          "label": "https://www.houzz.com/pro/lagoisdesignbuild",
+          "url": "https://www.houzz.com/pro/lagoisdesignbuild",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.houzz.com/professionals/design-build-firms/lagois-design-build-renovate-pfvwus-pf~1737270448",
+          "error": null
+        }
+      ],
+      "reachableSourceCount": 7,
+      "sourceCount": 7,
+      "outreachReady": true
+    },
+    {
+      "id": "oakwood-design-build",
+      "name": "OakWood Design & Build",
+      "sourceFile": "research/visual-service-leads.json",
+      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "validation": {
+        "file": "research/visual-service-leads.json",
+        "errors": []
+      },
+      "website": {
+        "requestedUrl": "https://oakwood.ca/",
+        "finalUrl": "https://oakwood.ca/",
+        "httpStatus": 200,
+        "reachable": true,
+        "title": "Custom Homes &amp; Home Renovations Ottawa | OakWood Design &amp; Build",
+        "metaDescription": "Award-winning Design &amp; Build company serving Ottawa since 1956. Custom homes, renovations, additions, architectural design, and expert project delivery.",
+        "score": 100,
+        "checks": [
+          {
+            "id": "reachable",
+            "label": "Website returns a successful response",
+            "points": 20,
+            "passed": true,
+            "earned": 20,
+            "observation": "HTTP 200"
+          },
+          {
+            "id": "https",
+            "label": "Website uses HTTPS",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "https://oakwood.ca/"
+          },
+          {
+            "id": "title",
+            "label": "Page has a descriptive title",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Custom Homes &amp; Home Renovations Ottawa | OakWood Design &amp; Build"
+          },
+          {
+            "id": "description",
+            "label": "Page has a meta description",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Award-winning Design &amp; Build company serving Ottawa since 1956. Custom homes, renovations, additions, architectural design, and expert project delivery."
+          },
+          {
+            "id": "viewport",
+            "label": "Page declares a mobile viewport",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Viewport declaration found"
+          },
+          {
+            "id": "h1",
+            "label": "Page has a primary heading",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "H1 found"
+          },
+          {
+            "id": "contact",
+            "label": "Page exposes a contact or booking action",
+            "points": 15,
+            "passed": true,
+            "earned": 15,
+            "observation": "Contact action found"
+          },
+          {
+            "id": "social",
+            "label": "Page links to a verified social account",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "4 supplied social link(s) found"
+          },
+          {
+            "id": "structured-data",
+            "label": "Page includes structured data",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "JSON-LD found"
+          },
+          {
+            "id": "canonical",
+            "label": "Page declares a canonical URL",
+            "points": 3,
+            "passed": true,
+            "earned": 3,
+            "observation": "Canonical found"
+          },
+          {
+            "id": "open-graph",
+            "label": "Page includes Open Graph metadata",
+            "points": 2,
+            "passed": true,
+            "earned": 2,
+            "observation": "Open Graph metadata found"
+          }
+        ],
+        "discoveredSocialLinks": [
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/oakwooddesignandbuild"
+          },
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/OakWoodDesignBuild"
+          },
+          {
+            "platform": "linkedin",
+            "url": "https://ca.linkedin.com/company/oakwood-renovation-experts"
+          },
+          {
+            "platform": "youtube",
+            "url": "https://www.youtube.com/@OakWoodDesign-Build"
+          }
+        ],
+        "suppliedSocialsMissingFromOfficialSite": [],
+        "officialSocialsMissingFromResearch": [
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/oakwooddesignandbuild"
+          },
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/OakWoodDesignBuild"
+          },
+          {
+            "platform": "linkedin",
+            "url": "https://ca.linkedin.com/company/oakwood-renovation-experts"
+          },
+          {
+            "platform": "youtube",
+            "url": "https://www.youtube.com/@OakWoodDesign-Build"
+          }
+        ]
+      },
+      "contactVerification": {
+        "phone": {
+          "value": "613-236-8001",
+          "listedOnWebsite": true
+        },
+        "email": {
+          "value": "info@oakwood.ca",
+          "listedOnWebsite": true
+        }
+      },
+      "socialChecks": [
+        {
+          "platform": "Instagram",
+          "handle": "@oakwooddesignandbuild",
+          "url": "https://www.instagram.com/oakwooddesignandbuild/",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Foakwooddesignandbuild%2F&is_from_rle",
+          "error": null
+        },
+        {
+          "platform": "Facebook",
+          "handle": "@OakWoodDesignBuild",
+          "url": "https://www.facebook.com/OakWoodDesignBuild/",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FOakWoodDesignBuild%2F",
+          "error": null
+        },
+        {
+          "platform": "LinkedIn",
+          "handle": "OakWood Design & Build",
+          "url": "https://ca.linkedin.com/company/oakwood-renovation-experts",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://ca.linkedin.com/company/oakwood-renovation-experts",
+          "error": null
+        },
+        {
+          "platform": "YouTube",
+          "handle": "@OakWoodDesign-Build",
+          "url": "https://www.youtube.com/@OakWoodDesign-Build",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.youtube.com/@OakWoodDesign-Build",
+          "error": null
+        }
+      ],
+      "sourceChecks": [
+        {
+          "label": "Official homepage",
+          "url": "https://oakwood.ca/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://oakwood.ca/",
+          "error": null
+        },
+        {
+          "label": "Official consultation and locations page",
+          "url": "https://www.oakwood.ca/book-consultation/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://oakwood.ca/book-consultation/",
+          "error": null
+        },
+        {
+          "label": "Official history",
+          "url": "https://www.oakwood.ca/about/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://oakwood.ca/about/",
+          "error": null
+        },
+        {
+          "label": "Official design centre page",
+          "url": "https://www.oakwood.ca/design-centre/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://oakwood.ca/design-centre/",
+          "error": null
+        },
+        {
+          "label": "Official media release",
+          "url": "https://www.oakwood.ca/wp-content/uploads/OakWood-Breaks-Record-for-Most-Finalist-Entries-at-2021-GOHBA-Housing-Design-Awards.pdf",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.oakwood.ca/wp-content/uploads/OakWood-Breaks-Record-for-Most-Finalist-Entries-at-2021-GOHBA-Housing-Design-Awards.pdf",
+          "error": null
+        },
+        {
+          "label": "Amsted official website",
+          "url": "https://amsted.ca/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://amsted.ca/",
+          "error": null
+        },
+        {
+          "label": "ARTium official website",
+          "url": "https://artiumdesignbuild.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://artiumdesignbuild.com/",
+          "error": null
+        },
+        {
+          "label": "https://www.instagram.com/oakwooddesignandbuild/",
+          "url": "https://www.instagram.com/oakwooddesignandbuild/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Foakwooddesignandbuild%2F&is_from_rle",
+          "error": null
+        },
+        {
+          "label": "https://www.facebook.com/OakWoodDesignBuild/",
+          "url": "https://www.facebook.com/OakWoodDesignBuild/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FOakWoodDesignBuild%2F",
+          "error": null
+        },
+        {
+          "label": "https://ca.linkedin.com/company/oakwood-renovation-experts",
+          "url": "https://ca.linkedin.com/company/oakwood-renovation-experts",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://ca.linkedin.com/company/oakwood-renovation-experts",
+          "error": null
+        },
+        {
+          "label": "https://www.youtube.com/@OakWoodDesign-Build",
+          "url": "https://www.youtube.com/@OakWoodDesign-Build",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.youtube.com/@OakWoodDesign-Build",
+          "error": null
+        }
+      ],
+      "reachableSourceCount": 7,
+      "sourceCount": 7,
+      "outreachReady": true
+    }
+  ]
+}

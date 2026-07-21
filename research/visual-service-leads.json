@@ -1,0 +1,954 @@
+[
+  {
+    "id": "saunders-farm",
+    "name": "Saunders Farm",
+    "industry": "Agri-tourism, seasonal attractions, festivals, farm camp, private events, and cider retail",
+    "neighborhood": "Munster",
+    "location": "7893 Bleeks Road, Munster, Ottawa, ON K0A 3P0",
+    "website": "https://saundersfarm.com/",
+    "phone": "613-838-5440",
+    "email": "info@saundersfarm.com",
+    "decisionMaker": {
+      "name": "Mark Saunders",
+      "role": "Co-operator and family-business leader; took the reins with Angela Grant Saunders in 2010",
+      "sourceUrl": "https://saundersfarm.com/our-story/"
+    },
+    "socials": [
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/saundersfarmfun/",
+        "handle": "@saundersfarmfun"
+      },
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/SaundersFarmFans/",
+        "handle": "@SaundersFarmFans"
+      },
+      {
+        "platform": "TikTok",
+        "url": "https://www.tiktok.com/@saundersfarm",
+        "handle": "@saundersfarm"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://ca.linkedin.com/company/saunders-farm",
+        "handle": "Saunders Farm"
+      }
+    ],
+    "offerings": [
+      "Summer Maze Days",
+      "Corn Maze Festival",
+      "A Midsummer Night's Scream",
+      "PumpkinFest",
+      "FrightFest",
+      "A Country Christmas",
+      "Farm Camp",
+      "Corporate outings",
+      "Private celebrations",
+      "Saunders Cider and on-site food"
+    ],
+    "customerSegments": [
+      "Ottawa-area families",
+      "Seasonal attraction visitors",
+      "Halloween and horror fans",
+      "Summer camp buyers",
+      "Corporate event planners",
+      "Private-event hosts",
+      "Local cider customers"
+    ],
+    "observations": [
+      {
+        "title": "Two planning horizons appear on current pages",
+        "detail": "The homepage promotes current 2026 summer products, while the farm-information page still labels PumpkinFest, FrightFest, and A Country Christmas as 2025 with 2026 hours coming soon.",
+        "implication": "A coordinated announcement calendar and matching page updates can reduce seasonal confusion before ticket purchase.",
+        "sourceUrls": [
+          "https://saundersfarm.com/",
+          "https://saundersfarm.com/farm-info/"
+        ]
+      },
+      {
+        "title": "Several distinct audiences compete for attention",
+        "detail": "The current homepage presents Summer Maze Days, a new Corn Maze Festival, a one-night scare event, Farm Camp, corporate outings, celebrations, cider, food, and retail.",
+        "implication": "Separate recurring formats can let parents, horror fans, camp buyers, and corporate planners self-select quickly.",
+        "sourceUrls": [
+          "https://saundersfarm.com/"
+        ]
+      },
+      {
+        "title": "Near-term content can connect directly to tickets",
+        "detail": "The official homepage includes date-specific purchase actions for active Summer Maze Days, the August 1 Corn Maze Festival, and the August 8 one-night scare event.",
+        "implication": "Each short can answer one objection, show one unique moment, and close on the correct event purchase action.",
+        "sourceUrls": [
+          "https://saundersfarm.com/"
+        ]
+      }
+    ],
+    "whyNow": {
+      "title": "Three summer campaigns are live or imminent",
+      "detail": "On 2026-07-20 the official site said Summer Maze Days was on now, the new Ottawa 200 Corn Maze Festival would begin August 1, and A Midsummer Night's Scream would run for one night on August 8.",
+      "date": "2026-07-20",
+      "strength": "high",
+      "sourceUrls": [
+        "https://saundersfarm.com/",
+        "https://ca.linkedin.com/company/saunders-farm"
+      ]
+    },
+    "competitors": [
+      {
+        "name": "Ferme Proulx et Érablière",
+        "url": "https://proulxfarm.com/"
+      },
+      {
+        "name": "Stanley's Olde Maple Lane Farm",
+        "url": "https://stanleysfarm.com/"
+      }
+    ],
+    "scores": {
+      "contentFit": 98,
+      "opportunity": 88,
+      "response": 84,
+      "summary": "Exceptional visual and seasonal inventory with an immediate ticket-conversion window; response estimate is tempered by the likelihood that an established attraction already has production partners.",
+      "dimensions": [
+        { "score": "contentFit", "name": "Visual inventory", "value": 25, "max": 25 },
+        { "score": "contentFit", "name": "Teachable expertise", "value": 23, "max": 25 },
+        { "score": "contentFit", "name": "People and story potential", "value": 20, "max": 20 },
+        { "score": "contentFit", "name": "Ottawa relevance", "value": 15, "max": 15 },
+        { "score": "contentFit", "name": "Repeatable formats", "value": 15, "max": 15 },
+        { "score": "opportunity", "name": "Channel whitespace", "value": 13, "max": 20 },
+        { "score": "opportunity", "name": "Conversion gap", "value": 17, "max": 20 },
+        { "score": "opportunity", "name": "Timing", "value": 20, "max": 20 },
+        { "score": "opportunity", "name": "Content-mix whitespace", "value": 18, "max": 20 },
+        { "score": "opportunity", "name": "Customer-value economics", "value": 20, "max": 20 },
+        { "score": "response", "name": "Published contact route", "value": 20, "max": 20 },
+        { "score": "response", "name": "Named decision-maker access", "value": 20, "max": 20 },
+        { "score": "response", "name": "Specific observation", "value": 18, "max": 20 },
+        { "score": "response", "name": "Current trigger", "value": 20, "max": 20 },
+        { "score": "response", "name": "Bounded-pilot ease", "value": 6, "max": 20 }
+      ]
+    },
+    "concepts": [
+      {
+        "title": "Can You Solve Ottawa in 20 Seconds?",
+        "hook": "Think you can solve Ottawa in 20 seconds?",
+        "outline": [
+          "Open in first-person view at one branch of the Ottawa 200 corn maze.",
+          "Give the viewer a fast left-or-right choice.",
+          "Reveal one Ottawa history or agriculture detail represented in the maze.",
+          "Close with the August 1 start date and the official ticket action."
+        ],
+        "productionNotes": "Use a stabilized chest-height POV plus one overhead or raised reveal. Do not disclose enough of the route to spoil the full maze."
+      },
+      {
+        "title": "One Scare Before Sundown",
+        "hook": "This path looks harmless in daylight.",
+        "outline": [
+          "Show the normal daytime path.",
+          "Reveal one lighting, sound, or performer setup without showing the final scare.",
+          "Let the performer explain the misdirection in one sentence.",
+          "Close with August 8 and the one-night-only message."
+        ],
+        "productionNotes": "Film the setup in daylight and the payoff environment after dark. Keep the final effect unrevealed."
+      },
+      {
+        "title": "50 Years in Five Farm Sounds",
+        "hook": "You can hear 50 years of Saunders Farm in five sounds.",
+        "outline": [
+          "Cut from hedge trimmer to wagon bell.",
+          "Move into a cider pour and crowd reaction.",
+          "Finish on one night-scare audio hit.",
+          "Have Mark or Angela connect the sounds to the current season."
+        ],
+        "productionNotes": "Prioritize clean location audio and fast match cuts. Record the narration separately for intelligibility."
+      }
+    ],
+    "outreach": {
+      "channel": "email",
+      "subject": "Three short videos for the Ottawa 200 maze and August 8",
+      "opening": "Hi Mark, I was looking through Saunders Farm's current summer launch pages.",
+      "body": "You have three unusually filmable moments stacked together: Summer Maze Days on now, the Ottawa 200 Corn Maze Festival starting August 1, and the one-night Midsummer Night's Scream on August 8. I sketched a small conversion-focused series around those exact dates: a 20-second Ottawa maze challenge, a daylight-to-scare behind-the-scenes reveal, and a five-shot 50th-year farm story. Each would end on the specific ticket action rather than a general brand message. I'm with Que Media in Ottawa and we make entertaining and educational short-form video for local businesses.",
+      "callToAction": "If useful, I can send the three shot outlines before asking for a meeting.",
+      "evidenceUrls": [
+        "https://saundersfarm.com/",
+        "https://saundersfarm.com/our-story/"
+      ]
+    },
+    "sources": [
+      { "label": "Official homepage", "url": "https://saundersfarm.com/", "publisher": "Saunders Farm", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "official_website" },
+      { "label": "Farm information and hours", "url": "https://saundersfarm.com/farm-info/", "publisher": "Saunders Farm", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "official_website" },
+      { "label": "Official contact page", "url": "https://saundersfarm.com/contact/", "publisher": "Saunders Farm", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "official_website" },
+      { "label": "Official story", "url": "https://saundersfarm.com/our-story/", "publisher": "Saunders Farm", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "official_website" },
+      { "label": "Company LinkedIn", "url": "https://ca.linkedin.com/company/saunders-farm", "publisher": "Saunders Farm on LinkedIn", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "official_social" },
+      { "label": "Ottawa Festival Network listing", "url": "https://www.ottawafestivals.ca/member-directory/saunders-farm", "publisher": "Ottawa Festival Network", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "business_directory" },
+      { "label": "Map business listing", "url": "https://www.mapquest.com/ca/ontario/saunders-farm-523018580", "publisher": "MapQuest", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "business_directory" }
+    ]
+  },
+  {
+    "id": "automindz",
+    "name": "Automindz",
+    "industry": "Automotive detailing, appearance protection, wraps, collision repair, and mechanical service",
+    "neighborhood": "St. Laurent",
+    "location": "1555 St. Laurent Boulevard, Unit B, Ottawa, ON K1G 1A1",
+    "website": "https://www.automindz.ca/",
+    "phone": "613-851-9990",
+    "email": "Automindz.ottawa@gmail.com",
+    "decisionMaker": null,
+    "socials": [
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/automindz.ottawa/",
+        "handle": "@automindz.ottawa"
+      }
+    ],
+    "offerings": [
+      "Automotive detailing",
+      "Car wash",
+      "Paint protection film",
+      "Vehicle wraps",
+      "Ceramic coating",
+      "Paint correction",
+      "Window tint",
+      "Collision and body work",
+      "Mechanical work",
+      "Tire service",
+      "Rustproofing"
+    ],
+    "customerSegments": [
+      "Ottawa vehicle owners",
+      "Enthusiast and premium-vehicle owners",
+      "Drivers seeking paint protection",
+      "Customers with cosmetic collision damage",
+      "Customers preparing vehicles for resale",
+      "Local fleet owners"
+    ],
+    "observations": [
+      {
+        "title": "Basic official web presence for high-consideration services",
+        "detail": "The official site is a Google Sites page that presents services, a gallery, contact details, and a quote action without a deeper trust or case-study structure.",
+        "implication": "Process video and case proof can reduce uncertainty while a stronger conversion surface is developed.",
+        "sourceUrls": [
+          "https://www.automindz.ca/"
+        ]
+      },
+      {
+        "title": "Broad service categories lack visible choice guidance",
+        "detail": "PPF, wraps, ceramic coating, paint correction, collision repair, and mechanical work appear together, without visible decision criteria, process duration, warranty detail, or distinct booking routes.",
+        "implication": "A recurring service-diagnosis series can educate a customer before the quote request.",
+        "sourceUrls": [
+          "https://www.automindz.ca/"
+        ]
+      },
+      {
+        "title": "Only one official social account was verified",
+        "detail": "The official site names Instagram and does not surface a verified TikTok, YouTube, Facebook, or LinkedIn destination.",
+        "implication": "One vertical-video production system could create intentional multi-platform distribution rather than dependence on one discoverable account.",
+        "sourceUrls": [
+          "https://www.automindz.ca/"
+        ]
+      }
+    ],
+    "whyNow": {
+      "title": "July and August service promotion",
+      "detail": "The official site currently advertises 15% off most services during July and August. Exact exclusions and the final date are not published and must be confirmed before content production.",
+      "date": "2026-07-20",
+      "strength": "high",
+      "sourceUrls": [
+        "https://www.automindz.ca/"
+      ]
+    },
+    "competitors": [
+      {
+        "name": "Garage Knights",
+        "url": "https://garageknights.com/"
+      },
+      {
+        "name": "Waxed Detailing Services",
+        "url": "https://waxed.biz/"
+      }
+    ],
+    "scores": {
+      "contentFit": 94,
+      "opportunity": 90,
+      "response": 78,
+      "summary": "Excellent transformation and education inventory with a live offer and a clear conversion gap; the unverified decision-maker materially lowers contact confidence.",
+      "dimensions": [
+        { "score": "contentFit", "name": "Visual inventory", "value": 25, "max": 25 },
+        { "score": "contentFit", "name": "Teachable expertise", "value": 25, "max": 25 },
+        { "score": "contentFit", "name": "People and story potential", "value": 15, "max": 20 },
+        { "score": "contentFit", "name": "Ottawa relevance", "value": 14, "max": 15 },
+        { "score": "contentFit", "name": "Repeatable formats", "value": 15, "max": 15 },
+        { "score": "opportunity", "name": "Channel whitespace", "value": 20, "max": 20 },
+        { "score": "opportunity", "name": "Conversion gap", "value": 19, "max": 20 },
+        { "score": "opportunity", "name": "Timing", "value": 20, "max": 20 },
+        { "score": "opportunity", "name": "Content-mix whitespace", "value": 18, "max": 20 },
+        { "score": "opportunity", "name": "Customer-value economics", "value": 13, "max": 20 },
+        { "score": "response", "name": "Published contact route", "value": 20, "max": 20 },
+        { "score": "response", "name": "Named decision-maker access", "value": 4, "max": 20 },
+        { "score": "response", "name": "Specific observation", "value": 19, "max": 20 },
+        { "score": "response", "name": "Current trigger", "value": 20, "max": 20 },
+        { "score": "response", "name": "Bounded-pilot ease", "value": 15, "max": 20 }
+      ]
+    },
+    "concepts": [
+      {
+        "title": "Polish, PPF, or Paint?",
+        "hook": "Can this scratch be polished, protected, or does it need paint?",
+        "outline": [
+          "Open on a real flaw under an inspection light.",
+          "Let a technician give a three-second diagnosis.",
+          "Demonstrate the deciding test.",
+          "Reveal the correct service and name the service that would waste the customer's money."
+        ],
+        "productionNotes": "Use macro shots and cross-polarized or controlled inspection lighting. Obtain vehicle-owner permission and conceal licence plates."
+      },
+      {
+        "title": "Ottawa Winter Protection Stack",
+        "hook": "PPF, ceramic coating, and rustproofing do not solve the same problem.",
+        "outline": [
+          "Label each protection layer on one vehicle.",
+          "Show the surface or area each service protects.",
+          "Explain one Ottawa winter use case for each.",
+          "Close with a request for a service recommendation."
+        ],
+        "productionNotes": "Use clean graphic overlays that identify paint surface, impact zones, and underbody without making unsupported durability claims."
+      },
+      {
+        "title": "15% Summer Rescue",
+        "hook": "What can one eligible summer service change on this vehicle?",
+        "outline": [
+          "Document the intake flaw.",
+          "Show one decisive process step.",
+          "Reveal the finish in identical lighting.",
+          "State the approved promotion terms and quote action."
+        ],
+        "productionNotes": "Automindz must approve the exact eligible service, exclusions, and expiry before any promotion language is published."
+      }
+    ],
+    "outreach": {
+      "channel": "email",
+      "subject": "A video idea that makes the July-August offer easier to choose",
+      "opening": "Hi Automindz team, I found your July-August 15% promotion while reviewing the service mix on your site.",
+      "body": "The offer covers visually strong work, but a new customer still has to work out whether they need paint correction, ceramic coating, PPF, a wrap, or body work before requesting a quote. I mapped a short series called 'Polish, PPF, or Paint?' using real inspection-light footage and a technician's quick verdict. It would turn the transformation into education and close on the summer offer only where the service is eligible. I'm with Que Media in Ottawa.",
+      "callToAction": "If the idea is relevant, I can send a three-video shot plan built around the exact services you want to fill this summer.",
+      "evidenceUrls": [
+        "https://www.automindz.ca/"
+      ]
+    },
+    "sources": [
+      { "label": "Official website", "url": "https://www.automindz.ca/", "publisher": "Automindz", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "official_website" },
+      { "label": "Official Instagram", "url": "https://www.instagram.com/automindz.ottawa/", "publisher": "Automindz on Instagram", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "official_social" },
+      { "label": "Garage Knights contact page", "url": "https://garageknights.com/contact", "publisher": "Garage Knights", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "competitor_website" },
+      { "label": "Waxed contact page", "url": "https://waxed.biz/contact-us/", "publisher": "Waxed Detailing Services", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "competitor_website" }
+    ]
+  },
+  {
+    "id": "artium-design-build-renovations",
+    "name": "ARTium Design Build Renovations",
+    "industry": "Residential design-build renovation",
+    "neighborhood": "Carp Road corridor",
+    "location": "2853 Carp Road, Ottawa, ON K0A 1L0",
+    "website": "https://artiumdesignbuild.com/",
+    "phone": "613-836-0306",
+    "email": "info@artiumdesignbuild.com",
+    "decisionMaker": {
+      "name": "Kaylie Chamberlin",
+      "role": "Owner",
+      "sourceUrl": "https://artiumdesignbuild.com/about/"
+    },
+    "socials": [
+      { "platform": "Instagram", "url": "https://www.instagram.com/artium_justbasements/", "handle": "@artium_justbasements" },
+      { "platform": "Facebook", "url": "https://www.facebook.com/artiumdesignbuild/", "handle": "@artiumdesignbuild" },
+      { "platform": "LinkedIn", "url": "https://ca.linkedin.com/company/just-basements", "handle": "ARTium Design Build + Just Basements" },
+      { "platform": "Houzz", "url": "https://www.houzz.com/pro/artiumdesignbuild/__public", "handle": "artiumdesignbuild" },
+      { "platform": "Pinterest", "url": "https://www.pinterest.com/justbasements/", "handle": "@justbasements" }
+    ],
+    "offerings": [
+      "Kitchen renovation",
+      "Bathroom renovation",
+      "Whole-home renovation",
+      "Basement renovation",
+      "Condo renovation",
+      "In-house design-build",
+      "3D rendering",
+      "Project portal",
+      "Renovation financing options"
+    ],
+    "customerSegments": [
+      "Ottawa homeowners planning major renovations",
+      "Kitchen and bathroom renovation buyers",
+      "Homeowners adding finished basement space",
+      "Condo owners",
+      "Homeowners seeking one accountable design-build team"
+    ],
+    "observations": [
+      {
+        "title": "Homepage review proof sends visitors off-site",
+        "detail": "The live What Our Clients Are Saying section currently presents a Read all Reviews link to Google without rendering a client quotation in the fetched homepage content.",
+        "implication": "A short client-story format could place the problem, process, and outcome directly in ARTium's owned content.",
+        "sourceUrls": [
+          "https://artiumdesignbuild.com/"
+        ]
+      },
+      {
+        "title": "No short-form video destination is linked in the current footer",
+        "detail": "The official footer links Facebook, Instagram, Houzz, and Pinterest, but no TikTok or YouTube destination.",
+        "implication": "The company's detailed renovation education can be organized into a dedicated, searchable video series.",
+        "sourceUrls": [
+          "https://artiumdesignbuild.com/"
+        ]
+      },
+      {
+        "title": "Ownership story is detailed on About, not surfaced on the homepage",
+        "detail": "The current About page clearly explains Kaylie Chamberlin's 2025 takeover and identifies her as owner, while the homepage's main story emphasizes 25-plus years without surfacing her name.",
+        "implication": "A homepage-linked short-form owner story could carry that strong first-party narrative into discovery content while preserving founder equity.",
+        "sourceUrls": [
+          "https://artiumdesignbuild.com/",
+          "https://artiumdesignbuild.com/about/"
+        ]
+      }
+    ],
+    "whyNow": null,
+    "competitors": [
+      { "name": "Lagois Design Build Renovate", "url": "https://www.lagois.com/" },
+      { "name": "Amsted Design-Build", "url": "https://amsted.ca/" }
+    ],
+    "scores": {
+      "contentFit": 91,
+      "opportunity": 83,
+      "response": 70,
+      "summary": "High-value visual work and strong educational material meet off-site review proof and an ownership story concentrated on the About page; no verified 30-day business trigger was found.",
+      "dimensions": [
+        { "score": "contentFit", "name": "Visual inventory", "value": 24, "max": 25 },
+        { "score": "contentFit", "name": "Teachable expertise", "value": 25, "max": 25 },
+        { "score": "contentFit", "name": "People and story potential", "value": 18, "max": 20 },
+        { "score": "contentFit", "name": "Ottawa relevance", "value": 14, "max": 15 },
+        { "score": "contentFit", "name": "Repeatable formats", "value": 10, "max": 15 },
+        { "score": "opportunity", "name": "Channel whitespace", "value": 18, "max": 20 },
+        { "score": "opportunity", "name": "Conversion gap", "value": 17, "max": 20 },
+        { "score": "opportunity", "name": "Timing", "value": 10, "max": 20 },
+        { "score": "opportunity", "name": "Content-mix whitespace", "value": 19, "max": 20 },
+        { "score": "opportunity", "name": "Customer-value economics", "value": 19, "max": 20 },
+        { "score": "response", "name": "Published contact route", "value": 20, "max": 20 },
+        { "score": "response", "name": "Named decision-maker access", "value": 17, "max": 20 },
+        { "score": "response", "name": "Specific observation", "value": 18, "max": 20 },
+        { "score": "response", "name": "Current trigger", "value": 5, "max": 20 },
+        { "score": "response", "name": "Bounded-pilot ease", "value": 10, "max": 20 }
+      ]
+    },
+    "concepts": [
+      {
+        "title": "The Torch Forward",
+        "hook": "What stays the same when a 25-year renovation company changes hands?",
+        "outline": [
+          "Open with Kaylie in one completed ARTium space.",
+          "Name one principle retained from Norm Lecuyer's era.",
+          "Show one process or client-experience improvement under current ownership.",
+          "Close on the continuity of the ARTium team."
+        ],
+        "productionNotes": "The company must approve every ownership-transition statement. Use the public transition only as the basis for an interview, not as a complete script."
+      },
+      {
+        "title": "Reno Surprise Files",
+        "hook": "This is the renovation surprise you want to find before demolition.",
+        "outline": [
+          "Present one real hidden-condition scenario.",
+          "Show the pre-construction check that can reveal it.",
+          "Explain the budget or schedule consequence in plain language.",
+          "Close with one homeowner planning action."
+        ],
+        "productionNotes": "Use approved project examples and conceal client addresses. Avoid definitive cost claims unless ARTium supplies them."
+      },
+      {
+        "title": "Nine Months in 30 Seconds",
+        "hook": "Why does a major renovation need nine to twelve months of planning?",
+        "outline": [
+          "Show as-built drawings and layout options.",
+          "Move through 3D rendering, budget review, permit, and selections.",
+          "Cut into construction and final warranty handoff.",
+          "Close with ARTium's published planning window."
+        ],
+        "productionNotes": "Build a graphic timeline using only actual ARTium process stages."
+      }
+    ],
+    "outreach": {
+      "channel": "email",
+      "subject": "A useful ARTium video series for the next chapter",
+      "opening": "Hi Kaylie and Lindsay, I was reviewing ARTium's renovation process and noticed two opportunities.",
+      "body": "The site has strong teaching material, including the six-to-nine and nine-to-twelve-month planning windows, but that expertise is not organized into a visible short-form series. The homepage review section also sends visitors to Google rather than telling a client story directly on the page. I sketched 'Reno Surprise Files': one real renovation risk, one planning check, and one clear homeowner takeaway per video. A second piece could carry the Kaylie transition story already documented on your About page into short-form discovery content, connecting ARTium's next chapter to its 25-plus years. I'm with Que Media in Ottawa.",
+      "callToAction": "I can send the three outlines first if you would like to assess the ideas without booking a call.",
+      "evidenceUrls": [
+        "https://artiumdesignbuild.com/",
+        "https://ca.linkedin.com/company/just-basements"
+      ]
+    },
+    "sources": [
+      { "label": "Official website", "url": "https://artiumdesignbuild.com/", "publisher": "ARTium Design Build Renovations", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "official_website" },
+      { "label": "Official About page", "url": "https://artiumdesignbuild.com/about/", "publisher": "ARTium Design Build Renovations", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "official_website" },
+      { "label": "Official ownership announcement", "url": "https://artiumdesignbuild.com/exciting-news/", "publisher": "ARTium Design Build Renovations", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "official_website" },
+      { "label": "Matching company LinkedIn", "url": "https://ca.linkedin.com/company/just-basements", "publisher": "ARTium Design Build + Just Basements on LinkedIn", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "official_social" },
+      { "label": "Company profile hosted by ARTium", "url": "https://artiumdesignbuild.com/wp-content/uploads/OH_OTTAWA_Fall_2024_OPTIMIZED-1-ARTium.pdf", "publisher": "Our Homes / ARTium Design Build", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "official_document" },
+      { "label": "Amsted official website", "url": "https://amsted.ca/", "publisher": "Amsted Design-Build", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "competitor_website" },
+      { "label": "Lagois official website", "url": "https://www.lagois.com/", "publisher": "Lagois Design Build Renovate", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "competitor_website" }
+    ]
+  },
+  {
+    "id": "stonefields-estate",
+    "name": "Stonefields Estate",
+    "industry": "Wedding venue, private-event estate, culinary events, and overnight event accommodation",
+    "neighborhood": "Beckwith, near Carleton Place",
+    "location": "1985 9th Line Road, Beckwith, ON K7C 3P2",
+    "website": "https://stonefieldsweddings.com/",
+    "phone": "613-253-3313",
+    "email": "info@stonefieldsweddings.com",
+    "decisionMaker": {
+      "name": "Stephanie and Steve Malenfant",
+      "role": "Owners",
+      "sourceUrl": "https://stonefieldsweddings.com/our-story/"
+    },
+    "socials": [
+      { "platform": "Instagram", "url": "https://www.instagram.com/stonefields_estate", "handle": "@stonefields_estate" },
+      { "platform": "Facebook", "url": "https://www.facebook.com/stonefieldsestate/", "handle": "@stonefieldsestate" },
+      { "platform": "Pinterest", "url": "https://www.pinterest.ca/stonefieldsestate/", "handle": "@stonefieldsestate" }
+    ],
+    "offerings": [
+      "All-inclusive weddings",
+      "Petite weddings",
+      "Galas",
+      "Milestone celebrations",
+      "Private events",
+      "Dinner Club experiences",
+      "On-site coordination",
+      "Culinary service",
+      "Preparation spaces",
+      "Ceremony and reception settings",
+      "Overnight accommodation"
+    ],
+    "customerSegments": [
+      "Engaged couples",
+      "Couples planning petite weddings",
+      "Private-event hosts",
+      "Gala organizers",
+      "Milestone-celebration planners",
+      "Ticketed dining guests",
+      "Ottawa-area event planners"
+    ],
+    "observations": [
+      {
+        "title": "Verified channel set does not include TikTok or YouTube",
+        "detail": "The official site links Instagram, Facebook, and Pinterest, but no dedicated short-form or long-form video destination was verified.",
+        "implication": "Searchable venue education can extend beyond finished-event inspiration in a social feed.",
+        "sourceUrls": [
+          "https://stonefieldsweddings.com/"
+        ]
+      },
+      {
+        "title": "The offer has broadened beyond full weddings",
+        "detail": "The homepage remains wedding-led while also promoting petite weddings, private celebrations, galas, Dinner Club, and other experiences.",
+        "implication": "Separate short-form series can help each audience recognize the estate as relevant to its event type.",
+        "sourceUrls": [
+          "https://stonefieldsweddings.com/"
+        ]
+      },
+      {
+        "title": "Current feed themes can be extended with operational expertise",
+        "detail": "The live embedded captions include wedding-fashion trends, guest comfort, seasonal celebrations, property features, and Dinner Club.",
+        "implication": "A recurring coordinator, chef, or owner layer can connect polished visuals to the planning risk reduced by an all-inclusive service.",
+        "sourceUrls": [
+          "https://stonefieldsweddings.com/"
+        ]
+      }
+    ],
+    "whyNow": {
+      "title": "Current expansion into private events, petite weddings, and Dinner Club",
+      "detail": "The site currently says 2026 private events and petite weddings are open for booking and embeds a caption that the Fall Dinner Club Series is live. The site does not expose a publication date, so this is current sales context rather than a proven 30-day announcement.",
+      "date": null,
+      "strength": "medium",
+      "sourceUrls": [
+        "https://stonefieldsweddings.com/"
+      ]
+    },
+    "competitors": [
+      { "name": "Evermore Weddings & Events", "url": "https://evermoreweddingsandevents.ca/" },
+      { "name": "Aquatopia Water Garden Conservatory", "url": "https://www.aquatopia.world/weddings-events/weddings-events" }
+    ],
+    "scores": {
+      "contentFit": 96,
+      "opportunity": 80,
+      "response": 70,
+      "summary": "Premium visual inventory and a newly broader event mix create strong content fit; timing is useful but lacks a visible publication date.",
+      "dimensions": [
+        { "score": "contentFit", "name": "Visual inventory", "value": 25, "max": 25 },
+        { "score": "contentFit", "name": "Teachable expertise", "value": 22, "max": 25 },
+        { "score": "contentFit", "name": "People and story potential", "value": 20, "max": 20 },
+        { "score": "contentFit", "name": "Ottawa relevance", "value": 14, "max": 15 },
+        { "score": "contentFit", "name": "Repeatable formats", "value": 15, "max": 15 },
+        { "score": "opportunity", "name": "Channel whitespace", "value": 18, "max": 20 },
+        { "score": "opportunity", "name": "Conversion gap", "value": 14, "max": 20 },
+        { "score": "opportunity", "name": "Timing", "value": 14, "max": 20 },
+        { "score": "opportunity", "name": "Content-mix whitespace", "value": 18, "max": 20 },
+        { "score": "opportunity", "name": "Customer-value economics", "value": 16, "max": 20 },
+        { "score": "response", "name": "Published contact route", "value": 20, "max": 20 },
+        { "score": "response", "name": "Named decision-maker access", "value": 16, "max": 20 },
+        { "score": "response", "name": "Specific observation", "value": 17, "max": 20 },
+        { "score": "response", "name": "Current trigger", "value": 10, "max": 20 },
+        { "score": "response", "name": "Bounded-pilot ease", "value": 7, "max": 20 }
+      ]
+    },
+    "concepts": [
+      {
+        "title": "Full Wedding or Petite?",
+        "hook": "What changes when a full wedding becomes a petite wedding?",
+        "outline": [
+          "Use split screen to show how the same estate supports two event sizes.",
+          "Have a coordinator explain one planning decision that changes at each scale.",
+          "Show the corresponding ceremony, dining, and guest-flow choices.",
+          "Close on booking a tour for the relevant format."
+        ],
+        "productionNotes": "Film empty spaces and approved event footage from both formats. Do not imply fixed capacities or packages without current internal approval."
+      },
+      {
+        "title": "The Quiet Work Behind Guest Comfort",
+        "hook": "Guests never see these three checks, but they feel all of them.",
+        "outline": [
+          "Follow one staff member through the weather contingency.",
+          "Show ceremony-to-cocktail guest flow preparation.",
+          "Show one accommodation or overnight-readiness check.",
+          "Close on the benefit of the all-inclusive team."
+        ],
+        "productionNotes": "Use real pre-event operations and avoid identifying a couple or event without consent."
+      },
+      {
+        "title": "Empty Barn to First Plate",
+        "hook": "Here is what happens before Dinner Club's first plate reaches the room.",
+        "outline": [
+          "Open on the empty event space.",
+          "Time-lapse the tablescape and lighting transition.",
+          "Move to the kitchen pass and first plate.",
+          "Have Stephanie or Steve explain why the public dining experience was added."
+        ],
+        "productionNotes": "Capture the room from a locked camera position for a seamless transformation. Approve all event dates and ticket language before release."
+      }
+    ],
+    "outreach": {
+      "channel": "email",
+      "subject": "A short-form series for Stonefields' new 2026 audiences",
+      "opening": "Hi Stephanie and Steve, I was looking at the current Stonefields site and noticed how much the offer has expanded.",
+      "body": "Private events, petite weddings, and Dinner Club now sit alongside the all-inclusive wedding experience. I sketched a video series that helps those audiences see themselves at the estate. The first concept is 'Full Wedding or Petite?', using the same spaces to show how a full wedding and a petite wedding flow differently. A second follows the quiet guest-comfort work your team handles before anyone arrives, and a third takes Dinner Club from an empty barn to the first plate. I'm with Que Media in Ottawa.",
+      "callToAction": "If useful, I can send the shot outlines before suggesting any meeting.",
+      "evidenceUrls": [
+        "https://stonefieldsweddings.com/",
+        "https://stonefieldsweddings.com/contact-us/"
+      ]
+    },
+    "sources": [
+      { "label": "Official homepage", "url": "https://stonefieldsweddings.com/", "publisher": "Stonefields Estate", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "official_website" },
+      { "label": "Official contact page", "url": "https://stonefieldsweddings.com/contact-us/", "publisher": "Stonefields Estate", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "official_website" },
+      { "label": "Official Stonefields story", "url": "https://stonefieldsweddings.com/our-story/", "publisher": "Stonefields Estate", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "official_website" },
+      { "label": "Evermore official website", "url": "https://evermoreweddingsandevents.ca/", "publisher": "Evermore Weddings & Events", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "competitor_website" },
+      { "label": "Aquatopia weddings and events", "url": "https://www.aquatopia.world/weddings-events/weddings-events", "publisher": "Aquatopia Water Garden Conservatory", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "competitor_website" }
+    ]
+  },
+  {
+    "id": "lagois-design-build-renovate",
+    "name": "Lagois Design Build Renovate",
+    "industry": "Boutique residential design-build renovation and custom homes",
+    "neighborhood": "North Gower",
+    "location": "5921 Prince of Wales Drive, North Gower, Ottawa, ON K0A 2T0",
+    "website": "https://www.lagois.com/",
+    "phone": "613-489-2345",
+    "email": "info@lagois.com",
+    "decisionMaker": {
+      "name": "Emma Kwan",
+      "role": "Interior Design Specialist and Director of Marketing",
+      "sourceUrl": "https://www.lagois.com/our-team"
+    },
+    "socials": [
+      { "platform": "Instagram", "url": "https://www.instagram.com/lagoisdesignbuild/", "handle": "@lagoisdesignbuild" },
+      { "platform": "Facebook", "url": "https://www.facebook.com/LagoisDesignBuildRenovate", "handle": "@LagoisDesignBuildRenovate" },
+      { "platform": "LinkedIn", "url": "https://www.linkedin.com/company/lagois-design-build-renovate/", "handle": "Lagois Design Build Renovate" },
+      { "platform": "YouTube", "url": "https://www.youtube.com/@lagoisdesignbuildrenovate", "handle": "@lagoisdesignbuildrenovate" },
+      { "platform": "Pinterest", "url": "https://ca.pinterest.com/lagoisdesign/", "handle": "@lagoisdesign" },
+      { "platform": "Houzz", "url": "https://www.houzz.com/pro/lagoisdesignbuild", "handle": "lagoisdesignbuild" }
+    ],
+    "offerings": [
+      "Major renovations",
+      "Home additions",
+      "Custom homes",
+      "Whole-home transformations",
+      "Kitchen renovations",
+      "Bathroom renovations",
+      "Exterior renovations",
+      "Net-zero renovation",
+      "Adaptiv living-in-place renovation",
+      "In-house architectural design"
+    ],
+    "customerSegments": [
+      "Ottawa homeowners planning major renovations",
+      "Custom-home buyers",
+      "Homeowners planning for aging in place",
+      "Energy-conscious homeowners",
+      "Homeowners seeking a boutique integrated design-build team"
+    ],
+    "observations": [
+      {
+        "title": "LinkedIn footer destination is misconfigured",
+        "detail": "The current homepage footer points to a LinkedIn administrative dashboard path instead of the public company page.",
+        "implication": "Correcting the destination is a small trust and discoverability win before promoting social proof.",
+        "sourceUrls": [
+          "https://www.lagois.com/",
+          "https://www.linkedin.com/company/lagois-design-build-renovate/"
+        ]
+      },
+      {
+        "title": "Distinct differentiators are text-heavy on the main conversion surface",
+        "detail": "Net-zero renovation, Adaptiv living in place, indoor-outdoor living, the three-phase process, and the five-year warranty are described primarily through text and still imagery on the inspected homepage.",
+        "implication": "A recurring expert-video library can make the concepts easier to understand before consultation.",
+        "sourceUrls": [
+          "https://www.lagois.com/"
+        ]
+      },
+      {
+        "title": "The team provides a natural rotating cast",
+        "detail": "The official roster includes ownership, marketing/interior design, lead design, production, project coordination, and site supervision.",
+        "implication": "A multi-expert format can demonstrate organizational depth and avoid over-reliance on one spokesperson.",
+        "sourceUrls": [
+          "https://www.lagois.com/our-team"
+        ]
+      }
+    ],
+    "whyNow": null,
+    "competitors": [
+      { "name": "Amsted Design-Build", "url": "https://amsted.ca/" },
+      { "name": "OakWood Design & Build", "url": "https://oakwood.ca/" }
+    ],
+    "scores": {
+      "contentFit": 93,
+      "opportunity": 73,
+      "response": 68,
+      "summary": "Premium visual projects and unusually strong expert depth create excellent content fit; no strong 30-day buying-intent signal was verified.",
+      "dimensions": [
+        { "score": "contentFit", "name": "Visual inventory", "value": 25, "max": 25 },
+        { "score": "contentFit", "name": "Teachable expertise", "value": 25, "max": 25 },
+        { "score": "contentFit", "name": "People and story potential", "value": 20, "max": 20 },
+        { "score": "contentFit", "name": "Ottawa relevance", "value": 13, "max": 15 },
+        { "score": "contentFit", "name": "Repeatable formats", "value": 10, "max": 15 },
+        { "score": "opportunity", "name": "Channel whitespace", "value": 10, "max": 20 },
+        { "score": "opportunity", "name": "Conversion gap", "value": 15, "max": 20 },
+        { "score": "opportunity", "name": "Timing", "value": 8, "max": 20 },
+        { "score": "opportunity", "name": "Content-mix whitespace", "value": 20, "max": 20 },
+        { "score": "opportunity", "name": "Customer-value economics", "value": 20, "max": 20 },
+        { "score": "response", "name": "Published contact route", "value": 20, "max": 20 },
+        { "score": "response", "name": "Named decision-maker access", "value": 18, "max": 20 },
+        { "score": "response", "name": "Specific observation", "value": 18, "max": 20 },
+        { "score": "response", "name": "Current trigger", "value": 4, "max": 20 },
+        { "score": "response", "name": "Bounded-pilot ease", "value": 8, "max": 20 }
+      ]
+    },
+    "concepts": [
+      {
+        "title": "Would This Survive Your Next Life Stage?",
+        "hook": "Will this renovation still work when your life changes?",
+        "outline": [
+          "Open on one floor-plan or circulation detail.",
+          "Show how it serves a homeowner's current life.",
+          "Show the living-in-place adaptation it supports later.",
+          "Close on one planning question to ask before renovation."
+        ],
+        "productionNotes": "Use Lagois-approved Adaptiv examples and avoid medical or accessibility claims not supplied by the company."
+      },
+      {
+        "title": "Net Zero, One Detail at a Time",
+        "hook": "This invisible detail changes how the whole room feels.",
+        "outline": [
+          "Open on one envelope or efficiency detail during installation.",
+          "Have a site expert explain its purpose in plain language.",
+          "Show the finished surface that conceals it.",
+          "Close with one homeowner question."
+        ],
+        "productionNotes": "Use verified project specifications. Do not make energy-savings claims without project data."
+      },
+      {
+        "title": "Sketch to Site",
+        "hook": "This one pencil mark became the detail you notice first.",
+        "outline": [
+          "Start with an approved sketch or plan mark.",
+          "Match cut to framing or rough-in.",
+          "Move to finish selection.",
+          "Reveal the completed space and the homeowner question that drove it."
+        ],
+        "productionNotes": "Secure client consent and conceal plan details that identify an address."
+      }
+    ],
+    "outreach": {
+      "channel": "email",
+      "subject": "A Lagois expert series, plus one small LinkedIn fix",
+      "opening": "Hi Emma, I was reviewing how Lagois explains net-zero renovation, Adaptiv living-in-place work, and the three-phase design-build process.",
+      "body": "Those are strong differentiators, but they take several paragraphs to understand. Your team roster also gives you a natural cast for video: ownership, design, interiors, production, and site supervision. I mapped a recurring series called 'Net Zero, One Detail at a Time,' plus a 'Sketch to Site' format that connects a design decision to the built result. One small site note as well: the LinkedIn link in the current footer points to an admin dashboard path rather than the public company page. I'm with Que Media in Ottawa.",
+      "callToAction": "If it is useful, I can send three complete shot outlines tailored to the services Lagois most wants to grow.",
+      "evidenceUrls": [
+        "https://www.lagois.com/",
+        "https://www.lagois.com/our-team",
+        "https://www.linkedin.com/company/lagois-design-build-renovate/"
+      ]
+    },
+    "sources": [
+      { "label": "Official homepage", "url": "https://www.lagois.com/", "publisher": "Lagois Design Build Renovate", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "official_website" },
+      { "label": "Official contact page", "url": "https://www.lagois.com/get-in-touch", "publisher": "Lagois Design Build Renovate", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "official_website" },
+      { "label": "Official team page", "url": "https://www.lagois.com/our-team", "publisher": "Lagois Design Build Renovate", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "official_website" },
+      { "label": "Official Linktree", "url": "https://linktr.ee/lagoisdesignbuild", "publisher": "Lagois Design Build Renovate", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "official_social_index" },
+      { "label": "Public company LinkedIn", "url": "https://www.linkedin.com/company/lagois-design-build-renovate/", "publisher": "Lagois Design Build Renovate on LinkedIn", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "official_social" },
+      { "label": "Amsted official website", "url": "https://amsted.ca/", "publisher": "Amsted Design-Build", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "competitor_website" },
+      { "label": "OakWood official website", "url": "https://oakwood.ca/", "publisher": "OakWood Design & Build", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "competitor_website" }
+    ]
+  },
+  {
+    "id": "oakwood-design-build",
+    "name": "OakWood Design & Build",
+    "industry": "Residential and commercial design-build, renovation, custom homes, and architectural design",
+    "neighborhood": "Orleans, Glebe, and Kanata",
+    "location": "Headquarters: 865 Taylor Creek Drive, Ottawa, ON K4A 0Z9; central studio: 555 Bank Street, Ottawa, ON K1S 5L7; trade partner location: 31 Northside Road, Ottawa, ON K2H 8S1",
+    "website": "https://oakwood.ca/",
+    "phone": "613-236-8001",
+    "email": "info@oakwood.ca",
+    "decisionMaker": {
+      "name": "Patricia Liptak-Satov",
+      "role": "Chief Operating Officer",
+      "sourceUrl": "https://www.oakwood.ca/about/"
+    },
+    "socials": [
+      { "platform": "Instagram", "url": "https://www.instagram.com/oakwooddesignandbuild/", "handle": "@oakwooddesignandbuild" },
+      { "platform": "Facebook", "url": "https://www.facebook.com/OakWoodDesignBuild/", "handle": "@OakWoodDesignBuild" },
+      { "platform": "LinkedIn", "url": "https://ca.linkedin.com/company/oakwood-renovation-experts", "handle": "OakWood Design & Build" },
+      { "platform": "YouTube", "url": "https://www.youtube.com/@OakWoodDesign-Build", "handle": "@OakWoodDesign-Build" }
+    ],
+    "offerings": [
+      "Architectural design",
+      "Concept and 3D design",
+      "Custom homes",
+      "Home renovations and additions",
+      "Kitchens and custom cabinetry",
+      "Investment properties",
+      "Commercial design-build",
+      "Project financing introductions",
+      "High-performance and energy-efficient solutions",
+      "Project communication through the OakWood app"
+    ],
+    "customerSegments": [
+      "Ottawa homeowners planning major renovations",
+      "Custom-home buyers",
+      "Kitchen and cabinetry buyers",
+      "Property investors",
+      "Commercial property owners",
+      "Homeowners seeking high-performance or technology-enabled construction"
+    ],
+    "observations": [
+      {
+        "title": "Stray characters appear in the current homepage rendering",
+        "detail": "The current page crawl renders isolated N characters around proof points and feature blocks, including the service-since and project-count sections.",
+        "implication": "A template or icon-rendering check would improve polish on a premium service conversion page.",
+        "sourceUrls": [
+          "https://oakwood.ca/"
+        ]
+      },
+      {
+        "title": "A broad offer creates a long decision surface",
+        "detail": "Architectural design, homes, renovations, cabinetry, investment properties, commercial work, financing, sustainability, studios, and process all compete for attention on the main site.",
+        "implication": "Short video pathways can segment viewers by the specific decision they are making.",
+        "sourceUrls": [
+          "https://oakwood.ca/"
+        ]
+      },
+      {
+        "title": "The design studios are a distinctive content asset",
+        "detail": "OakWood says the Orleans design centre contains more than 7,500 products and displays and invites in-person tours.",
+        "implication": "A recurring showroom series can turn material and technology comparisons into local studio appointments.",
+        "sourceUrls": [
+          "https://www.oakwood.ca/design-centre/"
+        ]
+      }
+    ],
+    "whyNow": null,
+    "competitors": [
+      { "name": "Amsted Design-Build", "url": "https://amsted.ca/" },
+      { "name": "ARTium Design Build Renovations", "url": "https://artiumdesignbuild.com/" }
+    ],
+    "scores": {
+      "contentFit": 94,
+      "opportunity": 70,
+      "response": 64,
+      "summary": "Three local studios, a four-generation story, and deep visual inventory create exceptional content potential; the lack of a current trigger and likely incumbent sophistication lower response expectations.",
+      "dimensions": [
+        { "score": "contentFit", "name": "Visual inventory", "value": 25, "max": 25 },
+        { "score": "contentFit", "name": "Teachable expertise", "value": 25, "max": 25 },
+        { "score": "contentFit", "name": "People and story potential", "value": 19, "max": 20 },
+        { "score": "contentFit", "name": "Ottawa relevance", "value": 15, "max": 15 },
+        { "score": "contentFit", "name": "Repeatable formats", "value": 10, "max": 15 },
+        { "score": "opportunity", "name": "Channel whitespace", "value": 8, "max": 20 },
+        { "score": "opportunity", "name": "Conversion gap", "value": 15, "max": 20 },
+        { "score": "opportunity", "name": "Timing", "value": 7, "max": 20 },
+        { "score": "opportunity", "name": "Content-mix whitespace", "value": 20, "max": 20 },
+        { "score": "opportunity", "name": "Customer-value economics", "value": 20, "max": 20 },
+        { "score": "response", "name": "Published contact route", "value": 20, "max": 20 },
+        { "score": "response", "name": "Named decision-maker access", "value": 17, "max": 20 },
+        { "score": "response", "name": "Specific observation", "value": 18, "max": 20 },
+        { "score": "response", "name": "Current trigger", "value": 1, "max": 20 },
+        { "score": "response", "name": "Bounded-pilot ease", "value": 8, "max": 20 }
+      ]
+    },
+    "concepts": [
+      {
+        "title": "Touch It Before You Build It",
+        "hook": "These two materials look almost identical online. They do not feel or perform the same.",
+        "outline": [
+          "Compare two materials in the Orleans design centre.",
+          "Show the tactile or performance difference up close.",
+          "Have a designer explain the homeowner decision each suits.",
+          "Close on an in-person studio visit."
+        ],
+        "productionNotes": "Film under controlled showroom lighting with macro detail and label every product accurately. Avoid durability claims not supplied by the manufacturer."
+      },
+      {
+        "title": "The Budget Problem We Catch Before Construction",
+        "hook": "This is where one design decision becomes a construction budget problem.",
+        "outline": [
+          "Open on a concept or 3D model.",
+          "Show the architect, designer, and builder review sequence.",
+          "Explain the feasibility change before permit or demolition.",
+          "Close with one planning question for homeowners."
+        ],
+        "productionNotes": "Use a de-identified approved case and avoid quoting costs without OakWood documentation."
+      },
+      {
+        "title": "Four Generations, One Detail",
+        "hook": "This craft principle survived four generations, but the technology changed.",
+        "outline": [
+          "Have John or Patricia select one legacy craft detail.",
+          "Show an archival or workshop reference if available.",
+          "Have a younger team member demonstrate the modern high-performance version.",
+          "Close on the principle that connects them."
+        ],
+        "productionNotes": "Use family archive material only with OakWood approval. Keep the story specific to one detail per episode."
+      }
+    ],
+    "outreach": {
+      "channel": "email",
+      "subject": "A showroom-led video format for OakWood",
+      "opening": "Hi Patricia, I was reviewing OakWood's current site and the physical design-centre offer stood out.",
+      "body": "More than 7,500 products and displays gives you a strong local filming asset: homeowners can see why two materials that look similar online feel, age, or perform differently in person. I mapped a short series called 'Touch It Before You Build It,' filmed in the Orleans studio and closed on a design-centre visit. A second format would show one budget or feasibility problem the integrated architect, designer, and builder team catches before construction. One small web note: the current homepage crawl is also rendering isolated N characters between several proof points, which may be worth a template check. I'm with Que Media in Ottawa.",
+      "callToAction": "I can send the first three scripts before asking for any time on your calendar.",
+      "evidenceUrls": [
+        "https://oakwood.ca/",
+        "https://www.oakwood.ca/design-centre/",
+        "https://www.oakwood.ca/about/"
+      ]
+    },
+    "sources": [
+      { "label": "Official homepage", "url": "https://oakwood.ca/", "publisher": "OakWood Design & Build", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "official_website" },
+      { "label": "Official consultation and locations page", "url": "https://www.oakwood.ca/book-consultation/", "publisher": "OakWood Design & Build", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "official_website" },
+      { "label": "Official history", "url": "https://www.oakwood.ca/about/", "publisher": "OakWood Design & Build", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "official_website" },
+      { "label": "Official design centre page", "url": "https://www.oakwood.ca/design-centre/", "publisher": "OakWood Design & Build", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "official_website" },
+      { "label": "Official media release", "url": "https://www.oakwood.ca/wp-content/uploads/OakWood-Breaks-Record-for-Most-Finalist-Entries-at-2021-GOHBA-Housing-Design-Awards.pdf", "publisher": "OakWood Designers & Builders", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "official_document" },
+      { "label": "Amsted official website", "url": "https://amsted.ca/", "publisher": "Amsted Design-Build", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "competitor_website" },
+      { "label": "ARTium official website", "url": "https://artiumdesignbuild.com/", "publisher": "ARTium Design Build Renovations", "capturedAt": "2026-07-20", "lastPublishedAt": null, "kind": "competitor_website" }
+    ]
+  }
+]

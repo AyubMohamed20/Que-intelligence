@@ -1,0 +1,35 @@
+{
+  "intent": "breaking_news",
+  "freshness_mode": "strict_recent",
+  "cluster_mode": "story",
+  "subqueries": [
+    {
+      "label": "business-movement",
+      "search_query": "Ottawa local business openings expansions hiring events",
+      "ranking_query": "Which Ottawa businesses have opened, expanded, hired, launched services, or announced notable events in the current research window?",
+      "sources": ["reddit", "x", "youtube", "tiktok", "instagram", "hackernews", "polymarket", "grounding"],
+      "weight": 1.0
+    },
+    {
+      "label": "consumer-pulse",
+      "search_query": "Ottawa restaurants studios shops recommendations openings",
+      "ranking_query": "Which independent Ottawa restaurants, studios, shops, and local experiences are receiving timely community attention?",
+      "sources": ["reddit", "youtube", "tiktok", "instagram", "grounding"],
+      "weight": 0.8
+    },
+    {
+      "label": "summer-opportunity",
+      "search_query": "Ottawa summer festivals business partnerships promotions",
+      "ranking_query": "Which current Ottawa summer events create credible partnership, campaign, or content opportunities for local businesses?",
+      "sources": ["reddit", "x", "youtube", "instagram", "grounding"],
+      "weight": 0.7
+    },
+    {
+      "label": "growth-signals",
+      "search_query": "Ottawa small business new location service launch recruitment",
+      "ranking_query": "What public evidence shows active growth or marketing investment by Ottawa small businesses?",
+      "sources": ["reddit", "x", "grounding"],
+      "weight": 0.7
+    }
+  ]
+}

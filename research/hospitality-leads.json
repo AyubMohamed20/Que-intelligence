@@ -1,0 +1,1344 @@
+[
+  {
+    "id": "moo-shu-ice-cream-kitchen",
+    "name": "Moo Shu Ice Cream & Kitchen",
+    "industry": "Small-batch ice cream, cafe, catering, and workshops",
+    "neighborhood": "Hintonburg",
+    "location": "Unit 1, 1130 Wellington Street West, Ottawa, ON K1Y 2Z3",
+    "website": "https://www.mooshuicecream.com/",
+    "phone": null,
+    "email": "mooshuicecream@gmail.com",
+    "decisionMaker": {
+      "name": "Liz Mok",
+      "role": "Owner and chef",
+      "sourceUrl": "https://ottawatourism.ca/en/ottawa-insider/best-ice-cream-and-other-frozen-treats-ottawa"
+    },
+    "socials": [
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/mooshuicecream",
+        "handle": "@mooshuicecream"
+      },
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/mooshuicecream",
+        "handle": "mooshuicecream"
+      },
+      {
+        "platform": "X",
+        "url": "https://twitter.com/mooshuicecream",
+        "handle": "@mooshuicecream"
+      }
+    ],
+    "offerings": [
+      "Small-batch ice cream and vegan ice cream",
+      "Cafe beverages and pastries",
+      "Ice cream workshops",
+      "Custom catering",
+      "Gift cards"
+    ],
+    "customerSegments": [
+      "Ottawa residents seeking distinctive local desserts",
+      "Vegan and dairy customers",
+      "Families and friend groups",
+      "Private and corporate catering customers",
+      "Workshop participants"
+    ],
+    "observations": [
+      {
+        "title": "The official homepage still displays a 2025 market schedule",
+        "detail": "The current site footer says 2026, but its Markets & Events block still says Parkdale Night Market runs June 4 to October 8, 2025.",
+        "implication": "A short, current weekly market video and a 2026 schedule refresh would remove ambiguity and turn nearby Hintonburg and Parkdale traffic into visits.",
+        "sourceUrls": [
+          "https://www.mooshuicecream.com/"
+        ]
+      },
+      {
+        "title": "The brand has unusually strong process and founder-story material",
+        "detail": "The official team page says products are dreamed up and made in small batches, with novelty, nostalgia, heritage, and ecology guiding the work. Ottawa Tourism identifies Liz Mok as owner and chef.",
+        "implication": "Ingredient sourcing, flavour development, and founder-led explainers can become recurring educational and entertaining video series instead of one-off product posts.",
+        "sourceUrls": [
+          "https://www.mooshuicecream.com/pages/our-team",
+          "https://ottawatourism.ca/en/ottawa-insider/best-ice-cream-and-other-frozen-treats-ottawa"
+        ]
+      },
+      {
+        "title": "The conversion journey crosses several external tools",
+        "detail": "The official navigation sends gift-card buyers to Square and catering visitors to Notion, while workshops and menus remain on the main site.",
+        "implication": "Platform-specific videos should use one clear destination per campaign so viewers do not have to choose among several paths after watching.",
+        "sourceUrls": [
+          "https://www.mooshuicecream.com/",
+          "https://www.mooshuicecream.com/pages/workshops"
+        ]
+      }
+    ],
+    "whyNow": {
+      "title": "Peak summer attention plus fresh regional travel coverage",
+      "detail": "CAA North & East Ontario included Moo Shu in a July 7, 2026 Ottawa-area ice-cream guide, while the official shop is operating extended summer hours in Hintonburg. This creates a current window to convert destination interest into trackable visits and catering awareness.",
+      "date": "2026-07-07",
+      "strength": "medium",
+      "sourceUrls": [
+        "https://caaneo.ca/magazine/travel/ice-cream-shops-around-ottawa/",
+        "https://www.mooshuicecream.com/"
+      ]
+    },
+    "competitors": [
+      {
+        "name": "The Merry Dairy",
+        "url": "https://themerrydairy.com/"
+      },
+      {
+        "name": "Farinella",
+        "url": "https://www.farinellaeats.com/"
+      }
+    ],
+    "scores": {
+      "contentFit": 95,
+      "opportunity": 83,
+      "response": 80,
+      "summary": "Overall 87/100. The product is highly visual, the founder story is distinctive, and the official contact is public. The main opportunity is to turn rich process and community material into repeatable short-form series while cleaning up stale conversion information.",
+      "dimensions": [
+        "Visual product: 20/20",
+        "On-camera education and founder story: 19/20",
+        "Recurring seasonal content: 19/20",
+        "Community and local relevance: 19/20",
+        "Conversion potential: 18/20"
+      ]
+    },
+    "concepts": [
+      {
+        "title": "Why this flavour works",
+        "hook": "This ice cream tastes different at three temperatures.",
+        "outline": [
+          "Liz names one current flavour and the memory, heritage ingredient, or local crop behind it.",
+          "Macro shots show the small-batch mix, texture, and finished scoop.",
+          "A fast taste map labels the first, middle, and finishing notes.",
+          "End on the exact in-shop availability window."
+        ],
+        "productionNotes": "Founder-led, 25 to 35 seconds, natural kitchen sound, macro food shots, caption every ingredient and availability date."
+      },
+      {
+        "title": "One batch from farm to scoop",
+        "hook": "This Ottawa-grown ingredient has 24 hours to become ice cream.",
+        "outline": [
+          "Open at the supplier handoff or ingredient delivery.",
+          "Show preparation, base creation, churning, and serving in four rapid chapters.",
+          "Name the producer only after approval and link the final flavour to the current menu."
+        ],
+        "productionNotes": "Shoot vertically across one production day; use a visible clock motif and keep claims limited to verified sourcing."
+      },
+      {
+        "title": "Can an ice-cream workshop fix this?",
+        "hook": "Three friends get one mystery ingredient and one hour.",
+        "outline": [
+          "Introduce a real workshop challenge.",
+          "Capture participant reactions, a quick teaching moment, and the final reveal.",
+          "Close with the workshop and catering booking path."
+        ],
+        "productionNotes": "Use real participants with releases; create one hero reel plus three short reaction cutdowns."
+      }
+    ],
+    "outreach": {
+      "channel": "Email",
+      "subject": "A short-form series built around Moo Shu's flavour process",
+      "opening": "Hi Liz, I was looking through Moo Shu's current site and your team page's description of novelty, nostalgia, heritage, and ecology is an unusually strong video brief in itself.",
+      "body": "I also noticed the homepage still shows the Parkdale Night Market's 2025 dates, even as the Hintonburg shop is in peak summer season and CAA featured Moo Shu in its July 7 local ice-cream guide. Que Media could turn one production day into a recurring founder-led series that follows a flavour from ingredient to scoop, then pair each video with one current visit, workshop, or catering action. The goal would be useful, specific storytelling, not generic food glamour shots.",
+      "callToAction": "Would you be open to a 15-minute conversation if I send a three-video outline based on one flavour you are serving now?",
+      "evidenceUrls": [
+        "https://www.mooshuicecream.com/",
+        "https://www.mooshuicecream.com/pages/our-team",
+        "https://caaneo.ca/magazine/travel/ice-cream-shops-around-ottawa/"
+      ]
+    },
+    "sources": [
+      {
+        "label": "Official homepage and contact details",
+        "url": "https://www.mooshuicecream.com/",
+        "publisher": "Moo Shu Ice Cream & Kitchen",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official"
+      },
+      {
+        "label": "Official team and employment page",
+        "url": "https://www.mooshuicecream.com/pages/our-team",
+        "publisher": "Moo Shu Ice Cream & Kitchen",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official"
+      },
+      {
+        "label": "Ottawa ice-cream guide and owner identification",
+        "url": "https://ottawatourism.ca/en/ottawa-insider/best-ice-cream-and-other-frozen-treats-ottawa",
+        "publisher": "Ottawa Tourism",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "professional"
+      },
+      {
+        "label": "Recent Ottawa-area ice-cream guide",
+        "url": "https://caaneo.ca/magazine/travel/ice-cream-shops-around-ottawa/",
+        "publisher": "CAA North & East Ontario",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": "2026-07-07",
+        "kind": "professional"
+      }
+    ]
+  },
+  {
+    "id": "beyond-the-pale-brewing-company",
+    "name": "Beyond the Pale Brewing Company",
+    "industry": "Independent craft brewery, taprooms, restaurant, retail, and events",
+    "neighborhood": "City Centre and ByWard Market",
+    "location": "250 City Centre Avenue, Unit 108, Ottawa, ON; second taproom at 21 George Street, Ottawa, ON K1N 8W5",
+    "website": "https://btpshop.ca/",
+    "phone": "613-668-2337",
+    "email": "reservations@btpbeer.com",
+    "decisionMaker": {
+      "name": "Shane Clark",
+      "role": "Co-owner and brewmaster",
+      "sourceUrl": "https://obj.ca/beyond-the-pale-taproom-former-courtyard-restaurant/"
+    },
+    "socials": [
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/btpbrewing/",
+        "handle": "@btpbrewing"
+      },
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/BeyondThePaleBrewingCompany",
+        "handle": "BeyondThePaleBrewingCompany"
+      },
+      {
+        "platform": "TikTok",
+        "url": "https://www.tiktok.com/@beyondthepalebrewery",
+        "handle": "@beyondthepalebrewery"
+      },
+      {
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/@beyondthepalebrewingcompany",
+        "handle": "@beyondthepalebrewingcompany"
+      },
+      {
+        "platform": "Threads",
+        "url": "https://www.threads.com/@btpbrewing",
+        "handle": "@btpbrewing"
+      },
+      {
+        "platform": "X",
+        "url": "https://x.com/BTPBrewing",
+        "handle": "@BTPBrewing"
+      }
+    ],
+    "offerings": [
+      "Ottawa-brewed craft beer",
+      "City Centre taproom with 16 taps, full kitchen, and patio",
+      "ByWard Market taproom and event space",
+      "Retail cans, home kegs, and merchandise",
+      "Private events and recurring public events",
+      "Ontario retail distribution"
+    ],
+    "customerSegments": [
+      "Ottawa craft-beer customers",
+      "ByWard Market visitors and tourists",
+      "Event planners and private groups",
+      "Restaurant and patio guests",
+      "Ontario retail beer buyers"
+    ],
+    "observations": [
+      {
+        "title": "Two venues create a large but split content calendar",
+        "detail": "The official site maintains separate event paths for City Centre and ByWard, while the about page positions both the brewery and the newer market location.",
+        "implication": "A consistent two-location video format could help customers immediately understand where each event, menu item, or experience is happening.",
+        "sourceUrls": [
+          "https://btpshop.ca/pages/about-beyond-the-pale-brewing-company",
+          "https://btpshop.ca/pages/events",
+          "https://btpshop.ca/pages/byward-market-events"
+        ]
+      },
+      {
+        "title": "The current event pipeline is ready-made for episodic video",
+        "detail": "The official July 2026 calendars list live music and brunch at ByWard and an Outside the Box trivia event at City Centre on July 22.",
+        "implication": "Weekly preview, host-introduction, and next-day recap videos can compound audience recognition instead of treating each event as an isolated poster.",
+        "sourceUrls": [
+          "https://btpshop.ca/pages/events",
+          "https://btpshop.ca/pages/byward-market-events"
+        ]
+      },
+      {
+        "title": "A visible hours error weakens otherwise strong local conversion information",
+        "detail": "The official about page lists City Centre's Sunday hours as 11 AM to 10 AM, while the same page describes a full-service taproom.",
+        "implication": "A basic information cleanup should accompany any campaign so high-performing videos land on accurate visit details.",
+        "sourceUrls": [
+          "https://btpshop.ca/pages/about-beyond-the-pale-brewing-company"
+        ]
+      }
+    ],
+    "whyNow": {
+      "title": "Active July programming at both Ottawa venues",
+      "detail": "The official calendars show ByWard brunch and patio live music on July 19 and City Centre trivia on July 22, creating an immediate production window for event-led video and a repeatable weekly series.",
+      "date": "2026-07-22",
+      "strength": "high",
+      "sourceUrls": [
+        "https://btpshop.ca/pages/events",
+        "https://btpshop.ca/pages/byward-market-events"
+      ]
+    },
+    "competitors": [
+      {
+        "name": "Dominion City Brewing Co.",
+        "url": "https://www.dominioncity.ca/"
+      },
+      {
+        "name": "Tooth and Nail Brewing Company",
+        "url": "https://toothandnailbeer.com/"
+      }
+    ],
+    "scores": {
+      "contentFit": 91,
+      "opportunity": 79,
+      "response": 72,
+      "summary": "Overall 82/100. Brewing, food, staff, live events, and two distinct venues offer deep visual inventory. The primary opportunity is a recognizable multi-location series. Response is moderated because the established brewery likely has existing marketing resources.",
+      "dimensions": [
+        "Visual production process: 19/20",
+        "Staff and host participation: 18/20",
+        "Recurring events: 20/20",
+        "Local brand story: 18/20",
+        "Measurable visit and event conversion: 16/20"
+      ]
+    },
+    "concepts": [
+      {
+        "title": "BTP This Week: two venues in 30 seconds",
+        "hook": "City Centre or ByWard? Here is the move this week.",
+        "outline": [
+          "Split-screen the week's strongest event at each venue.",
+          "Show one food or beer pairing for each location.",
+          "End with venue-specific date, time, and address."
+        ],
+        "productionNotes": "One repeatable template, shot weekly; strong location labels and no generic stock beer footage."
+      },
+      {
+        "title": "One tap, one story",
+        "hook": "This beer started with one ingredient we almost did not use.",
+        "outline": [
+          "A brewer introduces one current pour.",
+          "Show the ingredient, process moment, and final pour.",
+          "Pair it with one current menu item and say where it is available."
+        ],
+        "productionNotes": "Founder or brewer on camera, 30 seconds, close sound design, macro ingredient shots."
+      },
+      {
+        "title": "Before the doors open",
+        "hook": "What it takes to turn a heritage courtyard into tonight's event space.",
+        "outline": [
+          "Time-lapse the ByWard setup.",
+          "Introduce the event host or performer.",
+          "Show the first guest arrival and one atmosphere payoff."
+        ],
+        "productionNotes": "Shoot one real event from setup through opening; make one 40-second hero cut and three six-second reminders."
+      }
+    ],
+    "outreach": {
+      "channel": "Email",
+      "subject": "A two-location weekly video format for BTP",
+      "opening": "Hi Shane, BTP's July calendar made one content opportunity unusually clear: City Centre and ByWard each have their own reason to visit in the same week.",
+      "body": "The current pages list ByWard brunch and patio music alongside City Centre's July 22 trivia, but a first-time customer still has to work through separate calendars to decide where to go. Que Media could build a repeatable 'BTP This Week' short-form series that gives each venue one strong visual moment, one pairing, and one exact action. I also noticed the About page lists Sunday's City Centre close as 10 AM, so I would pair the campaign with a quick conversion-detail audit rather than send traffic to uncertain information.",
+      "callToAction": "Can I send a sample 30-second storyboard using the next event at each location?",
+      "evidenceUrls": [
+        "https://btpshop.ca/pages/events",
+        "https://btpshop.ca/pages/byward-market-events",
+        "https://btpshop.ca/pages/about-beyond-the-pale-brewing-company"
+      ]
+    },
+    "sources": [
+      {
+        "label": "Official about, locations, contact, and social links",
+        "url": "https://btpshop.ca/pages/about-beyond-the-pale-brewing-company",
+        "publisher": "Beyond the Pale Brewing Company",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official"
+      },
+      {
+        "label": "Official City Centre events",
+        "url": "https://btpshop.ca/pages/events",
+        "publisher": "Beyond the Pale Brewing Company",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official"
+      },
+      {
+        "label": "Official ByWard events",
+        "url": "https://btpshop.ca/pages/byward-market-events",
+        "publisher": "Beyond the Pale Brewing Company",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official"
+      },
+      {
+        "label": "Co-owner and ByWard expansion profile",
+        "url": "https://obj.ca/beyond-the-pale-taproom-former-courtyard-restaurant/",
+        "publisher": "Ottawa Business Journal",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": "2024-09-18",
+        "kind": "professional"
+      }
+    ]
+  },
+  {
+    "id": "dominion-city-brewing-co",
+    "name": "Dominion City Brewing Co.",
+    "industry": "Independent craft brewery, taproom, direct-to-consumer retail, and events",
+    "neighborhood": "Canotek Business Park, Ottawa East",
+    "location": "15-5510 Canotek Road, Ottawa, ON K1J 9J4",
+    "website": "https://www.dominioncity.ca/",
+    "phone": "613-688-6207",
+    "email": "info@dominioncity.ca",
+    "decisionMaker": {
+      "name": "Josh McJannett",
+      "role": "Co-founder and owner",
+      "sourceUrl": "https://carleton.ca/news/story/graduate-dominion-city-brewing/"
+    },
+    "socials": [
+      {
+        "platform": "Instagram",
+        "url": "https://instagram.com/dominioncity",
+        "handle": "@dominioncity"
+      },
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/dominioncitybrewingco",
+        "handle": "dominioncitybrewingco"
+      },
+      {
+        "platform": "TikTok",
+        "url": "https://www.tiktok.com/@dominioncitybrewing",
+        "handle": "@dominioncitybrewing"
+      },
+      {
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/channel/UC8Rn-KJS0rrAXglucVJXVdQ",
+        "handle": null
+      }
+    ],
+    "offerings": [
+      "Ottawa-brewed beer and City Seltzer",
+      "Taproom and corner store",
+      "In-house Stubby's pizza",
+      "Ontario shipping and Ottawa-area delivery",
+      "Curated Canadian beer, wine, cider, and food through Friends of the Dominion",
+      "Mobile shopping app, subscriptions, and events"
+    ],
+    "customerSegments": [
+      "Ottawa craft-beer customers",
+      "East-end taproom visitors",
+      "Direct-to-consumer delivery customers",
+      "Customers seeking Canadian independent beverage producers",
+      "Community event and collaboration audiences"
+    ],
+    "observations": [
+      {
+        "title": "The brand has several real stories beyond the beer can",
+        "detail": "The official About page documents Ontario ingredients, Kitigan Zibi collaboration, community partnerships, and a values-led team. Friends of the Dominion adds independent Canadian producers.",
+        "implication": "A recurring people-and-place series can make sourcing, collaboration, and community impact visible without relying on generic tasting notes.",
+        "sourceUrls": [
+          "https://www.dominioncity.ca/pages/us",
+          "https://www.dominioncity.ca/pages/friends-of-the-dominion"
+        ]
+      },
+      {
+        "title": "Stubby's adds a new food-led audience and production setting",
+        "detail": "The official news page introduced Stubby's as the brewery's in-house pizza offering on April 15, 2026 and followed with a June 30 pizza party promoted on June 19.",
+        "implication": "Beer-plus-pizza builds, staff challenges, and event recaps can reach customers who do not begin with craft beer as their main interest.",
+        "sourceUrls": [
+          "https://www.dominioncity.ca/blogs/news"
+        ]
+      },
+      {
+        "title": "Product, taproom, delivery, app, and events compete for attention",
+        "detail": "The official site separately promotes beer, taproom visits, local delivery, an app, Friends of the Dominion, subscriptions, and news events.",
+        "implication": "Each short-form video should resolve to one measurable action, with a campaign map that prevents several calls to action from appearing at once.",
+        "sourceUrls": [
+          "https://www.dominioncity.ca/",
+          "https://www.dominioncity.ca/pages/dominion-city-app",
+          "https://www.dominioncity.ca/pages/shipping"
+        ]
+      }
+    ],
+    "whyNow": {
+      "title": "A new pizza program is being activated through live events",
+      "detail": "Dominion City introduced Stubby's Pizza in April and promoted a June 30, 2026 pre-Canada Day Grown-Ass Pizza Party in a June 19 news post. This is a recent product-launch and event signal with obvious repeat-content potential.",
+      "date": "2026-06-30",
+      "strength": "high",
+      "sourceUrls": [
+        "https://www.dominioncity.ca/blogs/news"
+      ]
+    },
+    "competitors": [
+      {
+        "name": "Beyond the Pale Brewing Company",
+        "url": "https://btpshop.ca/"
+      },
+      {
+        "name": "Stray Dog Brewing Company",
+        "url": "https://straydogbrewing.ca/"
+      }
+    ],
+    "scores": {
+      "contentFit": 92,
+      "opportunity": 78,
+      "response": 70,
+      "summary": "Overall 82/100. Brewing, pizza, collaborations, community work, and a distinct East End setting give Que Media deep material. Opportunity is strategic rather than remedial; response is moderated because this is an established brand with mature channels.",
+      "dimensions": [
+        "Visual process and product: 19/20",
+        "Staff and partner participation: 18/20",
+        "Education and storytelling depth: 20/20",
+        "Recurring event potential: 18/20",
+        "Direct conversion paths: 17/20"
+      ]
+    },
+    "concepts": [
+      {
+        "title": "The beer ingredient with an address",
+        "hook": "This beer starts on an Ontario farm, not in our brewery.",
+        "outline": [
+          "Identify one verified local ingredient or producer.",
+          "Move from raw ingredient to brew-floor process.",
+          "Finish with the current beer and where it is pouring."
+        ],
+        "productionNotes": "Film a vertical mini-documentary with source approval; keep location and producer captions precise."
+      },
+      {
+        "title": "Stubby's build of the week",
+        "hook": "The pizza made for this exact Dominion City pour.",
+        "outline": [
+          "Chef builds one pizza in fast closeups.",
+          "Brewer explains the pairing in one sentence.",
+          "Staff taste and choose the best bite-plus-sip order."
+        ],
+        "productionNotes": "25 seconds, kitchen sound first, minimal voiceover, explicit taproom availability."
+      },
+      {
+        "title": "Friends of the Dominion: pass the bottle",
+        "hook": "Three independent Canadian makers, one shelf, one reason each.",
+        "outline": [
+          "A staff member selects three current products.",
+          "Each gets a five-second maker story and use occasion.",
+          "Close on the curated shelf and pickup eligibility."
+        ],
+        "productionNotes": "Tag participating producers after approval and repurpose collaborative footage across accounts."
+      }
+    ],
+    "outreach": {
+      "channel": "Email",
+      "subject": "Turning Stubby's and Dominion City's producer stories into a repeatable series",
+      "opening": "Hi Josh, the recent Stubby's launch and June 30 pizza party make Dominion City's next content chapter feel bigger than another beer-release post.",
+      "body": "Your official story already gives the raw material: Ontario ingredients, independent Canadian producers through Friends of the Dominion, community partnerships, and now an in-house pizza program. Que Media could turn those into two repeatable short-form formats, one following an ingredient or partner and one pairing a Stubby's build with a current pour. Each episode would point to one action only, such as taproom visit, current release, or event, so the app, delivery, shop, and event options do not compete in the same video.",
+      "callToAction": "Would it be useful if I sent a three-episode pilot outline built around one current beer, one Stubby's pizza, and one Friends producer?",
+      "evidenceUrls": [
+        "https://www.dominioncity.ca/pages/us",
+        "https://www.dominioncity.ca/blogs/news",
+        "https://www.dominioncity.ca/pages/friends-of-the-dominion"
+      ]
+    },
+    "sources": [
+      {
+        "label": "Official company story, values, contact, and social links",
+        "url": "https://www.dominioncity.ca/pages/us",
+        "publisher": "Dominion City Brewing Co.",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official"
+      },
+      {
+        "label": "Official brewery and taproom details",
+        "url": "https://www.dominioncity.ca/pages/the-brewery",
+        "publisher": "Dominion City Brewing Co.",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official"
+      },
+      {
+        "label": "Official news and current launches",
+        "url": "https://www.dominioncity.ca/blogs/news",
+        "publisher": "Dominion City Brewing Co.",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": "2026-06-19",
+        "kind": "official"
+      },
+      {
+        "label": "Founder profile",
+        "url": "https://carleton.ca/news/story/graduate-dominion-city-brewing/",
+        "publisher": "Carleton University",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "professional"
+      }
+    ]
+  },
+  {
+    "id": "house-of-targ",
+    "name": "House of TARG",
+    "industry": "Independent live music venue, classic arcade, pinball room, perogi restaurant, and private events",
+    "neighborhood": "Old Ottawa South",
+    "location": "1077 Bank Street, Ottawa, ON K1S 3W9",
+    "website": "https://www.houseoftarg.com/",
+    "phone": "613-680-8274",
+    "email": "yogi@houseoftarg.com",
+    "decisionMaker": {
+      "name": "Paul 'Yogi' Granger",
+      "role": "Co-owner and booker",
+      "sourceUrl": "https://apt613.ca/future-of-ottawa-music-venues-with-paul-yogi-granger/"
+    },
+    "socials": [
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/houseoftarg/",
+        "handle": "@houseoftarg"
+      },
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/houseoftarghouseoftarg/",
+        "handle": "houseoftarghouseoftarg"
+      }
+    ],
+    "offerings": [
+      "Live rock, punk, metal, indie, and synth shows",
+      "More than 40 classic arcade and pinball games",
+      "Handmade perogies and bar service",
+      "Tuesday Arcade unlimited games",
+      "Weekend Family Free-Play and Sunday After Dark free-play",
+      "Private parties and group events"
+    ],
+    "customerSegments": [
+      "Ottawa live-music fans and local bands",
+      "Classic arcade and competitive pinball players",
+      "Families seeking weekend activities",
+      "Students, friend groups, and date-night customers",
+      "Private-party and celebration organizers",
+      "Visitors seeking distinctive Ottawa experiences"
+    ],
+    "observations": [
+      {
+        "title": "The venue serves several audiences on one fast-moving calendar",
+        "detail": "The official schedule moves from a weekend punk festival to all-ages Tuesday Arcade, a monthly pinball tournament, and another live show within six days. Family Free-Play also runs every Saturday and Sunday.",
+        "implication": "A recurring daily video briefing can route families, gamers, and concert audiences to the right experience without flattening the venue into one generic arcade-bar message.",
+        "sourceUrls": [
+          "https://www.houseoftarg.com/",
+          "https://www.houseoftarg.com/freeplay"
+        ]
+      },
+      {
+        "title": "Pinball, perogies, and live music create three ownable content pillars",
+        "detail": "The official site describes more than 40 games, a perogi menu, and a live-music program. CityNews reports that the founders intentionally combined those elements into a venue Granger described as part Disneyland and part CBGB.",
+        "implication": "Que Media can build recognizable recurring formats around staff expertise, food craft, and performance energy instead of relying on event-poster slideshows.",
+        "sourceUrls": [
+          "https://www.houseoftarg.com/",
+          "https://ottawa.citynews.ca/2022/01/19/from-punk-rock-to-perogies-ottawas-house-of-targ-aims-to-outlast-covid-4967062/"
+        ]
+      },
+      {
+        "title": "High-intent actions are distributed across several destinations",
+        "detail": "The official experience separates event listings, third-party ticket links, free-play details, private-party information, and the contact page. Regular groups are first come, first served while private-party requests use a separate path.",
+        "implication": "Each short-form post should carry one audience-specific call to action and one direct destination so viewers know whether to buy a ticket, plan a family visit, or inquire about a private event.",
+        "sourceUrls": [
+          "https://www.houseoftarg.com/",
+          "https://www.houseoftarg.com/contact-us",
+          "https://www.houseoftarg.com/party"
+        ]
+      }
+    ],
+    "whyNow": {
+      "title": "Two recurring arcade products and a live show land on consecutive nights",
+      "detail": "The official calendar lists all-ages Tuesday Arcade on July 21, the monthly pinball tournament and $5 video-game free-play on July 22, and a three-band bill on July 23. The next three days provide a credible, immediate pilot window across the venue's core audiences.",
+      "date": "2026-07-21",
+      "strength": "high",
+      "sourceUrls": [
+        "https://www.houseoftarg.com/"
+      ]
+    },
+    "competitors": [
+      {
+        "name": "Level One Game Pub",
+        "url": "https://levelonegamepub.com/"
+      },
+      {
+        "name": "Funhaven",
+        "url": "https://www.funhaven.com/"
+      }
+    ],
+    "scores": {
+      "contentFit": 98,
+      "opportunity": 86,
+      "response": 82,
+      "summary": "Overall 90/100. House of TARG is unusually well matched to Que Media: kinetic games, food craft, staff personality, live performance, recurring events, and strong local identity all support entertaining and educational short-form video. A public co-owner email and immediate event cadence improve outreach readiness.",
+      "dimensions": [
+        "Visually distinctive environments: 20/20",
+        "Staff and guest personality potential: 20/20",
+        "Recurring educational and entertaining formats: 20/20",
+        "Ottawa community relevance: 19/20",
+        "Clear ticket, visit, and event conversion paths: 19/20"
+      ]
+    },
+    "concepts": [
+      {
+        "title": "One quarter, one riff, one perogi",
+        "hook": "Three reasons Ottawa keeps coming back to one basement.",
+        "outline": [
+          "Match-cut a coin entering a game to a musician plugging in.",
+          "Move through one perogi finishing shot and one crowd reaction.",
+          "End on that night's exact offer and ticket or visit destination."
+        ],
+        "productionNotes": "Capture vertical macro details, practical neon, clean kitchen audio, and one licensed performance moment. Build versions for concerts, family free-play, and private events."
+      },
+      {
+        "title": "Wizard's game of the week",
+        "hook": "You have 30 seconds to learn the machine everyone walks past.",
+        "outline": [
+          "A staff host names one unusual machine and its objective.",
+          "Demonstrate one satisfying mechanic or beginner tactic.",
+          "Challenge viewers to beat a visible score during the next free-play session."
+        ],
+        "productionNotes": "Use an overhead control shot, one gameplay close-up, captions for loud-room viewing, and a repeatable scoreboard graphic."
+      },
+      {
+        "title": "Tonight at TARG",
+        "hook": "If you have one free night in Ottawa, here is what is happening downstairs.",
+        "outline": [
+          "Open on one band riff, game sound, or perogi sizzle tied to the night.",
+          "State the audience, doors, cover, and one reason the event is different.",
+          "Close with one direct ticket or walk-in call to action."
+        ],
+        "productionNotes": "Create a 15-second template that staff can refresh daily from a monthly capture bank while preserving handcrafted poster art and the venue's DIY voice."
+      }
+    ],
+    "outreach": {
+      "channel": "Email",
+      "subject": "A three-night TARG content pilot for arcade, pinball, and live music",
+      "opening": "Hi Yogi, TARG's next three nights are a perfect snapshot of what makes the venue hard to copy: Tuesday Arcade on July 21, the monthly pinball tournament on July 22, and a three-band bill on July 23.",
+      "body": "Que Media could turn that run into one compact pilot built around TARG's three visual worlds: games, perogies, and live music. I would start with a 15-second Tonight at TARG briefing, a staff-led Wizard's Game of the Week, and a match-cut piece that moves from coin drop to guitar plug-in to perogi finish. Each version would send one audience to one action, rather than asking families, pinball players, and showgoers to decode the whole calendar at once.",
+      "callToAction": "Would it be useful if I sent a one-page shot list mapped to the July 21 to 23 schedule?",
+      "evidenceUrls": [
+        "https://www.houseoftarg.com/",
+        "https://www.houseoftarg.com/contact-us",
+        "https://apt613.ca/future-of-ottawa-music-venues-with-paul-yogi-granger/"
+      ]
+    },
+    "sources": [
+      {
+        "label": "Official homepage, live schedule, recurring free-play, address, email, and phone",
+        "url": "https://www.houseoftarg.com/",
+        "publisher": "House of TARG",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official"
+      },
+      {
+        "label": "Official contact, group policy, and family information",
+        "url": "https://www.houseoftarg.com/contact-us",
+        "publisher": "House of TARG",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official"
+      },
+      {
+        "label": "Official Instagram profile",
+        "url": "https://www.instagram.com/houseoftarg/",
+        "publisher": "House of TARG",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "social"
+      },
+      {
+        "label": "Co-owner and booker profile",
+        "url": "https://apt613.ca/future-of-ottawa-music-venues-with-paul-yogi-granger/",
+        "publisher": "Apt613",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "professional"
+      },
+      {
+        "label": "Founder and venue history profile",
+        "url": "https://ottawa.citynews.ca/2022/01/19/from-punk-rock-to-perogies-ottawas-house-of-targ-aims-to-outlast-covid-4967062/",
+        "publisher": "CityNews Ottawa",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": "2022-01-19",
+        "kind": "professional"
+      }
+    ]
+  },
+  {
+    "id": "stolen-goods-cocktail-bar",
+    "name": "Stolen Goods Cocktail Bar",
+    "industry": "Independent cocktail bar and late-night small-plate restaurant",
+    "neighborhood": "Downtown, Sparks Street",
+    "location": "106 Sparks Street, Ottawa, ON K1P 5C7",
+    "website": "https://www.stolengoodscocktailbar.com/",
+    "phone": null,
+    "email": "stolengoodscocktailbar@outlook.com",
+    "decisionMaker": {
+      "name": "Mike Campbell",
+      "role": "General manager and co-owner",
+      "sourceUrl": "https://obj.ca/stolen-goods-closing-sparks-st-owners-crazy-things-planned/"
+    },
+    "socials": [
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/stolengoodscocktailbar",
+        "handle": "@stolengoodscocktailbar"
+      },
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/Stolen-Goods-Cocktail-Bar-102599701604892",
+        "handle": "Stolen-Goods-Cocktail-Bar-102599701604892"
+      }
+    ],
+    "offerings": [
+      "Original cocktails",
+      "Late-night food and oysters",
+      "Reservation-only intimate bar experience",
+      "Rotating themed menus and local pop-ups",
+      "Gift cards and merchandise"
+    ],
+    "customerSegments": [
+      "Cocktail enthusiasts",
+      "Downtown professionals and political-sector guests",
+      "Hospitality-industry late-night customers",
+      "Date-night and special-occasion guests",
+      "Followers of local chef and bartender collaborations"
+    ],
+    "observations": [
+      {
+        "title": "The most important current story is not on the homepage",
+        "detail": "Ottawa Business Journal reported on March 4, 2026 that the owners will close the Sparks Street bar at the end of 2026 and are planning a next venture. The current official homepage lists scheduled closures but does not present the final-year or next-concept story.",
+        "implication": "A deliberate final-year documentary arc can turn a potentially confusing closure narrative into community participation, reservations, and an audience that follows the owners to their next concept.",
+        "sourceUrls": [
+          "https://obj.ca/stolen-goods-closing-sparks-st-owners-crazy-things-planned/",
+          "https://www.stolengoodscocktailbar.com/"
+        ]
+      },
+      {
+        "title": "The official homepage relies on archival 2022 photography",
+        "detail": "The official page's image filenames prominently reference May, August, and October 2022 while the business is now in its final announced year at this address.",
+        "implication": "Fresh motion assets can document the current staff, pop-ups, guests, and final-year menu instead of letting the 2026 story depend on launch-era stills.",
+        "sourceUrls": [
+          "https://www.stolengoodscocktailbar.com/"
+        ]
+      },
+      {
+        "title": "The team's personalities and local sourcing are strong differentiators",
+        "detail": "Professional profiles identify Mike Campbell as co-owner and general manager, Adam Ghor as co-owner and chef, and describe the bar's thoughtful details, raccoon motif, Canadian sourcing, and rotating collaboration model.",
+        "implication": "Character-led, slightly irreverent video can make the people and decision-making behind each menu more memorable than polished cocktail beauty shots alone.",
+        "sourceUrls": [
+          "https://obj.ca/stolen-goods-closing-sparks-st-owners-crazy-things-planned/",
+          "https://edibleottawa.ediblecommunities.com/stories/sipping-outside-the-lines/"
+        ]
+      }
+    ],
+    "whyNow": {
+      "title": "A recent pop-up cycle is feeding a final-year narrative",
+      "detail": "A public mirror of the bar's posts records a June 22, 2026 Summer Clean Out promotion and a June 17 pop-up update. The official site confirms the June 27 to July 10 closure window, while Ottawa Business Journal confirms the bar's end-of-2026 close and owners' next-venture plans.",
+      "date": "2026-06-22",
+      "strength": "high",
+      "sourceUrls": [
+        "https://www.findglocal.com/CA/Ottawa/102599701604892/Stolen-Goods-Cocktail-Bar",
+        "https://www.stolengoodscocktailbar.com/",
+        "https://obj.ca/stolen-goods-closing-sparks-st-owners-crazy-things-planned/"
+      ]
+    },
+    "competitors": [
+      {
+        "name": "Ward 14",
+        "url": "https://www.wardfourteen.com/"
+      },
+      {
+        "name": "Riviera",
+        "url": "https://dineriviera.com/"
+      }
+    ],
+    "scores": {
+      "contentFit": 96,
+      "opportunity": 95,
+      "response": 86,
+      "summary": "Overall 93/100. Stolen Goods combines an intensely visual product, identifiable operators, irreverent personality, pop-ups, a public email, and a time-bound final-year story. It is the strongest narrative opportunity in this group.",
+      "dimensions": [
+        "Visual food and drink craft: 20/20",
+        "Owner and staff characters: 20/20",
+        "Distinctive brand voice: 20/20",
+        "Timely episodic story: 20/20",
+        "Reservation conversion: 16/20"
+      ]
+    },
+    "concepts": [
+      {
+        "title": "The last menu at 106 Sparks",
+        "hook": "This drink will disappear when this room does.",
+        "outline": [
+          "Mike or Adam introduces one item and the decision behind it.",
+          "Show the build with one unexpected technique or ingredient.",
+          "End with the finite availability and reservation path."
+        ],
+        "productionNotes": "Create a numbered final-year series; intimate macro visuals, real bar sound, restrained subtitles."
+      },
+      {
+        "title": "Raccoon review board",
+        "hook": "Our least qualified regular approves the next pop-up.",
+        "outline": [
+          "Use the established raccoon motif as a recurring silent character.",
+          "The team pitches a pop-up dish or drink to the mascot.",
+          "A fast verdict reveals the date and collaborator."
+        ],
+        "productionNotes": "Dry humour, practical prop, six to fifteen seconds, built for recurring collaborator reveals."
+      },
+      {
+        "title": "What comes with us",
+        "hook": "Five things from Stolen Goods that survive the move.",
+        "outline": [
+          "Each owner chooses one value, ritual, object, or technique.",
+          "Show it working in the current space.",
+          "Do not reveal confidential next-venue details; end with a follow prompt."
+        ],
+        "productionNotes": "Founder-led documentary, 45 seconds, shoot in chapters over the remaining year."
+      }
+    ],
+    "outreach": {
+      "channel": "Email",
+      "subject": "A final-year short-form story for Stolen Goods",
+      "opening": "Hi Mike, the end-of-2026 announcement gives Stolen Goods something almost no bar can manufacture: a real, finite story with a next chapter already taking shape.",
+      "body": "The current site still leads with 2022-era photography and scheduled closures, while the final-year plan, pop-ups, and next venture live mostly in press and social updates. Que Media could document the year as a numbered short-form series: the last menus at 106 Sparks, the collaborators who shaped the room, and the values or rituals that will follow you next. The raccoon motif also gives the quick promotional cuts a character that already belongs to the bar.",
+      "callToAction": "Would you be open to seeing a six-episode outline that starts with the next pop-up and does not disclose anything you are not ready to share?",
+      "evidenceUrls": [
+        "https://obj.ca/stolen-goods-closing-sparks-st-owners-crazy-things-planned/",
+        "https://www.stolengoodscocktailbar.com/",
+        "https://edibleottawa.ediblecommunities.com/stories/sipping-outside-the-lines/"
+      ]
+    },
+    "sources": [
+      {
+        "label": "Official location, email, hours, social links, and closure dates",
+        "url": "https://www.stolengoodscocktailbar.com/",
+        "publisher": "Stolen Goods Cocktail Bar",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official"
+      },
+      {
+        "label": "Final-year closure and co-owner profile",
+        "url": "https://obj.ca/stolen-goods-closing-sparks-st-owners-crazy-things-planned/",
+        "publisher": "Ottawa Business Journal",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": "2026-03-04",
+        "kind": "professional"
+      },
+      {
+        "label": "Owner, sourcing, and brand-profile interview",
+        "url": "https://edibleottawa.ediblecommunities.com/stories/sipping-outside-the-lines/",
+        "publisher": "Edible Ottawa",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": "2025-05-31",
+        "kind": "professional"
+      },
+      {
+        "label": "Public mirror of recent social posts",
+        "url": "https://www.findglocal.com/CA/Ottawa/102599701604892/Stolen-Goods-Cocktail-Bar",
+        "publisher": "FindGlocal",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": "2026-06-22",
+        "kind": "social-mirror"
+      }
+    ]
+  },
+  {
+    "id": "escape-manor-ottawa",
+    "name": "Escape Manor Ottawa",
+    "industry": "Immersive entertainment, hospitality, live events, and corporate experiences",
+    "neighborhood": "Elgin Street, Hintonburg, Nepean, and Carp",
+    "location": "Primary hospitality venue: 292 Elgin Street, Ottawa, ON K2P 1M3; additional Ottawa-area experiences at 982 Wellington Street West, 900 Greenbank Road, and 3929 Carp Road",
+    "website": "https://www.escapemanor.com/ottawa/",
+    "phone": "613-695-1655",
+    "email": "elgin@escapemanor.com",
+    "decisionMaker": {
+      "name": "Steve Wilson",
+      "role": "Co-founder and chief marketing officer",
+      "sourceUrl": "https://obj.ca/escape-manor-rogers-centre-ottawa-experiences-corp-events/"
+    },
+    "socials": [
+      {
+        "platform": "Instagram",
+        "url": "https://instagram.com/escape_manor",
+        "handle": "@escape_manor"
+      },
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/EscapeManor",
+        "handle": "EscapeManor"
+      },
+      {
+        "platform": "X",
+        "url": "https://twitter.com/EscapeManor",
+        "handle": "@EscapeManor"
+      }
+    ],
+    "offerings": [
+      "Escape rooms at four Ottawa-area locations",
+      "Manor Lounge food, cocktails, brunch, lunch, and dinner",
+      "Darts Reimagined and bocce",
+      "Live music, trivia, magic, and themed events",
+      "Corporate events, team building, parties, and retreats",
+      "Junior and family experiences"
+    ],
+    "customerSegments": [
+      "Friend groups and date-night customers",
+      "Families and junior players",
+      "Corporate teams and event planners",
+      "Tourists seeking Ottawa experiences",
+      "Food, drink, live-music, and nightlife audiences"
+    ],
+    "observations": [
+      {
+        "title": "The offer is broader than the name suggests",
+        "detail": "The official Ottawa page leads with brunch, lunch, dinner, drinks, escapes, darts, and live music, and lists four Ottawa-area experience locations.",
+        "implication": "Short-form content should segment by occasion, such as date night, family hour, or corporate social, rather than attempt to explain every product in one brand video.",
+        "sourceUrls": [
+          "https://www.escapemanor.com/ottawa/"
+        ]
+      },
+      {
+        "title": "The homepage has many promotions but no official TikTok or YouTube link",
+        "detail": "The current highlight rail includes $20 Tuesdays, Family Hour, Summer Social Thursdays, trivia, wine nights, live music, magic, and other offers. The official footer links X, Facebook, and Instagram only.",
+        "implication": "A video-first campaign can turn the dense promotion set into recurring characters and occasion-based stories, while testing whether vertical-video distribution should expand beyond the currently linked channels.",
+        "sourceUrls": [
+          "https://www.escapemanor.com/ottawa/"
+        ]
+      },
+      {
+        "title": "The environments already contain narrative hooks",
+        "detail": "The official page describes scenarios including Sherlock, Prohibited, Flight 69, Carnival, The Apothecary, and Diefenbunker missions, each with a specific story premise.",
+        "implication": "Spoiler-safe trailers, staff-in-character sketches, and first-three-seconds challenges can promote rooms without revealing puzzles.",
+        "sourceUrls": [
+          "https://www.escapemanor.com/ottawa/"
+        ]
+      }
+    ],
+    "whyNow": {
+      "title": "Active summer offers and sold-out dates create immediate demand signals",
+      "detail": "The official booking experience was serving July 2026 inventory and marked July 15 and 16 sold out. The Ottawa homepage concurrently promotes Summer Social Thursdays, Family Hour, live music, and other seasonal offers.",
+      "date": "2026-07-19",
+      "strength": "high",
+      "sourceUrls": [
+        "https://www.escapemanor.com/ottawa/booking",
+        "https://www.escapemanor.com/ottawa/"
+      ]
+    },
+    "competitors": [
+      {
+        "name": "Room Escape Ottawa",
+        "url": "https://www.roomescape.ca/"
+      },
+      {
+        "name": "Jigsaw Escape Rooms Ottawa",
+        "url": "https://jigsawescape.com/ottawa/"
+      }
+    ],
+    "scores": {
+      "contentFit": 97,
+      "opportunity": 85,
+      "response": 65,
+      "summary": "Overall 85/100. The product is almost purpose-built for entertaining video and has many trackable booking actions. The response score is lower because Escape Manor already has a named CMO and operates across several cities, so Que Media needs a sharp Ottawa execution proposal rather than a general marketing pitch.",
+      "dimensions": [
+        "Immersive visual environments: 20/20",
+        "Staff performance and skit potential: 20/20",
+        "Educational and spoiler-safe content: 18/20",
+        "Recurring event inventory: 20/20",
+        "Booking conversion: 19/20"
+      ]
+    },
+    "concepts": [
+      {
+        "title": "Choose your Ottawa night in five seconds",
+        "hook": "You have five seconds: cocktails, darts, or a missing Sherlock?",
+        "outline": [
+          "Present three visual doors tied to real Elgin offers.",
+          "A viewer-choice transition opens one experience.",
+          "End with one date-specific booking action."
+        ],
+        "productionNotes": "Interactive edit with three variants; shoot vertical at Elgin and use exact product labels from the official booking system."
+      },
+      {
+        "title": "Game master red flags",
+        "hook": "Three things your team does before it loses an escape room.",
+        "outline": [
+          "A real game master demonstrates a common non-spoiler mistake.",
+          "Cut to a funny team reenactment.",
+          "Give one useful communication tip and identify an appropriate room difficulty."
+        ],
+        "productionNotes": "Staff-led educational comedy, 20 to 30 seconds, avoid puzzle details and guest-identifiable footage without release."
+      },
+      {
+        "title": "The room trailer without a single spoiler",
+        "hook": "Sherlock vanished. You have 60 minutes and this is all we can show you.",
+        "outline": [
+          "Use lighting, props, reactions, and one line of premise.",
+          "Show the clock and team energy without puzzle solutions.",
+          "Close with location, group fit, and booking link."
+        ],
+        "productionNotes": "Cinematic 25-second trailer, practical sound, controlled shallow-focus shots, version for each priority room."
+      }
+    ],
+    "outreach": {
+      "channel": "Email",
+      "subject": "An Ottawa video system for Escape Manor's many summer offers",
+      "opening": "Hi Steve, Escape Manor's Ottawa homepage currently asks one brand to carry escapes, Manor Lounge, darts, bocce, Family Hour, Summer Social Thursdays, live music, and corporate groups.",
+      "body": "That breadth is a strength, but it also makes the content job more like audience routing than simple promotion. Que Media could build three repeatable Ottawa-only formats: spoiler-safe room trailers, game-master comedy that teaches teamwork, and 'choose your night' videos that route viewers to one live booking action. The current July inventory and sold-out dates provide a useful test window, and the work would support your existing marketing direction rather than replace it.",
+      "callToAction": "Would you be open to a compact pilot proposal for one Elgin offer and one Hintonburg room, with booking clicks as the success measure?",
+      "evidenceUrls": [
+        "https://www.escapemanor.com/ottawa/",
+        "https://www.escapemanor.com/ottawa/booking",
+        "https://obj.ca/escape-manor-rogers-centre-ottawa-experiences-corp-events/"
+      ]
+    },
+    "sources": [
+      {
+        "label": "Official Ottawa experiences, locations, highlights, and socials",
+        "url": "https://www.escapemanor.com/ottawa/",
+        "publisher": "Escape Manor",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official"
+      },
+      {
+        "label": "Official Ottawa FAQ and phone",
+        "url": "https://www.escapemanor.com/ottawa/faq",
+        "publisher": "Escape Manor",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official"
+      },
+      {
+        "label": "Official group-events contacts",
+        "url": "https://www.escapemanor.com/ottawa/groups",
+        "publisher": "Escape Manor",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official"
+      },
+      {
+        "label": "Current CMO and Rogers Centre partnership",
+        "url": "https://obj.ca/escape-manor-rogers-centre-ottawa-experiences-corp-events/",
+        "publisher": "Ottawa Business Journal",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": "2026-03-18",
+        "kind": "professional"
+      },
+      {
+        "label": "Official July booking inventory",
+        "url": "https://www.escapemanor.com/ottawa/booking",
+        "publisher": "Escape Manor",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": "2026-07-19",
+        "kind": "official"
+      }
+    ]
+  },
+  {
+    "id": "the-merry-dairy",
+    "name": "The Merry Dairy",
+    "industry": "Ice cream, frozen custard, food trucks, catering, wholesale, and community events",
+    "neighborhood": "Hintonburg",
+    "location": "102 Fairmont Avenue, Ottawa, ON K1Y 1X6",
+    "website": "https://themerrydairy.com/",
+    "phone": "613-680-3144",
+    "email": "info@themerrydairy.com",
+    "decisionMaker": {
+      "name": "Marlene Haley",
+      "role": "Founder and owner",
+      "sourceUrl": "https://themerrydairy.com/our-story/"
+    },
+    "socials": [
+      {
+        "platform": "Instagram",
+        "url": "https://instagram.com/themerrydairy",
+        "handle": "@themerrydairy"
+      },
+      {
+        "platform": "Facebook",
+        "url": "https://facebook.com/themerrydairy",
+        "handle": "themerrydairy"
+      },
+      {
+        "platform": "Bluesky",
+        "url": "https://bsky.app/profile/themerrydairy.bsky.social",
+        "handle": "@themerrydairy.bsky.social"
+      },
+      {
+        "platform": "X",
+        "url": "https://x.com/themerrydairy",
+        "handle": "@themerrydairy"
+      },
+      {
+        "platform": "TikTok",
+        "url": "https://www.tiktok.com/@themerrydairy",
+        "handle": "@themerrydairy"
+      },
+      {
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/themerrydairy",
+        "handle": "themerrydairy"
+      }
+    ],
+    "offerings": [
+      "Original-recipe ice cream and frozen custard",
+      "Dairy and plant-based flavours",
+      "Peanut-, tree-nut-, and sesame-free production",
+      "Three food trucks and event visits",
+      "Catering, school programs, fundraisers, and wholesale",
+      "Ice-cream cakes, pints, sandwiches, merchandise, and cookbook"
+    ],
+    "customerSegments": [
+      "Ottawa families and neighbourhood customers",
+      "Customers managing nut and sesame allergies",
+      "Dairy and plant-based dessert customers",
+      "Schools, charities, and fundraiser organizers",
+      "Corporate and private event planners",
+      "Local retailers and wholesale partners"
+    ],
+    "observations": [
+      {
+        "title": "The business has a deep owned-story archive",
+        "detail": "The official history covers the 2012 food-truck launch, the Fairmont shop, a three-truck fleet, allergy-safe production, over 100 flavours, community work, and the Great Scoops cookbook.",
+        "implication": "Que Media can adapt proven owned stories into short video instead of inventing campaign themes from scratch.",
+        "sourceUrls": [
+          "https://themerrydairy.com/our-story/"
+        ]
+      },
+      {
+        "title": "The website is rich but cognitively dense",
+        "detail": "The current navigation exposes dozens of paths across shop, pints, delivery, gift options, Name Days, truck tracking, exchanges, music, catering, schools, fundraisers, merchandise, and blog content.",
+        "implication": "Video campaigns should reduce each story to one audience and one next step, while profile links route visitors to a purpose-built landing choice.",
+        "sourceUrls": [
+          "https://themerrydairy.com/contact/"
+        ]
+      },
+      {
+        "title": "The current Name Days mechanic is built for daily participation",
+        "detail": "The official Name Days page says the 2026 summer edition returned July 17 and directs people to the homepage and social channels to see the selected names and claim a free cone.",
+        "implication": "A consistent daily reveal format can increase recognition and sharing during the exact period when the promotion is active.",
+        "sourceUrls": [
+          "https://themerrydairy.com/whats-in-a-name/"
+        ]
+      }
+    ],
+    "whyNow": {
+      "title": "Summer Name Days returned July 17",
+      "detail": "The official page says Names of the Day returned Friday, July 17, 2026, with at least four names selected per day and social channels used for the reveal. The campaign is live now and naturally supports daily short-form content.",
+      "date": "2026-07-17",
+      "strength": "high",
+      "sourceUrls": [
+        "https://themerrydairy.com/whats-in-a-name/"
+      ]
+    },
+    "competitors": [
+      {
+        "name": "Moo Shu Ice Cream & Kitchen",
+        "url": "https://www.mooshuicecream.com/"
+      },
+      {
+        "name": "Farinella",
+        "url": "https://www.farinellaeats.com/"
+      }
+    ],
+    "scores": {
+      "contentFit": 96,
+      "opportunity": 75,
+      "response": 82,
+      "summary": "Overall 85/100. The product, trucks, founder, staff, community rituals, allergy education, and active daily promotion are excellent content inputs. Opportunity is lower because The Merry Dairy already maintains a mature story ecosystem; the value is efficient video adaptation and campaign clarity.",
+      "dimensions": [
+        "Visual product and mobile settings: 20/20",
+        "Founder and staff storytelling: 19/20",
+        "Education and community utility: 20/20",
+        "Recurring participatory formats: 20/20",
+        "Direct event and shop conversion: 17/20"
+      ]
+    },
+    "concepts": [
+      {
+        "title": "Name of the Day reveal machine",
+        "hook": "If your name appears in three seconds, your cone is free today.",
+        "outline": [
+          "Use a physical scoop, truck, or pint-label reveal device.",
+          "Show the selected names in large accessible type.",
+          "State the claim window and Fairmont address."
+        ],
+        "productionNotes": "Batch-shoot the reusable mechanism, edit names daily, add captions and alt-text-ready stills."
+      },
+      {
+        "title": "Allergy-safe does not mean boring",
+        "hook": "Three things that never enter this ice-cream facility, and 100 flavours that do.",
+        "outline": [
+          "Marlene explains the peanut-, tree-nut-, and sesame-free commitment.",
+          "Show separate dairy and plant-based creations without making unverified medical claims.",
+          "Close with a clear invitation to review current flavour information."
+        ],
+        "productionNotes": "Educational, calm tone, exact wording approved by the business, no guarantee language beyond the official claim."
+      },
+      {
+        "title": "Where is the Merry Dairy truck?",
+        "hook": "You have ten seconds to find today's truck before it finds your neighbourhood.",
+        "outline": [
+          "Open on a stylized Ottawa map.",
+          "Cut from the shop to the truck route and destination.",
+          "Feature one real event host or neighbourhood and the tracking link."
+        ],
+        "productionNotes": "Repeatable map animation plus same-day phone footage; make location and service times explicit."
+      }
+    ],
+    "outreach": {
+      "channel": "Email",
+      "subject": "A daily video reveal for The Merry Dairy's live Name Days campaign",
+      "opening": "Hi Marlene, your Name Days page says the summer campaign returned July 17 with at least four names selected each day, which is almost a ready-made short-form series.",
+      "body": "The Merry Dairy already has more real stories than most brands: three trucks, allergy-safe production, over 100 flavours, community partnerships, the cookbook, and the Fairmont shop. Que Media could turn the live Name Days mechanic into a recognizable daily reveal, then use the same production day for an allergy-education piece and a truck-tracking format. Each video would point to one action, which is useful because the current site navigation serves many different audiences at once.",
+      "callToAction": "Would you like a sample seven-day Name Days template that your team could approve once and update quickly each morning?",
+      "evidenceUrls": [
+        "https://themerrydairy.com/whats-in-a-name/",
+        "https://themerrydairy.com/our-story/",
+        "https://themerrydairy.com/contact/"
+      ]
+    },
+    "sources": [
+      {
+        "label": "Official contact, social links, and offer navigation",
+        "url": "https://themerrydairy.com/contact/",
+        "publisher": "The Merry Dairy",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official"
+      },
+      {
+        "label": "Official founder and company history",
+        "url": "https://themerrydairy.com/our-story/",
+        "publisher": "The Merry Dairy",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official"
+      },
+      {
+        "label": "Official 2026 Name Days campaign",
+        "url": "https://themerrydairy.com/whats-in-a-name/",
+        "publisher": "The Merry Dairy",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": "2026-07-17",
+        "kind": "official"
+      },
+      {
+        "label": "Official blog",
+        "url": "https://themerrydairy.com/blog/",
+        "publisher": "The Merry Dairy",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": "2026-05-29",
+        "kind": "official"
+      }
+    ]
+  }
+]

@@ -1,0 +1,2091 @@
+[
+  {
+    "id": "anatomy-physiotherapy-clinic",
+    "name": "Anatomy Physiotherapy Clinic",
+    "industry": "Physiotherapy and multidisciplinary rehabilitation",
+    "neighborhood": "Orleans, St. Laurent, Westboro and Stittsville, with Barrhaven and Downtown locations marked coming soon",
+    "location": "Four operating Ottawa-area clinics: 1615 Orleans Blvd #105; 425 St. Laurent Blvd; 205 Richmond Rd #109; 5703 Hazeldean Rd Unit 3",
+    "website": "https://anatomyphysioclinic.com/",
+    "phone": "613-680-4477",
+    "email": null,
+    "decisionMaker": {
+      "name": "Andrew Dings",
+      "role": "Founder and registered physiotherapist",
+      "sourceUrl": "https://ca.linkedin.com/in/andrew-dings-5a8858210"
+    },
+    "socials": [
+      {
+        "platform": "Facebook",
+        "url": "https://m.facebook.com/Anatomy-Physiotherapy-Clinic-351991932114882/",
+        "handle": null
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/anatomyphysiotherapyclinic/",
+        "handle": "@anatomyphysiotherapyclinic"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://www.linkedin.com/company/anatomy-physiotherapy-clinic",
+        "handle": "anatomy-physiotherapy-clinic"
+      }
+    ],
+    "offerings": [
+      "Physiotherapy",
+      "Massage therapy",
+      "Acupuncture",
+      "Dry needling",
+      "Pelvic health physiotherapy",
+      "Vestibular physiotherapy",
+      "Shockwave therapy",
+      "Custom bracing and compression socks",
+      "Dry needling professional workshops"
+    ],
+    "customerSegments": [
+      "Active adults and runners",
+      "People recovering from surgery or injury",
+      "People with chronic pain, dizziness or vertigo",
+      "Prenatal and postpartum clients",
+      "Residents near six Ottawa neighbourhood catchments",
+      "Physiotherapists seeking dry needling education"
+    ],
+    "observations": [
+      {
+        "title": "Two-location launch window",
+        "detail": "The official site currently marks Barrhaven at 3777 Strandherd Drive and Downtown at 151 Slater Street as coming soon. It does not publish launch dates.",
+        "implication": "This is a rare high-value window for neighbourhood-specific launch videos, founder updates and new-team introductions before awareness hardens around competitors.",
+        "sourceUrls": [
+          "https://anatomyphysioclinic.com/",
+          "https://anatomyphysioclinic.com/our-practice/"
+        ]
+      },
+      {
+        "title": "Production-site trust issue",
+        "detail": "The live site footer displays a WPML notice stating that the site is registered as a development site and asks the operator to switch to a production key.",
+        "implication": "A visible technical banner can weaken trust at the exact moment the organization is opening locations. It is a concrete quick win to flag without overstating a full technical audit.",
+        "sourceUrls": [
+          "https://anatomyphysioclinic.com/"
+        ]
+      },
+      {
+        "title": "Large expert bench is underused as a repeatable video cast",
+        "detail": "The official team page lists more than twenty physiotherapists plus massage therapists, a pedorthist and client-service staff across current and coming-soon locations.",
+        "implication": "Que Media could build a durable rotation of clinician-led explainers and location-specific personalities instead of relying on one spokesperson.",
+        "sourceUrls": [
+          "https://anatomyphysioclinic.com/our-team/"
+        ]
+      },
+      {
+        "title": "Video distribution whitespace",
+        "detail": "The official site verifies Facebook, Instagram and LinkedIn. It does not link an official TikTok or YouTube channel. No absence claim is made beyond the official-site footprint.",
+        "implication": "A professionally reviewed vertical-video library could be distributed across Reels, Shorts and TikTok once accounts and compliance workflow are confirmed.",
+        "sourceUrls": [
+          "https://anatomyphysioclinic.com/"
+        ]
+      }
+    ],
+    "whyNow": {
+      "title": "Two clinics coming soon and a founder milestone",
+      "detail": "The official site lists Barrhaven and Downtown as coming soon. Andrew Dings' public LinkedIn profile displayed a recent post labelled one month ago about being named a 2026 Forty Under 40 recipient and an approaching fifth anniversary. LinkedIn did not expose an exact post date.",
+      "date": "2026-07-20",
+      "strength": "high",
+      "sourceUrls": [
+        "https://anatomyphysioclinic.com/",
+        "https://ca.linkedin.com/in/andrew-dings-5a8858210"
+      ]
+    },
+    "competitors": [
+      {
+        "name": "Ottawa Physiotherapy & Sport Clinics",
+        "url": "https://optsc.ca/"
+      },
+      {
+        "name": "Vitality Physiotherapy and Wellness Centre",
+        "url": "https://vitalitypt.ca/"
+      }
+    ],
+    "scores": {
+      "contentFit": 95,
+      "opportunity": 96,
+      "response": 92,
+      "summary": "Top-tier fit because expansion, a visible founder, a large clinician cast and highly demonstrable treatment education create both immediate and recurring content demand.",
+      "dimensions": [
+        {
+          "scoreType": "contentFit",
+          "name": "Visual demonstrations",
+          "score": 23,
+          "max": 25,
+          "evidence": "Movement assessment, exercises, running rehab and treatment workflows are naturally demonstrable."
+        },
+        {
+          "scoreType": "contentFit",
+          "name": "Expert cast",
+          "score": 20,
+          "max": 20,
+          "evidence": "The public team page provides a deep multidisciplinary on-camera pool."
+        },
+        {
+          "scoreType": "contentFit",
+          "name": "Educational depth",
+          "score": 20,
+          "max": 20,
+          "evidence": "The site covers many conditions, treatments, workshops, newsletters and ebooks."
+        },
+        {
+          "scoreType": "contentFit",
+          "name": "Recurring stories",
+          "score": 18,
+          "max": 20,
+          "evidence": "Six neighbourhoods, team stories and patient journeys support series content."
+        },
+        {
+          "scoreType": "contentFit",
+          "name": "Production feasibility",
+          "score": 14,
+          "max": 15,
+          "evidence": "Clinics and movement spaces provide controlled filming environments, subject to patient privacy."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Timing",
+          "score": 25,
+          "max": 25,
+          "evidence": "Two locations are explicitly marked coming soon."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Gap clarity",
+          "score": 23,
+          "max": 25,
+          "evidence": "The development-site notice and launch communication gap are concrete."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Commercial capacity",
+          "score": 25,
+          "max": 25,
+          "evidence": "Four active clinics, two announced locations and a team of more than twenty clinicians indicate capacity."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Reachability",
+          "score": 13,
+          "max": 15,
+          "evidence": "Official phone numbers and form exist, but no public general email was found."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Ottawa relevance",
+          "score": 10,
+          "max": 10,
+          "evidence": "The business is entirely anchored in Ottawa neighbourhoods."
+        },
+        {
+          "scoreType": "response",
+          "name": "Que fit",
+          "score": 28,
+          "max": 30,
+          "evidence": "Educational and human short-form video maps directly to the service model."
+        },
+        {
+          "scoreType": "response",
+          "name": "Personalization",
+          "score": 30,
+          "max": 30,
+          "evidence": "The two coming-soon addresses and founder milestone enable highly specific outreach."
+        },
+        {
+          "scoreType": "response",
+          "name": "Why now",
+          "score": 20,
+          "max": 20,
+          "evidence": "Expansion is a live trigger."
+        },
+        {
+          "scoreType": "response",
+          "name": "Contactability",
+          "score": 14,
+          "max": 20,
+          "evidence": "Phone and form are public; no official general email is published."
+        }
+      ]
+    },
+    "concepts": [
+      {
+        "title": "Ottawa, meet your next Anatomy clinics",
+        "hook": "Barrhaven and downtown, your one-on-one physio team is getting closer.",
+        "outline": [
+          "Andrew opens with the two address cards.",
+          "Cut between each unfinished or readying location and one local-use case.",
+          "Introduce one clinician or service planned for each site.",
+          "End with a follow-for-opening-date prompt, without inventing a date."
+        ],
+        "productionNotes": "Shoot one vertical master plus two neighbourhood cutdowns. Avoid showing patients or records."
+      },
+      {
+        "title": "One symptom, three clinicians",
+        "hook": "A sore hip does not always need the same plan.",
+        "outline": [
+          "Three clinicians explain what they would assess first.",
+          "Demonstrate one safe screening movement.",
+          "Clarify that social content is education, not diagnosis.",
+          "Direct viewers to the correct clinic intake."
+        ],
+        "productionNotes": "Use consistent captions and a clinical review step for every claim."
+      },
+      {
+        "title": "Dry needling course behind the scenes",
+        "hook": "What does a physiotherapist actually learn in a dry needling course?",
+        "outline": [
+          "Show course setup and safety materials.",
+          "Instructor explains Level 1 versus Level 2 in plain language.",
+          "Capture participant takeaways with consent.",
+          "Close on the official registration page."
+        ],
+        "productionNotes": "No treatment close-ups without written consent; keep claims within the published course scope."
+      }
+    ],
+    "outreach": {
+      "channel": "Website contact form or phone-assisted email request",
+      "subject": "A launch-content idea for Anatomy’s Barrhaven and downtown clinics",
+      "opening": "Hi Andrew, I saw Anatomy is preparing both Barrhaven and downtown locations while also hosting Level 1 and Level 2 dry needling courses.",
+      "body": "That combination gives you a strong short-form story right now: two neighbourhood launch series, a rotating clinician myth-busting format, and a behind-the-scenes education series that shows the depth of the team without compromising patient privacy. I also noticed the live site is still showing a development-site notice, so there is an easy digital-trust win alongside the content rollout. I mapped three concrete video concepts around the information already public on your site.",
+      "callToAction": "Would it be useful if I sent the one-page concept board for the two location launches?",
+      "evidenceUrls": [
+        "https://anatomyphysioclinic.com/",
+        "https://anatomyphysioclinic.com/our-team/",
+        "https://ca.linkedin.com/in/andrew-dings-5a8858210"
+      ]
+    },
+    "sources": [
+      {
+        "label": "Official homepage and location footer",
+        "url": "https://anatomyphysioclinic.com/",
+        "publisher": "Anatomy Physiotherapy Clinic",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official website"
+      },
+      {
+        "label": "Official practice page",
+        "url": "https://anatomyphysioclinic.com/our-practice/",
+        "publisher": "Anatomy Physiotherapy Clinic",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official website"
+      },
+      {
+        "label": "Official team page",
+        "url": "https://anatomyphysioclinic.com/our-team/",
+        "publisher": "Anatomy Physiotherapy Clinic",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official website"
+      },
+      {
+        "label": "Founder professional profile",
+        "url": "https://ca.linkedin.com/in/andrew-dings-5a8858210",
+        "publisher": "LinkedIn",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "professional profile"
+      },
+      {
+        "label": "Official LinkedIn company page",
+        "url": "https://www.linkedin.com/company/anatomy-physiotherapy-clinic",
+        "publisher": "LinkedIn",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official social"
+      }
+    ]
+  },
+  {
+    "id": "where-i-thrive",
+    "name": "Where I Thrive",
+    "industry": "Boutique fitness and wellness studio",
+    "neighborhood": "The Glebe",
+    "location": "1-117 Glebe Avenue, Ottawa, ON K1S 2C2",
+    "website": "https://whereithrive.ca/",
+    "phone": "613-422-3482",
+    "email": "studio@whereithrive.ca",
+    "decisionMaker": {
+      "name": "Sarah Thompson and Jamie Rigby",
+      "role": "Co-owners",
+      "sourceUrl": "https://glebereport.ca/wp-content/uploads/2025/04/Glebe20Report_20MARCH2072C202025_WEB.pdf"
+    },
+    "socials": [
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/whereithriveccc",
+        "handle": "@whereithriveccc"
+      },
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/WhereIThrive",
+        "handle": "WhereIThrive"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://ca.linkedin.com/company/whereithrive",
+        "handle": "whereithrive"
+      }
+    ],
+    "offerings": [
+      "Barre",
+      "Indoor cycle",
+      "Strength and HIIT",
+      "Yoga",
+      "Weight room access",
+      "Personal training",
+      "Mom and Baby series",
+      "Strength for Longevity series",
+      "Event and production-space rental"
+    ],
+    "customerSegments": [
+      "Glebe residents",
+      "Students",
+      "New and experienced fitness clients",
+      "Postpartum parents",
+      "Older adults building strength and mobility",
+      "Community event hosts"
+    ],
+    "observations": [
+      {
+        "title": "Several current offers compete for attention",
+        "detail": "The site has a two-week new-client offer, Student Summer Sweat passes, a Mom and Baby series and Strength for Longevity dates running in July and August.",
+        "implication": "A clear short-form campaign architecture could give each audience its own hook and prevent strong offers from being buried across separate pages.",
+        "sourceUrls": [
+          "https://whereithrive.ca/",
+          "https://whereithrive.ca/pricing/",
+          "https://whereithrive.ca/mom-baby-series/",
+          "https://whereithrive.ca/strength-and-longevity/"
+        ]
+      },
+      {
+        "title": "Date freshness is ambiguous on program pages",
+        "detail": "The Mom and Baby and Strength for Longevity pages show weekday and month/day ranges but omit the year. The weekday/date combinations align with 2026, which is an inference rather than an explicit page claim.",
+        "implication": "Videos and landing-page updates should state 2026 visibly so prospects know the programs are current.",
+        "sourceUrls": [
+          "https://whereithrive.ca/mom-baby-series/",
+          "https://whereithrive.ca/strength-and-longevity/"
+        ]
+      },
+      {
+        "title": "Strong community personality can support recurring cast-led content",
+        "detail": "The official site positions the studio as an inclusive happy place, identifies Sarah and Jamie as its creators and publishes instructor-led specialty programs.",
+        "implication": "Founder, coach and member-safe formats can make the community promise tangible instead of relying primarily on descriptive copy.",
+        "sourceUrls": [
+          "https://whereithrive.ca/about-thrive/",
+          "https://whereithrive.ca/personal-training/"
+        ]
+      },
+      {
+        "title": "Official social footprint is not yet video-platform complete",
+        "detail": "The official site verifies Instagram and Facebook, and a matching LinkedIn company page points back to the business website. No official TikTok or YouTube account was verified.",
+        "implication": "A reusable Reels-first production system can later extend to Shorts and TikTok after account ownership is confirmed.",
+        "sourceUrls": [
+          "https://whereithrive.ca/",
+          "https://ca.linkedin.com/company/whereithrive"
+        ]
+      }
+    ],
+    "whyNow": {
+      "title": "July and August specialty programs are already in market",
+      "detail": "The official site lists Mom and Baby sessions from July 7 to August 11 and Strength for Longevity sessions from July 8 or July 10 into early August. The student summer offer is valid July 1 to August 31. The pages omit a year, but the weekday/date combinations align with 2026.",
+      "date": "2026-07-01",
+      "strength": "high",
+      "sourceUrls": [
+        "https://whereithrive.ca/pricing/",
+        "https://whereithrive.ca/mom-baby-series/",
+        "https://whereithrive.ca/strength-and-longevity/"
+      ]
+    },
+    "competitors": [
+      {
+        "name": "Inner Soul Yoga and Cycle",
+        "url": "https://innersoul.ca/home"
+      },
+      {
+        "name": "Pure Yoga Ottawa",
+        "url": "https://www.pureyogaottawa.com/"
+      }
+    ],
+    "scores": {
+      "contentFit": 96,
+      "opportunity": 91,
+      "response": 89,
+      "summary": "Exceptional Que Media content fit because the studio has multiple visual class formats, founders and coaches, distinct audience programs and a community-led personality with live seasonal offers.",
+      "dimensions": [
+        {
+          "scoreType": "contentFit",
+          "name": "Visual demonstrations",
+          "score": 25,
+          "max": 25,
+          "evidence": "Cycle, barre, strength, yoga and parent-baby classes are inherently visual."
+        },
+        {
+          "scoreType": "contentFit",
+          "name": "Expert cast",
+          "score": 19,
+          "max": 20,
+          "evidence": "Founders, trainers and specialty-program leaders are publicly identified."
+        },
+        {
+          "scoreType": "contentFit",
+          "name": "Educational depth",
+          "score": 19,
+          "max": 20,
+          "evidence": "Postpartum, longevity, personal training and race-preparation topics support useful series."
+        },
+        {
+          "scoreType": "contentFit",
+          "name": "Recurring stories",
+          "score": 19,
+          "max": 20,
+          "evidence": "Programs and community events create ongoing participant-safe story arcs."
+        },
+        {
+          "scoreType": "contentFit",
+          "name": "Production feasibility",
+          "score": 14,
+          "max": 15,
+          "evidence": "The studio and event space are designed for movement and even advertise video or film shoots."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Timing",
+          "score": 24,
+          "max": 25,
+          "evidence": "Multiple July and August programs create immediate campaign demand."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Gap clarity",
+          "score": 20,
+          "max": 25,
+          "evidence": "Program discovery and year clarity can be improved."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Commercial capacity",
+          "score": 23,
+          "max": 25,
+          "evidence": "The site shows a broad schedule, premium memberships, personal training and events."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Reachability",
+          "score": 14,
+          "max": 15,
+          "evidence": "Phone and general studio email are public."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Ottawa relevance",
+          "score": 10,
+          "max": 10,
+          "evidence": "The business has a long-running Glebe identity."
+        },
+        {
+          "scoreType": "response",
+          "name": "Que fit",
+          "score": 26,
+          "max": 30,
+          "evidence": "Energetic and educational video formats closely match Que Media's strengths."
+        },
+        {
+          "scoreType": "response",
+          "name": "Personalization",
+          "score": 27,
+          "max": 30,
+          "evidence": "Three current program offers support precise outreach."
+        },
+        {
+          "scoreType": "response",
+          "name": "Why now",
+          "score": 18,
+          "max": 20,
+          "evidence": "The specialty programs are running now."
+        },
+        {
+          "scoreType": "response",
+          "name": "Contactability",
+          "score": 18,
+          "max": 20,
+          "evidence": "A public general email and phone are available."
+        }
+      ]
+    },
+    "concepts": [
+      {
+        "title": "Mom and Baby, real class edition",
+        "hook": "Yes, babies fuss in class. That is part of the plan.",
+        "outline": [
+          "A coach opens with the most common parent concern.",
+          "Show three safe class moments using consenting participants.",
+          "Explain how exercises are modified when a baby needs attention.",
+          "Close with the published July and August series."
+        ],
+        "productionNotes": "Obtain written guardian releases and avoid health promises."
+      },
+      {
+        "title": "Strength for the life you actually live",
+        "hook": "Train for groceries, stairs and getting off the floor.",
+        "outline": [
+          "Leo or Jamie demonstrates one functional movement.",
+          "Connect it to balance, mobility or daily strength.",
+          "Show a slower-paced class environment.",
+          "End with the current five-week series."
+        ],
+        "productionNotes": "Create three versions, each built around one daily-life task."
+      },
+      {
+        "title": "Spin and Yin study reset",
+        "hook": "Your summer study break can be sweat first, stretch second.",
+        "outline": [
+          "Comedic cold open at a desk.",
+          "Fast cycle montage.",
+          "Quiet yoga or mindful-release transition.",
+          "Display the official one-month and two-month student offer terms."
+        ],
+        "productionNotes": "Use a student creator with consent and keep pricing exactly aligned with the live page."
+      }
+    ],
+    "outreach": {
+      "channel": "Email",
+      "subject": "Three short-form ideas for WIT’s July programs",
+      "opening": "Hi Sarah and Jamie, I was looking through WIT’s current summer offers and noticed the Mom and Baby, Strength for Longevity and Student Summer Sweat programs are all running through July and August.",
+      "body": "Each one speaks to a completely different audience, which is ideal for a focused short-form series. We mapped a parent-friendly class reality video, a functional-strength series for older adults, and a playful Spin and Yin student concept using only the details already on your site. The goal would be to make the right person immediately recognize that WIT built something for them.",
+      "callToAction": "Would you like me to send the three one-page treatments before the next program cycle?",
+      "evidenceUrls": [
+        "https://whereithrive.ca/mom-baby-series/",
+        "https://whereithrive.ca/strength-and-longevity/",
+        "https://whereithrive.ca/pricing/"
+      ]
+    },
+    "sources": [
+      {
+        "label": "Official homepage",
+        "url": "https://whereithrive.ca/",
+        "publisher": "Where I Thrive",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official website"
+      },
+      {
+        "label": "Official about page",
+        "url": "https://whereithrive.ca/about-thrive/",
+        "publisher": "Where I Thrive",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official website"
+      },
+      {
+        "label": "Official pricing and student summer offer",
+        "url": "https://whereithrive.ca/pricing/",
+        "publisher": "Where I Thrive",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official website"
+      },
+      {
+        "label": "Official Mom and Baby series",
+        "url": "https://whereithrive.ca/mom-baby-series/",
+        "publisher": "Where I Thrive",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official website"
+      },
+      {
+        "label": "Official Strength for Longevity series",
+        "url": "https://whereithrive.ca/strength-and-longevity/",
+        "publisher": "Where I Thrive",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official website"
+      },
+      {
+        "label": "Co-owner identification",
+        "url": "https://glebereport.ca/wp-content/uploads/2025/04/Glebe20Report_20MARCH2072C202025_WEB.pdf",
+        "publisher": "Glebe Report",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": "2025-03-07",
+        "kind": "local news"
+      },
+      {
+        "label": "Official LinkedIn company page",
+        "url": "https://ca.linkedin.com/company/whereithrive",
+        "publisher": "LinkedIn",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official social"
+      }
+    ]
+  },
+  {
+    "id": "arro-wellness",
+    "name": "Arro Wellness",
+    "industry": "Multidisciplinary physical rehabilitation and fitness",
+    "neighborhood": "Carlington and Ottawa West",
+    "location": "102-1600 Laperriere Avenue, Ottawa, ON K1Z 8P5",
+    "website": "https://arrowellness.ca/",
+    "phone": "613-627-8808",
+    "email": "info@arrowellness.ca",
+    "decisionMaker": {
+      "name": "Dr. Greg Stoltz",
+      "role": "Owner and Doctor of Chiropractic",
+      "sourceUrl": "https://arrowellness.ca/about-us/"
+    },
+    "socials": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/arrowellness.ca",
+        "handle": "arrowellness.ca"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/arrowellness.ca",
+        "handle": "@arrowellness.ca"
+      },
+      {
+        "platform": "TikTok",
+        "url": "https://www.tiktok.com/@arrowellness.ca",
+        "handle": "@arrowellness.ca"
+      }
+    ],
+    "offerings": [
+      "Chiropractic",
+      "Physiotherapy",
+      "Massage therapy",
+      "Acupuncture",
+      "Osteopathy",
+      "Dietitian services",
+      "Custom orthotics",
+      "Vestibular rehabilitation",
+      "Shockwave therapy",
+      "Fitness studio and movement screening"
+    ],
+    "customerSegments": [
+      "People recovering from sports and workplace injuries",
+      "Active adults returning to running, golf, skiing or cycling",
+      "People with chronic pain or mobility concerns",
+      "Post-rehabilitation clients building strength",
+      "Families seeking multidisciplinary care"
+    ],
+    "observations": [
+      {
+        "title": "A major rebrand story is live",
+        "detail": "The official story says Ottawa Physical Rehab Clinic changed to Arro Wellness and moved into a much larger space because the team, services and vision had grown.",
+        "implication": "Que Media can make the new name memorable with a narrative launch series rather than leaving patients to reconcile the old and new brands themselves.",
+        "sourceUrls": [
+          "https://arrowellness.ca/the-next-chapter/"
+        ]
+      },
+      {
+        "title": "Legacy booking identity remains",
+        "detail": "The official website uses the Arro name while booking links still point to oprc.janeapp.com, and the rebrand story says OPRC will continue to live online.",
+        "implication": "A short, pinned 'same team, new name' explainer can reduce confusion during the transition.",
+        "sourceUrls": [
+          "https://arrowellness.ca/",
+          "https://oprc.janeapp.com/",
+          "https://arrowellness.ca/the-next-chapter/"
+        ]
+      },
+      {
+        "title": "Homepage proof counter renders as zero",
+        "detail": "The current homepage visibly renders 'happy patients 0 +' near the top.",
+        "implication": "Until the counter is corrected or removed, it undermines the intended trust signal. This is a direct conversion quick win.",
+        "sourceUrls": [
+          "https://arrowellness.ca/"
+        ]
+      },
+      {
+        "title": "New movement space unlocks high-value demonstrations",
+        "detail": "The rebrand story describes more treatment rooms and a much larger gym and rehab area, while the fitness page details movement screening and custom setups.",
+        "implication": "The new facility can become a repeatable set for treatment-to-performance transformation content.",
+        "sourceUrls": [
+          "https://arrowellness.ca/the-next-chapter/",
+          "https://arrowellness.ca/fitness-studio-ottawa/"
+        ]
+      }
+    ],
+    "whyNow": {
+      "title": "Rebrand and larger-space transition is still active",
+      "detail": "The rebrand article was published May 31, 2026, modified June 16, and the homepage still carries an OPRC-to-Arro transition notice on July 20.",
+      "date": "2026-06-16",
+      "strength": "high",
+      "sourceUrls": [
+        "https://arrowellness.ca/the-next-chapter/",
+        "https://arrowellness.ca/"
+      ]
+    },
+    "competitors": [
+      {
+        "name": "Vitality Physiotherapy and Wellness Centre",
+        "url": "https://vitalitypt.ca/"
+      },
+      {
+        "name": "Integrate Healthcare Collective",
+        "url": "https://www.integrateottawa.ca/"
+      }
+    ],
+    "scores": {
+      "contentFit": 94,
+      "opportunity": 95,
+      "response": 93,
+      "summary": "A live rebrand, new gym-forward space, multidisciplinary team and clear movement demonstrations make Arro one of the most actionable prospects.",
+      "dimensions": [
+        {
+          "scoreType": "contentFit",
+          "name": "Visual demonstrations",
+          "score": 25,
+          "max": 25,
+          "evidence": "Movement screens, rehab exercises and fitness progress are naturally visual."
+        },
+        {
+          "scoreType": "contentFit",
+          "name": "Expert cast",
+          "score": 19,
+          "max": 20,
+          "evidence": "The official team covers chiropractic, physiotherapy, massage, acupuncture and osteopathy."
+        },
+        {
+          "scoreType": "contentFit",
+          "name": "Educational depth",
+          "score": 20,
+          "max": 20,
+          "evidence": "The service mix and clinic-tips content support many explainers."
+        },
+        {
+          "scoreType": "contentFit",
+          "name": "Recurring stories",
+          "score": 17,
+          "max": 20,
+          "evidence": "The care-to-fitness journey supports recurring progress formats."
+        },
+        {
+          "scoreType": "contentFit",
+          "name": "Production feasibility",
+          "score": 13,
+          "max": 15,
+          "evidence": "The larger gym and treatment rooms offer controlled settings, with privacy controls required."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Timing",
+          "score": 24,
+          "max": 25,
+          "evidence": "The new brand and space are still being introduced."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Gap clarity",
+          "score": 24,
+          "max": 25,
+          "evidence": "Legacy booking identity and the zero counter are concrete."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Commercial capacity",
+          "score": 23,
+          "max": 25,
+          "evidence": "A larger space, wider service mix and expanded team suggest growth investment."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Reachability",
+          "score": 14,
+          "max": 15,
+          "evidence": "Public phone and general email are verified."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Ottawa relevance",
+          "score": 10,
+          "max": 10,
+          "evidence": "The positioning and service-area pages are explicitly Ottawa-focused."
+        },
+        {
+          "scoreType": "response",
+          "name": "Que fit",
+          "score": 28,
+          "max": 30,
+          "evidence": "The brand transition and movement education suit Que Media's format."
+        },
+        {
+          "scoreType": "response",
+          "name": "Personalization",
+          "score": 29,
+          "max": 30,
+          "evidence": "The outreach can reference the larger gym, legacy booking path and exact rebrand language."
+        },
+        {
+          "scoreType": "response",
+          "name": "Why now",
+          "score": 18,
+          "max": 20,
+          "evidence": "The transition is current even though the original article is older than 30 days."
+        },
+        {
+          "scoreType": "response",
+          "name": "Contactability",
+          "score": 18,
+          "max": 20,
+          "evidence": "A public general email and phone are available."
+        }
+      ]
+    },
+    "concepts": [
+      {
+        "title": "OPRC to Arro in 20 seconds",
+        "hook": "New name, bigger space, same care team.",
+        "outline": [
+          "Animate the official logo transition.",
+          "Dr. Greg explains why the old name became too narrow.",
+          "Show the larger rehab and gym zones.",
+          "End with the new address and a clear booking note."
+        ],
+        "productionNotes": "Pin this explainer across Instagram, Facebook and TikTok during the transition."
+      },
+      {
+        "title": "Treatment room to real life",
+        "hook": "Recovery is not finished when the pain drops.",
+        "outline": [
+          "Begin with a treatment-room assessment.",
+          "Move into one rehab exercise.",
+          "Finish in the gym with a real-life goal such as lifting groceries or returning to golf.",
+          "Close with the one-on-one care promise."
+        ],
+        "productionNotes": "Use a clinician demonstration or a fully consented participant; do not promise outcomes."
+      },
+      {
+        "title": "Ottawa weekend athlete screen",
+        "hook": "Before your next river ride, check these three movements.",
+        "outline": [
+          "Demonstrate squat, shoulder mobility and balance screens.",
+          "Explain what each screen can and cannot tell a viewer.",
+          "Offer one general warm-up cue.",
+          "Direct persistent symptoms to a professional assessment."
+        ],
+        "productionNotes": "Build seasonal variants for cycling, golf, skiing and running."
+      }
+    ],
+    "outreach": {
+      "channel": "Email",
+      "subject": "A short-form rollout for the OPRC to Arro transition",
+      "opening": "Hi Dr. Stoltz, I read your explanation of why OPRC became Arro Wellness and why the team moved into a much larger rehab and gym space.",
+      "body": "The line 'same focus, same care' is a strong foundation for a short-form transition campaign. We mapped a pinned new-name explainer, a treatment-room-to-real-life series and an Ottawa weekend-athlete screen that uses the new movement space. It would also help reconcile the Arro website with the remaining OPRC booking path while patients learn the new brand.",
+      "callToAction": "Would you be open to seeing the three-video launch sequence?",
+      "evidenceUrls": [
+        "https://arrowellness.ca/the-next-chapter/",
+        "https://arrowellness.ca/fitness-studio-ottawa/",
+        "https://arrowellness.ca/"
+      ]
+    },
+    "sources": [
+      {
+        "label": "Official homepage",
+        "url": "https://arrowellness.ca/",
+        "publisher": "Arro Wellness",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official website"
+      },
+      {
+        "label": "Official rebrand and move story",
+        "url": "https://arrowellness.ca/the-next-chapter/",
+        "publisher": "Arro Wellness",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": "2026-05-31",
+        "kind": "official website article"
+      },
+      {
+        "label": "Official about and owner page",
+        "url": "https://arrowellness.ca/about-us/",
+        "publisher": "Arro Wellness",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official website"
+      },
+      {
+        "label": "Official fitness studio page",
+        "url": "https://arrowellness.ca/fitness-studio-ottawa/",
+        "publisher": "Arro Wellness",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official website"
+      },
+      {
+        "label": "Official booking portal",
+        "url": "https://oprc.janeapp.com/",
+        "publisher": "Arro Wellness via Jane",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official booking"
+      }
+    ]
+  },
+  {
+    "id": "iron-north-studio",
+    "name": "Iron North Studio",
+    "industry": "Independent multidisciplinary boutique fitness studio",
+    "neighborhood": "Somerset West, Centretown West",
+    "location": "595 Somerset Street West, Ottawa, ON K1R 6C6",
+    "website": "https://www.ironnorthstudio.com/",
+    "phone": "613-695-2453",
+    "email": "info@ironnorthstudio.com",
+    "decisionMaker": {
+      "name": "Jenna Ladd",
+      "role": "Owner and founder",
+      "sourceUrl": "https://ottawa.dressforsuccess.org/get-involved/events/awe-2022/"
+    },
+    "socials": [
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/ironnorthstudio",
+        "handle": "@ironnorthstudio"
+      },
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/ironnorthstudio",
+        "handle": "ironnorthstudio"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://ca.linkedin.com/company/iron-north-studio",
+        "handle": "iron-north-studio"
+      }
+    ],
+    "offerings": [
+      "More than 35 weekly strength, yoga, mobility and cycling classes",
+      "Personal and semi-private training",
+      "Run and triathlon coaching",
+      "Massage therapy",
+      "Acupuncture",
+      "Athletic therapy",
+      "Virtual classes and workshops",
+      "Community sliding-scale class passes"
+    ],
+    "customerSegments": [
+      "Beginner through advanced athletes",
+      "Runners and triathletes",
+      "People seeking inclusive group fitness",
+      "Students, seniors, emergency-service workers and Indigenous people eligible for published pricing",
+      "Corporate and team-training clients"
+    ],
+    "observations": [
+      {
+        "title": "Active recruiting creates a people-story opening",
+        "detail": "The official careers page says the studio is looking for strength, cycle and run coaching availability plus front-desk coverage, with role details and pay information.",
+        "implication": "Coach-day-in-the-life and values-led recruitment videos can help attract culture-fit applicants while introducing the existing team to prospects.",
+        "sourceUrls": [
+          "https://www.ironnorthstudio.com/coming-soon-03"
+        ]
+      },
+      {
+        "title": "Team page contains visible template copy",
+        "detail": "The official team page repeats 'This is your Team Member description' under multiple named staff profiles.",
+        "implication": "Replacing placeholders with concise human bios and linked staff videos is an immediate credibility and conversion improvement.",
+        "sourceUrls": [
+          "https://www.ironnorthstudio.com/team-4"
+        ]
+      },
+      {
+        "title": "The offer breadth needs a simple orientation format",
+        "detail": "The homepage combines more than 35 weekly classes, personal training, endurance, virtual options and wellness services.",
+        "implication": "A recurring 'which Iron North path fits you?' format can reduce choice overload and showcase the one-membership variety.",
+        "sourceUrls": [
+          "https://www.ironnorthstudio.com/"
+        ]
+      },
+      {
+        "title": "Community positioning is highly filmable",
+        "detail": "The official site describes Iron North as a community, network and social circle, and offers inclusive pricing plus free or paid run programming.",
+        "implication": "Member-safe community stories and entertaining coach formats can prove the atmosphere that copy currently describes.",
+        "sourceUrls": [
+          "https://www.ironnorthstudio.com/",
+          "https://www.runottawa.ca/affiliate-running-clubs/"
+        ]
+      }
+    ],
+    "whyNow": {
+      "title": "The studio is actively building its team",
+      "detail": "The careers page was live and crawled within the week of research, listing current availability needs. The page does not expose a publication date, so this is an observed-active signal rather than a claimed last-30-day posting.",
+      "date": "2026-07-20",
+      "strength": "medium-high",
+      "sourceUrls": [
+        "https://www.ironnorthstudio.com/coming-soon-03"
+      ]
+    },
+    "competitors": [
+      {
+        "name": "CrossFit Hintonburg",
+        "url": "https://www.crossfithintonburg.com/"
+      },
+      {
+        "name": "Bodies by Phil",
+        "url": "https://bodiesbyphil.com/"
+      }
+    ],
+    "scores": {
+      "contentFit": 94,
+      "opportunity": 88,
+      "response": 86,
+      "summary": "An unusually strong personality fit for Que Media: diverse movement formats, an owner-led local identity, endurance culture, active hiring and clear website content gaps.",
+      "dimensions": [
+        {
+          "scoreType": "contentFit",
+          "name": "Visual demonstrations",
+          "score": 25,
+          "max": 25,
+          "evidence": "Strength, cycling, yoga, mobility and endurance all read clearly on video."
+        },
+        {
+          "scoreType": "contentFit",
+          "name": "Expert cast",
+          "score": 18,
+          "max": 20,
+          "evidence": "A named team spans multiple coaching and therapy disciplines."
+        },
+        {
+          "scoreType": "contentFit",
+          "name": "Educational depth",
+          "score": 19,
+          "max": 20,
+          "evidence": "Technique, training purpose, endurance and recovery provide a deep topic bank."
+        },
+        {
+          "scoreType": "contentFit",
+          "name": "Recurring stories",
+          "score": 18,
+          "max": 20,
+          "evidence": "Weekly classes, run clubs and athlete journeys support repeatable series."
+        },
+        {
+          "scoreType": "contentFit",
+          "name": "Production feasibility",
+          "score": 14,
+          "max": 15,
+          "evidence": "The studio provides multiple controllable workout zones."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Timing",
+          "score": 20,
+          "max": 25,
+          "evidence": "Active recruiting is current but undated."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Gap clarity",
+          "score": 23,
+          "max": 25,
+          "evidence": "Visible team-page placeholders are a direct issue."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Commercial capacity",
+          "score": 22,
+          "max": 25,
+          "evidence": "The studio sells memberships, PT, endurance coaching, wellness and virtual services."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Reachability",
+          "score": 13,
+          "max": 15,
+          "evidence": "General email and phone are public."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Ottawa relevance",
+          "score": 10,
+          "max": 10,
+          "evidence": "It is an independent, locally embedded studio."
+        },
+        {
+          "scoreType": "response",
+          "name": "Que fit",
+          "score": 27,
+          "max": 30,
+          "evidence": "The community and coaching personality are ideal for entertaining education."
+        },
+        {
+          "scoreType": "response",
+          "name": "Personalization",
+          "score": 27,
+          "max": 30,
+          "evidence": "Hiring roles, placeholder bios and program breadth enable specific outreach."
+        },
+        {
+          "scoreType": "response",
+          "name": "Why now",
+          "score": 14,
+          "max": 20,
+          "evidence": "Recruiting is live but the start date is unknown."
+        },
+        {
+          "scoreType": "response",
+          "name": "Contactability",
+          "score": 18,
+          "max": 20,
+          "evidence": "General email and phone are available."
+        }
+      ]
+    },
+    "concepts": [
+      {
+        "title": "Coach job, honest edition",
+        "hook": "What coaching at a community-first studio actually looks like.",
+        "outline": [
+          "Open with the published early-morning or evening availability.",
+          "Follow a coach through setup, class cues and post-class community moments.",
+          "Show the studio's inclusive modifications.",
+          "Close with the official careers form."
+        ],
+        "productionNotes": "Use actual staff and published role terms; do not stage member testimonials."
+      },
+      {
+        "title": "Same workout, three levels",
+        "hook": "Beginner, regular and endurance athlete walk into Iron North.",
+        "outline": [
+          "One coach demonstrates three valid versions of a movement.",
+          "Explain the purpose behind each option.",
+          "Show that class scaling is normal.",
+          "Invite first-timers to the 30-day introductory month."
+        ],
+        "productionNotes": "Fast cuts and captions keep it entertaining while preserving coaching accuracy."
+      },
+      {
+        "title": "Choose your Iron North character",
+        "hook": "Are you strength, cycle, yoga, run club or all of the above?",
+        "outline": [
+          "Give each class type a playful personality.",
+          "Cut rapidly through the actual studio zones.",
+          "Reveal that one membership covers multiple paths.",
+          "End on the community promise."
+        ],
+        "productionNotes": "Use coaches as characters and avoid stereotypes about bodies or ability."
+      }
+    ],
+    "outreach": {
+      "channel": "Email",
+      "subject": "A people-first content idea for Iron North’s hiring push",
+      "opening": "Hi Jenna, I noticed Iron North’s careers page is currently looking for strength, cycle, run and front-desk availability, while the studio is also running more than 35 weekly classes.",
+      "body": "That is a great moment to turn the team and culture into the campaign. We mapped a coach-day-in-the-life recruitment reel, a 'same workout, three levels' education series and a playful 'choose your Iron North character' concept. One quick website win could support it too: the current team page still shows template descriptions under several staff names.",
+      "callToAction": "Would you like the one-page storyboard for the hiring reel?",
+      "evidenceUrls": [
+        "https://www.ironnorthstudio.com/coming-soon-03",
+        "https://www.ironnorthstudio.com/team-4",
+        "https://www.ironnorthstudio.com/"
+      ]
+    },
+    "sources": [
+      {
+        "label": "Official homepage and contact",
+        "url": "https://www.ironnorthstudio.com/",
+        "publisher": "Iron North Studio",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official website"
+      },
+      {
+        "label": "Official careers page",
+        "url": "https://www.ironnorthstudio.com/coming-soon-03",
+        "publisher": "Iron North Studio",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official website"
+      },
+      {
+        "label": "Official team page",
+        "url": "https://www.ironnorthstudio.com/team-4",
+        "publisher": "Iron North Studio",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official website"
+      },
+      {
+        "label": "Owner identification",
+        "url": "https://ottawa.dressforsuccess.org/get-involved/events/awe-2022/",
+        "publisher": "Dress for Success Ottawa",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "professional event profile"
+      },
+      {
+        "label": "Local run-club profile",
+        "url": "https://www.runottawa.ca/affiliate-running-clubs/",
+        "publisher": "Run Ottawa",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "local organization"
+      }
+    ]
+  },
+  {
+    "id": "refine-ottawa",
+    "name": "Refine Ottawa",
+    "industry": "Multidisciplinary rehab and wellness clinic",
+    "neighborhood": "The Glebe",
+    "location": "99 Fourth Avenue, Unit 102, Ottawa, ON K1S 2L1",
+    "website": "https://www.refineottawa.com/",
+    "phone": "613-233-8852",
+    "email": "hello@refineottawa.com",
+    "decisionMaker": {
+      "name": "Dr. Megan O'Neill and Dr. Andrea Desgroseilliers",
+      "role": "Co-founders and chiropractors",
+      "sourceUrl": "https://www.refineottawa.com/dr-andrea-desgroseilliers"
+    },
+    "socials": [
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/refineottawa/",
+        "handle": "@refineottawa"
+      }
+    ],
+    "offerings": [
+      "Chiropractic",
+      "Physiotherapy",
+      "Pelvic floor physiotherapy",
+      "Psychotherapy",
+      "Acupuncture",
+      "Osteopathy",
+      "Brazilian lymphatic drainage",
+      "Massage therapy"
+    ],
+    "customerSegments": [
+      "People with acute or chronic pain",
+      "Prenatal and postpartum clients",
+      "People seeking pelvic health support",
+      "People seeking integrated physical and mental wellness care",
+      "Glebe and central Ottawa residents"
+    ],
+    "observations": [
+      {
+        "title": "Growth is explicit but recruitment is broad",
+        "detail": "The official join page says Refine is growing and welcomes practitioners across chiropractic, physiotherapy, massage, acupuncture, naturopathy, mental health and other wellness modalities. It does not name a specific open role or deadline.",
+        "implication": "A founder-led employer-brand video can explain who thrives at Refine and generate better-fit conversations than a broad text invitation alone.",
+        "sourceUrls": [
+          "https://www.refineottawa.com/joinourteam"
+        ]
+      },
+      {
+        "title": "The founder story is rich but text-led",
+        "detail": "The official about page explains that Megan and Andrea met during acupuncture training, developed the idea in 2021 and built an elevated team-based clinic. No embedded founder video was visible in the page review.",
+        "implication": "Their origin story can become an authentic recurring founder series instead of remaining only long-form copy.",
+        "sourceUrls": [
+          "https://www.refineottawa.com/about"
+        ]
+      },
+      {
+        "title": "Many disciplines need a simple content map",
+        "detail": "The official service menu spans physical rehab, pelvic health, psychotherapy and hands-on wellness services.",
+        "implication": "A consistent 'who should I book with?' series can reduce uncertainty and show collaboration without giving individualized medical advice.",
+        "sourceUrls": [
+          "https://www.refineottawa.com/"
+        ]
+      },
+      {
+        "title": "Verified social footprint is concentrated",
+        "detail": "The official site links Instagram. No additional official social profile was verified from the site, so no claim is made that other accounts do not exist.",
+        "implication": "A Reels-first system can establish the content library before selectively expanding to other channels.",
+        "sourceUrls": [
+          "https://www.refineottawa.com/"
+        ]
+      }
+    ],
+    "whyNow": {
+      "title": "The clinic says it is growing",
+      "detail": "The official Join Our Team page was live on July 20 and says Refine is growing. It does not publish a role date or deadline, so the signal is active but not proven to have begun within the last 30 days.",
+      "date": "2026-07-20",
+      "strength": "medium",
+      "sourceUrls": [
+        "https://www.refineottawa.com/joinourteam"
+      ]
+    },
+    "competitors": [
+      {
+        "name": "Anatomy Physiotherapy Clinic",
+        "url": "https://anatomyphysioclinic.com/"
+      },
+      {
+        "name": "Curavita Health Group, Glebe",
+        "url": "https://glebe.curavita.com/"
+      }
+    ],
+    "scores": {
+      "contentFit": 91,
+      "opportunity": 86,
+      "response": 84,
+      "summary": "Premium environment, founder personalities and a broad care team create strong educational fit. The main timing signal is active but undated growth recruiting.",
+      "dimensions": [
+        {
+          "scoreType": "contentFit",
+          "name": "Visual demonstrations",
+          "score": 22,
+          "max": 25,
+          "evidence": "Movement, treatment spaces and practitioner workflows are visual, with privacy limits."
+        },
+        {
+          "scoreType": "contentFit",
+          "name": "Expert cast",
+          "score": 20,
+          "max": 20,
+          "evidence": "The official team includes founders and practitioners across eight service areas."
+        },
+        {
+          "scoreType": "contentFit",
+          "name": "Educational depth",
+          "score": 20,
+          "max": 20,
+          "evidence": "Pelvic health, pain, psychotherapy and rehabilitation yield deep FAQ content."
+        },
+        {
+          "scoreType": "contentFit",
+          "name": "Recurring stories",
+          "score": 16,
+          "max": 20,
+          "evidence": "Founder and practitioner formats can recur, while patient stories require careful consent."
+        },
+        {
+          "scoreType": "contentFit",
+          "name": "Production feasibility",
+          "score": 13,
+          "max": 15,
+          "evidence": "The designed clinic offers a premium set, subject to health privacy."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Timing",
+          "score": 18,
+          "max": 25,
+          "evidence": "Growth recruiting is active but undated."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Gap clarity",
+          "score": 22,
+          "max": 25,
+          "evidence": "Broad recruiting and multidisciplinary choice both need clearer stories."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Commercial capacity",
+          "score": 22,
+          "max": 25,
+          "evidence": "A large team, premium positioning and extended hours support capacity."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Reachability",
+          "score": 14,
+          "max": 15,
+          "evidence": "General email, phone and booking are public."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Ottawa relevance",
+          "score": 10,
+          "max": 10,
+          "evidence": "The brand is rooted in the Glebe."
+        },
+        {
+          "scoreType": "response",
+          "name": "Que fit",
+          "score": 26,
+          "max": 30,
+          "evidence": "Founder and expert education align well with Que Media."
+        },
+        {
+          "scoreType": "response",
+          "name": "Personalization",
+          "score": 27,
+          "max": 30,
+          "evidence": "The origin story, alley entrance and active growth are specific anchors."
+        },
+        {
+          "scoreType": "response",
+          "name": "Why now",
+          "score": 13,
+          "max": 20,
+          "evidence": "The growth signal lacks a published start date."
+        },
+        {
+          "scoreType": "response",
+          "name": "Contactability",
+          "score": 18,
+          "max": 20,
+          "evidence": "The general email and phone are verified."
+        }
+      ]
+    },
+    "concepts": [
+      {
+        "title": "How Refine began",
+        "hook": "Two chiropractors met at acupuncture training. Then came 10,000 emails.",
+        "outline": [
+          "Megan and Andrea trade one-line parts of the origin story.",
+          "Show the search for the right space.",
+          "Connect the founding idea to the current team-based model.",
+          "Close with the clinic's Glebe identity."
+        ],
+        "productionNotes": "Use the founders' own published story and natural conversational delivery."
+      },
+      {
+        "title": "Who should I book with?",
+        "hook": "Physio, chiro, osteopathy or massage: here is where the first conversation starts.",
+        "outline": [
+          "One practitioner defines their role in one sentence.",
+          "Show how disciplines collaborate.",
+          "Use a general example, not an individual diagnosis.",
+          "Direct viewers to the booking consultation."
+        ],
+        "productionNotes": "Clinical review required; avoid implying one modality is universally best."
+      },
+      {
+        "title": "Find the Refine entrance",
+        "hook": "The Glebe clinic you enter from the alley.",
+        "outline": [
+          "Start on Fourth Avenue.",
+          "Walk the actual route to the entrance.",
+          "Reveal the designed interior.",
+          "Introduce the first person a new client will meet."
+        ],
+        "productionNotes": "A practical location reel doubles as a premium clinic tour."
+      }
+    ],
+    "outreach": {
+      "channel": "Email",
+      "subject": "A founder and practitioner series for Refine’s next growth stage",
+      "opening": "Hi Megan and Andrea, I read the story of meeting during acupuncture training and turning the Refine idea into a team-based clinic in the Glebe.",
+      "body": "Your current Join Our Team page says Refine is growing across several wellness disciplines. We mapped a founder-origin reel, a repeatable 'who should I book with?' practitioner series and a practical alley-entrance clinic tour. Together they could help both prospective patients and practitioners understand what makes the Refine model different.",
+      "callToAction": "Would you like the three concise storyboards?",
+      "evidenceUrls": [
+        "https://www.refineottawa.com/about",
+        "https://www.refineottawa.com/joinourteam",
+        "https://www.refineottawa.com/our-team"
+      ]
+    },
+    "sources": [
+      {
+        "label": "Official homepage",
+        "url": "https://www.refineottawa.com/",
+        "publisher": "Refine Ottawa",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official website"
+      },
+      {
+        "label": "Official founder story",
+        "url": "https://www.refineottawa.com/about",
+        "publisher": "Refine Ottawa",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official website"
+      },
+      {
+        "label": "Official team page",
+        "url": "https://www.refineottawa.com/our-team",
+        "publisher": "Refine Ottawa",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official website"
+      },
+      {
+        "label": "Official Join Our Team page",
+        "url": "https://www.refineottawa.com/joinourteam",
+        "publisher": "Refine Ottawa",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official website"
+      },
+      {
+        "label": "Official booking contact",
+        "url": "https://refineottawa.janeapp.com/locations/refine-wellness-and-rehab",
+        "publisher": "Refine Ottawa via Jane",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official booking"
+      }
+    ]
+  },
+  {
+    "id": "the-aesthetic-lounge",
+    "name": "The Aesthetic Lounge",
+    "industry": "Medical aesthetics and anti-aging clinic",
+    "neighborhood": "Hintonburg and Wellington West",
+    "location": "1079 Somerset Street West, Ottawa, ON K1Y 3C6, as published on the official site",
+    "website": "https://theaestheticlounge.ca/",
+    "phone": "613-729-8086",
+    "email": "info@theaestheticlounge.ca",
+    "decisionMaker": {
+      "name": "Sylvie Berube",
+      "role": "CEO, founder and body specialist",
+      "sourceUrl": "https://theaestheticlounge.ca/about-us/"
+    },
+    "socials": [
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/the.aesthetic.lounge/",
+        "handle": "@the.aesthetic.lounge"
+      },
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/the.aesthetic.lounge",
+        "handle": "the.aesthetic.lounge"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://www.linkedin.com/company/the-aesthetic-lounge-ottawa",
+        "handle": "the-aesthetic-lounge-ottawa"
+      },
+      {
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/@theaestheticlounge7072",
+        "handle": "@theaestheticlounge7072"
+      }
+    ],
+    "offerings": [
+      "Laser treatments",
+      "Medical aesthetics",
+      "Body shaping and muscle sculpting",
+      "Hydrafacial",
+      "Dermaplaning",
+      "Laser hair removal",
+      "Tattoo removal",
+      "Hair-loss treatments",
+      "Treatments for men",
+      "Skin and body technologies including Morpheus8, Lumecca and PicoSure Pro"
+    ],
+    "customerSegments": [
+      "Adults seeking non-surgical skin and body treatments",
+      "People concerned about sun damage, pigmentation, acne scarring or aging skin",
+      "Men exploring aesthetic wellness",
+      "Hair-loss clients",
+      "Clients seeking a premium pressure-free clinic experience"
+    ],
+    "observations": [
+      {
+        "title": "Official hours conflict across pages",
+        "detail": "The homepage footer lists Thursday 10 to 6 and Saturday 10 to 4, while the official contact page lists Thursday 9 to 5 and Saturday closed.",
+        "implication": "Conflicting visit information is a direct conversion risk and should be resolved before paid or organic content drives more appointment traffic.",
+        "sourceUrls": [
+          "https://theaestheticlounge.ca/",
+          "https://theaestheticlounge.ca/contact/"
+        ]
+      },
+      {
+        "title": "A deep article library is ready for short-form repurposing",
+        "detail": "The site has thirteen blog pages and a large service and condition taxonomy, including sun spots, pigmentation, muscle toning, hair loss and treatment technology.",
+        "implication": "Clinician-reviewed videos can turn existing search content into faster, more human education without inventing new claims.",
+        "sourceUrls": [
+          "https://theaestheticlounge.ca/blog/",
+          "https://theaestheticlounge.ca/service-treatments/"
+        ]
+      },
+      {
+        "title": "LinkedIn has a visible recency gap",
+        "detail": "On July 20, the public LinkedIn company feed showed its newest visible updates labelled three months old. This observation applies only to the visible LinkedIn feed and is not a claim about Instagram, Facebook or YouTube activity.",
+        "implication": "Short expert videos can be repurposed to keep the professional channel current and build referral trust.",
+        "sourceUrls": [
+          "https://www.linkedin.com/company/the-aesthetic-lounge-ottawa"
+        ]
+      },
+      {
+        "title": "Founder authority is highly usable",
+        "detail": "The official about page identifies Sylvie's medical and pharmaceutical sales experience, kinesiology degree, personal-training certification and pressure-free client philosophy.",
+        "implication": "Founder-led explainers can combine business credibility, body mechanics and a reassuring tone that differentiates the clinic from trend-only aesthetic content.",
+        "sourceUrls": [
+          "https://theaestheticlounge.ca/about-us/"
+        ]
+      }
+    ],
+    "whyNow": null,
+    "competitors": [
+      {
+        "name": "Dermis Advanced Skin Care",
+        "url": "https://www.dermisadvancedskincare.com/"
+      },
+      {
+        "name": "Ottawa Medical Spa",
+        "url": "https://ottawamedicalspa.ca/"
+      }
+    ],
+    "scores": {
+      "contentFit": 92,
+      "opportunity": 84,
+      "response": 79,
+      "summary": "High visual and commercial fit with excellent founder authority and a large education library. Response timing is lower because no strong business-change signal was verified in the last 30 days.",
+      "dimensions": [
+        {
+          "scoreType": "contentFit",
+          "name": "Visual demonstrations",
+          "score": 25,
+          "max": 25,
+          "evidence": "Devices, consultations, skincare routines and consented transformations are visual."
+        },
+        {
+          "scoreType": "contentFit",
+          "name": "Expert cast",
+          "score": 18,
+          "max": 20,
+          "evidence": "The founder and medical-aesthetic team are publicly identified."
+        },
+        {
+          "scoreType": "contentFit",
+          "name": "Educational depth",
+          "score": 20,
+          "max": 20,
+          "evidence": "The service, condition and blog libraries are extensive."
+        },
+        {
+          "scoreType": "contentFit",
+          "name": "Recurring stories",
+          "score": 16,
+          "max": 20,
+          "evidence": "Treatment education and seasonal care recur, with consent constraints on results."
+        },
+        {
+          "scoreType": "contentFit",
+          "name": "Production feasibility",
+          "score": 13,
+          "max": 15,
+          "evidence": "The premium clinic is a controlled visual set, subject to medical privacy and advertising rules."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Timing",
+          "score": 13,
+          "max": 25,
+          "evidence": "No strong recent business change was verified; summer sun education is only a seasonal inference."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Gap clarity",
+          "score": 23,
+          "max": 25,
+          "evidence": "Conflicting hours and LinkedIn recency are concrete."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Commercial capacity",
+          "score": 24,
+          "max": 25,
+          "evidence": "The clinic offers many high-value technologies and financing."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Reachability",
+          "score": 14,
+          "max": 15,
+          "evidence": "A public general email and phone are verified."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Ottawa relevance",
+          "score": 10,
+          "max": 10,
+          "evidence": "The clinic explicitly positions itself in Hintonburg and Ottawa."
+        },
+        {
+          "scoreType": "response",
+          "name": "Que fit",
+          "score": 26,
+          "max": 30,
+          "evidence": "Educational and visual short-form is a strong service match."
+        },
+        {
+          "scoreType": "response",
+          "name": "Personalization",
+          "score": 27,
+          "max": 30,
+          "evidence": "The hours conflict, founder background and article topics support specific outreach."
+        },
+        {
+          "scoreType": "response",
+          "name": "Why now",
+          "score": 8,
+          "max": 20,
+          "evidence": "No strong last-30-day business trigger was found."
+        },
+        {
+          "scoreType": "response",
+          "name": "Contactability",
+          "score": 18,
+          "max": 20,
+          "evidence": "The official site publishes a general email and phone."
+        }
+      ]
+    },
+    "concepts": [
+      {
+        "title": "Ten sun-spot questions, ten clips",
+        "hook": "Before treating a sun spot, ask this first.",
+        "outline": [
+          "Use one question from the official article per clip.",
+          "A qualified team member answers in plain language.",
+          "Add a clear boundary between cosmetic spots and concerns requiring medical assessment.",
+          "Close with consultation, not a treatment promise."
+        ],
+        "productionNotes": "Clinical review and Canadian advertising compliance required."
+      },
+      {
+        "title": "Device matchmaker",
+        "hook": "Morpheus8, Lumecca or PicoSure: they are not interchangeable.",
+        "outline": [
+          "Show each device.",
+          "Explain the published concern category it is used for.",
+          "State why consultation and skin assessment matter.",
+          "End on the pressure-free plan."
+        ],
+        "productionNotes": "Avoid superiority claims not supported by approved evidence."
+      },
+      {
+        "title": "Why Sylvie built the Lounge",
+        "hook": "What kinesiology and twenty years in medical sales taught me about a pressure-free aesthetic consult.",
+        "outline": [
+          "Sylvie introduces the experience behind the clinic.",
+          "Connect body mechanics and individualized goals.",
+          "Show the consultation environment.",
+          "Close with the clinic's transparent, laid-back positioning."
+        ],
+        "productionNotes": "Founder-led, conversational and lightly edited to preserve authenticity."
+      }
+    ],
+    "outreach": {
+      "channel": "Email",
+      "subject": "A short-form education series from your existing treatment library",
+      "opening": "Hi Sylvie, I noticed The Aesthetic Lounge already has a deep library on sun spots, muscle toning, pigmentation and treatment technologies, plus your own kinesiology and medical-sales perspective.",
+      "body": "We mapped that into three human video formats: 'ten sun-spot questions in ten clips,' a simple device matchmaker, and a founder piece on why you built a pressure-free consultation experience. One quick conversion issue is worth fixing alongside the campaign: the homepage and contact page currently publish different Thursday and Saturday hours.",
+      "callToAction": "Would you like me to send the three sample scripts?",
+      "evidenceUrls": [
+        "https://theaestheticlounge.ca/about-us/",
+        "https://theaestheticlounge.ca/blog/",
+        "https://theaestheticlounge.ca/contact/",
+        "https://theaestheticlounge.ca/"
+      ]
+    },
+    "sources": [
+      {
+        "label": "Official homepage",
+        "url": "https://theaestheticlounge.ca/",
+        "publisher": "The Aesthetic Lounge",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official website"
+      },
+      {
+        "label": "Official contact page",
+        "url": "https://theaestheticlounge.ca/contact/",
+        "publisher": "The Aesthetic Lounge",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official website"
+      },
+      {
+        "label": "Official founder and team page",
+        "url": "https://theaestheticlounge.ca/about-us/",
+        "publisher": "The Aesthetic Lounge",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official website"
+      },
+      {
+        "label": "Official blog index",
+        "url": "https://theaestheticlounge.ca/blog/",
+        "publisher": "The Aesthetic Lounge",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official website"
+      },
+      {
+        "label": "Official LinkedIn company page",
+        "url": "https://www.linkedin.com/company/the-aesthetic-lounge-ottawa",
+        "publisher": "LinkedIn",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official social"
+      }
+    ]
+  },
+  {
+    "id": "apartmint-hair-studio",
+    "name": "ApartMint Hair Studio",
+    "industry": "Hair salon and cancer-care hair support",
+    "neighborhood": "Hintonburg",
+    "location": "7 Sherbrooke Avenue, Ottawa, ON",
+    "website": "https://www.apartminthairstudio.ca/",
+    "phone": "613-722-3133",
+    "email": "contact@apartminthairstudio.ca",
+    "decisionMaker": {
+      "name": "Kristen Atkinson",
+      "role": "Owner and operator",
+      "sourceUrl": "https://kitchissippi.com/apartmint-hair-studio-opens-doors-and-offers-cancer-care-services/"
+    },
+    "socials": [
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/apart.mint/",
+        "handle": "@apart.mint"
+      },
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/apartmintottawa",
+        "handle": "apartmintottawa"
+      }
+    ],
+    "offerings": [
+      "Haircuts and styling",
+      "Colour treatments",
+      "Cancer-care consultations",
+      "First cuts and head shaves during treatment",
+      "Wig guidance",
+      "Scalp support",
+      "Eyebrow and lash guidance",
+      "Post-chemotherapy hair support",
+      "Wig recycling and resale described in local coverage"
+    ],
+    "customerSegments": [
+      "General hair clients",
+      "People preparing for treatment-related hair loss",
+      "Cancer survivors managing regrowth",
+      "Families supporting someone through cancer",
+      "Clients seeking eco-conscious salon care"
+    ],
+    "observations": [
+      {
+        "title": "The founder story is genuinely differentiated",
+        "detail": "Kristen's official about page describes her own stage 4 Hodgkin's lymphoma experience and the reason she created a cancer-care salon to guide people through first cuts, shaves, wigs and regrowth.",
+        "implication": "Respectful founder-led education could create extraordinary trust and usefulness without relying on generic salon transformation content.",
+        "sourceUrls": [
+          "https://www.apartminthairstudio.ca/about-me-text"
+        ]
+      },
+      {
+        "title": "Homepage freshness cues are outdated",
+        "detail": "The live homepage still says 'GRAND OPENING!' and carries a 2021 copyright line during a July 2026 review.",
+        "implication": "Updating the page and replacing the old launch message with a current cancer-care promise would reduce uncertainty for a sensitive audience.",
+        "sourceUrls": [
+          "https://www.apartminthairstudio.ca/"
+        ]
+      },
+      {
+        "title": "The most powerful story remains text-led",
+        "detail": "No embedded founder or cancer-care explainer video was visible on the homepage or about page reviewed.",
+        "implication": "A carefully scripted on-camera series can answer emotionally difficult questions before a prospect has to call.",
+        "sourceUrls": [
+          "https://www.apartminthairstudio.ca/",
+          "https://www.apartminthairstudio.ca/about-me-text"
+        ]
+      },
+      {
+        "title": "Verified distribution is limited to Meta",
+        "detail": "The official site links Instagram and Facebook. No official TikTok or YouTube account was verified from the site.",
+        "implication": "A sensitive evergreen video library could begin on Reels and expand only after channel ownership and moderation capacity are confirmed.",
+        "sourceUrls": [
+          "https://www.apartminthairstudio.ca/"
+        ]
+      }
+    ],
+    "whyNow": null,
+    "competitors": [
+      {
+        "name": "Maison Noi",
+        "url": "https://maisonnoi.com/"
+      },
+      {
+        "name": "Jet Black Hair & Studio",
+        "url": "https://jetblackottawa.com/"
+      }
+    ],
+    "scores": {
+      "contentFit": 93,
+      "opportunity": 82,
+      "response": 78,
+      "summary": "A uniquely meaningful founder story, visual hair craft and a clearly defined cancer-care audience make the fit excellent. The lower response score reflects the absence of a verified recent trigger and the care needed around a sensitive topic.",
+      "dimensions": [
+        {
+          "scoreType": "contentFit",
+          "name": "Visual demonstrations",
+          "score": 24,
+          "max": 25,
+          "evidence": "Hair, wigs, scarves, scalp routines and regrowth education are visual."
+        },
+        {
+          "scoreType": "contentFit",
+          "name": "Expert cast",
+          "score": 18,
+          "max": 20,
+          "evidence": "Kristen is an experienced owner-stylist and cancer survivor with direct subject authority."
+        },
+        {
+          "scoreType": "contentFit",
+          "name": "Educational depth",
+          "score": 20,
+          "max": 20,
+          "evidence": "The client journey has many practical and emotional questions."
+        },
+        {
+          "scoreType": "contentFit",
+          "name": "Recurring stories",
+          "score": 18,
+          "max": 20,
+          "evidence": "Cancer-care stages and general salon education support recurring formats, with strict consent."
+        },
+        {
+          "scoreType": "contentFit",
+          "name": "Production feasibility",
+          "score": 13,
+          "max": 15,
+          "evidence": "The salon is filmable, but vulnerable clients should never be used without explicit informed consent."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Timing",
+          "score": 11,
+          "max": 25,
+          "evidence": "No strong current business-change signal was verified."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Gap clarity",
+          "score": 24,
+          "max": 25,
+          "evidence": "The 2021 footer and grand-opening message are plainly outdated."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Commercial capacity",
+          "score": 22,
+          "max": 25,
+          "evidence": "The owner also operates Mint Hair Studio, but no revenue inference is made."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Reachability",
+          "score": 15,
+          "max": 15,
+          "evidence": "General email and phone are clearly published."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Ottawa relevance",
+          "score": 10,
+          "max": 10,
+          "evidence": "The story and service are rooted in Hintonburg."
+        },
+        {
+          "scoreType": "response",
+          "name": "Que fit",
+          "score": 27,
+          "max": 30,
+          "evidence": "Human education and visual storytelling strongly match Que Media."
+        },
+        {
+          "scoreType": "response",
+          "name": "Personalization",
+          "score": 29,
+          "max": 30,
+          "evidence": "The founder story and exact care stages enable non-generic outreach."
+        },
+        {
+          "scoreType": "response",
+          "name": "Why now",
+          "score": 4,
+          "max": 20,
+          "evidence": "No verified last-30-day trigger was found."
+        },
+        {
+          "scoreType": "response",
+          "name": "Contactability",
+          "score": 18,
+          "max": 20,
+          "evidence": "General email and phone are public."
+        }
+      ]
+    },
+    "concepts": [
+      {
+        "title": "The first cut, the shave and what comes after",
+        "hook": "You do not have to decide everything about treatment-related hair loss in one day.",
+        "outline": [
+          "Kristen explains the staged options she publishes on the site.",
+          "Show tools, wigs or scarves without filming a vulnerable client.",
+          "Normalize different choices.",
+          "Close with a private consultation invitation."
+        ],
+        "productionNotes": "Trauma-informed script review; no medical claims; use models or objects unless a client gives fully informed written consent."
+      },
+      {
+        "title": "Why ApartMint exists",
+        "hook": "I had cut clients' hair before cancer. Then I lost my own.",
+        "outline": [
+          "Kristen tells the published turning point in her own words.",
+          "Connect it to the cancer-care curator idea.",
+          "Show the welcoming space and practical support options.",
+          "End with the message 'here for you, no matter the stage.'"
+        ],
+        "productionNotes": "Quiet documentary style, minimal trend editing and direct captions."
+      },
+      {
+        "title": "Wig care without waste",
+        "hook": "What happens to a wig after someone no longer needs it?",
+        "outline": [
+          "Explain the recycling idea described in local coverage.",
+          "Show how a donated wig is assessed, without promising acceptance.",
+          "Discuss affordability and sustainability.",
+          "Ask viewers to contact the salon for current program details."
+        ],
+        "productionNotes": "First reconfirm that the recycling program is still active before filming or publishing."
+      }
+    ],
+    "outreach": {
+      "channel": "Email",
+      "subject": "A respectful video series for ApartMint’s cancer-care story",
+      "opening": "Hi Kristen, I read how your own hair-loss experience led you to create ApartMint as a cancer-care curator for first cuts, shaves, wigs and regrowth.",
+      "body": "That is one of the clearest and most human local content stories I have seen. We mapped a calm founder film, a practical 'first cut, shave and what comes after' series, and a wig-care sustainability concept that would use models or objects rather than put vulnerable clients on camera. I also noticed the website still says 'Grand Opening' and shows a 2021 footer, so the videos could anchor a thoughtful current refresh.",
+      "callToAction": "Would you be comfortable if I sent the trauma-informed concept outline for review?",
+      "evidenceUrls": [
+        "https://www.apartminthairstudio.ca/about-me-text",
+        "https://www.apartminthairstudio.ca/",
+        "https://kitchissippi.com/apartmint-hair-studio-opens-doors-and-offers-cancer-care-services/"
+      ]
+    },
+    "sources": [
+      {
+        "label": "Official homepage and contact",
+        "url": "https://www.apartminthairstudio.ca/",
+        "publisher": "ApartMint Hair Studio",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official website"
+      },
+      {
+        "label": "Official founder and cancer-care story",
+        "url": "https://www.apartminthairstudio.ca/about-me-text",
+        "publisher": "ApartMint Hair Studio",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "official website"
+      },
+      {
+        "label": "Owner and launch profile",
+        "url": "https://kitchissippi.com/apartmint-hair-studio-opens-doors-and-offers-cancer-care-services/",
+        "publisher": "Kitchissippi Times",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": "2021-03-01",
+        "kind": "local news"
+      },
+      {
+        "label": "Owner professional profile",
+        "url": "https://ca.linkedin.com/in/kristen-atkinson-078b7456",
+        "publisher": "LinkedIn",
+        "capturedAt": "2026-07-20",
+        "lastPublishedAt": null,
+        "kind": "professional profile"
+      }
+    ]
+  }
+]
