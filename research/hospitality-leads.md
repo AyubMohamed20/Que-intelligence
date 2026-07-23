@@ -1,6 +1,6 @@
 # Que Media hospitality and experience leads
 
-Research captured July 20, 2026 and extended July 22, 2026. This set contains eight real Ottawa-area businesses selected for Que Media's strengths in entertaining and educational short-form video. Contact details were taken from official business properties or named professional profiles. No private information, guessed email pattern, invented metric, or purchased-list field is included.
+Research captured July 20, 2026 and extended July 22 and July 23, 2026. This set contains nine real Ottawa-area businesses selected for Que Media's strengths in entertaining and educational short-form video. Contact details were taken from official business properties or named professional profiles. No private information, guessed email pattern, invented metric, or purchased-list field is included.
 
 The companion file, `hospitality-leads.json`, is the machine-readable source of truth. These are outreach-preparation records only. Nothing has been sent.
 
@@ -19,11 +19,12 @@ The companion file, `hospitality-leads.json`, is the machine-readable source of 
 | 1 | Stolen Goods Cocktail Bar | 96 | 95 | 86 | 93 | Final year at 106 Sparks plus active pop-up storytelling |
 | 2 | Rockin' Johnny's Diner | 94 | 96 | 78 | 90 | Merivale reopening, returning Westgate staff, and stale location information |
 | 3 | House of TARG | 98 | 86 | 82 | 90 | Arcade, pinball, and live music events on July 21 to 23 |
-| 4 | Moo Shu Ice Cream & Kitchen | 95 | 83 | 80 | 87 | Peak summer season plus July 7 regional travel coverage |
-| 5 | The Merry Dairy | 96 | 75 | 82 | 85 | Daily Name Days campaign returned July 17 |
-| 6 | Escape Manor Ottawa | 97 | 85 | 65 | 85 | Active summer offers and visible sold-out July inventory |
-| 7 | Beyond the Pale Brewing Company | 91 | 79 | 72 | 82 | Current programming across City Centre and ByWard |
-| 8 | Dominion City Brewing Co. | 92 | 78 | 70 | 82 | New Stubby's pizza program and event-led activation |
+| 4 | Sukkar House | 94 | 92 | 78 | 89 | 69-day grid gap during the newly incorporated brand's first summer |
+| 5 | Moo Shu Ice Cream & Kitchen | 95 | 83 | 80 | 87 | Peak summer season plus July 7 regional travel coverage |
+| 6 | The Merry Dairy | 96 | 75 | 82 | 85 | Daily Name Days campaign returned July 17 |
+| 7 | Escape Manor Ottawa | 97 | 85 | 65 | 85 | Active summer offers and visible sold-out July inventory |
+| 8 | Beyond the Pale Brewing Company | 91 | 79 | 72 | 82 | Current programming across City Centre and ByWard |
+| 9 | Dominion City Brewing Co. | 92 | 78 | 70 | 82 | New Stubby's pizza program and event-led activation |
 
 ## 1. Moo Shu Ice Cream & Kitchen
 
@@ -561,11 +562,131 @@ There is a strong short-form launch story in the contrast: the car on the wall a
 
 Would you be open to a 15-minute conversation if I send a three-video Merivale launch outline first?
 
+## 9. Sukkar House
+
+### Executive assessment
+
+Sukkar House is a young, highly filmable Ottawa dessert concept with a stronger visible response pattern than its 388-follower size alone suggests. The public offer is broad, the products transform well on camera, and signature names such as Happiness Boom and Sukkar House Fettuccine are memorable. The central weakness is not a lack of material; it is that the launch burst did not become a sustained content and conversion system.
+
+The recommended first engagement is a compact restart pilot, not a full brand overhaul: clarify that Sukkar operates inside Prince Bakery & Sweets, establish one maintained link destination, and batch three repeatable video formats around signature builds, flavour choices, and late-evening visits.
+
+### Verified identity and contact
+
+- Industry: dessert cafe serving crepes, waffles, ice cream, juices, smoothies, milkshakes, coffee, breakfast, and light savoury items.
+- Location: 885 Meadowlands Drive, Ottawa, ON K2C 3N2, in Carleton Heights–Rideauview.
+- Primary public presence: [Instagram @sukkar.house](https://www.instagram.com/sukkar.house/). No standalone domain or external profile link was exposed on July 23.
+- Public phone: [343-999-9971](tel:+13439999971), published in the official Instagram bio.
+- Public email: unavailable.
+- Named decision maker: unavailable. No owner name was inferred from the corporation record or personal accounts.
+- Corporate identity: a [Corporations Canada open-data-derived record](https://opengovca.com/corporation/17546963) lists Sukkar House Inc. as incorporated December 14, 2025.
+- Shared-location note: an [official March 26 post](https://www.instagram.com/p/DWVIuKOkdnX/) says Sukkar House is inside Prince Bakery & Sweets.
+
+### Offer and audience fit
+
+The current delivery menu includes sweet crepes, waffles, bubble waffles, mini pancakes, ice cream, Arabic ice cream, fresh juices, smoothies, mojitos, milkshakes, hot and cold coffee, tea, Turkish coffee, breakfast, and light savoury items. Signature menu names include Happiness Boom, Sukkar House Fettuccine, Four Seasons Waffle, and Sukkar House Waffle. [Current DoorDash menu](https://www.doordash.com/store/sukkar-house-ottawa-40477075/)
+
+Priority audiences are nearby Meadowlands, Merivale, and Nepean residents; families, couples, and friend groups; late-evening dessert customers; delivery and pickup customers; and people drawn to pistachio, qishta, Arabic ice cream, Turkish coffee, and Middle Eastern-influenced flavours.
+
+### Complete public Instagram sample
+
+The analysis covered all 23 posts visible on the public grid on July 23, rather than a selected sample.
+
+| Measure | Public observation | Boundary |
+| --- | ---: | --- |
+| Posts | 23 | January 3 to May 15, 2026 |
+| Format mix | 10 Reels, 12 single images, 1 carousel | Grid posts only; Stories and owner analytics unavailable |
+| Launch concentration | 16 posts in January | 70% of the full grid |
+| Visible likes | 497 total; 21.6 average; 23 median | Historical counts observed July 23 |
+| Visible comments | 170 total; 7.4 average; 6 median | Comment quality was not scored |
+| Current followers | 388 | Point-in-time profile count |
+| Directional interaction benchmark | 7.5 visible interactions per post per 100 current followers | Not a reach-based engagement rate; current followers are used against historical posts |
+| Latest grid post | May 15, 2026 | 69 days before capture |
+
+The account opened with a credible teaser, moved quickly through product reveals, and received visible comments even at small scale. Most captions, however, rely on short appetite language, emoji, generic discovery hashtags, and broad “come try it” calls to action. The strongest exception is the April 7 mini-pancake drink Reel, which names the product idea, explains how it works, invites a response, and ties it to Sukkar House. [Official post](https://www.instagram.com/p/DW1zvQnkd2h/)
+
+No reach, watch time, saves, shares, profile actions, link clicks, sales attribution, audience demographics, or Story performance was available. Those metrics require owner-authorized access and remain unscored.
+
+### Evidence-backed opportunities
+
+1. **Turn the launch burst into a batch system.** Sixteen posts landed in January, followed by slower March and April activity and no new grid post after May 15. One production day should create a monthly hero Reel, product cutdowns, flavour comparisons, Story polls, and location reminders. [Profile and full grid](https://www.instagram.com/sukkar.house/)
+2. **Make the shared location impossible to miss.** The official profile gives the address, but only a post caption explains that Sukkar House is inside Prince Bakery & Sweets. Exterior-to-counter videos and consistent map language can reduce first-visit uncertainty. [Official location post](https://www.instagram.com/p/DWVIuKOkdnX/)
+3. **Create one canonical conversion destination.** Instagram exposes no external link, even though DoorDash and Uber Eats carry Sukkar menus. One current Uber listing coexists with an [older listing marked closed](https://www.ubereats.com/ca/store/sukkar-house/DRJsc_9eQz-AuG4TM8lXdw). A maintained landing page or link hub should contain the correct location, hours, phone, menu, and live order options.
+4. **Own a more specific story than “sweet food.”** Pistachio, qishta, Arabic ice cream, Turkish coffee, the shared bakery setting, and signature builds give Sukkar House differentiated material. Staff explanations and preparation sound can make those details legible without making unsupported cultural, sourcing, or health claims.
+5. **Organize the wide menu by occasion.** Breakfast and coffee, refreshing drinks, shareable late-night desserts, and delivery-friendly signatures should become separate recurring series, each with one audience and one next step.
+
+### Why now
+
+The company record is dated December 14, 2025, the official account posted “Coming soon” on January 3, 2026, and the latest public grid post was May 15. On July 23, the delivery menu was still active while the grid had been quiet for 69 days. The first summer is therefore a real relaunch window: the business has enough product and initial response evidence to build on, but the gap is long enough that a consistent reset would be noticeable.
+
+### Competitive frame
+
+- [My Choc-O-La](https://mychocola613.ca/) competes directly on crepes, waffles, chocolate, fruit, juices, and a dedicated dessert-cafe web presence.
+- [Saffron Rolled Ice Cream](https://saffronrolledicecream.com/) competes on visually prepared ice cream, waffles, crepes, milkshakes, and a clear online menu.
+- Sukkar House can differentiate through the inside-Prince discovery story, signature named builds, late-evening group occasions, Arabic ice cream, qishta, pistachio, and the ability to combine dessert, drinks, and coffee in one visit.
+
+No comparative revenue, foot traffic, social reach, ad activity, or sales performance was inferred.
+
+### Que Media score
+
+- Content Fit: 94/100
+- Opportunity: 92/100
+- Response: 78/100
+- Overall: 89/100
+- Content-fit evidence: visual transformations 20/20; signature product and menu variety 19/20; repeatable formats 19/20; local and cultural distinctiveness 18/20; trackable visit and order actions 18/20.
+- Opportunity evidence: recent-launch narrative 19/20; cadence recovery 20/20; identity and location clarity 19/20; owned conversion surface 19/20; measurable campaign path 15/20.
+- Response evidence: verified Instagram 18/20; public phone 18/20; local independent fit 17/20; timely opening 17/20; no verified named decision maker or business email 8/20.
+
+### Three tailored concepts
+
+1. **Sukkar is inside Prince**
+   - Hook: “Sukkar House is inside Prince Bakery—here is exactly how to find it.”
+   - Start on the 885 Meadowlands exterior, show the Prince sign, walk to the Sukkar counter, and finish on one signature product.
+   - Production: 20-second vertical guide with identical exterior, map, and location wording across every cutdown.
+2. **Build the Happiness Boom**
+   - Hook: “This is what a Happiness Boom looks like before the first drizzle.”
+   - Build from an empty plate through crepe, fruit, qishta, ice cream, and finishing sauce, naming only owner-verified ingredients.
+   - Production: one 30-second hero Reel plus modular ingredient clips with close preparation sound.
+3. **Pick your late-night dessert**
+   - Hook: “You get one choice: pistachio, Lotus, Oreo, or Belgian chocolate.”
+   - Use the same waffle or crepe base, reveal four finishes, invite a flavour vote, and end on one maintained visit or delivery destination.
+   - Production: one comparison Reel, four flavour cutdowns, and matching Story polls from one shoot.
+
+### Recommended pilot
+
+- One half-day shoot at 885 Meadowlands.
+- One location-guide Reel, one signature-build Reel, and one four-flavour comparison Reel.
+- Six to ten modular cutdowns plus Story poll assets.
+- A simple canonical link page before launch.
+- Track profile visits, direction taps, phone taps, delivery clicks, and code or offer redemptions where the business can support them.
+- Review after four weeks; do not promise follower or sales outcomes without owner-authorized baselines.
+
+### Manual outreach draft
+
+**Channel:** Instagram DM
+
+Hi Sukkar House team, I reviewed your full public grid and current menu because the launch has the ingredients for a strong Ottawa dessert series.
+
+Sixteen of your 23 posts landed in January, and the grid has been quiet since May 15 even though the current delivery menu still features signature products like Happiness Boom, Sukkar House Fettuccine, and the Four Seasons Waffle. I also noticed the location detail that can make or break a first visit: one official post says Sukkar is inside Prince Bakery & Sweets, but the bio does not explain that or link to a menu.
+
+Que Media could turn one shoot into three repeatable systems—a clear inside-Prince location guide, a signature-build series, and four-way flavour choices—each ending on one current visit or order action.
+
+Would you be open to a 15-minute conversation if I send the three-video shot plan first?
+
+### Research limits and pre-contact checks
+
+- Reconfirm the Instagram counts, latest post, phone, address wording, hours, and live delivery links immediately before outreach.
+- Ask which Sukkar House menu listing is canonical and whether Prince Bakery & Sweets and Sukkar House share ownership, staff, or only premises. Do not infer the relationship.
+- Ask for the correct pronunciation and brand story directly; the public sources do not establish either.
+- Ask whether the team wants English-only, Arabic-only, or bilingual content.
+- Confirm recipes, allergens, sourcing, dietary suitability, and product availability with the business before making claims.
+- Request owner-authorized Instagram and ordering analytics only after consent.
+
+
 ## Research integrity notes
 
-- Every business, website, contact route, named decision maker, and social account in this file was cross-checked against an official property or a cited professional source.
+- Every business, website or primary public presence, contact route, named decision maker, and social account in this file was cross-checked against an official property or a cited professional source.
 - A missing phone remains missing. No number was inferred from aggregators.
-- Timely claims use dated 2026 sources or live official calendars captured July 20 or July 22, 2026.
+- Timely claims use dated 2026 sources, live official calendars captured July 20 or July 22, and Sukkar House sources captured July 23, 2026.
 - The 30-day discovery pass covered June 20 to July 20, 2026 and was used as a freshness screen. Business-specific "Why Now" claims were then point-verified against official pages or named local publications.
 - Rockin' Johnny's exact legal Merivale operator, direct Merivale contact details, and official opening date remain explicitly unverified rather than inferred.
 - Scores are prioritization aids for manual review. They are not factual claims about a company's finances, marketing budget, or willingness to hire Que Media.

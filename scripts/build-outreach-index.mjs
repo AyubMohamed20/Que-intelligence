@@ -9,6 +9,7 @@ const inputFiles = [
   "research/visual-service-leads.json",
 ];
 const auditPath = "research/verified-leads-audit.json";
+const outputPath = "research/outreach-ready.md";
 
 const records = [];
 for (const relativePath of inputFiles) {
@@ -90,5 +91,5 @@ lines.push(
   "",
 );
 
-await writeFile(resolve(workspace, "research/outreach-ready.md"), `${lines.join("\n")}\n`, "utf8");
-process.stdout.write(`Wrote ${records.length} verified leads to research/outreach-ready.md\n`);
+await writeFile(resolve(workspace, outputPath), `${lines.join("\n")}\n`, "utf8");
+process.stdout.write(`Wrote ${records.length} verified leads to ${outputPath}\n`);

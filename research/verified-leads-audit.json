@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-07-23T03:48:35.131Z",
+  "generatedAt": "2026-07-23T20:42:23.360Z",
   "inputFiles": [
     "research/hospitality-leads.json",
     "research/wellness-leads.json",
     "research/visual-service-leads.json"
   ],
   "summary": {
-    "leadCount": 21,
-    "outreachReadyCount": 21,
+    "leadCount": 22,
+    "outreachReadyCount": 22,
     "validationErrorCount": 0,
-    "reachableWebsiteCount": 21,
+    "reachableWebsiteCount": 22,
     "duplicateIdCount": 0,
     "duplicateCompanyUrlCount": 0,
     "duplicateSocialUrlCount": 0,
@@ -20,7 +20,7 @@
       "id": "moo-shu-ice-cream-kitchen",
       "name": "Moo Shu Ice Cream & Kitchen",
       "sourceFile": "research/hospitality-leads.json",
-      "capturedAt": "2026-07-23T03:48:35.131Z",
+      "capturedAt": "2026-07-23T20:42:23.360Z",
       "validation": {
         "file": "research/hospitality-leads.json",
         "errors": []
@@ -138,20 +138,7 @@
           }
         ],
         "suppliedSocialsMissingFromOfficialSite": [],
-        "officialSocialsMissingFromResearch": [
-          {
-            "platform": "x",
-            "url": "https://twitter.com/mooshuicecream"
-          },
-          {
-            "platform": "facebook",
-            "url": "https://www.facebook.com/mooshuicecream"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://instagram.com/mooshuicecream"
-          }
-        ]
+        "officialSocialsMissingFromResearch": []
       },
       "contactVerification": {
         "phone": null,
@@ -282,7 +269,7 @@
       "id": "beyond-the-pale-brewing-company",
       "name": "Beyond the Pale Brewing Company",
       "sourceFile": "research/hospitality-leads.json",
-      "capturedAt": "2026-07-23T03:48:35.131Z",
+      "capturedAt": "2026-07-23T20:42:23.360Z",
       "validation": {
         "file": "research/hospitality-leads.json",
         "errors": []
@@ -412,32 +399,7 @@
           }
         ],
         "suppliedSocialsMissingFromOfficialSite": [],
-        "officialSocialsMissingFromResearch": [
-          {
-            "platform": "x",
-            "url": "https://x.com/BTPBrewing"
-          },
-          {
-            "platform": "facebook",
-            "url": "https://www.facebook.com/BeyondThePaleBrewingCompany"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/btpbrewing"
-          },
-          {
-            "platform": "tiktok",
-            "url": "https://www.tiktok.com/@beyondthepalebrewery"
-          },
-          {
-            "platform": "youtube",
-            "url": "https://www.youtube.com/@beyondthepalebrewingcompany"
-          },
-          {
-            "platform": "threads",
-            "url": "https://www.threads.net/@btpbrewing"
-          }
-        ]
+        "officialSocialsMissingFromResearch": []
       },
       "contactVerification": {
         "phone": {
@@ -617,7 +579,7 @@
       "id": "dominion-city-brewing-co",
       "name": "Dominion City Brewing Co.",
       "sourceFile": "research/hospitality-leads.json",
-      "capturedAt": "2026-07-23T03:48:35.131Z",
+      "capturedAt": "2026-07-23T20:42:23.360Z",
       "validation": {
         "file": "research/hospitality-leads.json",
         "errors": []
@@ -739,24 +701,7 @@
           }
         ],
         "suppliedSocialsMissingFromOfficialSite": [],
-        "officialSocialsMissingFromResearch": [
-          {
-            "platform": "facebook",
-            "url": "https://www.facebook.com/dominioncitybrewingco"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://instagram.com/dominioncity"
-          },
-          {
-            "platform": "tiktok",
-            "url": "https://www.tiktok.com/@dominioncitybrewing"
-          },
-          {
-            "platform": "youtube",
-            "url": "https://www.youtube.com/channel/UC8Rn-KJS0rrAXglucVJXVdQ"
-          }
-        ]
+        "officialSocialsMissingFromResearch": []
       },
       "contactVerification": {
         "phone": {
@@ -932,7 +877,7 @@
       "id": "house-of-targ",
       "name": "House of TARG",
       "sourceFile": "research/hospitality-leads.json",
-      "capturedAt": "2026-07-23T03:48:35.131Z",
+      "capturedAt": "2026-07-23T20:42:23.360Z",
       "validation": {
         "file": "research/hospitality-leads.json",
         "errors": []
@@ -1042,12 +987,7 @@
           }
         ],
         "suppliedSocialsMissingFromOfficialSite": [],
-        "officialSocialsMissingFromResearch": [
-          {
-            "platform": "facebook",
-            "url": "https://l.facebook.com/l.php"
-          }
-        ]
+        "officialSocialsMissingFromResearch": []
       },
       "contactVerification": {
         "phone": {
@@ -1171,7 +1111,7 @@
       "id": "stolen-goods-cocktail-bar",
       "name": "Stolen Goods Cocktail Bar",
       "sourceFile": "research/hospitality-leads.json",
-      "capturedAt": "2026-07-23T03:48:35.131Z",
+      "capturedAt": "2026-07-23T20:42:23.360Z",
       "validation": {
         "file": "research/hospitality-leads.json",
         "errors": []
@@ -1285,16 +1225,7 @@
           }
         ],
         "suppliedSocialsMissingFromOfficialSite": [],
-        "officialSocialsMissingFromResearch": [
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/stolengoodscocktailbar"
-          },
-          {
-            "platform": "facebook",
-            "url": "https://www.facebook.com/Stolen-Goods-Cocktail-Bar-102599701604892"
-          }
-        ]
+        "officialSocialsMissingFromResearch": []
       },
       "contactVerification": {
         "phone": null,
@@ -1399,7 +1330,7 @@
       "id": "escape-manor-ottawa",
       "name": "Escape Manor Ottawa",
       "sourceFile": "research/hospitality-leads.json",
-      "capturedAt": "2026-07-23T03:48:35.131Z",
+      "capturedAt": "2026-07-23T20:42:23.360Z",
       "validation": {
         "file": "research/hospitality-leads.json",
         "errors": []
@@ -1525,18 +1456,6 @@
           {
             "platform": "tiktok",
             "url": "https://analytics.tiktok.com"
-          },
-          {
-            "platform": "x",
-            "url": "https://twitter.com/EscapeManor"
-          },
-          {
-            "platform": "facebook",
-            "url": "https://www.facebook.com/EscapeManor"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://instagram.com/escape_manor"
           }
         ]
       },
@@ -1672,7 +1591,7 @@
       "id": "the-merry-dairy",
       "name": "The Merry Dairy",
       "sourceFile": "research/hospitality-leads.json",
-      "capturedAt": "2026-07-23T03:48:35.131Z",
+      "capturedAt": "2026-07-23T20:42:23.360Z",
       "validation": {
         "file": "research/hospitality-leads.json",
         "errors": []
@@ -1850,80 +1769,7 @@
           }
         ],
         "suppliedSocialsMissingFromOfficialSite": [],
-        "officialSocialsMissingFromResearch": [
-          {
-            "platform": "youtube",
-            "url": "https://www.youtube.com/themerrydairy/+Themerrydairy/posts"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://instagram.com/themerrydairy"
-          },
-          {
-            "platform": "facebook",
-            "url": "https://facebook.com/themerrydairy"
-          },
-          {
-            "platform": "x",
-            "url": "https://twitter.com/themerrydairy"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/p/DbEdx0mA1mO"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/p/Da5xDmxlYs2"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/p/Da3x_zfO2Uq"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/p/DaygZmsgImT"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/themerrydairy"
-          },
-          {
-            "platform": "youtube",
-            "url": "https://www.youtube.com/themerrydairy"
-          },
-          {
-            "platform": "x",
-            "url": "https://x.com/themerrydairy"
-          },
-          {
-            "platform": "tiktok",
-            "url": "https://www.tiktok.com/@themerrydairy"
-          },
-          {
-            "platform": "youtube",
-            "url": "https://music.youtube.com/@Themerrydairy"
-          },
-          {
-            "platform": "facebook",
-            "url": "https://www.facebook.com/photo"
-          },
-          {
-            "platform": "youtube",
-            "url": "https://www.youtube.com/watch"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/hellodollypastries"
-          },
-          {
-            "platform": "youtube",
-            "url": "https://youtu.be/EbQxt_gTSFQ"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/amelias.coffee.bake"
-          }
-        ]
+        "officialSocialsMissingFromResearch": []
       },
       "contactVerification": {
         "phone": {
@@ -2103,7 +1949,7 @@
       "id": "rockin-johnnys-diner",
       "name": "Rockin' Johnny's Diner",
       "sourceFile": "research/hospitality-leads.json",
-      "capturedAt": "2026-07-23T03:48:35.131Z",
+      "capturedAt": "2026-07-23T20:42:23.360Z",
       "validation": {
         "file": "research/hospitality-leads.json",
         "errors": []
@@ -2292,10 +2138,251 @@
       "outreachReady": true
     },
     {
+      "id": "sukkar-house",
+      "name": "Sukkar House",
+      "sourceFile": "research/hospitality-leads.json",
+      "capturedAt": "2026-07-23T20:42:23.360Z",
+      "validation": {
+        "file": "research/hospitality-leads.json",
+        "errors": []
+      },
+      "website": {
+        "requestedUrl": "https://www.instagram.com/sukkar.house/",
+        "finalUrl": "https://www.instagram.com/sukkar.house/",
+        "httpStatus": 200,
+        "reachable": true,
+        "title": "Sukkar house (&#064;sukkar.house) • Instagram photos and videos",
+        "metaDescription": "388 Followers, 5 Following, 23 Posts - Sukkar house (&#064;sukkar.house) on Instagram: &quot;Sweet moment start here &#x1f60e;&#x1f44c;&#x1f3fb;&#x1f9c7;\n&#x1f4cd; 885 Meadowlands Dr, Ottawa\n&#x1f4de; 3439999971&quot;",
+        "score": 70,
+        "checks": [
+          {
+            "id": "reachable",
+            "label": "Website returns a successful response",
+            "points": 20,
+            "passed": true,
+            "earned": 20,
+            "observation": "HTTP 200"
+          },
+          {
+            "id": "https",
+            "label": "Website uses HTTPS",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "https://www.instagram.com/sukkar.house/"
+          },
+          {
+            "id": "title",
+            "label": "Page has a descriptive title",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Sukkar house (&#064;sukkar.house) • Instagram photos and videos"
+          },
+          {
+            "id": "description",
+            "label": "Page has a meta description",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "388 Followers, 5 Following, 23 Posts - Sukkar house (&#064;sukkar.house) on Instagram: &quot;Sweet moment start here &#x1f60e;&#x1f44c;&#x1f3fb;&#x1f9c7;\n&#x1f4cd; 885 Meadowlands Dr, Ottawa\n&#x1f4de; 3439999971&quot;"
+          },
+          {
+            "id": "viewport",
+            "label": "Page declares a mobile viewport",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Viewport declaration found"
+          },
+          {
+            "id": "h1",
+            "label": "Page has a primary heading",
+            "points": 10,
+            "passed": false,
+            "earned": 0,
+            "observation": "H1 not found in fetched HTML"
+          },
+          {
+            "id": "contact",
+            "label": "Page exposes a contact or booking action",
+            "points": 15,
+            "passed": false,
+            "earned": 0,
+            "observation": "No clear contact action found"
+          },
+          {
+            "id": "social",
+            "label": "Page links to a verified social account",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "1 supplied social link(s) found"
+          },
+          {
+            "id": "structured-data",
+            "label": "Page includes structured data",
+            "points": 5,
+            "passed": false,
+            "earned": 0,
+            "observation": "JSON-LD not found"
+          },
+          {
+            "id": "canonical",
+            "label": "Page declares a canonical URL",
+            "points": 3,
+            "passed": true,
+            "earned": 3,
+            "observation": "Canonical found"
+          },
+          {
+            "id": "open-graph",
+            "label": "Page includes Open Graph metadata",
+            "points": 2,
+            "passed": true,
+            "earned": 2,
+            "observation": "Open Graph metadata found"
+          }
+        ],
+        "discoveredSocialLinks": [
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/sukkar.house"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/data/manifest.json"
+          }
+        ],
+        "suppliedSocialsMissingFromOfficialSite": [],
+        "officialSocialsMissingFromResearch": []
+      },
+      "contactVerification": {
+        "phone": {
+          "value": "343-999-9971",
+          "listedOnWebsite": true
+        },
+        "email": null
+      },
+      "socialChecks": [
+        {
+          "platform": "Instagram",
+          "handle": "@sukkar.house",
+          "url": "https://www.instagram.com/sukkar.house/",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/sukkar.house/",
+          "error": null
+        }
+      ],
+      "sourceChecks": [
+        {
+          "label": "Official profile, public contact, follower count, and complete 23-post grid",
+          "url": "https://www.instagram.com/sukkar.house/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/sukkar.house/",
+          "error": null
+        },
+        {
+          "label": "Official shared-location and pistachio product post",
+          "url": "https://www.instagram.com/p/DWVIuKOkdnX/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/p/DWVIuKOkdnX/",
+          "error": null
+        },
+        {
+          "label": "Official mini-pancake drink launch post",
+          "url": "https://www.instagram.com/p/DW1zvQnkd2h/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/p/DW1zvQnkd2h/",
+          "error": null
+        },
+        {
+          "label": "Latest public Instagram grid post",
+          "url": "https://www.instagram.com/p/DYXrx8NR0oc/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/p/DYXrx8NR0oc/",
+          "error": null
+        },
+        {
+          "label": "Official coming-soon teaser",
+          "url": "https://www.instagram.com/p/DTDWnj2CA5a/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/p/DTDWnj2CA5a/",
+          "error": null
+        },
+        {
+          "label": "Current delivery menu, categories, hours, and offers",
+          "url": "https://www.doordash.com/store/sukkar-house-ottawa-40477075/",
+          "reachable": false,
+          "httpStatus": 403,
+          "finalUrl": "https://www.doordash.com/store/sukkar-house-ottawa-40477075/",
+          "error": "HTTP 403"
+        },
+        {
+          "label": "Current Uber Eats menu and address listing",
+          "url": "https://www.ubereats.com/ca/store/sukkar-house/dF3mhSmjXGGjSN8aRxIALw",
+          "reachable": false,
+          "httpStatus": 403,
+          "finalUrl": "https://www.ubereats.com/ca/store/sukkar-house/dF3mhSmjXGGjSN8aRxIALw",
+          "error": "HTTP 403"
+        },
+        {
+          "label": "Older Uber Eats listing marked closed",
+          "url": "https://www.ubereats.com/ca/store/sukkar-house/DRJsc_9eQz-AuG4TM8lXdw",
+          "reachable": false,
+          "httpStatus": 403,
+          "finalUrl": "https://www.ubereats.com/ca/store/sukkar-house/DRJsc_9eQz-AuG4TM8lXdw",
+          "error": "HTTP 403"
+        },
+        {
+          "label": "Nepean restaurant directory listing and local rating snapshot",
+          "url": "https://ottawaeats.com/neighbourhood/nepean/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://ottawaeats.com/neighbourhood/nepean/",
+          "error": null
+        },
+        {
+          "label": "Federal-corporation registry-derived record",
+          "url": "https://opengovca.com/corporation/17546963",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://opengovca.com/corporation/17546963",
+          "error": null
+        },
+        {
+          "label": "https://mychocola613.ca/",
+          "url": "https://mychocola613.ca/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://mychocola613.ca/",
+          "error": null
+        },
+        {
+          "label": "https://saffronrolledicecream.com/",
+          "url": "https://saffronrolledicecream.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://saffronrolledicecream.com/",
+          "error": null
+        }
+      ],
+      "reachableSourceCount": 7,
+      "sourceCount": 10,
+      "outreachReady": true
+    },
+    {
       "id": "anatomy-physiotherapy-clinic",
       "name": "Anatomy Physiotherapy Clinic",
       "sourceFile": "research/wellness-leads.json",
-      "capturedAt": "2026-07-23T03:48:35.131Z",
+      "capturedAt": "2026-07-23T20:42:23.360Z",
       "validation": {
         "file": "research/wellness-leads.json",
         "errors": []
@@ -2413,20 +2500,7 @@
           }
         ],
         "suppliedSocialsMissingFromOfficialSite": [],
-        "officialSocialsMissingFromResearch": [
-          {
-            "platform": "facebook",
-            "url": "https://m.facebook.com/Anatomy-Physiotherapy-Clinic-351991932114882"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/anatomyphysiotherapyclinic"
-          },
-          {
-            "platform": "linkedin",
-            "url": "https://www.linkedin.com/company/anatomy-physiotherapy-clinic"
-          }
-        ]
+        "officialSocialsMissingFromResearch": []
       },
       "contactVerification": {
         "phone": {
@@ -2549,7 +2623,7 @@
       "id": "where-i-thrive",
       "name": "Where I Thrive",
       "sourceFile": "research/wellness-leads.json",
-      "capturedAt": "2026-07-23T03:48:35.131Z",
+      "capturedAt": "2026-07-23T20:42:23.360Z",
       "validation": {
         "file": "research/wellness-leads.json",
         "errors": []
@@ -2663,16 +2737,7 @@
           }
         ],
         "suppliedSocialsMissingFromOfficialSite": [],
-        "officialSocialsMissingFromResearch": [
-          {
-            "platform": "facebook",
-            "url": "https://www.facebook.com/WhereIThrive"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/whereithriveccc"
-          }
-        ]
+        "officialSocialsMissingFromResearch": []
       },
       "contactVerification": {
         "phone": {
@@ -2822,7 +2887,7 @@
       "id": "arro-wellness",
       "name": "Arro Wellness",
       "sourceFile": "research/wellness-leads.json",
-      "capturedAt": "2026-07-23T03:48:35.131Z",
+      "capturedAt": "2026-07-23T20:42:23.360Z",
       "validation": {
         "file": "research/wellness-leads.json",
         "errors": []
@@ -2940,20 +3005,7 @@
           }
         ],
         "suppliedSocialsMissingFromOfficialSite": [],
-        "officialSocialsMissingFromResearch": [
-          {
-            "platform": "facebook",
-            "url": "https://www.facebook.com/arrowellness.ca"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/arrowellness.ca"
-          },
-          {
-            "platform": "tiktok",
-            "url": "https://www.tiktok.com/@arrowellness.ca"
-          }
-        ]
+        "officialSocialsMissingFromResearch": []
       },
       "contactVerification": {
         "phone": {
@@ -3087,7 +3139,7 @@
       "id": "iron-north-studio",
       "name": "Iron North Studio",
       "sourceFile": "research/wellness-leads.json",
-      "capturedAt": "2026-07-23T03:48:35.131Z",
+      "capturedAt": "2026-07-23T20:42:23.360Z",
       "validation": {
         "file": "research/wellness-leads.json",
         "errors": []
@@ -3219,28 +3271,8 @@
         "suppliedSocialsMissingFromOfficialSite": [],
         "officialSocialsMissingFromResearch": [
           {
-            "platform": "facebook",
-            "url": "http://www.facebook.com/ironnorthstudio"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/ironnorthstudio"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://instagram.com/ironnorthstudio"
-          },
-          {
-            "platform": "facebook",
-            "url": "https://www.facebook.com/wix"
-          },
-          {
             "platform": "x",
             "url": "https://www.twitter.com/wix"
-          },
-          {
-            "platform": "linkedin",
-            "url": "https://www.linkedin.com/company/wix-com"
           }
         ]
       },
@@ -3314,10 +3346,10 @@
         {
           "label": "Owner identification",
           "url": "https://ottawa.dressforsuccess.org/get-involved/events/awe-2022/",
-          "reachable": false,
-          "httpStatus": 504,
+          "reachable": true,
+          "httpStatus": 200,
           "finalUrl": "https://ottawa.dressforsuccess.org/get-involved/events/awe-2022/",
-          "error": "HTTP 504"
+          "error": null
         },
         {
           "label": "Local run-club profile",
@@ -3368,7 +3400,7 @@
           "error": null
         }
       ],
-      "reachableSourceCount": 4,
+      "reachableSourceCount": 5,
       "sourceCount": 5,
       "outreachReady": true
     },
@@ -3376,7 +3408,7 @@
       "id": "refine-ottawa",
       "name": "Refine Ottawa",
       "sourceFile": "research/wellness-leads.json",
-      "capturedAt": "2026-07-23T03:48:35.131Z",
+      "capturedAt": "2026-07-23T20:42:23.360Z",
       "validation": {
         "file": "research/wellness-leads.json",
         "errors": []
@@ -3486,12 +3518,7 @@
           }
         ],
         "suppliedSocialsMissingFromOfficialSite": [],
-        "officialSocialsMissingFromResearch": [
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/refineottawa"
-          }
-        ]
+        "officialSocialsMissingFromResearch": []
       },
       "contactVerification": {
         "phone": {
@@ -3597,7 +3624,7 @@
       "id": "the-aesthetic-lounge",
       "name": "The Aesthetic Lounge",
       "sourceFile": "research/wellness-leads.json",
-      "capturedAt": "2026-07-23T03:48:35.131Z",
+      "capturedAt": "2026-07-23T20:42:23.360Z",
       "validation": {
         "file": "research/wellness-leads.json",
         "errors": []
@@ -3715,20 +3742,7 @@
           }
         ],
         "suppliedSocialsMissingFromOfficialSite": [],
-        "officialSocialsMissingFromResearch": [
-          {
-            "platform": "linkedin",
-            "url": "https://www.linkedin.com/company/the-aesthetic-lounge-ottawa"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/the.aesthetic.lounge"
-          },
-          {
-            "platform": "facebook",
-            "url": "https://www.facebook.com/The-Aesthetic-Lounge-184548009769381"
-          }
-        ]
+        "officialSocialsMissingFromResearch": []
       },
       "contactVerification": {
         "phone": {
@@ -3880,7 +3894,7 @@
       "id": "apartmint-hair-studio",
       "name": "ApartMint Hair Studio",
       "sourceFile": "research/wellness-leads.json",
-      "capturedAt": "2026-07-23T03:48:35.131Z",
+      "capturedAt": "2026-07-23T20:42:23.360Z",
       "validation": {
         "file": "research/wellness-leads.json",
         "errors": []
@@ -3998,20 +4012,7 @@
           }
         ],
         "suppliedSocialsMissingFromOfficialSite": [],
-        "officialSocialsMissingFromResearch": [
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/apart.mint"
-          },
-          {
-            "platform": "facebook",
-            "url": "https://www.facebook.com/apartmintottawa"
-          },
-          {
-            "platform": "instagram",
-            "url": "http://instagram.com/apart.mint"
-          }
-        ]
+        "officialSocialsMissingFromResearch": []
       },
       "contactVerification": {
         "phone": {
@@ -4119,7 +4120,7 @@
       "id": "saunders-farm",
       "name": "Saunders Farm",
       "sourceFile": "research/visual-service-leads.json",
-      "capturedAt": "2026-07-23T03:48:35.131Z",
+      "capturedAt": "2026-07-23T20:42:23.360Z",
       "validation": {
         "file": "research/visual-service-leads.json",
         "errors": []
@@ -4237,20 +4238,7 @@
           }
         ],
         "suppliedSocialsMissingFromOfficialSite": [],
-        "officialSocialsMissingFromResearch": [
-          {
-            "platform": "facebook",
-            "url": "https://www.facebook.com/SaundersFarmFans"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/saundersfarmfun"
-          },
-          {
-            "platform": "tiktok",
-            "url": "https://www.tiktok.com/@saundersfarm"
-          }
-        ]
+        "officialSocialsMissingFromResearch": []
       },
       "contactVerification": {
         "phone": {
@@ -4410,7 +4398,7 @@
       "id": "automindz",
       "name": "Automindz",
       "sourceFile": "research/visual-service-leads.json",
-      "capturedAt": "2026-07-23T03:48:35.131Z",
+      "capturedAt": "2026-07-23T20:42:23.360Z",
       "validation": {
         "file": "research/visual-service-leads.json",
         "errors": []
@@ -4597,7 +4585,7 @@
       "id": "artium-design-build-renovations",
       "name": "ARTium Design Build Renovations",
       "sourceFile": "research/visual-service-leads.json",
-      "capturedAt": "2026-07-23T03:48:35.131Z",
+      "capturedAt": "2026-07-23T20:42:23.360Z",
       "validation": {
         "file": "research/visual-service-leads.json",
         "errors": []
@@ -4720,20 +4708,7 @@
             "url": "https://ca.linkedin.com/company/just-basements"
           }
         ],
-        "officialSocialsMissingFromResearch": [
-          {
-            "platform": "facebook",
-            "url": "https://www.facebook.com/artiumdesignbuild"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/artium_justbasements"
-          },
-          {
-            "platform": "pinterest",
-            "url": "https://www.pinterest.com/justbasements"
-          }
-        ]
+        "officialSocialsMissingFromResearch": []
       },
       "contactVerification": {
         "phone": {
@@ -4895,7 +4870,7 @@
       "id": "stonefields-estate",
       "name": "Stonefields Estate",
       "sourceFile": "research/visual-service-leads.json",
-      "capturedAt": "2026-07-23T03:48:35.131Z",
+      "capturedAt": "2026-07-23T20:42:23.360Z",
       "validation": {
         "file": "research/visual-service-leads.json",
         "errors": []
@@ -5001,6 +4976,10 @@
         "discoveredSocialLinks": [
           {
             "platform": "instagram",
+            "url": "https://www.instagram.com/p/DbGsk7RDLG6"
+          },
+          {
+            "platform": "instagram",
             "url": "https://www.instagram.com/p/Da50EACjfRQ"
           },
           {
@@ -5034,10 +5013,6 @@
           {
             "platform": "instagram",
             "url": "https://www.instagram.com/p/DZ-TV0eDUC9"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/p/DZ2b1TLDeR6"
           },
           {
             "platform": "facebook",
@@ -5049,56 +5024,7 @@
           }
         ],
         "suppliedSocialsMissingFromOfficialSite": [],
-        "officialSocialsMissingFromResearch": [
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/p/Da50EACjfRQ"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/p/Da0UKynjQu7"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/p/DaneBhqjTZO"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/p/DaijjpzDeRQ"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/p/Dad3FQ7DebA"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/p/DaViQHvkd-5"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/p/DaTcViXtXGw"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/p/DaTB-beFuxM"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/p/DZ-TV0eDUC9"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/p/DZ2b1TLDeR6"
-          },
-          {
-            "platform": "facebook",
-            "url": "https://www.facebook.com/stonefieldsestate"
-          },
-          {
-            "platform": "instagram",
-            "url": "http://instagram.com/stonefields_estate"
-          }
-        ]
+        "officialSocialsMissingFromResearch": []
       },
       "contactVerification": {
         "phone": {
@@ -5216,7 +5142,7 @@
       "id": "lagois-design-build-renovate",
       "name": "Lagois Design Build Renovate",
       "sourceFile": "research/visual-service-leads.json",
-      "capturedAt": "2026-07-23T03:48:35.131Z",
+      "capturedAt": "2026-07-23T20:42:23.360Z",
       "validation": {
         "file": "research/visual-service-leads.json",
         "errors": []
@@ -5368,48 +5294,12 @@
         "suppliedSocialsMissingFromOfficialSite": [],
         "officialSocialsMissingFromResearch": [
           {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/lagoisdesignbuild"
-          },
-          {
-            "platform": "facebook",
-            "url": "https://www.facebook.com/LagoisDesignBuildRenovate"
-          },
-          {
-            "platform": "linkedin",
-            "url": "https://www.linkedin.com/company/lagois-design-build-renovate"
-          },
-          {
-            "platform": "pinterest",
-            "url": "https://ca.pinterest.com/lagoisdesign"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/wix"
-          },
-          {
-            "platform": "facebook",
-            "url": "https://www.facebook.com/WixStudio"
-          },
-          {
             "platform": "x",
             "url": "https://twitter.com/WixStudio"
           },
           {
-            "platform": "linkedin",
-            "url": "https://www.linkedin.com/company/wix-com"
-          },
-          {
-            "platform": "youtube",
-            "url": "https://www.youtube.com/user/Wix"
-          },
-          {
             "platform": "tiktok",
             "url": "https://www.tiktok.com/@wix"
-          },
-          {
-            "platform": "linkedin",
-            "url": "https://www.linkedin.com/company/5295581/admin/dashboard"
           }
         ]
       },
@@ -5591,7 +5481,7 @@
       "id": "oakwood-design-build",
       "name": "OakWood Design & Build",
       "sourceFile": "research/visual-service-leads.json",
-      "capturedAt": "2026-07-23T03:48:35.131Z",
+      "capturedAt": "2026-07-23T20:42:23.360Z",
       "validation": {
         "file": "research/visual-service-leads.json",
         "errors": []
@@ -5713,24 +5603,7 @@
           }
         ],
         "suppliedSocialsMissingFromOfficialSite": [],
-        "officialSocialsMissingFromResearch": [
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/oakwooddesignandbuild"
-          },
-          {
-            "platform": "facebook",
-            "url": "https://www.facebook.com/OakWoodDesignBuild"
-          },
-          {
-            "platform": "linkedin",
-            "url": "https://ca.linkedin.com/company/oakwood-renovation-experts"
-          },
-          {
-            "platform": "youtube",
-            "url": "https://www.youtube.com/@OakWoodDesign-Build"
-          }
-        ]
+        "officialSocialsMissingFromResearch": []
       },
       "contactVerification": {
         "phone": {

@@ -314,7 +314,9 @@ async function auditLead(lead, file) {
         .filter((social) => !listedSocials.some((listed) => comparableUrl(listed.url) === comparableUrl(social.url)))
         .map((social) => ({ platform: social.platform, url: social.url })),
       officialSocialsMissingFromResearch: discoveredSocialLinks.filter(
-        (discovered) => !(lead.socials ?? []).some((social) => social.platform === discovered.platform),
+        (discovered) => !(lead.socials ?? []).some(
+          (social) => String(social.platform).toLowerCase() === String(discovered.platform).toLowerCase(),
+        ),
       ),
     },
     contactVerification,

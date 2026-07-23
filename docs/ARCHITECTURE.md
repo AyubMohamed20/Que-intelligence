@@ -1,10 +1,10 @@
 # Que Media Intelligence Architecture
 
-Date: 2026-07-20
+Date: 2026-07-23
 
 ## Current delivery
 
-This repository contains the product interface, domain contracts, integration boundaries, evidence-aware scoring views, client report rendering, read-only JSON endpoints, and a dated 21-business Ottawa research cohort. Runtime profiles are deterministically assembled from the structured files in `research/` and `research/verified-leads-audit.json`; no demo or fallback prospect records are seeded.
+This repository contains the product interface, domain contracts, integration boundaries, evidence-aware scoring views, client report rendering, read-only JSON endpoints, and a dated 22-business Ottawa-market research cohort. Runtime profiles are deterministically assembled from the structured files in `research/` and `research/verified-leads-audit.json`; no demo or fallback prospect records are seeded.
 
 The current cohort is point-in-time research, not a live integration. Empty states remain for recurring agents, connectors, and source operations until approved credentials, durable storage, and separately deployed workers exist. The architecture below defines those boundaries so live activation does not compromise evidence quality, source terms, privacy, or the permanent ban on automatic outreach. Missing integrations and unmeasured observations remain explicitly unavailable.
 

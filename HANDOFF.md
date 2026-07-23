@@ -47,7 +47,7 @@ Add Rockin Johnny's Diner's new Merivale location to the Que Intelligence lead d
   - Removed the hard-coded 20-lead language.
   - Changed the generated artifact to count-agnostic `research/outreach-ready.md`.
   - Includes an optional email routing label in the generated contact brief.
-- Regenerated `research/verified-leads-audit.json` for all 21 records.
+- Regenerated `research/verified-leads-audit.json` for all 22 records after the Sukkar House extension.
 - Generated `research/outreach-ready.md` and removed stale `research/outreach-ready-20.md`.
 - Installed lockfile-defined Node dependencies with `npm ci`; `package-lock.json` was not changed.
 
@@ -63,10 +63,10 @@ Add Rockin Johnny's Diner's new Merivale location to the Que Intelligence lead d
   - `research/rockin-johnnys-diner-merivale-owner-research.json`: valid.
 - `npm ci`: passed; installed 48 packages. NPM reported 3 existing dependency audit findings (1 moderate, 2 high); no automatic remediation was applied.
 - `npm run typecheck`: passed.
-- `npm run verify:leads`: passed with 21 records, 21 outreach-ready, 21 reachable websites, and zero validation, duplicate, or current-client failures.
-- `npm run prepare:lead-index`: passed; wrote 21 records to `research/outreach-ready.md`.
-- `npm run build`: passed; Next.js generated 54 static pages, including 21 company profiles and 21 reports.
-- `QUE_MEDIA_BASE_URL=http://localhost:3001 npm run verify:runtime`: passed with 63 valid route checks, 3 invalid-route checks, and 0 failures.
+- `npm run verify:leads`: passed with 22 records, 22 outreach-ready, 22 reachable websites or primary public surfaces, and zero validation, duplicate, or current-client failures.
+- `npm run prepare:lead-index`: passed; wrote 22 records to `research/outreach-ready.md`.
+- `npm run build`: passed; Next.js generated 56 static pages, including 22 company profiles and 22 reports.
+- `QUE_MEDIA_BASE_URL=http://localhost:3001 npm run verify:runtime`: passed with 66 valid route checks, 3 invalid-route checks, and 0 failures.
 - Static output inspection:
   - Rockin' Johnny's company HTML contains Enzo Mastromattei, Anthony Joseph, and the current-legal-entity caveat.
   - Rockin' Johnny's report HTML contains both named people.

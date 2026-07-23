@@ -1529,5 +1529,341 @@
         "kind": "community discussion"
       }
     ]
+  },
+  {
+    "id": "sukkar-house",
+    "name": "Sukkar House",
+    "industry": "Dessert cafe, crepes, waffles, ice cream, specialty drinks, coffee, and breakfast",
+    "neighborhood": "Carleton Heights–Rideauview",
+    "location": "885 Meadowlands Drive, Ottawa, ON K2C 3N2",
+    "website": "https://www.instagram.com/sukkar.house/",
+    "phone": "343-999-9971",
+    "email": null,
+    "decisionMaker": null,
+    "socials": [
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/sukkar.house/",
+        "handle": "@sukkar.house"
+      }
+    ],
+    "offerings": [
+      "Sweet crepes, including sushi crepe and Sukkar House Fettuccine",
+      "Waffles, bubble waffles, and mini pancakes",
+      "Ice cream and Arabic ice cream",
+      "Fresh juices, smoothies, mojitos, and milkshakes",
+      "Hot and cold coffee, tea, and Turkish coffee",
+      "Breakfast and light savoury items",
+      "Dine-in, takeout, pickup, and delivery"
+    ],
+    "customerSegments": [
+      "Meadowlands, Merivale, and Nepean dessert customers",
+      "Families, couples, and friend groups",
+      "Late-evening dessert and coffee customers",
+      "Delivery and pickup customers",
+      "Customers seeking pistachio, qishta, Arabic ice cream, and Middle Eastern-influenced flavours",
+      "Breakfast, coffee, juice, and smoothie customers"
+    ],
+    "observations": [
+      {
+        "title": "The launch burst did not become an always-on content system",
+        "detail": "The complete public Instagram grid contained 23 posts from January 3 to May 15, 2026: 10 Reels, 12 single-image posts, and one carousel. Sixteen posts were published in January, but no new grid post appeared in the 69 days between May 15 and the July 23 research capture.",
+        "implication": "A batch-produced weekly system would preserve the strong launch energy without requiring daily filming and would give current delivery offers a consistent owned-media counterpart.",
+        "sourceUrls": [
+          "https://www.instagram.com/sukkar.house/",
+          "https://www.instagram.com/p/DTDWnj2CA5a/",
+          "https://www.instagram.com/p/DYXrx8NR0oc/"
+        ]
+      },
+      {
+        "title": "Visible interaction exists, but the account is not converting it through an owned destination",
+        "detail": "The 23-post sample showed 497 visible likes and 170 visible comments, averaging 21.6 likes and 7.4 comments per post. Against the 388 followers visible on July 23, that is a directional 7.5 visible interactions per post per 100 current followers, not a reach-based engagement rate. The profile exposes a phone number but no website, menu, or ordering link.",
+        "implication": "The next content run should keep the response-friendly product hooks while adding one maintained link destination for directions, current hours, menu, and ordering.",
+        "sourceUrls": [
+          "https://www.instagram.com/sukkar.house/"
+        ]
+      },
+      {
+        "title": "The shared-location identity needs one repeated answer",
+        "detail": "An official March 26 post says Sukkar House is inside Prince Bakery & Sweets at 885 Meadowlands Drive. OttawaEats separately lists Sukkar House at that address, while the profile bio names only the street address.",
+        "implication": "Every location-led video should show the exterior, say \"inside Prince Bakery & Sweets,\" and finish with the same map wording so a first-time visitor knows exactly what to look for.",
+        "sourceUrls": [
+          "https://www.instagram.com/p/DWVIuKOkdnX/",
+          "https://ottawaeats.com/neighbourhood/nepean/"
+        ]
+      },
+      {
+        "title": "The menu is highly filmable, but the public conversion journey is fragmented",
+        "detail": "The current DoorDash menu spans breakfast, coffee, crepes, waffles, juices, smoothies, milkshakes, and ice cream, including signature items such as Happiness Boom, Sukkar House Fettuccine, and the Four Seasons Waffle. A current Uber Eats listing coexists with a separate older listing marked closed as of February 20, 2026, and neither delivery destination is linked from Instagram.",
+        "implication": "Content should organize the broad menu into recognizable occasions and signature series, then send each video to one tested destination instead of leaving customers to resolve multiple marketplace listings.",
+        "sourceUrls": [
+          "https://www.doordash.com/store/sukkar-house-ottawa-40477075/",
+          "https://www.ubereats.com/ca/store/sukkar-house/dF3mhSmjXGGjSN8aRxIALw",
+          "https://www.ubereats.com/ca/store/sukkar-house/DRJsc_9eQz-AuG4TM8lXdw"
+        ]
+      }
+    ],
+    "whyNow": {
+      "title": "A newly incorporated dessert brand has gone quiet during its first summer",
+      "detail": "A federal-registry-derived record lists Sukkar House Inc. as incorporated on December 14, 2025, the official account teased \"Coming soon\" on January 3, 2026, and the latest public grid post was May 15. As of July 23, the delivery menu remained active while the grid had been quiet for 69 days, creating a timely relaunch window before the first-summer awareness opportunity passes.",
+      "date": "2026-07-23",
+      "strength": "high",
+      "sourceUrls": [
+        "https://opengovca.com/corporation/17546963",
+        "https://www.instagram.com/p/DTDWnj2CA5a/",
+        "https://www.instagram.com/p/DYXrx8NR0oc/",
+        "https://www.doordash.com/store/sukkar-house-ottawa-40477075/"
+      ]
+    },
+    "competitors": [
+      {
+        "name": "My Choc-O-La",
+        "url": "https://mychocola613.ca/"
+      },
+      {
+        "name": "Saffron Rolled Ice Cream",
+        "url": "https://saffronrolledicecream.com/"
+      }
+    ],
+    "scores": {
+      "contentFit": 94,
+      "opportunity": 92,
+      "response": 78,
+      "summary": "Overall 89/100. Sukkar House has exceptionally visual preparation, signature products, late-day occasions, and a warm visible response pattern. The strongest opportunity is to restart a dormant launch account with a repeatable content system that clarifies the shared location and connects every video to one maintained visit or order destination.",
+      "dimensions": [
+        {
+          "scoreType": "contentFit",
+          "name": "Visual product transformations",
+          "value": 20,
+          "max": 20,
+          "evidence": "Crepes, waffles, layered drinks, fruit, ice cream, sauces, and toppings create clear before-and-after and ASMR sequences."
+        },
+        {
+          "scoreType": "contentFit",
+          "name": "Signature product and menu variety",
+          "value": 19,
+          "max": 20,
+          "evidence": "Named products such as Happiness Boom, Sukkar House Fettuccine, and Four Seasons Waffle can anchor recognizable series."
+        },
+        {
+          "scoreType": "contentFit",
+          "name": "Repeatable short-form formats",
+          "value": 19,
+          "max": 20,
+          "evidence": "Preparation, flavour choice, customer reaction, late-night occasion, and location-guide formats can recur without repeating the same story."
+        },
+        {
+          "scoreType": "contentFit",
+          "name": "Local and cultural distinctiveness",
+          "value": 18,
+          "max": 20,
+          "evidence": "Arabic ice cream, qishta, pistachio, Turkish coffee, and the inside-Prince location provide more specific territory than generic dessert glamour."
+        },
+        {
+          "scoreType": "contentFit",
+          "name": "Trackable visit and order actions",
+          "value": 18,
+          "max": 20,
+          "evidence": "Phone, in-store visits, pickup, and delivery can support concrete calls to action once the destination is standardized."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Recent-launch narrative",
+          "value": 19,
+          "max": 20,
+          "evidence": "The December 2025 incorporation and January 2026 teaser create a credible new-brand story."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Cadence recovery need",
+          "value": 20,
+          "max": 20,
+          "evidence": "Sixteen January posts were followed by a 69-day grid gap after May 15."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Identity and location clarity",
+          "value": 19,
+          "max": 20,
+          "evidence": "The concept operates inside Prince Bakery & Sweets, but that relationship is not stated in the profile bio."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Owned conversion surface",
+          "value": 19,
+          "max": 20,
+          "evidence": "The profile has no external website, menu, or ordering link despite active third-party delivery listings."
+        },
+        {
+          "scoreType": "opportunity",
+          "name": "Measurable campaign path",
+          "value": 15,
+          "max": 20,
+          "evidence": "Delivery and visit actions are measurable, but owner-authorized analytics and a canonical landing destination are not yet available."
+        },
+        {
+          "scoreType": "response",
+          "name": "Public Instagram route",
+          "value": 18,
+          "max": 20,
+          "evidence": "A verified professional Instagram account is the natural first channel."
+        },
+        {
+          "scoreType": "response",
+          "name": "Public phone route",
+          "value": 18,
+          "max": 20,
+          "evidence": "The business phone is published directly in the official Instagram bio."
+        },
+        {
+          "scoreType": "response",
+          "name": "Local independent fit",
+          "value": 17,
+          "max": 20,
+          "evidence": "The single Ottawa location and early-stage brand footprint make a compact pilot proportionate."
+        },
+        {
+          "scoreType": "response",
+          "name": "Specific timely opening",
+          "value": 17,
+          "max": 20,
+          "evidence": "The first-summer cadence gap and shared-location issue support a precise, non-generic message."
+        },
+        {
+          "scoreType": "response",
+          "name": "Decision-maker reachability",
+          "value": 8,
+          "max": 20,
+          "evidence": "No public business email or professionally verified named decision maker was found."
+        }
+      ]
+    },
+    "concepts": [
+      {
+        "title": "Sukkar is inside Prince",
+        "hook": "Sukkar House is inside Prince Bakery—here is exactly how to find it.",
+        "outline": [
+          "Open on the 885 Meadowlands exterior and show the Prince Bakery & Sweets sign.",
+          "Use a five-second walk-in path to the Sukkar counter.",
+          "Finish on one signature dessert, the phone number, and one current order or visit destination."
+        ],
+        "productionNotes": "Vertical 20-second location guide; keep exterior signage, entrance, counter, and map wording consistent across every cutdown."
+      },
+      {
+        "title": "Build the Happiness Boom",
+        "hook": "This is what a Happiness Boom looks like before the first drizzle.",
+        "outline": [
+          "Start with the empty plate and name each verified component as it is added.",
+          "Use close preparation sound for crepe, fruit, qishta, ice cream, and finishing sauce.",
+          "Reveal the full portion beside a person for scale and end with the exact current availability."
+        ],
+        "productionNotes": "30-second hero Reel plus six modular ingredient cutdowns; verify the recipe wording with the business before publishing."
+      },
+      {
+        "title": "Pick your late-night dessert",
+        "hook": "You get one choice: pistachio, Lotus, Oreo, or Belgian chocolate.",
+        "outline": [
+          "Build four fast quadrants using the same waffle or crepe base.",
+          "Give each flavour a distinct texture shot and on-screen label.",
+          "Invite viewers to comment their pick, then direct the final frame to one maintained in-store or delivery route."
+        ],
+        "productionNotes": "Batch film one base preparation and four finishes; export a master comparison, four flavour cuts, and Story polls."
+      }
+    ],
+    "outreach": {
+      "channel": "Instagram DM",
+      "subject": "",
+      "opening": "Hi Sukkar House team, I reviewed your full public grid and current menu because the launch has the ingredients for a strong Ottawa dessert series.",
+      "body": "Sixteen of your 23 posts landed in January, and the grid has been quiet since May 15 even though the current delivery menu still features signature products like Happiness Boom, Sukkar House Fettuccine, and the Four Seasons Waffle. I also noticed the location detail that can make or break a first visit: one official post says Sukkar is inside Prince Bakery & Sweets, but the bio does not explain that or link to a menu. Que Media could turn one shoot into three repeatable systems—a clear inside-Prince location guide, a signature-build series, and four-way flavour choices—each ending on one current visit or order action.",
+      "callToAction": "Would you be open to a 15-minute conversation if I send the three-video shot plan first?",
+      "evidenceUrls": [
+        "https://www.instagram.com/sukkar.house/",
+        "https://www.instagram.com/p/DWVIuKOkdnX/",
+        "https://www.doordash.com/store/sukkar-house-ottawa-40477075/",
+        "https://opengovca.com/corporation/17546963"
+      ]
+    },
+    "sources": [
+      {
+        "label": "Official profile, public contact, follower count, and complete 23-post grid",
+        "url": "https://www.instagram.com/sukkar.house/",
+        "publisher": "Sukkar House",
+        "capturedAt": "2026-07-23",
+        "lastPublishedAt": "2026-05-15",
+        "kind": "official"
+      },
+      {
+        "label": "Official shared-location and pistachio product post",
+        "url": "https://www.instagram.com/p/DWVIuKOkdnX/",
+        "publisher": "Sukkar House",
+        "capturedAt": "2026-07-23",
+        "lastPublishedAt": "2026-03-26",
+        "kind": "official social"
+      },
+      {
+        "label": "Official mini-pancake drink launch post",
+        "url": "https://www.instagram.com/p/DW1zvQnkd2h/",
+        "publisher": "Sukkar House",
+        "capturedAt": "2026-07-23",
+        "lastPublishedAt": "2026-04-07",
+        "kind": "official social"
+      },
+      {
+        "label": "Latest public Instagram grid post",
+        "url": "https://www.instagram.com/p/DYXrx8NR0oc/",
+        "publisher": "Sukkar House",
+        "capturedAt": "2026-07-23",
+        "lastPublishedAt": "2026-05-15",
+        "kind": "official social"
+      },
+      {
+        "label": "Official coming-soon teaser",
+        "url": "https://www.instagram.com/p/DTDWnj2CA5a/",
+        "publisher": "Sukkar House",
+        "capturedAt": "2026-07-23",
+        "lastPublishedAt": "2026-01-03",
+        "kind": "official social"
+      },
+      {
+        "label": "Current delivery menu, categories, hours, and offers",
+        "url": "https://www.doordash.com/store/sukkar-house-ottawa-40477075/",
+        "publisher": "DoorDash",
+        "capturedAt": "2026-07-23",
+        "lastPublishedAt": null,
+        "kind": "marketplace"
+      },
+      {
+        "label": "Current Uber Eats menu and address listing",
+        "url": "https://www.ubereats.com/ca/store/sukkar-house/dF3mhSmjXGGjSN8aRxIALw",
+        "publisher": "Uber Eats",
+        "capturedAt": "2026-07-23",
+        "lastPublishedAt": null,
+        "kind": "marketplace"
+      },
+      {
+        "label": "Older Uber Eats listing marked closed",
+        "url": "https://www.ubereats.com/ca/store/sukkar-house/DRJsc_9eQz-AuG4TM8lXdw",
+        "publisher": "Uber Eats",
+        "capturedAt": "2026-07-23",
+        "lastPublishedAt": "2026-02-20",
+        "kind": "marketplace"
+      },
+      {
+        "label": "Nepean restaurant directory listing and local rating snapshot",
+        "url": "https://ottawaeats.com/neighbourhood/nepean/",
+        "publisher": "OttawaEats",
+        "capturedAt": "2026-07-23",
+        "lastPublishedAt": null,
+        "kind": "directory"
+      },
+      {
+        "label": "Federal-corporation registry-derived record",
+        "url": "https://opengovca.com/corporation/17546963",
+        "publisher": "OpenGovCA, sourced from Corporations Canada open data",
+        "capturedAt": "2026-07-23",
+        "lastPublishedAt": "2025-12-14",
+        "kind": "public registration"
+      }
+    ]
   }
 ]

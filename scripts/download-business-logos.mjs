@@ -68,6 +68,9 @@ function addCandidate(candidates, value, baseUrl, score, kind, context = "") {
 
 function extractCandidates(html, baseUrl) {
   const candidates = new Map();
+  const base = new URL(baseUrl);
+  const isInstagramProfile = base.hostname.endsWith("instagram.com")
+    && base.pathname.split("/").filter(Boolean).length === 1;
 
   for (const match of html.matchAll(/<script\b[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)) {
     const script = match[1];
@@ -96,7 +99,15 @@ function extractCandidates(html, baseUrl) {
     const attrs = attributes(tag[0]);
     const property = (attrs.get("property") ?? attrs.get("name") ?? "").toLowerCase();
     if (property === "og:logo") addCandidate(candidates, attrs.get("content"), baseUrl, 120, "open-graph-logo");
-    if (property === "og:image") addCandidate(candidates, attrs.get("content"), baseUrl, 12, "open-graph-image");
+    if (property === "og:image") {
+      addCandidate(
+        candidates,
+        attrs.get("content"),
+        baseUrl,
+        isInstagramProfile ? 90 : 12,
+        isInstagramProfile ? "official-profile-image" : "open-graph-image",
+      );
+    }
   }
 
   return [...candidates.values()].sort((a, b) => b.score - a.score);
