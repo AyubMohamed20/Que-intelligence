@@ -1,6 +1,6 @@
 # Que Media Outreach-Ready Ottawa Market Lead Index
 
-Generated from the verified research cohort on 2026-07-20.
+Generated from the verified research cohort on 2026-07-23.
 
 > This is preparation, not an outreach queue. Recheck current signals and manually review each draft immediately before contacting a business.
 
@@ -9,25 +9,26 @@ Generated from the verified research cohort on 2026-07-20.
 | Rank | Business | Content fit | Opportunity | Response estimate | Why Now |
 | ---: | --- | ---: | ---: | ---: | --- |
 | 1 | [Anatomy Physiotherapy Clinic](https://anatomyphysioclinic.com/) | 95 | 96 | 92% | Two clinics coming soon and a founder milestone |
-| 2 | [Stolen Goods Cocktail Bar](https://www.stolengoodscocktailbar.com/) | 96 | 95 | 86% | A recent pop-up cycle is feeding a final-year narrative |
-| 3 | [Arro Wellness](https://arrowellness.ca/) | 94 | 95 | 93% | Rebrand and larger-space transition is still active |
-| 4 | [Where I Thrive](https://whereithrive.ca/) | 96 | 91 | 89% | July and August specialty programs are already in market |
-| 5 | [Automindz](https://www.automindz.ca/) | 94 | 90 | 78% | July and August service promotion |
-| 6 | [Saunders Farm](https://saundersfarm.com/) | 98 | 88 | 84% | Three summer campaigns are live or imminent |
-| 7 | [Iron North Studio](https://www.ironnorthstudio.com/) | 94 | 88 | 86% | The studio is actively building its team |
-| 8 | [House of TARG](https://www.houseoftarg.com/) | 98 | 86 | 82% | Two recurring arcade products and a live show land on consecutive nights |
-| 9 | [Refine Ottawa](https://www.refineottawa.com/) | 91 | 86 | 84% | The clinic says it is growing |
-| 10 | [Escape Manor Ottawa](https://www.escapemanor.com/ottawa/) | 97 | 85 | 65% | Active summer offers and sold-out dates create immediate demand signals |
-| 11 | [The Aesthetic Lounge](https://theaestheticlounge.ca/) | 92 | 84 | 79% | No verified time-bounded trigger |
-| 12 | [Moo Shu Ice Cream & Kitchen](https://www.mooshuicecream.com/) | 95 | 83 | 80% | Peak summer attention plus fresh regional travel coverage |
-| 13 | [ARTium Design Build Renovations](https://artiumdesignbuild.com/) | 91 | 83 | 70% | No verified time-bounded trigger |
-| 14 | [ApartMint Hair Studio](https://www.apartminthairstudio.ca/) | 93 | 82 | 78% | No verified time-bounded trigger |
-| 15 | [Stonefields Estate](https://stonefieldsweddings.com/) | 96 | 80 | 70% | Current expansion into private events, petite weddings, and Dinner Club |
-| 16 | [Beyond the Pale Brewing Company](https://btpshop.ca/) | 91 | 79 | 72% | Active July programming at both Ottawa venues |
-| 17 | [Dominion City Brewing Co.](https://www.dominioncity.ca/) | 92 | 78 | 70% | A new pizza program is being activated through live events |
-| 18 | [The Merry Dairy](https://themerrydairy.com/) | 96 | 75 | 82% | Summer Name Days returned July 17 |
-| 19 | [Lagois Design Build Renovate](https://www.lagois.com/) | 93 | 73 | 68% | No verified time-bounded trigger |
-| 20 | [OakWood Design & Build](https://oakwood.ca/) | 94 | 70 | 64% | No verified time-bounded trigger |
+| 2 | [Rockin' Johnny's Diner](http://rockinjohnnysdiner.com/) | 94 | 96 | 78% | The new Merivale diner opened in mid-July 2026 |
+| 3 | [Stolen Goods Cocktail Bar](https://www.stolengoodscocktailbar.com/) | 96 | 95 | 86% | A recent pop-up cycle is feeding a final-year narrative |
+| 4 | [Arro Wellness](https://arrowellness.ca/) | 94 | 95 | 93% | Rebrand and larger-space transition is still active |
+| 5 | [Where I Thrive](https://whereithrive.ca/) | 96 | 91 | 89% | July and August specialty programs are already in market |
+| 6 | [Automindz](https://www.automindz.ca/) | 94 | 90 | 78% | July and August service promotion |
+| 7 | [Saunders Farm](https://saundersfarm.com/) | 98 | 88 | 84% | Three summer campaigns are live or imminent |
+| 8 | [Iron North Studio](https://www.ironnorthstudio.com/) | 94 | 88 | 86% | The studio is actively building its team |
+| 9 | [House of TARG](https://www.houseoftarg.com/) | 98 | 86 | 82% | Two recurring arcade products and a live show land on consecutive nights |
+| 10 | [Refine Ottawa](https://www.refineottawa.com/) | 91 | 86 | 84% | The clinic says it is growing |
+| 11 | [Escape Manor Ottawa](https://www.escapemanor.com/ottawa/) | 97 | 85 | 65% | Active summer offers and sold-out dates create immediate demand signals |
+| 12 | [The Aesthetic Lounge](https://theaestheticlounge.ca/) | 92 | 84 | 79% | No verified time-bounded trigger |
+| 13 | [Moo Shu Ice Cream & Kitchen](https://www.mooshuicecream.com/) | 95 | 83 | 80% | Peak summer attention plus fresh regional travel coverage |
+| 14 | [ARTium Design Build Renovations](https://artiumdesignbuild.com/) | 91 | 83 | 70% | No verified time-bounded trigger |
+| 15 | [ApartMint Hair Studio](https://www.apartminthairstudio.ca/) | 93 | 82 | 78% | No verified time-bounded trigger |
+| 16 | [Stonefields Estate](https://stonefieldsweddings.com/) | 96 | 80 | 70% | Current expansion into private events, petite weddings, and Dinner Club |
+| 17 | [Beyond the Pale Brewing Company](https://btpshop.ca/) | 91 | 79 | 72% | Active July programming at both Ottawa venues |
+| 18 | [Dominion City Brewing Co.](https://www.dominioncity.ca/) | 92 | 78 | 70% | A new pizza program is being activated through live events |
+| 19 | [The Merry Dairy](https://themerrydairy.com/) | 96 | 75 | 82% | Summer Name Days returned July 17 |
+| 20 | [Lagois Design Build Renovate](https://www.lagois.com/) | 93 | 73 | 68% | No verified time-bounded trigger |
+| 21 | [OakWood Design & Build](https://oakwood.ca/) | 94 | 70 | 64% | No verified time-bounded trigger |
 
 ## Contact and outreach briefs
 
@@ -49,7 +50,23 @@ Generated from the verified research cohort on 2026-07-20.
   - Instagram: [@anatomyphysiotherapyclinic](https://www.instagram.com/anatomyphysiotherapyclinic/)
   - LinkedIn: [anatomy-physiotherapy-clinic](https://www.linkedin.com/company/anatomy-physiotherapy-clinic)
 
-### 2. Stolen Goods Cocktail Bar
+### 2. Rockin' Johnny's Diner
+
+- Website: http://rockinjohnnysdiner.com/
+- Location: 1651 Merivale Road, Ottawa, ON
+- Public email: rockinjohnnyskanata@gmail.com (Official Kanata email; confirm Merivale routing)
+- Public phone: Unavailable
+- Public decision-maker context: Enzo Mastromattei, Franchise owner and founder of the original Westgate location (https://obj.ca/rockin-johnnys-reopen-merivale-road-closure-westgate/)
+- Why Now: The new Merivale diner opened in mid-July 2026. Ottawa Business Journal announced the 1651 Merivale Road reopening on July 10 for the following week. Local customer reports indicate the doors opened July 15 and document a visit on July 18, creating an immediate launch window while nearby awareness and former-customer nostalgia are still active.
+- Best prepared channel: Email
+- Subject: A Merivale launch story built around what came back from Westgate
+- Opening: Hi Enzo, I saw your Ottawa Business Journal interview about reopening Rockin' Johnny's at 1651 Merivale Road and bringing back former Westgate staff while giving the diner a more modern look.
+- Call to action: Would you be open to a 15-minute conversation if I send a three-video Merivale launch outline first?
+- Concepts: The car moved too; Westgate regulars, Merivale firsts; New diner, same order
+- Verified public socials:
+  - Instagram: [@rockinjohnnysdiner](https://www.instagram.com/rockinjohnnysdiner/)
+
+### 3. Stolen Goods Cocktail Bar
 
 - Website: https://www.stolengoodscocktailbar.com/
 - Location: 106 Sparks Street, Ottawa, ON K1P 5C7
@@ -66,7 +83,7 @@ Generated from the verified research cohort on 2026-07-20.
   - Instagram: [@stolengoodscocktailbar](https://www.instagram.com/stolengoodscocktailbar)
   - Facebook: [Stolen-Goods-Cocktail-Bar-102599701604892](https://www.facebook.com/Stolen-Goods-Cocktail-Bar-102599701604892)
 
-### 3. Arro Wellness
+### 4. Arro Wellness
 
 - Website: https://arrowellness.ca/
 - Location: 102-1600 Laperriere Avenue, Ottawa, ON K1Z 8P5
@@ -84,7 +101,7 @@ Generated from the verified research cohort on 2026-07-20.
   - Instagram: [@arrowellness.ca](https://www.instagram.com/arrowellness.ca)
   - TikTok: [@arrowellness.ca](https://www.tiktok.com/@arrowellness.ca)
 
-### 4. Where I Thrive
+### 5. Where I Thrive
 
 - Website: https://whereithrive.ca/
 - Location: 1-117 Glebe Avenue, Ottawa, ON K1S 2C2
@@ -102,7 +119,7 @@ Generated from the verified research cohort on 2026-07-20.
   - Facebook: [WhereIThrive](https://www.facebook.com/WhereIThrive)
   - LinkedIn: [whereithrive](https://ca.linkedin.com/company/whereithrive)
 
-### 5. Automindz
+### 6. Automindz
 
 - Website: https://www.automindz.ca/
 - Location: 1555 St. Laurent Boulevard, Unit B, Ottawa, ON K1G 1A1
@@ -118,7 +135,7 @@ Generated from the verified research cohort on 2026-07-20.
 - Verified public socials:
   - Instagram: [@automindz.ottawa](https://www.instagram.com/automindz.ottawa/)
 
-### 6. Saunders Farm
+### 7. Saunders Farm
 
 - Website: https://saundersfarm.com/
 - Location: 7893 Bleeks Road, Munster, Ottawa, ON K0A 3P0
@@ -137,7 +154,7 @@ Generated from the verified research cohort on 2026-07-20.
   - TikTok: [@saundersfarm](https://www.tiktok.com/@saundersfarm)
   - LinkedIn: [Saunders Farm](https://ca.linkedin.com/company/saunders-farm)
 
-### 7. Iron North Studio
+### 8. Iron North Studio
 
 - Website: https://www.ironnorthstudio.com/
 - Location: 595 Somerset Street West, Ottawa, ON K1R 6C6
@@ -155,7 +172,7 @@ Generated from the verified research cohort on 2026-07-20.
   - Facebook: [ironnorthstudio](https://www.facebook.com/ironnorthstudio)
   - LinkedIn: [iron-north-studio](https://ca.linkedin.com/company/iron-north-studio)
 
-### 8. House of TARG
+### 9. House of TARG
 
 - Website: https://www.houseoftarg.com/
 - Location: 1077 Bank Street, Ottawa, ON K1S 3W9
@@ -172,7 +189,7 @@ Generated from the verified research cohort on 2026-07-20.
   - Instagram: [@houseoftarg](https://www.instagram.com/houseoftarg/)
   - Facebook: [houseoftarghouseoftarg](https://www.facebook.com/houseoftarghouseoftarg/)
 
-### 9. Refine Ottawa
+### 10. Refine Ottawa
 
 - Website: https://www.refineottawa.com/
 - Location: 99 Fourth Avenue, Unit 102, Ottawa, ON K1S 2L1
@@ -188,7 +205,7 @@ Generated from the verified research cohort on 2026-07-20.
 - Verified public socials:
   - Instagram: [@refineottawa](https://www.instagram.com/refineottawa/)
 
-### 10. Escape Manor Ottawa
+### 11. Escape Manor Ottawa
 
 - Website: https://www.escapemanor.com/ottawa/
 - Location: Primary hospitality venue: 292 Elgin Street, Ottawa, ON K2P 1M3; additional Ottawa-area experiences at 982 Wellington Street West, 900 Greenbank Road, and 3929 Carp Road
@@ -206,7 +223,7 @@ Generated from the verified research cohort on 2026-07-20.
   - Facebook: [EscapeManor](https://www.facebook.com/EscapeManor)
   - X: [@EscapeManor](https://twitter.com/EscapeManor)
 
-### 11. The Aesthetic Lounge
+### 12. The Aesthetic Lounge
 
 - Website: https://theaestheticlounge.ca/
 - Location: 1079 Somerset Street West, Ottawa, ON K1Y 3C6, as published on the official site
@@ -225,7 +242,7 @@ Generated from the verified research cohort on 2026-07-20.
   - LinkedIn: [the-aesthetic-lounge-ottawa](https://www.linkedin.com/company/the-aesthetic-lounge-ottawa)
   - YouTube: [@theaestheticlounge7072](https://www.youtube.com/@theaestheticlounge7072)
 
-### 12. Moo Shu Ice Cream & Kitchen
+### 13. Moo Shu Ice Cream & Kitchen
 
 - Website: https://www.mooshuicecream.com/
 - Location: Unit 1, 1130 Wellington Street West, Ottawa, ON K1Y 2Z3
@@ -243,7 +260,7 @@ Generated from the verified research cohort on 2026-07-20.
   - Facebook: [mooshuicecream](https://www.facebook.com/mooshuicecream)
   - X: [@mooshuicecream](https://twitter.com/mooshuicecream)
 
-### 13. ARTium Design Build Renovations
+### 14. ARTium Design Build Renovations
 
 - Website: https://artiumdesignbuild.com/
 - Location: 2853 Carp Road, Ottawa, ON K0A 1L0
@@ -263,7 +280,7 @@ Generated from the verified research cohort on 2026-07-20.
   - Houzz: [artiumdesignbuild](https://www.houzz.com/pro/artiumdesignbuild/__public)
   - Pinterest: [@justbasements](https://www.pinterest.com/justbasements/)
 
-### 14. ApartMint Hair Studio
+### 15. ApartMint Hair Studio
 
 - Website: https://www.apartminthairstudio.ca/
 - Location: 7 Sherbrooke Avenue, Ottawa, ON
@@ -280,7 +297,7 @@ Generated from the verified research cohort on 2026-07-20.
   - Instagram: [@apart.mint](https://www.instagram.com/apart.mint/)
   - Facebook: [apartmintottawa](https://www.facebook.com/apartmintottawa)
 
-### 15. Stonefields Estate
+### 16. Stonefields Estate
 
 - Website: https://stonefieldsweddings.com/
 - Location: 1985 9th Line Road, Beckwith, ON K7C 3P2
@@ -298,7 +315,7 @@ Generated from the verified research cohort on 2026-07-20.
   - Facebook: [@stonefieldsestate](https://www.facebook.com/stonefieldsestate/)
   - Pinterest: [@stonefieldsestate](https://www.pinterest.ca/stonefieldsestate/)
 
-### 16. Beyond the Pale Brewing Company
+### 17. Beyond the Pale Brewing Company
 
 - Website: https://btpshop.ca/
 - Location: 250 City Centre Avenue, Unit 108, Ottawa, ON; second taproom at 21 George Street, Ottawa, ON K1N 8W5
@@ -319,7 +336,7 @@ Generated from the verified research cohort on 2026-07-20.
   - Threads: [@btpbrewing](https://www.threads.com/@btpbrewing)
   - X: [@BTPBrewing](https://x.com/BTPBrewing)
 
-### 17. Dominion City Brewing Co.
+### 18. Dominion City Brewing Co.
 
 - Website: https://www.dominioncity.ca/
 - Location: 15-5510 Canotek Road, Ottawa, ON K1J 9J4
@@ -338,7 +355,7 @@ Generated from the verified research cohort on 2026-07-20.
   - TikTok: [@dominioncitybrewing](https://www.tiktok.com/@dominioncitybrewing)
   - YouTube: [Dominion City Brewing Co. on YouTube](https://www.youtube.com/channel/UC8Rn-KJS0rrAXglucVJXVdQ)
 
-### 18. The Merry Dairy
+### 19. The Merry Dairy
 
 - Website: https://themerrydairy.com/
 - Location: 102 Fairmont Avenue, Ottawa, ON K1Y 1X6
@@ -359,7 +376,7 @@ Generated from the verified research cohort on 2026-07-20.
   - TikTok: [@themerrydairy](https://www.tiktok.com/@themerrydairy)
   - YouTube: [themerrydairy](https://www.youtube.com/themerrydairy)
 
-### 19. Lagois Design Build Renovate
+### 20. Lagois Design Build Renovate
 
 - Website: https://www.lagois.com/
 - Location: 5921 Prince of Wales Drive, North Gower, Ottawa, ON K0A 2T0
@@ -380,7 +397,7 @@ Generated from the verified research cohort on 2026-07-20.
   - Pinterest: [@lagoisdesign](https://ca.pinterest.com/lagoisdesign/)
   - Houzz: [lagoisdesignbuild](https://www.houzz.com/pro/lagoisdesignbuild)
 
-### 20. OakWood Design & Build
+### 21. OakWood Design & Build
 
 - Website: https://oakwood.ca/
 - Location: Headquarters: 865 Taylor Creek Drive, Ottawa, ON K4A 0Z9; central studio: 555 Bank Street, Ottawa, ON K1S 5L7; trade partner location: 31 Northside Road, Ottawa, ON K2H 8S1
@@ -401,5 +418,5 @@ Generated from the verified research cohort on 2026-07-20.
 
 ## Verification boundary
 
-All 20 of 20 records passed `npm run verify:leads` with 0 validation errors. Missing values remain unavailable. Social activity, engagement, local ranking, Google review metrics, performance speed, and production quality are not scored unless a complete public sample exists.
+All 21 of 21 records passed `npm run verify:leads` with 0 validation errors. Missing values remain unavailable. Social activity, engagement, local ranking, Google review metrics, performance speed, and production quality are not scored unless a complete public sample exists.
 

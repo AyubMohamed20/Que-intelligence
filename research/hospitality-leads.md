@@ -1,6 +1,6 @@
 # Que Media hospitality and experience leads
 
-Research captured July 20, 2026. This set contains seven real Ottawa-area businesses selected for Que Media's strengths in entertaining and educational short-form video. Contact details were taken from official business properties or named professional profiles. No private information, guessed email pattern, invented metric, or purchased-list field is included.
+Research captured July 20, 2026 and extended July 22, 2026. This set contains eight real Ottawa-area businesses selected for Que Media's strengths in entertaining and educational short-form video. Contact details were taken from official business properties or named professional profiles. No private information, guessed email pattern, invented metric, or purchased-list field is included.
 
 The companion file, `hospitality-leads.json`, is the machine-readable source of truth. These are outreach-preparation records only. Nothing has been sent.
 
@@ -17,12 +17,13 @@ The companion file, `hospitality-leads.json`, is the machine-readable source of 
 | Priority | Business | Content Fit | Opportunity | Response | Overall | Immediate reason |
 |---:|---|---:|---:|---:|---:|---|
 | 1 | Stolen Goods Cocktail Bar | 96 | 95 | 86 | 93 | Final year at 106 Sparks plus active pop-up storytelling |
-| 2 | House of TARG | 98 | 86 | 82 | Arcade, pinball, and live music events on July 21 to 23 |
-| 3 | Moo Shu Ice Cream & Kitchen | 95 | 83 | 80 | Peak summer season plus July 7 regional travel coverage |
-| 4 | The Merry Dairy | 96 | 75 | 82 | Daily Name Days campaign returned July 17 |
-| 5 | Escape Manor Ottawa | 97 | 85 | 65 | Active summer offers and visible sold-out July inventory |
-| 6 | Beyond the Pale Brewing Company | 91 | 79 | 72 | Current programming across City Centre and ByWard |
-| 7 | Dominion City Brewing Co. | 92 | 78 | 70 | New Stubby's pizza program and event-led activation |
+| 2 | Rockin' Johnny's Diner | 94 | 96 | 78 | 90 | Merivale reopening, returning Westgate staff, and stale location information |
+| 3 | House of TARG | 98 | 86 | 82 | 90 | Arcade, pinball, and live music events on July 21 to 23 |
+| 4 | Moo Shu Ice Cream & Kitchen | 95 | 83 | 80 | 87 | Peak summer season plus July 7 regional travel coverage |
+| 5 | The Merry Dairy | 96 | 75 | 82 | 85 | Daily Name Days campaign returned July 17 |
+| 6 | Escape Manor Ottawa | 97 | 85 | 65 | 85 | Active summer offers and visible sold-out July inventory |
+| 7 | Beyond the Pale Brewing Company | 91 | 79 | 72 | 82 | Current programming across City Centre and ByWard |
+| 8 | Dominion City Brewing Co. | 92 | 78 | 70 | 82 | New Stubby's pizza program and event-led activation |
 
 ## 1. Moo Shu Ice Cream & Kitchen
 
@@ -488,10 +489,83 @@ The Merry Dairy already has more real stories than most brands: three trucks, al
 
 Would you like a sample seven-day Name Days template that your team could approve once and update quickly each morning?
 
+## 8. Rockin' Johnny's Diner
+
+### Verified identity and contact
+
+- Industry: retro family diner, all-day breakfast, burgers, comfort food, and milkshakes.
+- New location: 1651 Merivale Road, Ottawa, ON.
+- Website: [rockinjohnnysdiner.com](http://rockinjohnnysdiner.com/). The page still lists Westgate as closed and does not yet include Merivale; the HTTPS certificate currently does not match the domain.
+- Public phone: no direct Merivale number verified. Do not reuse the former Westgate number.
+- Public email: [rockinjohnnyskanata@gmail.com](mailto:rockinjohnnyskanata@gmail.com) is published for the Kanata location. Confirm that it routes Merivale enquiries before using it.
+- Public leadership context: [Ottawa Business Journal](https://obj.ca/rockin-johnnys-reopen-merivale-road-closure-westgate/) identifies Enzo Mastromattei as franchise owner and says Anthony Joseph bought the Westgate location in 2005; both selected the Merivale site. [Kitchissippi Times](https://kitchissippi.com/rockin-johnnys-searching-for-new-diner-space-after-westgate-closure/) independently documents Joseph's long-time operating role.
+- Public social route: [Instagram @rockinjohnnysdiner](https://www.instagram.com/rockinjohnnysdiner/). The stale website does not currently link this account, so recheck it before contact.
+
+The exact current Merivale legal operator and equity ownership are not established by the public sources reviewed. Use the documented role labels above rather than calling either person the sole legal owner.
+
+### Business and audience fit
+
+Core offers include all-day breakfast, diner plates, burgers, sandwiches, milkshakes, desserts, family dining, takeout, and delivery. Priority audiences include former Westgate regulars, Merivale and Meadowlands residents, families, breakfast and brunch customers, and Ottawans with an existing connection to the retro brand.
+
+The official history says the original Westgate diner opened in 1991. The new location can therefore introduce itself to a nearby neighbourhood without discarding more than three decades of recognizable local history.
+
+### Evidence-backed opportunities
+
+1. The relocation is a visible before-and-after story. Local reporting says the Merivale room is a more modern, slightly more upscale interpretation while retaining the wall car and bringing back former Westgate employees. A launch series can show what moved, what changed, and who returned. [OBJ report](https://obj.ca/rockin-johnnys-reopen-merivale-road-closure-westgate/)
+2. The owner/operator story is unusually specific: Mastromattei opened the original location in 1991, Joseph bought Westgate in 2005, and both chose the new site. That supports credible first-person storytelling without inventing a founder narrative. [OBJ report](https://obj.ca/rockin-johnnys-reopen-merivale-road-closure-westgate/) and [Kitchissippi profile](https://kitchissippi.com/rockin-johnnys-searching-for-new-diner-space-after-westgate-closure/)
+3. The official website still directs readers toward the closed Westgate location, omits Merivale, and fails in standards-compliant HTTPS clients. Address, hours, menu, direct contact, and secure-site updates should precede or accompany any launch campaign. [Official site](http://rockinjohnnysdiner.com/)
+4. Kitchissippi documented weekly customers of 14 years and employees with more than a decade at Westgate. Returning regular and staff portraits could make the launch emotionally specific when everyone featured gives informed consent. [Kitchissippi profile](https://kitchissippi.com/rockin-johnnys-searching-for-new-diner-space-after-westgate-closure/)
+
+### Why now
+
+OBJ reported on July 10 that the restaurant would reopen early the following week. A community report says it opened July 15, followed by an eyewitness dining report on July 18. This supports a mid-July opening window, but July 15 should remain labelled community-reported until the business confirms it. [OBJ report](https://obj.ca/rockin-johnnys-reopen-merivale-road-closure-westgate/) and [community opening thread](https://www.reddit.com/r/OttawaFood/comments/1uu3bxn/rockin_johnnys_westgate_to_reopen_on_merivale_rd/)
+
+### Competitive frame
+
+- [Summerhays Grill](https://summerhaysgrill.ca/) competes for nearby all-day breakfast, family dining, and casual comfort-food visits.
+- [Zak's Diner](https://zaksdiner.com/) competes through a recognizable Ottawa diner identity, multiple locations, and strong retro presentation.
+- Rockin' Johnny's clearest territory is the continuity between Westgate memories and a visibly new Merivale chapter.
+
+### Que Media score
+
+- Content Fit: 94/100
+- Opportunity: 96/100
+- Response: 78/100
+- Overall: 90/100
+- Dimension evidence: visual identity and food 20/20; founder, staff, and customer stories 20/20; current launch timing 20/20; local nostalgia and community relevance 18/20; conversion readiness 12/20.
+
+### Three tailored concepts
+
+1. **The car moved too**
+   - Hook: "One piece of Westgate is already on the wall at Merivale."
+   - Follow the recognizable wall car into the new room, reveal what else returned, and end on one signature order.
+   - Production: owner-led walk-through, archival material only with permission, and a current address card.
+2. **Westgate regulars, Merivale firsts**
+   - Hook: "They ordered here every week for 14 years. This is their first meal back."
+   - Pair a consenting long-time regular with a first-time Merivale guest and let each choose one dish for the other.
+   - Production: release forms, natural table audio, and no scripted testimonial claims.
+3. **New diner, same order**
+   - Hook: "Anthony has watched this order leave the kitchen since 2005."
+   - Let the long-time operator explain one familiar plate while the kitchen builds it in the new space.
+   - Production: kitchen macro shots, service-safe filming, and one current visit action.
+
+### Manual outreach draft
+
+**Channel:** Email through the published Kanata address, only after confirming it routes Merivale enquiries
+
+**Subject:** A Merivale launch story built around what came back from Westgate
+
+Hi Enzo, I saw your Ottawa Business Journal interview about reopening Rockin' Johnny's at 1651 Merivale Road and bringing back former Westgate staff while giving the diner a more modern look.
+
+There is a strong short-form launch story in the contrast: the car on the wall and long-time people came back, but the room has changed for a new neighbourhood. Que Media could turn one owner-led production day into three pieces: what moved from Westgate, a returning staff or regular story, and one signature-order build. I also noticed the official site still says Westgate is closed and does not list Merivale, so I would pair the videos with a focused launch-information cleanup rather than send viewers to an outdated page.
+
+Would you be open to a 15-minute conversation if I send a three-video Merivale launch outline first?
+
 ## Research integrity notes
 
 - Every business, website, contact route, named decision maker, and social account in this file was cross-checked against an official property or a cited professional source.
 - A missing phone remains missing. No number was inferred from aggregators.
-- Timely claims use dated 2026 sources or live official calendars captured July 20, 2026.
+- Timely claims use dated 2026 sources or live official calendars captured July 20 or July 22, 2026.
 - The 30-day discovery pass covered June 20 to July 20, 2026 and was used as a freshness screen. Business-specific "Why Now" claims were then point-verified against official pages or named local publications.
+- Rockin' Johnny's exact legal Merivale operator, direct Merivale contact details, and official opening date remain explicitly unverified rather than inferred.
 - Scores are prioritization aids for manual review. They are not factual claims about a company's finances, marketing budget, or willingness to hire Que Media.

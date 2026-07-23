@@ -29,7 +29,7 @@ QUE_MEDIA_BASE_URL=http://localhost:3000 npm run verify:runtime
 
 ## Current implementation
 
-The repository includes a polished, responsive intelligence workspace plus a point-in-time cohort of 20 real Ottawa-market businesses researched on 2026-07-20. Nineteen are in Ottawa and one, Stonefields Estate, serves the nearby market from Beckwith. Every loaded profile passed the current schema, duplicate, website reachability, public contact, social-route, and source-count gates. Each profile includes explainable Que Media fit, opportunity, and response scores; cited observations; public business contact routes; verified socials; Why Now status; website surface checks; local competitor references; personalized video concepts; objection preparation; client-ready reports; and channel-specific manual outreach drafts.
+The repository includes a polished, responsive intelligence workspace plus a point-in-time cohort of 21 real Ottawa-market businesses researched on 2026-07-20 and extended on 2026-07-22. Twenty are in Ottawa and one, Stonefields Estate, serves the nearby market from Beckwith. Every loaded profile passed the current schema, duplicate, website reachability, public contact, social-route, and source-count gates. Each profile includes explainable Que Media fit, opportunity, and response scores; cited observations; public business contact routes; verified socials; Why Now status; website surface checks; local competitor references; personalized video concepts; objection preparation; client-ready reports; and channel-specific manual outreach drafts.
 
 No demo, seed, or fallback prospect data is included. Runtime profiles are built from the structured research files in `research/` and the generated verification audit. Missing metrics remain unavailable instead of becoming zero. Live recurring discovery, crawling, enrichment, and owner-authorized analytics still require the approved adapters, credentials, durable storage, and workers described in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md). Product research and source choices are documented in [docs/RESEARCH.md](docs/RESEARCH.md). The recent-public-signal adapter contract is documented in [docs/LAST30DAYS_INTEGRATION.md](docs/LAST30DAYS_INTEGRATION.md). The validation record is in [docs/QA.md](docs/QA.md).
 
@@ -45,12 +45,12 @@ All outreach stays manual. Agents produce drafts and evidence packages only.
 
 There is no send, campaign, sequence, mailbox, or social publishing endpoint.
 
-The current read API returns the verified 20-business research cohort. Unknown identifiers return not found and never receive a fallback record.
+The current read API returns the verified 21-business research cohort. Unknown identifiers return not found and never receive a fallback record.
 
 ## Research artifacts
 
-- `research/hospitality-leads.json` and `.md`: 7 hospitality and experience businesses.
+- `research/hospitality-leads.json` and `.md`: 8 hospitality and experience businesses.
 - `research/wellness-leads.json` and `.md`: 7 wellness and specialty-service businesses.
 - `research/visual-service-leads.json` and `.md`: 6 visual and high-value service businesses.
-- `research/verified-leads-audit.json`: reproducible verification output for all 20 records.
+- `research/verified-leads-audit.json`: reproducible verification output for all 21 records.
 - `research/last30days/`: raw 30-day Ottawa freshness research output and source-status limits.

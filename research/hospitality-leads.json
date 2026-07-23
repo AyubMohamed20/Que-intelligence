@@ -1340,5 +1340,194 @@
         "kind": "official"
       }
     ]
+  },
+  {
+    "id": "rockin-johnnys-diner",
+    "name": "Rockin' Johnny's Diner",
+    "foundedYear": 1991,
+    "ownership": "Enzo Mastromattei, publicly identified franchise owner; Anthony Joseph, Westgate buyer and operator since 2005. The current Merivale legal entity is unverified.",
+    "locationCount": 2,
+    "industry": "Retro family diner, all-day breakfast, burgers, comfort food, and milkshakes",
+    "neighborhood": "Merivale / Meadowlands",
+    "location": "1651 Merivale Road, Ottawa, ON",
+    "website": "http://rockinjohnnysdiner.com/",
+    "phone": null,
+    "email": "rockinjohnnyskanata@gmail.com",
+    "emailLabel": "Official Kanata email; confirm Merivale routing",
+    "decisionMaker": {
+      "name": "Enzo Mastromattei",
+      "role": "Franchise owner and founder of the original Westgate location",
+      "sourceUrl": "https://obj.ca/rockin-johnnys-reopen-merivale-road-closure-westgate/"
+    },
+    "socials": [
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/rockinjohnnysdiner/",
+        "handle": "@rockinjohnnysdiner"
+      }
+    ],
+    "offerings": [
+      "All-day breakfast and brunch",
+      "Burgers, sandwiches, and classic diner plates",
+      "Milkshakes and desserts",
+      "Family dining",
+      "Takeout and delivery"
+    ],
+    "customerSegments": [
+      "Former Westgate regulars",
+      "Merivale and Meadowlands residents",
+      "Families seeking casual dining",
+      "Breakfast and brunch customers",
+      "Customers drawn to retro Ottawa nostalgia"
+    ],
+    "observations": [
+      {
+        "title": "The Merivale reopening combines a fresh launch with more than three decades of local recognition",
+        "detail": "Ottawa Business Journal reported that the former Westgate operation was moving to 1651 Merivale Road with a more modern, slightly more upscale interpretation of the familiar Rockin' Johnny's atmosphere. The retained wall car and returning former employees give the launch visible continuity rather than a generic new-restaurant story.",
+        "implication": "A launch series can show what moved, what changed, and which familiar people and details returned, giving both former regulars and new nearby customers a reason to visit.",
+        "sourceUrls": [
+          "https://obj.ca/rockin-johnnys-reopen-merivale-road-closure-westgate/",
+          "https://kitchissippi.com/rockin-johnnys-searching-for-new-diner-space-after-westgate-closure/"
+        ]
+      },
+      {
+        "title": "Public ownership and operator continuity are unusually well documented",
+        "detail": "Current local reporting identifies Enzo Mastromattei as franchise owner and says he opened the original Westgate location in 1991. Anthony Joseph bought that location in 2005, remained its familiar day-to-day owner-operator, and joined Mastromattei in choosing the Merivale site.",
+        "implication": "Founder and operator-led storytelling can credibly connect the original 1991 diner, the Westgate community, and the new Merivale chapter without relying on invented brand history.",
+        "sourceUrls": [
+          "https://obj.ca/rockin-johnnys-reopen-merivale-road-closure-westgate/",
+          "https://kitchissippi.com/rockin-johnnys-searching-for-new-diner-space-after-westgate-closure/"
+        ]
+      },
+      {
+        "title": "The official website has not caught up with the new location",
+        "detail": "The official site still says the Westgate location is closed and that the business hopes to reopen in the area; it does not list 1651 Merivale Road or a Merivale menu. Its HTTPS certificate also does not match the public domain, so standard secure clients reject the HTTPS version while the HTTP page remains available.",
+        "implication": "Before launch content drives traffic, the site should add the new address, hours, menu, and contact path and restore valid HTTPS so searchers can confidently find and act on current information.",
+        "sourceUrls": [
+          "http://rockinjohnnysdiner.com/",
+          "https://obj.ca/rockin-johnnys-reopen-merivale-road-closure-westgate/"
+        ]
+      },
+      {
+        "title": "The relocation story is rooted in loyal customers and long-serving staff",
+        "detail": "Kitchissippi Times documented weekly customers of 14 years and employees with more than a decade at Westgate. Ottawa Business Journal later reported that some employees displaced by the mall closure would return at Merivale.",
+        "implication": "Consent-based portraits of returning staff and regulars can make the relocation emotionally specific while avoiding a launch campaign built only on food glamour shots.",
+        "sourceUrls": [
+          "https://kitchissippi.com/rockin-johnnys-searching-for-new-diner-space-after-westgate-closure/",
+          "https://obj.ca/rockin-johnnys-reopen-merivale-road-closure-westgate/"
+        ]
+      }
+    ],
+    "whyNow": {
+      "title": "The new Merivale diner opened in mid-July 2026",
+      "detail": "Ottawa Business Journal announced the 1651 Merivale Road reopening on July 10 for the following week. Local customer reports indicate the doors opened July 15 and document a visit on July 18, creating an immediate launch window while nearby awareness and former-customer nostalgia are still active.",
+      "date": "2026-07-15",
+      "strength": "high",
+      "sourceUrls": [
+        "https://obj.ca/rockin-johnnys-reopen-merivale-road-closure-westgate/",
+        "https://www.reddit.com/r/OttawaFood/comments/1uu3bxn/rockin_johnnys_westgate_to_reopen_on_merivale_rd/"
+      ]
+    },
+    "competitors": [
+      {
+        "name": "Summerhays Grill",
+        "url": "https://summerhaysgrill.ca/"
+      },
+      {
+        "name": "Zak's Diner",
+        "url": "https://zaksdiner.com/"
+      }
+    ],
+    "scores": {
+      "contentFit": 94,
+      "opportunity": 96,
+      "response": 78,
+      "summary": "Overall 90/100. The just-opened Merivale location has a time-sensitive launch story, recognizable retro visuals, named public leadership roles, returning staff, and more than three decades of Ottawa history. The biggest immediate gap is that the official website still presents Westgate as closed and does not give customers current Merivale information.",
+      "dimensions": [
+        "Visual identity and food: 20/20",
+        "Founder, staff, and customer stories: 20/20",
+        "Current launch timing: 20/20",
+        "Local nostalgia and community relevance: 18/20",
+        "Conversion readiness: 12/20"
+      ]
+    },
+    "concepts": [
+      {
+        "title": "The car moved too",
+        "hook": "Westgate closed, but this piece of Rockin' Johnny's made the move.",
+        "outline": [
+          "Open on a tight detail of the familiar car mounted inside the new diner.",
+          "Let Enzo or Anthony explain one object, one staff return, and one deliberate change in the Merivale design.",
+          "Reveal the full 1651 Merivale Road space and finish with current opening information."
+        ],
+        "productionNotes": "Thirty to forty seconds, owner-led, use archival Westgate images only with permission, and make the address readable on screen."
+      },
+      {
+        "title": "Westgate regulars, Merivale firsts",
+        "hook": "Their old table disappeared, but their weekly order did not.",
+        "outline": [
+          "Feature one consenting former Westgate regular or returning employee.",
+          "Recreate the familiar order in the new dining room.",
+          "End with the detail that feels the same and the one feature that feels new."
+        ],
+        "productionNotes": "Documentary tone, written releases for every featured person, no filming uninvolved diners, and one story per episode."
+      },
+      {
+        "title": "New diner, same order",
+        "hook": "Can the Merivale kitchen pass a 1991 breakfast test?",
+        "outline": [
+          "Choose one recognizable breakfast, burger, or milkshake from the brand's history.",
+          "Show the build in three fast kitchen chapters.",
+          "Have Enzo, Anthony, or a returning staff member explain what stayed consistent and invite viewers to try it at Merivale."
+        ],
+        "productionNotes": "Vertical food close-ups, natural kitchen sound, captions throughout, and verify the item is on the current Merivale menu before filming."
+      }
+    ],
+    "outreach": {
+      "channel": "Email",
+      "subject": "A Merivale launch story built around what came back from Westgate",
+      "opening": "Hi Enzo, I saw your Ottawa Business Journal interview about reopening Rockin' Johnny's at 1651 Merivale Road and bringing back former Westgate staff while giving the diner a more modern look.",
+      "body": "There is a strong short-form launch story in the contrast: the car on the wall and long-time people came back, but the room has changed for a new neighbourhood. Que Media could turn one owner-led production day into three pieces: what moved from Westgate, a returning staff or regular story, and one signature-order build. I also noticed the official site still says Westgate is closed and does not list Merivale, so I would pair the videos with a focused launch-information cleanup rather than send viewers to an outdated page.",
+      "callToAction": "Would you be open to a 15-minute conversation if I send a three-video Merivale launch outline first?",
+      "evidenceUrls": [
+        "https://obj.ca/rockin-johnnys-reopen-merivale-road-closure-westgate/",
+        "https://kitchissippi.com/rockin-johnnys-searching-for-new-diner-space-after-westgate-closure/",
+        "http://rockinjohnnysdiner.com/"
+      ]
+    },
+    "sources": [
+      {
+        "label": "Official history, locations, menu navigation, and public brand contact",
+        "url": "http://rockinjohnnysdiner.com/",
+        "publisher": "Rockin' Johnny's Diner",
+        "capturedAt": "2026-07-22",
+        "lastPublishedAt": null,
+        "kind": "official"
+      },
+      {
+        "label": "Merivale reopening announcement and franchise-owner interview",
+        "url": "https://obj.ca/rockin-johnnys-reopen-merivale-road-closure-westgate/",
+        "publisher": "Ottawa Business Journal",
+        "capturedAt": "2026-07-22",
+        "lastPublishedAt": "2026-07-10",
+        "kind": "local news"
+      },
+      {
+        "label": "Westgate closure, owner history, staff continuity, and customer context",
+        "url": "https://kitchissippi.com/rockin-johnnys-searching-for-new-diner-space-after-westgate-closure/",
+        "publisher": "Kitchissippi Times",
+        "capturedAt": "2026-07-22",
+        "lastPublishedAt": "2025-09-28",
+        "kind": "local news"
+      },
+      {
+        "label": "Community confirmation of the mid-July Merivale opening",
+        "url": "https://www.reddit.com/r/OttawaFood/comments/1uu3bxn/rockin_johnnys_westgate_to_reopen_on_merivale_rd/",
+        "publisher": "r/OttawaFood",
+        "capturedAt": "2026-07-22",
+        "lastPublishedAt": "2026-07-15",
+        "kind": "community discussion"
+      }
+    ]
   }
 ]

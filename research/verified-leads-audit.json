@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-07-21T06:25:38.345Z",
+  "generatedAt": "2026-07-23T03:48:35.131Z",
   "inputFiles": [
     "research/hospitality-leads.json",
     "research/wellness-leads.json",
     "research/visual-service-leads.json"
   ],
   "summary": {
-    "leadCount": 20,
-    "outreachReadyCount": 20,
+    "leadCount": 21,
+    "outreachReadyCount": 21,
     "validationErrorCount": 0,
-    "reachableWebsiteCount": 20,
+    "reachableWebsiteCount": 21,
     "duplicateIdCount": 0,
     "duplicateCompanyUrlCount": 0,
     "duplicateSocialUrlCount": 0,
@@ -20,7 +20,7 @@
       "id": "moo-shu-ice-cream-kitchen",
       "name": "Moo Shu Ice Cream & Kitchen",
       "sourceFile": "research/hospitality-leads.json",
-      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "capturedAt": "2026-07-23T03:48:35.131Z",
       "validation": {
         "file": "research/hospitality-leads.json",
         "errors": []
@@ -168,7 +168,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmooshuicecream&is_from_rle",
+          "finalUrl": "https://www.instagram.com/mooshuicecream",
           "error": null
         },
         {
@@ -178,7 +178,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fmooshuicecream",
+          "finalUrl": "https://www.facebook.com/mooshuicecream",
           "error": null
         },
         {
@@ -230,7 +230,7 @@
           "url": "https://www.instagram.com/mooshuicecream",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmooshuicecream&is_from_rle",
+          "finalUrl": "https://www.instagram.com/mooshuicecream",
           "error": null
         },
         {
@@ -238,7 +238,7 @@
           "url": "https://www.facebook.com/mooshuicecream",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fmooshuicecream",
+          "finalUrl": "https://www.facebook.com/mooshuicecream",
           "error": null
         },
         {
@@ -282,7 +282,7 @@
       "id": "beyond-the-pale-brewing-company",
       "name": "Beyond the Pale Brewing Company",
       "sourceFile": "research/hospitality-leads.json",
-      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "capturedAt": "2026-07-23T03:48:35.131Z",
       "validation": {
         "file": "research/hospitality-leads.json",
         "errors": []
@@ -457,7 +457,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fbtpbrewing%2F&is_from_rle",
+          "finalUrl": "https://www.instagram.com/btpbrewing/",
           "error": null
         },
         {
@@ -549,7 +549,7 @@
           "url": "https://www.instagram.com/btpbrewing/",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fbtpbrewing%2F&is_from_rle",
+          "finalUrl": "https://www.instagram.com/btpbrewing/",
           "error": null
         },
         {
@@ -617,7 +617,7 @@
       "id": "dominion-city-brewing-co",
       "name": "Dominion City Brewing Co.",
       "sourceFile": "research/hospitality-leads.json",
-      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "capturedAt": "2026-07-23T03:48:35.131Z",
       "validation": {
         "file": "research/hospitality-leads.json",
         "errors": []
@@ -776,7 +776,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdominioncity&is_from_rle",
+          "finalUrl": "https://www.instagram.com/dominioncity",
           "error": null
         },
         {
@@ -786,7 +786,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fdominioncitybrewingco",
+          "finalUrl": "https://www.facebook.com/dominioncitybrewingco",
           "error": null
         },
         {
@@ -848,7 +848,7 @@
           "url": "https://instagram.com/dominioncity",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdominioncity&is_from_rle",
+          "finalUrl": "https://www.instagram.com/dominioncity",
           "error": null
         },
         {
@@ -856,7 +856,7 @@
           "url": "https://www.facebook.com/dominioncitybrewingco",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fdominioncitybrewingco",
+          "finalUrl": "https://www.facebook.com/dominioncitybrewingco",
           "error": null
         },
         {
@@ -932,7 +932,7 @@
       "id": "house-of-targ",
       "name": "House of TARG",
       "sourceFile": "research/hospitality-leads.json",
-      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "capturedAt": "2026-07-23T03:48:35.131Z",
       "validation": {
         "file": "research/hospitality-leads.json",
         "errors": []
@@ -1067,7 +1067,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fhouseoftarg%2F&is_from_rle",
+          "finalUrl": "https://www.instagram.com/houseoftarg/",
           "error": null
         },
         {
@@ -1077,7 +1077,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fhouseoftarghouseoftarg%2F",
+          "finalUrl": "https://www.facebook.com/houseoftarghouseoftarg/",
           "error": null
         }
       ],
@@ -1103,7 +1103,7 @@
           "url": "https://www.instagram.com/houseoftarg/",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fhouseoftarg%2F&is_from_rle",
+          "finalUrl": "https://www.instagram.com/houseoftarg/",
           "error": null
         },
         {
@@ -1127,7 +1127,7 @@
           "url": "https://www.facebook.com/houseoftarghouseoftarg/",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fhouseoftarghouseoftarg%2F",
+          "finalUrl": "https://www.facebook.com/houseoftarghouseoftarg/",
           "error": null
         },
         {
@@ -1171,7 +1171,7 @@
       "id": "stolen-goods-cocktail-bar",
       "name": "Stolen Goods Cocktail Bar",
       "sourceFile": "research/hospitality-leads.json",
-      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "capturedAt": "2026-07-23T03:48:35.131Z",
       "validation": {
         "file": "research/hospitality-leads.json",
         "errors": []
@@ -1311,7 +1311,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fstolengoodscocktailbar&is_from_rle",
+          "finalUrl": "https://www.instagram.com/stolengoodscocktailbar",
           "error": null
         },
         {
@@ -1321,7 +1321,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fstolengoodscocktailbar",
+          "finalUrl": "https://www.facebook.com/stolengoodscocktailbar",
           "error": null
         }
       ],
@@ -1353,17 +1353,17 @@
         {
           "label": "Public mirror of recent social posts",
           "url": "https://www.findglocal.com/CA/Ottawa/102599701604892/Stolen-Goods-Cocktail-Bar",
-          "reachable": false,
-          "httpStatus": 500,
+          "reachable": true,
+          "httpStatus": 200,
           "finalUrl": "https://www.findglocal.com/CA/Ottawa/102599701604892/Stolen-Goods-Cocktail-Bar",
-          "error": "HTTP 500"
+          "error": null
         },
         {
           "label": "https://www.instagram.com/stolengoodscocktailbar",
           "url": "https://www.instagram.com/stolengoodscocktailbar",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fstolengoodscocktailbar&is_from_rle",
+          "finalUrl": "https://www.instagram.com/stolengoodscocktailbar",
           "error": null
         },
         {
@@ -1371,7 +1371,7 @@
           "url": "https://www.facebook.com/Stolen-Goods-Cocktail-Bar-102599701604892",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fstolengoodscocktailbar",
+          "finalUrl": "https://www.facebook.com/stolengoodscocktailbar",
           "error": null
         },
         {
@@ -1391,7 +1391,7 @@
           "error": null
         }
       ],
-      "reachableSourceCount": 3,
+      "reachableSourceCount": 4,
       "sourceCount": 4,
       "outreachReady": true
     },
@@ -1399,7 +1399,7 @@
       "id": "escape-manor-ottawa",
       "name": "Escape Manor Ottawa",
       "sourceFile": "research/hospitality-leads.json",
-      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "capturedAt": "2026-07-23T03:48:35.131Z",
       "validation": {
         "file": "research/hospitality-leads.json",
         "errors": []
@@ -1558,7 +1558,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fescape_manor&is_from_rle",
+          "finalUrl": "https://www.instagram.com/escape_manor",
           "error": null
         },
         {
@@ -1568,7 +1568,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FEscapeManor",
+          "finalUrl": "https://www.facebook.com/escapemanor/",
           "error": null
         },
         {
@@ -1628,7 +1628,7 @@
           "url": "https://instagram.com/escape_manor",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fescape_manor&is_from_rle",
+          "finalUrl": "https://www.instagram.com/escape_manor",
           "error": null
         },
         {
@@ -1636,7 +1636,7 @@
           "url": "https://www.facebook.com/EscapeManor",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FEscapeManor",
+          "finalUrl": "https://www.facebook.com/escapemanor/",
           "error": null
         },
         {
@@ -1672,7 +1672,7 @@
       "id": "the-merry-dairy",
       "name": "The Merry Dairy",
       "sourceFile": "research/hospitality-leads.json",
-      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "capturedAt": "2026-07-23T03:48:35.131Z",
       "validation": {
         "file": "research/hospitality-leads.json",
         "errors": []
@@ -1794,6 +1794,10 @@
           },
           {
             "platform": "instagram",
+            "url": "https://www.instagram.com/p/DbEdx0mA1mO"
+          },
+          {
+            "platform": "instagram",
             "url": "https://www.instagram.com/p/Da5xDmxlYs2"
           },
           {
@@ -1803,10 +1807,6 @@
           {
             "platform": "instagram",
             "url": "https://www.instagram.com/p/DaygZmsgImT"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/p/Daszz3MjnUp"
           },
           {
             "platform": "instagram",
@@ -1869,6 +1869,10 @@
           },
           {
             "platform": "instagram",
+            "url": "https://www.instagram.com/p/DbEdx0mA1mO"
+          },
+          {
+            "platform": "instagram",
             "url": "https://www.instagram.com/p/Da5xDmxlYs2"
           },
           {
@@ -1878,10 +1882,6 @@
           {
             "platform": "instagram",
             "url": "https://www.instagram.com/p/DaygZmsgImT"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/p/Daszz3MjnUp"
           },
           {
             "platform": "instagram",
@@ -1943,7 +1943,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fthemerrydairy&is_from_rle",
+          "finalUrl": "https://www.instagram.com/themerrydairy",
           "error": null
         },
         {
@@ -1953,7 +1953,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fthemerrydairy",
+          "finalUrl": "https://www.facebook.com/TheMerryDairy/",
           "error": null
         },
         {
@@ -2035,7 +2035,7 @@
           "url": "https://instagram.com/themerrydairy",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fthemerrydairy&is_from_rle",
+          "finalUrl": "https://www.instagram.com/themerrydairy",
           "error": null
         },
         {
@@ -2043,7 +2043,7 @@
           "url": "https://facebook.com/themerrydairy",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fthemerrydairy",
+          "finalUrl": "https://www.facebook.com/TheMerryDairy/",
           "error": null
         },
         {
@@ -2100,10 +2100,202 @@
       "outreachReady": true
     },
     {
+      "id": "rockin-johnnys-diner",
+      "name": "Rockin' Johnny's Diner",
+      "sourceFile": "research/hospitality-leads.json",
+      "capturedAt": "2026-07-23T03:48:35.131Z",
+      "validation": {
+        "file": "research/hospitality-leads.json",
+        "errors": []
+      },
+      "website": {
+        "requestedUrl": "http://rockinjohnnysdiner.com/",
+        "finalUrl": "http://rockinjohnnysdiner.com/",
+        "httpStatus": 200,
+        "reachable": true,
+        "title": "Rockin Johnnys Diner",
+        "metaDescription": "Rockin Johnny&#x27;s Diner is a successful fifties style diner based in Ottawa, Canada. Locations in Kanata and Westgate Shopping Centre. Open ALL HOLIDAYS but CLOSED on Christmas Day. We look forward to seeing you.",
+        "score": 95,
+        "checks": [
+          {
+            "id": "reachable",
+            "label": "Website returns a successful response",
+            "points": 20,
+            "passed": true,
+            "earned": 20,
+            "observation": "HTTP 200"
+          },
+          {
+            "id": "https",
+            "label": "Website uses HTTPS",
+            "points": 5,
+            "passed": false,
+            "earned": 0,
+            "observation": "http://rockinjohnnysdiner.com/"
+          },
+          {
+            "id": "title",
+            "label": "Page has a descriptive title",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Rockin Johnnys Diner"
+          },
+          {
+            "id": "description",
+            "label": "Page has a meta description",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Rockin Johnny&#x27;s Diner is a successful fifties style diner based in Ottawa, Canada. Locations in Kanata and Westgate Shopping Centre. Open ALL HOLIDAYS but CLOSED on Christmas Day. We look forward to seeing you."
+          },
+          {
+            "id": "viewport",
+            "label": "Page declares a mobile viewport",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Viewport declaration found"
+          },
+          {
+            "id": "h1",
+            "label": "Page has a primary heading",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "H1 found"
+          },
+          {
+            "id": "contact",
+            "label": "Page exposes a contact or booking action",
+            "points": 15,
+            "passed": true,
+            "earned": 15,
+            "observation": "Contact action found"
+          },
+          {
+            "id": "social",
+            "label": "Page links to a verified social account",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "1 supplied social link(s) found"
+          },
+          {
+            "id": "structured-data",
+            "label": "Page includes structured data",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "JSON-LD found"
+          },
+          {
+            "id": "canonical",
+            "label": "Page declares a canonical URL",
+            "points": 3,
+            "passed": true,
+            "earned": 3,
+            "observation": "Canonical found"
+          },
+          {
+            "id": "open-graph",
+            "label": "Page includes Open Graph metadata",
+            "points": 2,
+            "passed": true,
+            "earned": 2,
+            "observation": "Open Graph metadata found"
+          }
+        ],
+        "discoveredSocialLinks": [],
+        "suppliedSocialsMissingFromOfficialSite": [],
+        "officialSocialsMissingFromResearch": []
+      },
+      "contactVerification": {
+        "phone": null,
+        "email": {
+          "value": "rockinjohnnyskanata@gmail.com",
+          "listedOnWebsite": true
+        }
+      },
+      "socialChecks": [
+        {
+          "platform": "Instagram",
+          "handle": "@rockinjohnnysdiner",
+          "url": "https://www.instagram.com/rockinjohnnysdiner/",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/rockinjohnnysdiner/",
+          "error": null
+        }
+      ],
+      "sourceChecks": [
+        {
+          "label": "Official history, locations, menu navigation, and public brand contact",
+          "url": "http://rockinjohnnysdiner.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "http://rockinjohnnysdiner.com/",
+          "error": null
+        },
+        {
+          "label": "Merivale reopening announcement and franchise-owner interview",
+          "url": "https://obj.ca/rockin-johnnys-reopen-merivale-road-closure-westgate/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://obj.ca/rockin-johnnys-reopen-merivale-road-closure-westgate/",
+          "error": null
+        },
+        {
+          "label": "Westgate closure, owner history, staff continuity, and customer context",
+          "url": "https://kitchissippi.com/rockin-johnnys-searching-for-new-diner-space-after-westgate-closure/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://kitchissippi.com/rockin-johnnys-searching-for-new-diner-space-after-westgate-closure/",
+          "error": null
+        },
+        {
+          "label": "Community confirmation of the mid-July Merivale opening",
+          "url": "https://www.reddit.com/r/OttawaFood/comments/1uu3bxn/rockin_johnnys_westgate_to_reopen_on_merivale_rd/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.reddit.com/r/OttawaFood/comments/1uu3bxn/rockin_johnnys_westgate_to_reopen_on_merivale_rd/",
+          "error": null
+        },
+        {
+          "label": "https://www.instagram.com/rockinjohnnysdiner/",
+          "url": "https://www.instagram.com/rockinjohnnysdiner/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/rockinjohnnysdiner/",
+          "error": null
+        },
+        {
+          "label": "https://summerhaysgrill.ca/",
+          "url": "https://summerhaysgrill.ca/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://summerhaysgrill.ca/",
+          "error": null
+        },
+        {
+          "label": "https://zaksdiner.com/",
+          "url": "https://zaksdiner.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://zaksdiner.com/",
+          "error": null
+        }
+      ],
+      "reachableSourceCount": 4,
+      "sourceCount": 4,
+      "outreachReady": true
+    },
+    {
       "id": "anatomy-physiotherapy-clinic",
       "name": "Anatomy Physiotherapy Clinic",
       "sourceFile": "research/wellness-leads.json",
-      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "capturedAt": "2026-07-23T03:48:35.131Z",
       "validation": {
         "file": "research/wellness-leads.json",
         "errors": []
@@ -2261,7 +2453,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fanatomyphysiotherapyclinic%2F&is_from_rle",
+          "finalUrl": "https://www.instagram.com/anatomyphysiotherapyclinic/",
           "error": null
         },
         {
@@ -2329,7 +2521,7 @@
           "url": "https://www.instagram.com/anatomyphysiotherapyclinic/",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fanatomyphysiotherapyclinic%2F&is_from_rle",
+          "finalUrl": "https://www.instagram.com/anatomyphysiotherapyclinic/",
           "error": null
         },
         {
@@ -2357,7 +2549,7 @@
       "id": "where-i-thrive",
       "name": "Where I Thrive",
       "sourceFile": "research/wellness-leads.json",
-      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "capturedAt": "2026-07-23T03:48:35.131Z",
       "validation": {
         "file": "research/wellness-leads.json",
         "errors": []
@@ -2500,7 +2692,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fwhereithriveccc&is_from_rle",
+          "finalUrl": "https://www.instagram.com/whereithriveccc",
           "error": null
         },
         {
@@ -2510,7 +2702,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FWhereIThrive",
+          "finalUrl": "https://www.facebook.com/WhereIThrive",
           "error": null
         },
         {
@@ -2586,7 +2778,7 @@
           "url": "https://www.instagram.com/whereithriveccc",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fwhereithriveccc&is_from_rle",
+          "finalUrl": "https://www.instagram.com/whereithriveccc",
           "error": null
         },
         {
@@ -2594,7 +2786,7 @@
           "url": "https://www.facebook.com/WhereIThrive",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FWhereIThrive",
+          "finalUrl": "https://www.facebook.com/WhereIThrive",
           "error": null
         },
         {
@@ -2630,7 +2822,7 @@
       "id": "arro-wellness",
       "name": "Arro Wellness",
       "sourceFile": "research/wellness-leads.json",
-      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "capturedAt": "2026-07-23T03:48:35.131Z",
       "validation": {
         "file": "research/wellness-leads.json",
         "errors": []
@@ -2781,7 +2973,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Farrowellness.ca",
+          "finalUrl": "https://www.facebook.com/arrowellness.ca",
           "error": null
         },
         {
@@ -2791,7 +2983,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Farrowellness.ca&is_from_rle",
+          "finalUrl": "https://www.instagram.com/arrowellness.ca",
           "error": null
         },
         {
@@ -2851,7 +3043,7 @@
           "url": "https://www.facebook.com/arrowellness.ca",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Farrowellness.ca",
+          "finalUrl": "https://www.facebook.com/arrowellness.ca",
           "error": null
         },
         {
@@ -2859,7 +3051,7 @@
           "url": "https://www.instagram.com/arrowellness.ca",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Farrowellness.ca&is_from_rle",
+          "finalUrl": "https://www.instagram.com/arrowellness.ca",
           "error": null
         },
         {
@@ -2895,7 +3087,7 @@
       "id": "iron-north-studio",
       "name": "Iron North Studio",
       "sourceFile": "research/wellness-leads.json",
-      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "capturedAt": "2026-07-23T03:48:35.131Z",
       "validation": {
         "file": "research/wellness-leads.json",
         "errors": []
@@ -3070,7 +3262,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fironnorthstudio&is_from_rle",
+          "finalUrl": "https://www.instagram.com/ironnorthstudio",
           "error": null
         },
         {
@@ -3080,7 +3272,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fironnorthstudio",
+          "finalUrl": "https://www.facebook.com/ironnorthstudio",
           "error": null
         },
         {
@@ -3122,25 +3314,25 @@
         {
           "label": "Owner identification",
           "url": "https://ottawa.dressforsuccess.org/get-involved/events/awe-2022/",
-          "reachable": true,
-          "httpStatus": 200,
+          "reachable": false,
+          "httpStatus": 504,
           "finalUrl": "https://ottawa.dressforsuccess.org/get-involved/events/awe-2022/",
-          "error": null
+          "error": "HTTP 504"
         },
         {
           "label": "Local run-club profile",
           "url": "https://www.runottawa.ca/affiliate-running-clubs/",
-          "reachable": false,
-          "httpStatus": null,
-          "finalUrl": null,
-          "error": "This operation was aborted"
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.runottawa.ca/affiliate-running-clubs/",
+          "error": null
         },
         {
           "label": "https://www.instagram.com/ironnorthstudio",
           "url": "https://www.instagram.com/ironnorthstudio",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fironnorthstudio&is_from_rle",
+          "finalUrl": "https://www.instagram.com/ironnorthstudio",
           "error": null
         },
         {
@@ -3148,7 +3340,7 @@
           "url": "https://www.facebook.com/ironnorthstudio",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fironnorthstudio",
+          "finalUrl": "https://www.facebook.com/ironnorthstudio",
           "error": null
         },
         {
@@ -3184,7 +3376,7 @@
       "id": "refine-ottawa",
       "name": "Refine Ottawa",
       "sourceFile": "research/wellness-leads.json",
-      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "capturedAt": "2026-07-23T03:48:35.131Z",
       "validation": {
         "file": "research/wellness-leads.json",
         "errors": []
@@ -3319,7 +3511,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frefineottawa%2F&is_from_rle",
+          "finalUrl": "https://www.instagram.com/refineottawa/",
           "error": null
         }
       ],
@@ -3369,7 +3561,7 @@
           "url": "https://www.instagram.com/refineottawa/",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Frefineottawa%2F&is_from_rle",
+          "finalUrl": "https://www.instagram.com/refineottawa/",
           "error": null
         },
         {
@@ -3405,7 +3597,7 @@
       "id": "the-aesthetic-lounge",
       "name": "The Aesthetic Lounge",
       "sourceFile": "research/wellness-leads.json",
-      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "capturedAt": "2026-07-23T03:48:35.131Z",
       "validation": {
         "file": "research/wellness-leads.json",
         "errors": []
@@ -3556,7 +3748,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fthe.aesthetic.lounge%2F&is_from_rle",
+          "finalUrl": "https://www.instagram.com/the.aesthetic.lounge/",
           "error": null
         },
         {
@@ -3566,7 +3758,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fthe.aesthetic.lounge",
+          "finalUrl": "https://www.facebook.com/the.aesthetic.lounge",
           "error": null
         },
         {
@@ -3636,7 +3828,7 @@
           "url": "https://www.instagram.com/the.aesthetic.lounge/",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fthe.aesthetic.lounge%2F&is_from_rle",
+          "finalUrl": "https://www.instagram.com/the.aesthetic.lounge/",
           "error": null
         },
         {
@@ -3644,7 +3836,7 @@
           "url": "https://www.facebook.com/the.aesthetic.lounge",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fthe.aesthetic.lounge",
+          "finalUrl": "https://www.facebook.com/the.aesthetic.lounge",
           "error": null
         },
         {
@@ -3688,7 +3880,7 @@
       "id": "apartmint-hair-studio",
       "name": "ApartMint Hair Studio",
       "sourceFile": "research/wellness-leads.json",
-      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "capturedAt": "2026-07-23T03:48:35.131Z",
       "validation": {
         "file": "research/wellness-leads.json",
         "errors": []
@@ -3839,7 +4031,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fapart.mint%2F&is_from_rle",
+          "finalUrl": "https://www.instagram.com/apart.mint/",
           "error": null
         },
         {
@@ -3849,7 +4041,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fapartmintottawa",
+          "finalUrl": "https://www.facebook.com/apartmintottawa",
           "error": null
         }
       ],
@@ -3891,7 +4083,7 @@
           "url": "https://www.instagram.com/apart.mint/",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fapart.mint%2F&is_from_rle",
+          "finalUrl": "https://www.instagram.com/apart.mint/",
           "error": null
         },
         {
@@ -3899,7 +4091,7 @@
           "url": "https://www.facebook.com/apartmintottawa",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fapartmintottawa",
+          "finalUrl": "https://www.facebook.com/apartmintottawa",
           "error": null
         },
         {
@@ -3927,7 +4119,7 @@
       "id": "saunders-farm",
       "name": "Saunders Farm",
       "sourceFile": "research/visual-service-leads.json",
-      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "capturedAt": "2026-07-23T03:48:35.131Z",
       "validation": {
         "file": "research/visual-service-leads.json",
         "errors": []
@@ -4078,7 +4270,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsaundersfarmfun%2F&is_from_rle",
+          "finalUrl": "https://www.instagram.com/saundersfarmfun/",
           "error": null
         },
         {
@@ -4088,7 +4280,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FSaundersFarmFans%2F",
+          "finalUrl": "https://www.facebook.com/SaundersFarmFans/",
           "error": null
         },
         {
@@ -4174,7 +4366,7 @@
           "url": "https://www.instagram.com/saundersfarmfun/",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsaundersfarmfun%2F&is_from_rle",
+          "finalUrl": "https://www.instagram.com/saundersfarmfun/",
           "error": null
         },
         {
@@ -4182,7 +4374,7 @@
           "url": "https://www.facebook.com/SaundersFarmFans/",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FSaundersFarmFans%2F",
+          "finalUrl": "https://www.facebook.com/SaundersFarmFans/",
           "error": null
         },
         {
@@ -4218,7 +4410,7 @@
       "id": "automindz",
       "name": "Automindz",
       "sourceFile": "research/visual-service-leads.json",
-      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "capturedAt": "2026-07-23T03:48:35.131Z",
       "validation": {
         "file": "research/visual-service-leads.json",
         "errors": []
@@ -4343,7 +4535,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fautomindz.ottawa%2F&is_from_rle",
+          "finalUrl": "https://www.instagram.com/automindz.ottawa/",
           "error": null
         }
       ],
@@ -4361,7 +4553,7 @@
           "url": "https://www.instagram.com/automindz.ottawa/",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fautomindz.ottawa%2F&is_from_rle",
+          "finalUrl": "https://www.instagram.com/automindz.ottawa/",
           "error": null
         },
         {
@@ -4405,7 +4597,7 @@
       "id": "artium-design-build-renovations",
       "name": "ARTium Design Build Renovations",
       "sourceFile": "research/visual-service-leads.json",
-      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "capturedAt": "2026-07-23T03:48:35.131Z",
       "validation": {
         "file": "research/visual-service-leads.json",
         "errors": []
@@ -4561,7 +4753,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fartium_justbasements%2F&is_from_rle",
+          "finalUrl": "https://www.instagram.com/artium_justbasements/",
           "error": null
         },
         {
@@ -4571,7 +4763,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fartiumdesignbuild%2F",
+          "finalUrl": "https://www.facebook.com/artiumdesignbuild/",
           "error": null
         },
         {
@@ -4667,7 +4859,7 @@
           "url": "https://www.instagram.com/artium_justbasements/",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fartium_justbasements%2F&is_from_rle",
+          "finalUrl": "https://www.instagram.com/artium_justbasements/",
           "error": null
         },
         {
@@ -4675,7 +4867,7 @@
           "url": "https://www.facebook.com/artiumdesignbuild/",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fartiumdesignbuild%2F",
+          "finalUrl": "https://www.facebook.com/artiumdesignbuild/",
           "error": null
         },
         {
@@ -4703,7 +4895,7 @@
       "id": "stonefields-estate",
       "name": "Stonefields Estate",
       "sourceFile": "research/visual-service-leads.json",
-      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "capturedAt": "2026-07-23T03:48:35.131Z",
       "validation": {
         "file": "research/visual-service-leads.json",
         "errors": []
@@ -4926,7 +5118,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fstonefields_estate&is_from_rle",
+          "finalUrl": "https://www.instagram.com/stonefields_estate",
           "error": null
         },
         {
@@ -4936,7 +5128,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fstonefieldsestate%2F",
+          "finalUrl": "https://www.facebook.com/stonefieldsestate/",
           "error": null
         },
         {
@@ -4996,7 +5188,7 @@
           "url": "https://www.instagram.com/stonefields_estate",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fstonefields_estate&is_from_rle",
+          "finalUrl": "https://www.instagram.com/stonefields_estate",
           "error": null
         },
         {
@@ -5004,7 +5196,7 @@
           "url": "https://www.facebook.com/stonefieldsestate/",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fstonefieldsestate%2F",
+          "finalUrl": "https://www.facebook.com/stonefieldsestate/",
           "error": null
         },
         {
@@ -5024,7 +5216,7 @@
       "id": "lagois-design-build-renovate",
       "name": "Lagois Design Build Renovate",
       "sourceFile": "research/visual-service-leads.json",
-      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "capturedAt": "2026-07-23T03:48:35.131Z",
       "validation": {
         "file": "research/visual-service-leads.json",
         "errors": []
@@ -5239,7 +5431,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Flagoisdesignbuild%2F&is_from_rle",
+          "finalUrl": "https://www.instagram.com/lagoisdesignbuild/",
           "error": null
         },
         {
@@ -5249,7 +5441,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FLagoisDesignBuildRenovate",
+          "finalUrl": "https://www.facebook.com/LagoisDesignBuildRenovate",
           "error": null
         },
         {
@@ -5355,7 +5547,7 @@
           "url": "https://www.instagram.com/lagoisdesignbuild/",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Flagoisdesignbuild%2F&is_from_rle",
+          "finalUrl": "https://www.instagram.com/lagoisdesignbuild/",
           "error": null
         },
         {
@@ -5363,7 +5555,7 @@
           "url": "https://www.facebook.com/LagoisDesignBuildRenovate",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FLagoisDesignBuildRenovate",
+          "finalUrl": "https://www.facebook.com/LagoisDesignBuildRenovate",
           "error": null
         },
         {
@@ -5399,7 +5591,7 @@
       "id": "oakwood-design-build",
       "name": "OakWood Design & Build",
       "sourceFile": "research/visual-service-leads.json",
-      "capturedAt": "2026-07-21T06:25:38.345Z",
+      "capturedAt": "2026-07-23T03:48:35.131Z",
       "validation": {
         "file": "research/visual-service-leads.json",
         "errors": []
@@ -5558,7 +5750,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Foakwooddesignandbuild%2F&is_from_rle",
+          "finalUrl": "https://www.instagram.com/oakwooddesignandbuild/",
           "error": null
         },
         {
@@ -5568,7 +5760,7 @@
           "listedOnWebsite": true,
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FOakWoodDesignBuild%2F",
+          "finalUrl": "https://www.facebook.com/OakWoodDesignBuild/",
           "error": null
         },
         {
@@ -5654,7 +5846,7 @@
           "url": "https://www.instagram.com/oakwooddesignandbuild/",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Foakwooddesignandbuild%2F&is_from_rle",
+          "finalUrl": "https://www.instagram.com/oakwooddesignandbuild/",
           "error": null
         },
         {
@@ -5662,7 +5854,7 @@
           "url": "https://www.facebook.com/OakWoodDesignBuild/",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FOakWoodDesignBuild%2F",
+          "finalUrl": "https://www.facebook.com/OakWoodDesignBuild/",
           "error": null
         },
         {

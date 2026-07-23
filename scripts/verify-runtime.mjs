@@ -27,7 +27,7 @@ const payload = await listResponse.json();
 const leads = Array.isArray(payload.data) ? payload.data : [];
 const failures = [];
 
-if (leads.length !== 20) failures.push({ path: "/api/leads", issue: `Expected 20 leads, received ${leads.length}` });
+if (leads.length !== 21) failures.push({ path: "/api/leads", issue: `Expected 21 leads, received ${leads.length}` });
 if (payload.meta?.dataState !== "verified-snapshot") failures.push({ path: "/api/leads", issue: `Unexpected data state: ${payload.meta?.dataState}` });
 if (payload.meta?.outreachCapability !== "manual-preparation-only") failures.push({ path: "/api/leads", issue: "Manual-only outreach boundary is missing" });
 

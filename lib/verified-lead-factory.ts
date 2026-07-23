@@ -15,12 +15,16 @@ import { businessLogoById } from "@/lib/business-logo-data";
 export interface VerifiedLeadRecord {
   id: string;
   name: string;
+  foundedYear?: number;
+  ownership?: string;
+  locationCount?: number;
   industry: string;
   neighborhood: string;
   location: string;
   website: string;
   phone: string | null;
   email: string | null;
+  emailLabel?: string;
   decisionMaker: { name: string; role: string; sourceUrl: string } | null;
   socials: Array<{ platform: string; url: string; handle: string | null }>;
   offerings: string[];
@@ -453,7 +457,7 @@ export function buildVerifiedLeadProfile(raw: VerifiedLeadRecord, verification: 
 
   const requestedChannel = primaryChannel(raw);
   const contactChannels: ContactChannel[] = [];
-  if (raw.email) contactChannels.push({ kind: "email", label: "Public business email", value: raw.email, public: true, preferred: requestedChannel === "email" });
+  if (raw.email) contactChannels.push({ kind: "email", label: raw.emailLabel ?? "Public business email", value: raw.email, public: true, preferred: requestedChannel === "email" });
   if (raw.phone) contactChannels.push({ kind: "phone", label: "Public business phone", value: raw.phone, public: true, preferred: requestedChannel === "phone" });
   raw.socials.forEach((social) => {
     const platform = normalizePlatform(social.platform);
@@ -594,8 +598,10 @@ export function buildVerifiedLeadProfile(raw: VerifiedLeadRecord, verification: 
     website: raw.website,
     identity: {
       displayName: raw.name,
-      ownership: "Unavailable",
+      foundedYear: raw.foundedYear,
+      ownership: raw.ownership ?? "Unavailable",
       employeeRange: "",
+      locationCount: raw.locationCount,
       primaryLocation: raw.location,
       serviceArea: ["Ottawa, Ontario"],
       hours: [],

@@ -1,17 +1,17 @@
 # Quality Assurance Record
 
-Date: 2026-07-20
+Last updated: 2026-07-22
 
 ## Automated validation
 
 - `npm run typecheck`: passed with TypeScript strict mode and no emitted files.
-- `npm run verify:leads`: passed with 20 records, 20 outreach-ready packages, 0 validation errors, 20 reachable company websites, 0 duplicate IDs, 0 duplicate company URLs, 0 social URLs reused across businesses, and 0 current-client matches.
-- `npm run prepare:lead-index`: produced the 20-lead index only after joining every record to the fresh verification audit. The generator now stops on stale inputs or any failed readiness gate.
-- `QUE_MEDIA_BASE_URL=http://localhost:3001 npm run verify:runtime`: passed 60 valid API, company, and report endpoint checks plus 3 invalid-route checks with 0 failures. The suite also rejects embedded server-render errors and verifies the snapshot/manual-outreach API boundary.
-- Next development compilation parsed the application stylesheets and served every primary route successfully.
+- `npm run verify:leads`: passed with 21 records, 21 outreach-ready packages, 0 validation errors, 21 reachable company websites, 0 duplicate IDs, 0 duplicate company URLs, 0 social URLs reused across businesses, and 0 current-client matches.
+- `npm run prepare:lead-index`: produced the 21-lead index only after joining every record to the fresh verification audit. The generator now stops on stale inputs or any failed readiness gate.
+- `npm run build`: passed TypeScript validation and generated all 54 static pages, including 21 company profiles and 21 client reports.
+- `QUE_MEDIA_BASE_URL=http://localhost:3001 npm run verify:runtime`: passed 63 valid API, company, and report endpoint checks plus 3 invalid-route checks with 0 failures. The suite also rejects embedded server-render errors and verifies the snapshot/manual-outreach API boundary.
 - The Impeccable static detector returned no interface anti-pattern findings after unused side-tab CSS was removed.
 - Real-data integrity: runtime profiles are derived only from the three cited research datasets and the verification audit. No demo company, placeholder observation, fallback score, simulated activity, or fake connector result ships with the application.
-- Duplicate integrity: the final cohort contains 20 unique IDs and company websites with no repeated social URL across businesses.
+- Duplicate integrity: the final cohort contains 21 unique IDs and company websites with no repeated social URL across businesses.
 - Evidence boundary: the interface never creates fallback claims or source links when no verified records are available. An observation is marked verified only when at least one linked persisted source passed the accessibility check.
 - API boundary: only `GET` routes exist under `app/api`.
 - Outreach boundary: no mail provider, social publishing token, mutation route, automatic send action, campaign sender, or sequence engine exists. Public `mailto:` and `tel:` links only open a human-controlled local client.
@@ -63,4 +63,4 @@ Representative foreground/background pairs meet WCAG AA:
 
 ## Test boundary
 
-The completed review used TypeScript validation, live Next stylesheet compilation, real-data invariants, fresh public-source verification, 63 endpoint assertions, live DOM and keyboard inspection, clean console checks, and static WCAG review. Production connector integrations still require their authorized credentials, durable storage, policies, and workers before recurring research can be accepted. The current 20-business Ottawa-market cohort is a dated research snapshot, not evidence of a continuously running monitor.
+The completed review used TypeScript validation, a production Next build, real-data invariants, fresh public-source verification, 66 endpoint assertions, live DOM and keyboard inspection, clean console checks, and static WCAG review. Production connector integrations still require their authorized credentials, durable storage, policies, and workers before recurring research can be accepted. The current 21-business Ottawa-market cohort is a dated research snapshot, not evidence of a continuously running monitor.

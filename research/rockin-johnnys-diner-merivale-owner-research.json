@@ -1,0 +1,96 @@
+{
+  "research_date": "2026-07-22",
+  "research_status": "manual_fallback_parallel_auth_blocked",
+  "parallel": {
+    "run_id": null,
+    "interaction_id": null,
+    "monitoring_url": null,
+    "blocker": "PARALLEL_API_KEY was not configured and interactive CLI login did not complete."
+  },
+  "business": {
+    "brand": "Rockin' Johnny's Diner",
+    "address": "1651 Merivale Road, Ottawa/Nepean, ON K2G 3K2",
+    "unit": null,
+    "status": "Open by 2026-07-18 based on local eyewitness evidence",
+    "best_available_opening_date": "2026-07-15",
+    "opening_date_quality": "Community eyewitness report; no official opening announcement located",
+    "official_website": "https://rockinjohnnysdiner.com/",
+    "website_gap": "Official site still says Westgate is closed and does not list Merivale.",
+    "phone": null,
+    "hours": null,
+    "email": null,
+    "social_profiles": [],
+    "delivery_profiles": []
+  },
+  "people": [
+    {
+      "name": "Enzo Mastromattei",
+      "supported_role": "Franchise owner and original 1991 Westgate opener",
+      "confidence": "high",
+      "caution": "Current legal entity and equity ownership are not verified."
+    },
+    {
+      "name": "Anthony Joseph",
+      "supported_role": "Westgate location owner/operator since purchasing it in 2005; involved in Merivale relocation",
+      "confidence": "high",
+      "caution": "The legal form of his current Merivale ownership is not verified."
+    }
+  ],
+  "legal_operator": {
+    "name": null,
+    "status": "unverified",
+    "historical_name": "ROCKIN' JOHNNY'S DINER LTD.",
+    "historical_name_caution": "Historical trademark-proceeding evidence does not establish the current Merivale operator."
+  },
+  "sources": [
+    {
+      "title": "Rockin' Johnny's set to reopen on Merivale Road following closure of Westgate location",
+      "publisher": "Ottawa Business Journal",
+      "published": "2026-07-10",
+      "url": "https://obj.ca/rockin-johnnys-reopen-merivale-road-closure-westgate/",
+      "weight": "strongest_current_source"
+    },
+    {
+      "title": "Rockin' Johnny's searching for new diner space after Westgate closure",
+      "publisher": "Kitchissippi Times",
+      "published": "2025-09-28",
+      "url": "https://kitchissippi.com/rockin-johnnys-searching-for-new-diner-space-after-westgate-closure/",
+      "weight": "strong_corroboration"
+    },
+    {
+      "title": "Rockin' Johnny's Diner official website",
+      "publisher": "Rockin' Johnny's Diner",
+      "accessed": "2026-07-22",
+      "url": "https://rockinjohnnysdiner.com/",
+      "weight": "primary_brand_source_but_stale"
+    },
+    {
+      "title": "Rockin Johnny's (Westgate) to reopen on Merivale Rd.",
+      "publisher": "Reddit r/OttawaFood",
+      "accessed": "2026-07-22",
+      "url": "https://www.reddit.com/r/OttawaFood/comments/1uu3bxn/rockin_johnnys_westgate_to_reopen_on_merivale_rd/",
+      "weight": "eyewitness_opening_evidence"
+    },
+    {
+      "title": "Now Hiring - Rockin Johnny's Diner",
+      "publisher": "Reddit r/ottawa",
+      "published": "2026-07-22",
+      "url": "https://www.reddit.com/r/ottawa/comments/1v3uyan/now_hiring_rockin_johnnys_diner/",
+      "weight": "supplemental_eyewitness_evidence"
+    },
+    {
+      "title": "Canadian trademark record 0753476",
+      "publisher": "Canadian Intellectual Property Office",
+      "accessed": "2026-07-22",
+      "url": "https://ised-isde.canada.ca/cipo/trademark-search/753476?wbdisable=true",
+      "weight": "primary_historical_legal_name_only"
+    }
+  ],
+  "unresolved": [
+    "Current Ontario legal operating entity, corporation number, directors, and shareholders",
+    "Official opening date",
+    "Merivale suite or unit number",
+    "Current Merivale phone, hours, email, social profiles, and delivery platforms",
+    "Formal ownership or licensing relationship between Enzo Mastromattei and Anthony Joseph"
+  ]
+}

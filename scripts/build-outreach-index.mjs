@@ -40,7 +40,7 @@ if (
   || notReady.length > 0
   || orphanAudits.length > 0
 ) {
-  throw new Error(`Verification audit is not ready for a 20-lead index. Not ready: ${notReady.map((record) => record.id).join(", ") || "none"}. Run npm run verify:leads and resolve every gate.`);
+  throw new Error(`Verification audit is not ready for the current lead index. Not ready: ${notReady.map((record) => record.id).join(", ") || "none"}. Run npm run verify:leads and resolve every gate.`);
 }
 
 records.sort((left, right) => right.scores.opportunity - left.scores.opportunity || right.scores.contentFit - left.scores.contentFit);
@@ -69,7 +69,7 @@ for (const [index, lead] of records.entries()) {
   lines.push(`### ${index + 1}. ${lead.name}`, "");
   lines.push(`- Website: ${lead.website}`);
   lines.push(`- Location: ${lead.location}`);
-  lines.push(`- Public email: ${lead.email ?? "Unavailable"}`);
+  lines.push(`- Public email: ${lead.email ? `${lead.email}${lead.emailLabel ? ` (${lead.emailLabel})` : ""}` : "Unavailable"}`);
   lines.push(`- Public phone: ${lead.phone ?? "Unavailable"}`);
   lines.push(`- Public decision-maker context: ${lead.decisionMaker ? `${lead.decisionMaker.name}, ${lead.decisionMaker.role} (${lead.decisionMaker.sourceUrl})` : "No verified named decision maker"}`);
   lines.push(`- Why Now: ${lead.whyNow ? `${lead.whyNow.title}. ${lead.whyNow.detail}` : "No current time-bounded business-change signal was verified. Use an evergreen, observation-led opening."}`);
@@ -90,5 +90,5 @@ lines.push(
   "",
 );
 
-await writeFile(resolve(workspace, "research/outreach-ready-20.md"), `${lines.join("\n")}\n`, "utf8");
-process.stdout.write(`Wrote ${records.length} verified leads to research/outreach-ready-20.md\n`);
+await writeFile(resolve(workspace, "research/outreach-ready.md"), `${lines.join("\n")}\n`, "utf8");
+process.stdout.write(`Wrote ${records.length} verified leads to research/outreach-ready.md\n`);
