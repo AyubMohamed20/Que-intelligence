@@ -98,6 +98,21 @@ export function EvidenceDrawer({
                   </div>
                   <h4>{item.claim}</h4>
                   <p>{item.detail}</p>
+                  <div className="evidence-item__sources">
+                    {item.sourceIds.map((sourceId) => {
+                      const source = sources.find((entry) => entry.id === sourceId);
+                      if (!source) return null;
+                      const sourceUrl = getAccessibleSourceUrl(source);
+                      return sourceUrl ? (
+                        <a key={source.id} href={sourceUrl} target="_blank" rel="noreferrer">
+                          <ExternalLink aria-hidden="true" size={12} />
+                          {source.label}
+                        </a>
+                      ) : (
+                        <span key={source.id}>{source.label} (unavailable)</span>
+                      );
+                    })}
+                  </div>
                   <div className="evidence-item__foot">
                     <span><CheckCircle2 aria-hidden="true" size={14} />Observed {formatDate(item.observedAt)}</span>
                     <div>{item.tags.map((tag) => <span className="tag" key={tag}>{tag}</span>)}</div>
@@ -118,7 +133,13 @@ export function EvidenceDrawer({
                 return (
                   <div className="source-record" key={source.id}>
                     <div>
-                      <strong>{source.label}</strong>
+                      {sourceUrl ? (
+                        <a className="source-record__link" href={sourceUrl} target="_blank" rel="noreferrer">
+                          <strong>{source.label}</strong>
+                        </a>
+                      ) : (
+                        <strong>{source.label}</strong>
+                      )}
                       <span>{source.publisher} · Captured {formatDate(source.capturedAt)}</span>
                     </div>
                     <StatusBadge tone={sourceUrl ? "positive" : "warning"}>
