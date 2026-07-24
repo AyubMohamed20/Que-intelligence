@@ -491,7 +491,7 @@ export function buildVerifiedLeadProfile(raw: VerifiedLeadRecord, verification: 
     id: `draft-${raw.id}-instagram`,
     channel: "instagram-dm",
     opening: `Hi ${raw.decisionMaker?.name.split(" ")[0] ?? raw.name} team, I was researching ${raw.name} for a small Ottawa content shortlist.`,
-    body: `${firstObservation?.detail ?? raw.outreach.body} I mapped one specific short-form idea around it: ${firstConcept?.title ?? "a focused video concept"}. The opening would be "${firstConcept?.hook ?? raw.outreach.opening}".`,
+    body: `${firstObservation?.detail ?? raw.outreach.body} That is exactly the kind of opportunity Que Media builds a managed content program around. The first series we would film and run for you is "${firstConcept?.title ?? "a focused video series"}", opening on "${firstConcept?.hook ?? raw.outreach.opening}".`,
     callToAction: raw.outreach.callToAction,
     ...draftBase,
   });
@@ -500,7 +500,7 @@ export function buildVerifiedLeadProfile(raw: VerifiedLeadRecord, verification: 
     channel: "linkedin",
     subject: raw.outreach.subject,
     opening: raw.outreach.opening,
-    body: `${raw.outreach.body} I can also share the outline for ${firstConcept?.title ?? "the first concept"} as a concrete starting point.`,
+    body: `${raw.outreach.body} If we worked together, "${firstConcept?.title ?? "the first concept"}" is the series we would film and run first.`,
     callToAction: raw.outreach.callToAction,
     ...draftBase,
   });
@@ -508,7 +508,7 @@ export function buildVerifiedLeadProfile(raw: VerifiedLeadRecord, verification: 
     id: `draft-${raw.id}-facebook`,
     channel: "facebook",
     opening: `Hi ${raw.name} team,`,
-    body: `${firstObservation?.detail ?? raw.outreach.body} I sketched a Que Media short-form concept called "${firstConcept?.title ?? "a focused local video series"}" around that exact opportunity.`,
+    body: `${firstObservation?.detail ?? raw.outreach.body} Que Media films and manages short-form content for Ottawa businesses, and we would open your program with a series built around that exact opportunity: "${firstConcept?.title ?? "a focused local video series"}".`,
     callToAction: raw.outreach.callToAction,
     ...draftBase,
   });
@@ -517,7 +517,7 @@ export function buildVerifiedLeadProfile(raw: VerifiedLeadRecord, verification: 
       id: `draft-${raw.id}-phone`,
       channel: "phone",
       opening: "Hi, this is [your name] from Que Media in Ottawa.",
-      body: `I researched ${raw.name} before calling and noticed this: ${firstObservation?.detail ?? raw.outreach.body} I have a specific video idea, "${firstConcept?.title ?? "a focused short-form pilot"}", built around that observation.`,
+      body: `I researched ${raw.name} before calling and noticed this: ${firstObservation?.detail ?? raw.outreach.body} Que Media films and manages social content for Ottawa businesses, and we have already planned the first series we would produce for you: "${firstConcept?.title ?? "a focused short-form pilot"}".`,
       callToAction: raw.outreach.callToAction,
       ...draftBase,
     });
@@ -525,7 +525,7 @@ export function buildVerifiedLeadProfile(raw: VerifiedLeadRecord, verification: 
       id: `draft-${raw.id}-voicemail`,
       channel: "voicemail",
       opening: "Hi, this is [your name] from Que Media in Ottawa.",
-      body: `I was looking at ${raw.name} and mapped a specific short-form idea around ${firstObservation?.title.toLowerCase() ?? "a current business opportunity"}: "${firstConcept?.title ?? "a focused video concept"}. This is not a mass outreach call. I can send the short outline so you can judge whether it is useful.`,
+      body: `I was researching ${raw.name} and planned the first video series Que Media would film and manage for you, built around ${firstObservation?.title.toLowerCase() ?? "a current business opportunity"}: "${firstConcept?.title ?? "a focused video series"}". This is not a mass outreach call. I would love 15 minutes to walk you through how we would run it.`,
       callToAction: `You can reach me at [your number], or I can follow up through the public ${requestedChannel.replace("-", " ")} route.`,
       ...draftBase,
     });
@@ -535,7 +535,7 @@ export function buildVerifiedLeadProfile(raw: VerifiedLeadRecord, verification: 
     channel: "loom",
     subject: `${raw.name}: a researched short-form opportunity`,
     opening: `Hi ${raw.decisionMaker?.name.split(" ")[0] ?? raw.name} team. I made this short walkthrough after reviewing your public website and social presence.`,
-    body: `The first observation is ${firstObservation?.detail ?? raw.outreach.body} The opportunity I would test is ${firstConcept?.title ?? "a focused short-form pilot"}. The opening hook is "${firstConcept?.hook ?? raw.outreach.opening}". The production path is: ${firstConcept?.outline.join(" ") ?? raw.outreach.body}`,
+    body: `The first observation is ${firstObservation?.detail ?? raw.outreach.body} The first series Que Media would film and manage for you is ${firstConcept?.title ?? "a focused short-form pilot"}. The opening hook is "${firstConcept?.hook ?? raw.outreach.opening}". The production path is: ${firstConcept?.outline.join(" ") ?? raw.outreach.body}`,
     callToAction: raw.outreach.callToAction,
     ...draftBase,
   });
