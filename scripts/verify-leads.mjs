@@ -60,12 +60,59 @@ function collectSocialLinks(html, baseUrl) {
     ["pinterest.com", "pinterest"],
   ];
   const links = [];
+  const reservedInstagramPaths = new Set([
+    "accounts",
+    "about",
+    "blog",
+    "data",
+    "developer",
+    "explore",
+    "legal",
+    "p",
+    "popular",
+    "reel",
+    "reels",
+    "stories",
+  ]);
+  function isAccountUrl(url, platform) {
+    const parts = url.pathname.split("/").filter(Boolean);
+    if (platform === "instagram") {
+      return parts.length === 1 && !reservedInstagramPaths.has(parts[0].toLowerCase());
+    }
+    if (platform === "tiktok" || platform === "threads") {
+      return parts.length === 1 && parts[0].startsWith("@");
+    }
+    if (platform === "linkedin") {
+      return parts.length === 2 && ["company", "in", "school"].includes(parts[0].toLowerCase());
+    }
+    if (platform === "youtube") {
+      return parts.length > 0 && (parts[0].startsWith("@") || ["c", "channel", "user"].includes(parts[0].toLowerCase()));
+    }
+    if (platform === "facebook") {
+      return (
+        !url.hostname.toLowerCase().startsWith("developers.") &&
+        parts.length > 0 &&
+        ![
+          "help",
+          "legal",
+          "login",
+          "photo",
+          "privacy",
+          "reel",
+          "share",
+          "watch",
+        ].includes(parts[0].toLowerCase())
+      );
+    }
+    return parts.length === 1;
+  }
   const hrefs = html.matchAll(/href=["']([^"']+)["']/gi);
   for (const match of hrefs) {
     try {
       const url = new URL(match[1].replaceAll("&amp;", "&"), baseUrl);
       const platform = platformByHost.find(([host]) => url.hostname === host || url.hostname.endsWith(`.${host}`))?.[1];
       if (!platform) continue;
+      if (!isAccountUrl(url, platform)) continue;
       const cleanUrl = `${url.protocol}//${url.host}${url.pathname}`.replace(/\/$/, "");
       if (!links.some((item) => item.platform === platform && item.url === cleanUrl)) links.push({ platform, url: cleanUrl });
     } catch {

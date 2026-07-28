@@ -28,8 +28,28 @@ const leads = Array.isArray(payload.data) ? payload.data : [];
 const failures = [];
 
 if (leads.length !== 22) failures.push({ path: "/api/leads", issue: `Expected 22 leads, received ${leads.length}` });
-if (payload.meta?.dataState !== "verified-snapshot") failures.push({ path: "/api/leads", issue: `Unexpected data state: ${payload.meta?.dataState}` });
-if (payload.meta?.outreachCapability !== "manual-preparation-only") failures.push({ path: "/api/leads", issue: "Manual-only outreach boundary is missing" });
+if (payload.meta?.dataState !== "operational-system-of-record") failures.push({ path: "/api/leads", issue: `Unexpected data state: ${payload.meta?.dataState}` });
+if (payload.meta?.outreachCapability !== "human-approved-instantly") failures.push({ path: "/api/leads", issue: "Human-approved outreach boundary is missing" });
+
+const dashboardResponse = await get("/api/dashboard");
+const dashboardPayload = await dashboardResponse.json().catch(() => null);
+if (
+  dashboardResponse.status !== 200 ||
+  dashboardPayload?.data?.target !== 10 ||
+  typeof dashboardPayload?.data?.newBusinessesContactedToday !== "number" ||
+  dashboardPayload?.data?.remainingToTarget !==
+    Math.max(
+      dashboardPayload?.data?.target -
+        dashboardPayload?.data?.newBusinessesContactedToday,
+      0,
+    )
+) {
+  failures.push({
+    path: "/api/dashboard",
+    issue: "Daily target calculation is missing or inconsistent",
+    status: dashboardResponse.status,
+  });
+}
 
 for (const lead of leads) {
     const paths = [`/api/leads/${lead.id}`, `/companies/${lead.id}`, `/reports/${lead.id}`];
@@ -41,10 +61,17 @@ for (const lead of leads) {
     const reportHtml = await reportResponse.text();
     const expectedNames = [lead.name, escapedName(lead.name)];
 
-    if (apiResponse.status !== 200 || api?.data?.id !== lead.id || api?.data?.stage !== "outreach-ready" || api?.data?.reportReady !== true) {
-      failures.push({ path: paths[0], issue: "API profile is missing or not outreach ready", status: apiResponse.status });
+    if (
+      apiResponse.status !== 200 ||
+      api?.data?.id !== lead.id ||
+      !api?.data?.operations ||
+      !Array.isArray(api?.data?.outreachHistory) ||
+      !Array.isArray(api?.data?.operationalTimeline) ||
+      api?.data?.reportReady !== true
+    ) {
+      failures.push({ path: paths[0], issue: "Operational API profile is incomplete", status: apiResponse.status });
     }
-    if (api?.meta?.dataState !== "verified-snapshot" || api?.meta?.outreachCapability !== "manual-preparation-only") {
+    if (api?.meta?.dataState !== "operational-system-of-record" || api?.meta?.outreachCapability !== "human-approved-instantly") {
       failures.push({ path: paths[0], issue: "API truth boundary is incorrect" });
     }
     if (companyResponse.status !== 200 || !expectedNames.some((name) => companyHtml.includes(name)) || hasRenderError(companyHtml)) {
@@ -66,13 +93,34 @@ for (const [path, response] of [
   ["/companies/not-a-real-company", unknownCompany],
   ["/reports/not-a-real-company", unknownReport],
 ]) {
-  if (response.status !== 404) failures.push({ path, issue: `Expected HTTP 404, received ${response.status}` });
+  if (path.startsWith("/api/")) {
+    if (response.status !== 404) {
+      failures.push({
+        path,
+        issue: `Expected HTTP 404, received ${response.status}`,
+      });
+    }
+    continue;
+  }
+  // Next.js streamed notFound responses may commit HTTP 200 before the
+  // not-found boundary resolves. Assert the semantic 404 marker and noindex.
+  const html = await response.text();
+  if (
+    !html.includes("NEXT_HTTP_ERROR_FALLBACK;404") ||
+    !html.includes('name="robots" content="noindex"')
+  ) {
+    failures.push({
+      path,
+      issue: "Expected a semantic not-found boundary with noindex",
+      status: response.status,
+    });
+  }
 }
 
 const summary = {
   baseUrl,
   leadCount: leads.length,
-  validEndpointChecks: leads.length * 3,
+  validEndpointChecks: leads.length * 3 + 1,
   invalidRouteChecks: 3,
   failureCount: failures.length,
   failures,

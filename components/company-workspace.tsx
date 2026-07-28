@@ -31,10 +31,13 @@ import type {
   Recommendation,
   ScoreCard,
 } from "@/lib/types";
+import type { OperatingLeadProfile } from "@/lib/operating-types";
 import { EvidenceDrawer } from "@/components/evidence-drawer";
+import { InstantlyOutreachPanel } from "@/components/instantly-outreach-panel";
+import { LeadOperationsPanel } from "@/components/lead-operations-panel";
 import { BusinessLogo, ScoreRing, StatusBadge } from "@/components/ui";
 
-type WorkspaceTab = "overview" | "social" | "website" | "competitors" | "strategy" | "outreach" | "relationship";
+export type WorkspaceTab = "overview" | "social" | "website" | "competitors" | "strategy" | "outreach" | "relationship";
 
 const tabs: Array<{ id: WorkspaceTab; label: string }> = [
   { id: "overview", label: "Overview" },
@@ -60,6 +63,10 @@ function formatDate(value: string) {
   return new Intl.DateTimeFormat("en-CA", { month: "short", day: "numeric", year: "numeric" }).format(new Date(value));
 }
 
+function formatOptionalDate(value?: string) {
+  return value ? formatDate(value) : "Not recorded";
+}
+
 function humanize(value: string) {
   return value.replaceAll("-", " ");
 }
@@ -74,8 +81,14 @@ function EmptySection({ children }: { children: string }) {
   return <p className="section-description">{children}</p>;
 }
 
-export function CompanyWorkspace({ lead }: { lead: LeadProfile }) {
-  const [tab, setTab] = useState<WorkspaceTab>("overview");
+export function CompanyWorkspace({
+  lead,
+  initialTab = "overview",
+}: {
+  lead: OperatingLeadProfile;
+  initialTab?: WorkspaceTab;
+}) {
+  const [tab, setTab] = useState<WorkspaceTab>(initialTab);
 
   const focusTab = (index: number) => {
     const nextTab = tabs[index];
@@ -121,7 +134,15 @@ export function CompanyWorkspace({ lead }: { lead: LeadProfile }) {
           <ScoreSummary label="Que Media fit" score={lead.contentFitScore} detail={`Grade ${lead.contentFitScorecard.grade}`} />
           <ScoreSummary label="Opportunity" score={lead.opportunityScore} detail={`Grade ${lead.opportunityScorecard.grade}`} />
           <ScoreSummary label="Response" score={lead.responseLikelihood} detail={`Grade ${lead.responseScorecard.grade}`} suffix="%" />
-          <div className="company-priority"><span className="meta-label">Priority</span><strong>{humanize(lead.priority)}</strong><small>Expected return on effort</small></div>
+          <div className="company-priority"><span className="meta-label">Lead quality</span><strong>{lead.operations.qualityScore.score} · {lead.operations.qualityScore.grade}</strong><small>Transparent 100-point operating score</small></div>
+        </div>
+        <div className="company-header__operations" aria-label="Lead operating summary">
+          <div><span>Opening</span><strong>{humanize(lead.operations.openingStatus)}</strong><small>{formatOptionalDate(lead.operations.openingDate)}</small></div>
+          <div><span>Email</span><strong>{humanize(lead.operations.emailVerificationStatus)}</strong><small>{lead.operations.primaryEmail ?? "No email available"}</small></div>
+          <div><span>Qualification</span><strong>{humanize(lead.operations.qualificationStatus)}</strong><small>{lead.operations.qualificationReason}</small></div>
+          <div><span>Outreach</span><strong>{humanize(lead.operations.lifecycleStatus)}</strong><small>Last contact {formatOptionalDate(lead.operations.lastContactAt)}</small></div>
+          <div><span>Reply</span><strong>{humanize(lead.operations.replyStatus)}</strong><small>{formatOptionalDate(lead.operations.lastReplyAt)}</small></div>
+          <div><span>Next action</span><strong>{lead.operations.nextAction}</strong><small>{formatOptionalDate(lead.operations.nextActionDueAt)}</small></div>
         </div>
       </header>
 
@@ -200,7 +221,7 @@ function ScoreSummary({ label, score, detail, suffix = "" }: { label: string; sc
   );
 }
 
-function OverviewTab({ lead, openTab }: { lead: LeadProfile; openTab: (tab: WorkspaceTab) => void }) {
+function OverviewTab({ lead, openTab }: { lead: OperatingLeadProfile; openTab: (tab: WorkspaceTab) => void }) {
   const hasOutreachDrafts = lead.outreachDrafts.length > 0;
 
   return (
@@ -211,7 +232,7 @@ function OverviewTab({ lead, openTab }: { lead: LeadProfile; openTab: (tab: Work
           <p className="executive-summary">{lead.executiveSummary}</p>
           {lead.nextBestAction ? <div className="brief-callout">
             <Sparkles aria-hidden="true" size={20} />
-            <div><strong>Best opening angle</strong><p>{lead.nextBestAction}</p></div>
+            <div><strong>Best opening angle</strong><p>{lead.operations.nextAction}</p></div>
             {hasOutreachDrafts ? <button className="text-button" type="button" onClick={() => openTab("outreach")}>Open drafts <ArrowRight aria-hidden="true" size={14} /></button> : null}
           </div> : null}
         </section>
@@ -301,7 +322,7 @@ function OverviewTab({ lead, openTab }: { lead: LeadProfile; openTab: (tab: Work
           <section className="next-action surface" aria-labelledby="next-action-title">
             <span className="next-action__icon" aria-hidden="true"><Target size={20} /></span>
             <span className="meta-label">Recommended next action</span>
-            <h2 id="next-action-title">{lead.nextBestAction}</h2>
+            <h2 id="next-action-title">{lead.operations.nextAction}</h2>
             <p>Suggested channel: {channelNames[lead.primaryChannel]}</p>
             {hasOutreachDrafts ? <button className="button button--primary" type="button" onClick={() => openTab("outreach")}>Review message <ArrowRight aria-hidden="true" size={15} /></button> : null}
           </section>
@@ -434,13 +455,15 @@ function RecommendationRow({ recommendation, index, lead }: { recommendation: Re
   return <article className="recommendation-row"><span className="recommendation-index">{String(index + 1).padStart(2, "0")}</span><div className="recommendation-copy"><div><StatusBadge tone={recommendation.priority === "urgent" || recommendation.priority === "high" ? "warning" : "info"}>{recommendation.priority}</StatusBadge><span>{recommendation.category.replace("-", " ")}</span></div><h3>{recommendation.title}</h3><p>{recommendation.observation}</p><strong>{recommendation.action}</strong>{recommendation.contentConcept ? <details><summary>Open production concept</summary><div><span className="meta-label">Hook</span><p>{recommendation.contentConcept.hook}</p><span className="meta-label">Story beats</span><ol>{recommendation.contentConcept.outline.map((item) => <li key={item}>{item}</li>)}</ol><span className="meta-label">Production</span><p>{recommendation.contentConcept.productionNotes}</p><span className="meta-label">Success signal</span><p>{recommendation.contentConcept.successMetric}</p></div></details> : null}</div><div className="recommendation-impact"><span className="meta-label">Expected impact</span><p>{recommendation.impact}</p><EvidenceDrawer evidenceIds={recommendation.evidenceIds} evidence={lead.evidence} sources={lead.sources} compact /></div></article>;
 }
 
-function OutreachTab({ lead }: { lead: LeadProfile }) {
+function OutreachTab({ lead }: { lead: OperatingLeadProfile }) {
   const [channel, setChannel] = useState<OutreachChannel>(lead.outreachDrafts[0]?.channel ?? "email");
   const [horizontalChannels, setHorizontalChannels] = useState(false);
   const [copyStatus, setCopyStatus] = useState<"idle" | "copied" | "error">("idle");
   const [drafts, setDrafts] = useState(() => Object.fromEntries(lead.outreachDrafts.map((draft) => [draft.channel, `${draft.opening}\n\n${draft.body}\n\n${draft.callToAction}`])) as Record<OutreachChannel, string>);
+  const [subjects, setSubjects] = useState(() => Object.fromEntries(lead.outreachDrafts.map((draft) => [draft.channel, draft.subject ?? ""])) as Record<OutreachChannel, string>);
   const activeDraft = lead.outreachDrafts.find((draft) => draft.channel === channel) ?? lead.outreachDrafts[0];
   const text = drafts[channel] ?? "";
+  const subject = subjects[channel] ?? "";
   const conversationAnchors = [
     lead.whyNowSignals[0]?.title,
     lead.socialIntelligence.missedOpportunities[0]?.title,
@@ -466,7 +489,7 @@ function OutreachTab({ lead }: { lead: LeadProfile }) {
 
   const copy = async () => {
     try {
-      await navigator.clipboard.writeText(activeDraft?.subject ? `${activeDraft.subject}\n\n${text}` : text);
+      await navigator.clipboard.writeText(subject ? `${subject}\n\n${text}` : text);
       setCopyStatus("copied");
     } catch {
       setCopyStatus("error");
@@ -485,21 +508,30 @@ function OutreachTab({ lead }: { lead: LeadProfile }) {
 
   return (
     <div className="outreach-layout">
-      <section className="outreach-boundary-banner"><ShieldCheck aria-hidden="true" size={20} /><div><strong>Prepared for a person, never sent by an agent</strong><p>Edit the message, verify every observation, then copy it into the channel you choose.</p></div><StatusBadge tone="positive">Manual only</StatusBadge></section>
+      <section className="outreach-boundary-banner"><ShieldCheck aria-hidden="true" size={20} /><div><strong>Prepared and approved by a person</strong><p>Edit the final message and verify its evidence. Instantly submission remains locked behind a separate review and confirmation.</p></div><StatusBadge tone="positive">Approval required</StatusBadge></section>
       <div className="outreach-grid">
         <aside className="channel-list" aria-label="Outreach channels" aria-orientation={horizontalChannels ? "horizontal" : "vertical"} role="tablist">{lead.outreachDrafts.map((draft, index) => <button key={draft.channel} id={`outreach-channel-${draft.channel}`} type="button" role="tab" className={channel === draft.channel ? "is-active" : ""} aria-label={`${channelNames[draft.channel]}, ${draft.status.replace("-", " ")}`} aria-selected={channel === draft.channel} aria-controls="outreach-message-panel" tabIndex={channel === draft.channel ? 0 : -1} onClick={() => setChannel(draft.channel)} onKeyDown={(event) => { if (event.key === "ArrowDown" || event.key === "ArrowRight") { event.preventDefault(); moveChannelFocus(index, 1); } if (event.key === "ArrowUp" || event.key === "ArrowLeft") { event.preventDefault(); moveChannelFocus(index, -1); } }}><span>{draft.channel === "phone" || draft.channel === "voicemail" ? <Phone aria-hidden="true" size={17} /> : draft.channel === "loom" ? <PlayCircle aria-hidden="true" size={17} /> : <MessageSquareText aria-hidden="true" size={17} />}{channelNames[draft.channel]}</span><StatusBadge tone={draft.status === "approved" ? "positive" : "warning"}>{draft.status.replace("-", " ")}</StatusBadge></button>)}</aside>
         <section className="message-editor surface" id="outreach-message-panel" role="tabpanel" aria-labelledby={`outreach-channel-${channel}`} tabIndex={0}>
           <div className="surface-header"><div><span className="meta-label">{channelNames[channel]}</span><h2 id="message-editor-title">Draft editor</h2></div><div className="button-row"><EvidenceDrawer evidenceIds={activeDraft.evidenceIds} evidence={lead.evidence} sources={lead.sources} compact /><button className="button button--secondary" type="button" onClick={copy}>{copyStatus === "copied" ? <Check aria-hidden="true" size={16} /> : <Copy aria-hidden="true" size={16} />}{copyStatus === "copied" ? "Copied" : copyStatus === "error" ? "Copy failed" : "Copy draft"}</button><span className="sr-only" role="status" aria-live="polite">{copyStatus === "copied" ? "Draft copied to the clipboard." : copyStatus === "error" ? "The clipboard was unavailable. Select and copy the draft manually." : ""}</span></div></div>
-          <div className="message-editor__body">{activeDraft?.subject ? <label className="field"><span>Subject</span><input name="outreach-subject" value={activeDraft.subject} readOnly /></label> : null}<label className="field"><span>Message</span><textarea name="outreach-message" value={text} onChange={(event) => setDrafts((current) => ({ ...current, [channel]: event.target.value }))} aria-describedby="draft-help" autoComplete="off" /></label><p id="draft-help">Specific observations stay editable. Nothing leaves this workspace.</p></div>
+          <div className="message-editor__body">{activeDraft?.subject ? <label className="field"><span>Subject</span><input name="outreach-subject" value={subject} onChange={(event) => setSubjects((current) => ({ ...current, [channel]: event.target.value }))} /></label> : null}<label className="field"><span>Message</span><textarea name="outreach-message" value={text} onChange={(event) => setDrafts((current) => ({ ...current, [channel]: event.target.value }))} aria-describedby="draft-help" autoComplete="off" /></label><p id="draft-help">Specific observations stay editable. Email submission remains locked until the explicit review below.</p></div>
           <div className="personalization-check"><span className="meta-label">Personalization check</span>{activeDraft.personalizationPoints.map((point) => <div key={point}><CheckCircle2 aria-hidden="true" size={16} /><span>{point}</span></div>)}{activeDraft.personalizationPoints.length === 0 ? <EmptySection>No personalization points are recorded for this draft.</EmptySection> : null}</div>
         </section>
         <aside className="outreach-context"><section className="surface"><div className="surface-header"><div><h2>Response estimate</h2><p>Based on timing, fit, evidence, and personalization.</p></div></div><div className="response-estimate"><ScoreRing value={lead.responseLikelihood} label="Response" size={118} tone="positive" /><p>{lead.responseScorecard.summary}</p></div></section><section className="surface"><div className="surface-header"><div><h2>Conversation anchors</h2><p>Points worth remembering before reaching out.</p></div></div>{conversationAnchors.length > 0 ? <ul className="conversation-anchors">{conversationAnchors.map((anchor) => <li key={anchor}>{anchor}</li>)}</ul> : <EmptySection>No conversation anchors are recorded.</EmptySection>}</section></aside>
       </div>
+      {channel === "email" ? (
+        <InstantlyOutreachPanel
+          lead={lead}
+          recipientEmail={lead.operations.primaryEmail ?? ""}
+          subject={subject}
+          messageBody={text}
+          evidenceIds={activeDraft.evidenceIds}
+        />
+      ) : null}
     </div>
   );
 }
 
-function RelationshipTab({ lead }: { lead: LeadProfile }) {
+function RelationshipTab({ lead }: { lead: OperatingLeadProfile }) {
   const rememberedContext = Array.from(new Set([
     lead.whyNow ? `Why now: ${lead.whyNow}` : "",
     lead.topSignal ? `Top signal: ${lead.topSignal}` : "",
@@ -516,10 +548,11 @@ function RelationshipTab({ lead }: { lead: LeadProfile }) {
         {lead.relationshipTimeline.length > 0 ? <ol className="relationship-timeline">{lead.relationshipTimeline.map((event) => <li key={event.id}><span className={`timeline-icon timeline-icon--${event.type}`} aria-hidden="true">{event.type === "signal" ? <TrendingUp size={16} /> : event.type === "audit" ? <SearchCheck size={16} /> : <CheckCircle2 size={16} />}</span><div><div><strong>{event.title}</strong><span>{formatDate(event.occurredAt)}</span></div><p>{event.detail}</p><small>{event.actor}</small>{event.nextAction ? <div className="timeline-next"><Target aria-hidden="true" size={14} /><span>{event.nextAction}</span></div> : null}</div></li>)}</ol> : <EmptySection>No relationship events are recorded.</EmptySection>}
       </section>
       <aside className="relationship-rail">
+        <LeadOperationsPanel lead={lead} />
         <section className="next-action surface">
           <span className="next-action__icon" aria-hidden="true"><Target size={20} /></span>
           <span className="meta-label">Next action</span>
-          <h2>{lead.nextBestAction || "No next action recorded"}</h2>
+          <h2>{lead.operations.nextAction || "No next action recorded"}</h2>
           <p>Suggested channel: {channelNames[lead.primaryChannel]}</p>
         </section>
         <section className="surface relationship-memory"><div className="surface-header"><div><h2>Recorded context</h2><p>Profile evidence retained for the next conversation.</p></div></div>{rememberedContext.length > 0 ? <ul>{rememberedContext.map((item) => <li key={item}>{item}</li>)}</ul> : <EmptySection>No relationship context is recorded.</EmptySection>}</section>

@@ -1,66 +1,75 @@
-# Quality Assurance Record
+# Q Intelligence quality assurance record
 
-Last updated: 2026-07-23
+Last updated: 2026-07-28
 
 ## Automated validation
 
-- `npm run typecheck`: passed with TypeScript strict mode and no emitted files.
-- `npm run verify:leads`: passed with 22 records, 22 outreach-ready packages, 0 validation errors, 22 reachable company websites or primary public surfaces, 0 duplicate IDs, 0 duplicate company URLs, 0 social URLs reused across businesses, and 0 current-client matches.
-- `npm run prepare:lead-index`: produced the 22-lead index only after joining every record to the fresh verification audit. The generator now stops on stale inputs or any failed readiness gate.
-- `npm run build`: passed TypeScript validation and generated all 56 static pages, including 22 company profiles and 22 client reports.
-- `QUE_MEDIA_BASE_URL=http://localhost:3001 npm run verify:runtime`: passed 66 valid API, company, and report endpoint checks plus 3 invalid-route checks with 0 failures. The suite also rejects embedded server-render errors and verifies the snapshot/manual-outreach API boundary.
-- The Impeccable static detector returned no interface anti-pattern findings after unused side-tab CSS was removed.
-- Real-data integrity: runtime profiles are derived only from the three cited research datasets and the verification audit. No demo company, placeholder observation, fallback score, simulated activity, or fake connector result ships with the application.
-- Duplicate integrity: the final cohort contains 22 unique IDs and public-presence URLs with no repeated social URL across businesses.
-- Evidence boundary: the interface never creates fallback claims or source links when no verified records are available. An observation is marked verified only when at least one linked persisted source passed the accessibility check.
-- API boundary: only `GET` routes exist under `app/api`.
-- Outreach boundary: no mail provider, social publishing token, mutation route, automatic send action, campaign sender, or sequence engine exists. Public `mailto:` and `tel:` links only open a human-controlled local client.
+The operational upgrade passed:
 
-## Accessibility review
+- `npm run typecheck`;
+- `npm run verify:leads`: 22 records, 22 existing research packages ready, 22 reachable official surfaces, and zero schema, duplicate-ID, company-URL, social-URL, or excluded-client failures;
+- `npm run prepare:lead-index`: regenerated the verified 22-lead manual research index;
+- `npm run build`: Next.js production compilation, TypeScript, page-data collection, and all dynamic route registrations;
+- `npm run verify:runtime`: 67 valid lead/API/page checks, three invalid-route checks, operational metadata, dashboard calculation, semantic not-found/noindex boundaries, and zero failures;
+- `npm run verify:operations`: nine authenticated production-mode checks and zero failures.
 
-The source-level review covered WCAG 2.2 AA patterns across the application shell, company tabs, channel tabs, dialogs, disclosures, filters, tables, forms, loading states, report viewer, and responsive layouts. Live Playwright DOM checks covered every primary route at 390 by 844, and the dashboard, company library, a full company profile, a full report, and settings at 320 by 760. Desktop interaction checks ran at 1440 by 900.
+The operational test used a clean isolated SQLite path and temporary admin/session secrets. It verified:
 
-Verified outcomes:
+- a clean daily dashboard begins at 0/10 confirmed contacts, even though the historical cohort contains 20 email-ready leads;
+- the remaining-target formula is consistent;
+- an absent Instantly key returns safe `not-configured` metadata and no credential-shaped response field;
+- an active research batch begins at zero;
+- batch completion is blocked with HTTP 409 until 10 qualified email-ready records are added;
+- invalid agent research returns HTTP 422 with field-path issues;
+- a manual lifecycle change without a reason is rejected;
+- an outreach submission without a stable idempotency key is rejected;
+- an unauthenticated webhook is rejected;
+- an authorized administrator can read persisted audit events.
 
-- Skip link, landmarks, page headings, and route status states are present.
-- Keyboard focus is visible and immediate.
-- Modal navigation makes background content inert, closes on Escape, returns focus, and resolves viewport changes safely.
-- Tab systems use roving focus, keyboard navigation, resolved ID references, and persistent panels for user-edited state.
-- Filter and search changes announce result counts through polite live regions.
-- Async review, copy, connector, note, and settings outcomes provide status feedback.
-- Status, confidence, comparison winners, freshness, and evidence are not conveyed by color alone.
-- Scrollable comparison and data regions are labeled and keyboard-focusable.
-- Native tables include captions and scoped headers. Grid tables expose table semantics.
-- Touch targets for core controls meet the 44px target.
-- Reduced motion removes movement selectively while preserving useful loading feedback.
-- Print output removes application chrome and preserves source records without narrow-layout clipping.
+## Visual and responsive review
 
-The managed AccessLint Chrome process could not expose its CDP endpoint on port 9222 after two clean launch attempts. The fallback review therefore used live Playwright DOM inspection, keyboard interaction tests, clean browser-console checks, the current Vercel Web Interface Guidelines, and source-level WCAG review. AccessLint's rule engine itself was not claimed as passed. Accessibility diffing was not applicable because this workspace has no Git repository or baseline branch.
+Live Chrome screenshots were reviewed at:
 
-## Contrast checks
+- dashboard: 1440 × 1200;
+- lead operating table: 1440 × 1000;
+- lead profile and operating strip: 1440 × 1200;
+- Outreach Studio and Instantly approval boundary: 1440 × 1400;
+- Discover/research-cycle gate: 1440 × 1100;
+- dashboard mobile reflow: 390 × 844.
 
-Representative foreground/background pairs meet WCAG AA:
+The review confirmed:
 
-| Pair | Ratio |
-| --- | ---: |
-| Ink navy on paper | 16.56:1 |
-| Graphite on paper | 14.63:1 |
-| Muted ink on paper | 7.15:1 |
-| Muted ink on warm canvas | 6.75:1 |
-| Cobalt on paper | 5.54:1 |
-| Success on success background | 6.18:1 |
-| Warning on warning background | 4.59:1 |
-| Danger on danger background | 5.44:1 |
+- research and contacted counts are visually separate;
+- the 0/10 target and exact counting rule are prominent;
+- all required lead table states have readable labelled columns and horizontal fallback;
+- opening, score, email, qualification, outreach, reply, and next action are visible before deep research;
+- the final email subject and body are editable;
+- the Instantly action is visually separate from draft editing and states that opening review does not contact the lead;
+- no secret or API key appears in any interface or screenshot;
+- the research cycle explains that email-missing leads are retained while 10 email-ready leads are still required;
+- desktop navigation and mobile bottom navigation remain usable.
 
-## Responsive and interaction coverage
+## Accessibility safeguards reviewed
 
-- Desktop sidebar, compact drawer, mobile top bar, and mobile bottom navigation.
-- 320px narrow layout safeguards for report actions and horizontal data comparisons, verified without page-level horizontal scrolling.
-- Desktop transition after an open compact drawer clears inertness and body scroll lock.
-- Settings persist through `sessionStorage` and disclose a truthful current-view fallback when storage is unavailable.
-- Lead and report views render the verified cohort. Source and research-operation views still disclose that no recurring connector or worker is configured.
-- Evidence drawers render only persisted evidence records and return focus to their trigger when closed.
+- semantic headings, landmarks, tables, captions, labels, progress bars, status regions, and buttons;
+- keyboard-operable company and channel tabs with roving focus;
+- visible focus styles and non-colour status labels;
+- labelled horizontally scrollable data regions;
+- 44px-oriented primary touch controls;
+- reduced-motion behavior for loading indicators;
+- screen-reader status output for save, copy, send, sync, research-cycle, and authentication actions;
+- explicit checkbox approval immediately before Instantly submission.
 
-## Test boundary
+## Provider test boundary
 
-The completed review used TypeScript validation, a production Next build, real-data invariants, fresh public-source verification, 69 endpoint assertions, live DOM and keyboard inspection, clean console checks, and static WCAG review. Production connector integrations still require their authorized credentials, durable storage, policies, and workers before recurring research can be accepted. The current 22-business Ottawa-market cohort is a dated research snapshot, not evidence of a continuously running monitor.
+No real Instantly API key was available or required for local validation, and no prospect was contacted. The tested server deliberately used the safe unconfigured state. Account/campaign mapping, exact workspace payload variants, real `email_sent`/reply webhook fixtures, and deliverability outcomes require an authorized Q Media Instantly workspace.
+
+The integration client, eligibility rules, request shapes, rate-limit behavior, webhook header, polling cap, idempotency record, and provider failure preservation were validated statically and through local failure-path tests. Run a controlled internal-address campaign before approving production prospect outreach.
+
+## Current known limits
+
+- SQLite is a single-workspace durable store; move to PostgreSQL before horizontal multi-instance deployment.
+- Continuous research discovery needs a scheduler/worker; the controlled ingestion API is ready, but the application does not invent live agent runs.
+- Polling is a fallback and is intentionally capped because Instantly’s email-list endpoint has a low rate limit.
+- Next.js streamed `notFound()` pages can commit HTTP 200 before the not-found boundary resolves. Q Intelligence emits the semantic 404 boundary and `noindex`; the lead API returns a true HTTP 404.
+- Existing research profiles include a dated public-source cohort. A fresh research cycle should recheck volatile launch/contact facts before outreach.

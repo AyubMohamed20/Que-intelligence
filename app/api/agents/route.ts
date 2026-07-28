@@ -10,7 +10,7 @@ export function GET() {
     meta: {
       asOf: new Date().toISOString(),
       dataState: researchAgents.length || connectors.length ? "connected" : "empty",
-      outreachCapability: "none",
+      outreachCapability: "research-agents-cannot-send",
     },
   });
 }

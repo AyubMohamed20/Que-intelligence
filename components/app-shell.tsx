@@ -9,6 +9,7 @@ import {
   FileText,
   LayoutDashboard,
   Menu,
+  Send,
   Search,
   Settings,
   ShieldCheck,
@@ -22,6 +23,7 @@ const primaryNavigation = [
   { href: "/", label: "Briefing", icon: LayoutDashboard },
   { href: "/discover", label: "Discover", icon: Search },
   { href: "/companies", label: "Companies", icon: Building2 },
+  { href: "/outreach", label: "Outreach", icon: Send },
   { href: "/reports", label: "Reports", icon: FileText },
 ];
 
@@ -35,10 +37,13 @@ const pageNames: Record<string, string> = {
   "": "Morning briefing",
   discover: "Lead discovery",
   companies: "Company intelligence",
+  outreach: "Outreach operations",
   reports: "Client-ready reports",
   agents: "Research agents",
   sources: "Data sources",
   settings: "Settings",
+  login: "Workspace access",
+  docs: "Documentation",
 };
 
 function isActive(pathname: string, href: string) {
@@ -211,15 +216,15 @@ export function AppShell({ children, companies }: { children: React.ReactNode; c
           <div className="manual-boundary">
             <ShieldCheck aria-hidden="true" size={18} />
             <div>
-              <strong>Manual outreach only</strong>
-              <span>No agent can contact a prospect.</span>
+              <strong>Human-approved outreach</strong>
+              <span>Every Instantly submission requires human approval.</span>
             </div>
           </div>
-          <Link className="profile-button" href="/settings" aria-label="Open workspace settings">
-            <span className="avatar" aria-hidden="true">AK</span>
+          <Link className="profile-button" href="/login" aria-label="Open workspace access">
+            <span className="avatar" aria-hidden="true">QM</span>
             <span>
-              <strong>Ayub Khan</strong>
-              <small>Que Media</small>
+              <strong>Workspace access</strong>
+              <small>Que Media roles</small>
             </span>
             <ChevronRight aria-hidden="true" size={16} />
           </Link>

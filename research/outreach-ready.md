@@ -1,6 +1,6 @@
 # Que Media Outreach-Ready Ottawa Market Lead Index
 
-Generated from the verified research cohort on 2026-07-23.
+Generated from the verified research cohort on 2026-07-28.
 
 > This is preparation, not an outreach queue. Recheck current signals and manually review each draft immediately before contacting a business.
 

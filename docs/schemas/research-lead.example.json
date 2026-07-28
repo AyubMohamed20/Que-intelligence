@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.0",
+  "business": {
+    "name": "Example Ottawa Business",
+    "category": "Independent restaurant",
+    "description": "A privately operated Ottawa restaurant preparing a new location.",
+    "website": "https://example.com",
+    "status": "opening-soon",
+    "openingDate": "2026-09-01T00:00:00.000Z",
+    "openingDateConfidence": "medium"
+  },
+  "location": {
+    "city": "Ottawa",
+    "neighborhood": "Centretown",
+    "address": "100 Example Street, Ottawa, ON"
+  },
+  "contacts": [
+    {
+      "kind": "email",
+      "value": "hello@example.com",
+      "label": "Official business email",
+      "provenance": "official",
+      "verificationStatus": "usable",
+      "contactType": "general-business",
+      "isPrimary": true,
+      "evidenceUrls": ["https://example.com/contact"]
+    }
+  ],
+  "socialProfiles": [
+    {
+      "platform": "instagram",
+      "url": "https://www.instagram.com/example",
+      "handle": "@example"
+    }
+  ],
+  "decisionMakers": [],
+  "services": ["Dine-in service", "Private events"],
+  "products": ["Prepared food", "Beverages"],
+  "discoveryReason": "An official location page announced an upcoming Ottawa opening.",
+  "fitReason": "The launch has a visual story and a time-bounded local awareness need that fits Q Media’s production and launch-campaign services.",
+  "likelyMarketingNeeds": [
+    "Launch content",
+    "Short-form video",
+    "Google Business Profile preparation"
+  ],
+  "recommendedServiceAngle": "A compact pre-launch and opening-week content package.",
+  "suggestedOutreachApproach": "Reference the confirmed location launch and offer a short planning conversation.",
+  "urgency": "high",
+  "confidence": "medium",
+  "researchNotes": "Opening month is announced; the exact public opening day remains unconfirmed.",
+  "observations": [
+    {
+      "title": "Upcoming Ottawa location",
+      "detail": "The official website identifies a new Centretown location.",
+      "implication": "There is a pre-launch awareness window.",
+      "evidenceUrls": ["https://example.com/new-location"]
+    },
+    {
+      "title": "Public business email",
+      "detail": "The official contact page publishes hello@example.com.",
+      "implication": "A reviewed business-email outreach route is available.",
+      "evidenceUrls": ["https://example.com/contact"]
+    },
+    {
+      "title": "Limited launch content",
+      "detail": "The official Instagram profile lists the location but has not published a launch series.",
+      "implication": "A specific launch-story content angle is plausible.",
+      "evidenceUrls": ["https://www.instagram.com/example"]
+    }
+  ],
+  "evidence": [
+    {
+      "url": "https://example.com/new-location",
+      "title": "New Ottawa location",
+      "publisher": "Example Ottawa Business",
+      "note": "First-party announcement of the Centretown location.",
+      "kind": "official-website",
+      "publishedAt": "2026-07-20T00:00:00.000Z",
+      "discoveredAt": "2026-07-28T14:00:00.000Z",
+      "supports": ["Upcoming Ottawa location", "Opening status"],
+      "confidence": "high"
+    },
+    {
+      "url": "https://example.com/contact",
+      "title": "Contact",
+      "publisher": "Example Ottawa Business",
+      "note": "First-party business email.",
+      "kind": "official-website",
+      "publishedAt": null,
+      "discoveredAt": "2026-07-28T14:05:00.000Z",
+      "supports": ["Public business email"],
+      "confidence": "high"
+    },
+    {
+      "url": "https://www.instagram.com/example",
+      "title": "Example Ottawa Business Instagram",
+      "publisher": "Example Ottawa Business",
+      "note": "Official public social profile and current launch content observation.",
+      "kind": "official-social",
+      "publishedAt": null,
+      "discoveredAt": "2026-07-28T14:10:00.000Z",
+      "supports": ["Official social profile", "Limited launch content"],
+      "confidence": "medium"
+    }
+  ],
+  "scoreInputs": {
+    "recency": 5,
+    "openingOrExpansion": 5,
+    "marketingNeed": 4,
+    "queMediaFit": 5,
+    "decisionMakerAccess": 2,
+    "emailReliability": 4,
+    "socialOpportunity": 4,
+    "websiteOpportunity": 2,
+    "likelyBudget": 3,
+    "businessScale": 3,
+    "urgency": 4,
+    "evidenceStrength": 4
+  },
+  "outreachDraft": {
+    "subject": "A launch-content idea for your Centretown opening",
+    "opening": "I saw the official announcement for your upcoming Centretown location.",
+    "body": "The time before opening is a useful window to introduce the space, people, and offer through a short sequence of local-first videos. Q Media helps Ottawa businesses plan and produce that kind of launch content.",
+    "callToAction": "Would a 15-minute conversation next week be useful?",
+    "evidenceUrls": [
+      "https://example.com/new-location",
+      "https://www.instagram.com/example"
+    ]
+  },
+  "trace": {
+    "actorType": "human",
+    "actorId": "researcher@example.com",
+    "process": "manual-ottawa-discovery",
+    "batchId": "replace-with-active-batch-id",
+    "researchedAt": "2026-07-28T14:15:00.000Z"
+  }
+}

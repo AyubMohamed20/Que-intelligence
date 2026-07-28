@@ -1,22 +1,27 @@
-import { DiscoverySweepAction } from "@/components/discovery-sweep-action";
 import { PageHeading } from "@/components/page-heading";
 import { LeadTable } from "@/components/lead-table";
-import { leadSummaries } from "@/lib/runtime-data";
+import { ResearchCyclePanel } from "@/components/research-cycle-panel";
+import {
+  getLatestResearchBatch,
+  listOperatingLeadSummaries,
+} from "@/lib/server/lead-repository";
 
 export const metadata = { title: "Discover" };
 
 export default function DiscoverPage() {
+  const leadSummaries = listOperatingLeadSummaries();
+  const latestBatch = getLatestResearchBatch();
   return (
     <>
       <PageHeading
         eyebrow="Ottawa opportunity universe"
-        title={<>Find fewer businesses. <em>Understand them better.</em></>}
-        description="Multi-source discovery merges duplicate listings, detects growth signals, and ranks businesses by Que Media fit and expected return on effort."
-        actions={<DiscoverySweepAction />}
+        title={<>Find the next 10. <em>Keep every strong lead.</em></>}
+        description="Each research cycle continues until at least 10 newly qualified businesses have verified or usable email addresses. Strong leads without email remain visible, but do not satisfy the email-ready gate."
       />
+      <ResearchCyclePanel initialBatch={latestBatch} />
       <section className="surface discovery-table" aria-labelledby="discovery-table-title">
-        <div className="surface-header"><div><h2 id="discovery-table-title">Qualified businesses</h2><p>{leadSummaries.length} distinct Ottawa-market businesses are ranked from the verified research cohort. Configure a source before starting another discovery sweep.</p></div></div>
-        <LeadTable leads={leadSummaries} />
+        <div className="surface-header"><div><h2 id="discovery-table-title">Research library</h2><p>Scan new, opening-soon, recently opened, email-ready, and email-missing opportunities without confusing research with actual contact.</p></div></div>
+        <LeadTable leads={leadSummaries} initialView="new-businesses" />
       </section>
     </>
   );

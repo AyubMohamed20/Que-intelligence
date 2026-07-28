@@ -1,15 +1,21 @@
 import { PageHeading } from "@/components/page-heading";
 import { DashboardOverview } from "@/components/dashboard-overview";
+import {
+  getDailyDashboard,
+  listOperatingLeadSummaries,
+} from "@/lib/server/lead-repository";
 
 export default function HomePage() {
+  const dashboard = getDailyDashboard();
+  const leads = listOperatingLeadSummaries();
   return (
     <>
       <PageHeading
-        eyebrow="Morning briefing"
-        title={<>Know who matters <em>before you reach out.</em></>}
-        description="Review the verified Ottawa-market businesses with the strongest Que Media fit, clearest opportunity, and most useful current context before any manual outreach."
+        eyebrow="Daily acquisition command"
+        title={<>Research deeply. <em>Contact deliberately.</em></>}
+        description="One operating view for qualified Ottawa prospects, personalized Instantly outreach, replies, next actions, and the daily goal of 10 newly contacted email-ready businesses."
       />
-      <DashboardOverview />
+      <DashboardOverview dashboard={dashboard} leads={leads} />
     </>
   );
 }

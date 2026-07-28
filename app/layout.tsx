@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Newsreader } from "next/font/google";
 import { AppShell } from "@/components/app-shell";
-import { leadSummaries } from "@/lib/runtime-data";
+import { listOperatingLeadSummaries } from "@/lib/server/lead-repository";
 import "./globals.css";
 import "./company.css";
 
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     template: "%s | Que Media Intelligence",
   },
   description:
-    "Evidence-first business intelligence and outreach preparation for Que Media.",
+    "Evidence-first research, lead management, and human-approved personalized outreach for Q Media.",
   robots: {
     index: false,
     follow: false,
@@ -38,7 +38,10 @@ export const viewport: Viewport = {
   colorScheme: "light",
 };
 
+export const dynamic = "force-dynamic";
+
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  const leadSummaries = listOperatingLeadSummaries();
   const companies = leadSummaries.map(({ id, name, industry, neighborhood }) => ({ id, name, industry, neighborhood }));
   return (
     <html lang="en" className={`${inter.variable} ${newsreader.variable}`}>

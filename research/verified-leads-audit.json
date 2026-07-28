@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T20:42:23.360Z",
+  "generatedAt": "2026-07-28T23:59:08.834Z",
   "inputFiles": [
     "research/hospitality-leads.json",
     "research/wellness-leads.json",
@@ -20,7 +20,7 @@
       "id": "moo-shu-ice-cream-kitchen",
       "name": "Moo Shu Ice Cream & Kitchen",
       "sourceFile": "research/hospitality-leads.json",
-      "capturedAt": "2026-07-23T20:42:23.360Z",
+      "capturedAt": "2026-07-28T23:59:08.834Z",
       "validation": {
         "file": "research/hospitality-leads.json",
         "errors": []
@@ -201,7 +201,7 @@
           "url": "https://ottawatourism.ca/en/ottawa-insider/best-ice-cream-and-other-frozen-treats-ottawa",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "https://ottawatourism.ca/en/ottawa-insider/best-ice-cream-and-other-frozen-treats-ottawa",
+          "finalUrl": "https://ottawatourism.ca/en/ottawa-insider/best-ice-cream-and-other-frozen-treats-in-ottawa",
           "error": null
         },
         {
@@ -269,7 +269,7 @@
       "id": "beyond-the-pale-brewing-company",
       "name": "Beyond the Pale Brewing Company",
       "sourceFile": "research/hospitality-leads.json",
-      "capturedAt": "2026-07-23T20:42:23.360Z",
+      "capturedAt": "2026-07-28T23:59:08.834Z",
       "validation": {
         "file": "research/hospitality-leads.json",
         "errors": []
@@ -579,7 +579,7 @@
       "id": "dominion-city-brewing-co",
       "name": "Dominion City Brewing Co.",
       "sourceFile": "research/hospitality-leads.json",
-      "capturedAt": "2026-07-23T20:42:23.360Z",
+      "capturedAt": "2026-07-28T23:59:08.834Z",
       "validation": {
         "file": "research/hospitality-leads.json",
         "errors": []
@@ -877,7 +877,7 @@
       "id": "house-of-targ",
       "name": "House of TARG",
       "sourceFile": "research/hospitality-leads.json",
-      "capturedAt": "2026-07-23T20:42:23.360Z",
+      "capturedAt": "2026-07-28T23:59:08.834Z",
       "validation": {
         "file": "research/hospitality-leads.json",
         "errors": []
@@ -1111,7 +1111,7 @@
       "id": "stolen-goods-cocktail-bar",
       "name": "Stolen Goods Cocktail Bar",
       "sourceFile": "research/hospitality-leads.json",
-      "capturedAt": "2026-07-23T20:42:23.360Z",
+      "capturedAt": "2026-07-28T23:59:08.834Z",
       "validation": {
         "file": "research/hospitality-leads.json",
         "errors": []
@@ -1330,7 +1330,7 @@
       "id": "escape-manor-ottawa",
       "name": "Escape Manor Ottawa",
       "sourceFile": "research/hospitality-leads.json",
-      "capturedAt": "2026-07-23T20:42:23.360Z",
+      "capturedAt": "2026-07-28T23:59:08.834Z",
       "validation": {
         "file": "research/hospitality-leads.json",
         "errors": []
@@ -1435,10 +1435,6 @@
         ],
         "discoveredSocialLinks": [
           {
-            "platform": "tiktok",
-            "url": "https://analytics.tiktok.com"
-          },
-          {
             "platform": "x",
             "url": "https://twitter.com/EscapeManor"
           },
@@ -1452,12 +1448,7 @@
           }
         ],
         "suppliedSocialsMissingFromOfficialSite": [],
-        "officialSocialsMissingFromResearch": [
-          {
-            "platform": "tiktok",
-            "url": "https://analytics.tiktok.com"
-          }
-        ]
+        "officialSocialsMissingFromResearch": []
       },
       "contactVerification": {
         "phone": {
@@ -1591,7 +1582,7 @@
       "id": "the-merry-dairy",
       "name": "The Merry Dairy",
       "sourceFile": "research/hospitality-leads.json",
-      "capturedAt": "2026-07-23T20:42:23.360Z",
+      "capturedAt": "2026-07-28T23:59:08.834Z",
       "validation": {
         "file": "research/hospitality-leads.json",
         "errors": []
@@ -1696,10 +1687,6 @@
         ],
         "discoveredSocialLinks": [
           {
-            "platform": "youtube",
-            "url": "https://www.youtube.com/themerrydairy/+Themerrydairy/posts"
-          },
-          {
             "platform": "instagram",
             "url": "https://instagram.com/themerrydairy"
           },
@@ -1713,27 +1700,7 @@
           },
           {
             "platform": "instagram",
-            "url": "https://www.instagram.com/p/DbEdx0mA1mO"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/p/Da5xDmxlYs2"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/p/Da3x_zfO2Uq"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/p/DaygZmsgImT"
-          },
-          {
-            "platform": "instagram",
             "url": "https://www.instagram.com/themerrydairy"
-          },
-          {
-            "platform": "youtube",
-            "url": "https://www.youtube.com/themerrydairy"
           },
           {
             "platform": "x",
@@ -1748,20 +1715,8 @@
             "url": "https://music.youtube.com/@Themerrydairy"
           },
           {
-            "platform": "facebook",
-            "url": "https://www.facebook.com/photo"
-          },
-          {
-            "platform": "youtube",
-            "url": "https://www.youtube.com/watch"
-          },
-          {
             "platform": "instagram",
             "url": "https://www.instagram.com/hellodollypastries"
-          },
-          {
-            "platform": "youtube",
-            "url": "https://youtu.be/EbQxt_gTSFQ"
           },
           {
             "platform": "instagram",
@@ -1949,7 +1904,7 @@
       "id": "rockin-johnnys-diner",
       "name": "Rockin' Johnny's Diner",
       "sourceFile": "research/hospitality-leads.json",
-      "capturedAt": "2026-07-23T20:42:23.360Z",
+      "capturedAt": "2026-07-28T23:59:08.834Z",
       "validation": {
         "file": "research/hospitality-leads.json",
         "errors": []
@@ -2141,7 +2096,7 @@
       "id": "sukkar-house",
       "name": "Sukkar House",
       "sourceFile": "research/hospitality-leads.json",
-      "capturedAt": "2026-07-23T20:42:23.360Z",
+      "capturedAt": "2026-07-28T23:59:08.834Z",
       "validation": {
         "file": "research/hospitality-leads.json",
         "errors": []
@@ -2152,8 +2107,8 @@
         "httpStatus": 200,
         "reachable": true,
         "title": "Sukkar house (&#064;sukkar.house) • Instagram photos and videos",
-        "metaDescription": "388 Followers, 5 Following, 23 Posts - Sukkar house (&#064;sukkar.house) on Instagram: &quot;Sweet moment start here &#x1f60e;&#x1f44c;&#x1f3fb;&#x1f9c7;\n&#x1f4cd; 885 Meadowlands Dr, Ottawa\n&#x1f4de; 3439999971&quot;",
-        "score": 70,
+        "metaDescription": "392 Followers, 5 Following, 23 Posts - Sukkar house (&#064;sukkar.house) on Instagram: &quot;Sweet moment start here &#x1f60e;&#x1f44c;&#x1f3fb;&#x1f9c7;\n&#x1f4cd; 885 Meadowlands Dr, Ottawa\n&#x1f4de; 3439999971&quot;",
+        "score": 85,
         "checks": [
           {
             "id": "reachable",
@@ -2185,7 +2140,7 @@
             "points": 10,
             "passed": true,
             "earned": 10,
-            "observation": "388 Followers, 5 Following, 23 Posts - Sukkar house (&#064;sukkar.house) on Instagram: &quot;Sweet moment start here &#x1f60e;&#x1f44c;&#x1f3fb;&#x1f9c7;\n&#x1f4cd; 885 Meadowlands Dr, Ottawa\n&#x1f4de; 3439999971&quot;"
+            "observation": "392 Followers, 5 Following, 23 Posts - Sukkar house (&#064;sukkar.house) on Instagram: &quot;Sweet moment start here &#x1f60e;&#x1f44c;&#x1f3fb;&#x1f9c7;\n&#x1f4cd; 885 Meadowlands Dr, Ottawa\n&#x1f4de; 3439999971&quot;"
           },
           {
             "id": "viewport",
@@ -2207,9 +2162,9 @@
             "id": "contact",
             "label": "Page exposes a contact or booking action",
             "points": 15,
-            "passed": false,
-            "earned": 0,
-            "observation": "No clear contact action found"
+            "passed": true,
+            "earned": 15,
+            "observation": "Contact action found"
           },
           {
             "id": "social",
@@ -2248,10 +2203,6 @@
           {
             "platform": "instagram",
             "url": "https://www.instagram.com/sukkar.house"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/data/manifest.json"
           }
         ],
         "suppliedSocialsMissingFromOfficialSite": [],
@@ -2352,10 +2303,10 @@
         {
           "label": "Federal-corporation registry-derived record",
           "url": "https://opengovca.com/corporation/17546963",
-          "reachable": true,
-          "httpStatus": 200,
-          "finalUrl": "https://opengovca.com/corporation/17546963",
-          "error": null
+          "reachable": false,
+          "httpStatus": null,
+          "finalUrl": null,
+          "error": "fetch failed"
         },
         {
           "label": "https://mychocola613.ca/",
@@ -2374,7 +2325,7 @@
           "error": null
         }
       ],
-      "reachableSourceCount": 7,
+      "reachableSourceCount": 6,
       "sourceCount": 10,
       "outreachReady": true
     },
@@ -2382,7 +2333,7 @@
       "id": "anatomy-physiotherapy-clinic",
       "name": "Anatomy Physiotherapy Clinic",
       "sourceFile": "research/wellness-leads.json",
-      "capturedAt": "2026-07-23T20:42:23.360Z",
+      "capturedAt": "2026-07-28T23:59:08.834Z",
       "validation": {
         "file": "research/wellness-leads.json",
         "errors": []
@@ -2623,7 +2574,7 @@
       "id": "where-i-thrive",
       "name": "Where I Thrive",
       "sourceFile": "research/wellness-leads.json",
-      "capturedAt": "2026-07-23T20:42:23.360Z",
+      "capturedAt": "2026-07-28T23:59:08.834Z",
       "validation": {
         "file": "research/wellness-leads.json",
         "errors": []
@@ -2887,7 +2838,7 @@
       "id": "arro-wellness",
       "name": "Arro Wellness",
       "sourceFile": "research/wellness-leads.json",
-      "capturedAt": "2026-07-23T20:42:23.360Z",
+      "capturedAt": "2026-07-28T23:59:08.834Z",
       "validation": {
         "file": "research/wellness-leads.json",
         "errors": []
@@ -3139,7 +3090,7 @@
       "id": "iron-north-studio",
       "name": "Iron North Studio",
       "sourceFile": "research/wellness-leads.json",
-      "capturedAt": "2026-07-23T20:42:23.360Z",
+      "capturedAt": "2026-07-28T23:59:08.834Z",
       "validation": {
         "file": "research/wellness-leads.json",
         "errors": []
@@ -3408,7 +3359,7 @@
       "id": "refine-ottawa",
       "name": "Refine Ottawa",
       "sourceFile": "research/wellness-leads.json",
-      "capturedAt": "2026-07-23T20:42:23.360Z",
+      "capturedAt": "2026-07-28T23:59:08.834Z",
       "validation": {
         "file": "research/wellness-leads.json",
         "errors": []
@@ -3624,7 +3575,7 @@
       "id": "the-aesthetic-lounge",
       "name": "The Aesthetic Lounge",
       "sourceFile": "research/wellness-leads.json",
-      "capturedAt": "2026-07-23T20:42:23.360Z",
+      "capturedAt": "2026-07-28T23:59:08.834Z",
       "validation": {
         "file": "research/wellness-leads.json",
         "errors": []
@@ -3894,7 +3845,7 @@
       "id": "apartmint-hair-studio",
       "name": "ApartMint Hair Studio",
       "sourceFile": "research/wellness-leads.json",
-      "capturedAt": "2026-07-23T20:42:23.360Z",
+      "capturedAt": "2026-07-28T23:59:08.834Z",
       "validation": {
         "file": "research/wellness-leads.json",
         "errors": []
@@ -4120,7 +4071,7 @@
       "id": "saunders-farm",
       "name": "Saunders Farm",
       "sourceFile": "research/visual-service-leads.json",
-      "capturedAt": "2026-07-23T20:42:23.360Z",
+      "capturedAt": "2026-07-28T23:59:08.834Z",
       "validation": {
         "file": "research/visual-service-leads.json",
         "errors": []
@@ -4398,7 +4349,7 @@
       "id": "automindz",
       "name": "Automindz",
       "sourceFile": "research/visual-service-leads.json",
-      "capturedAt": "2026-07-23T20:42:23.360Z",
+      "capturedAt": "2026-07-28T23:59:08.834Z",
       "validation": {
         "file": "research/visual-service-leads.json",
         "errors": []
@@ -4585,7 +4536,7 @@
       "id": "artium-design-build-renovations",
       "name": "ARTium Design Build Renovations",
       "sourceFile": "research/visual-service-leads.json",
-      "capturedAt": "2026-07-23T20:42:23.360Z",
+      "capturedAt": "2026-07-28T23:59:08.834Z",
       "validation": {
         "file": "research/visual-service-leads.json",
         "errors": []
@@ -4870,7 +4821,7 @@
       "id": "stonefields-estate",
       "name": "Stonefields Estate",
       "sourceFile": "research/visual-service-leads.json",
-      "capturedAt": "2026-07-23T20:42:23.360Z",
+      "capturedAt": "2026-07-28T23:59:08.834Z",
       "validation": {
         "file": "research/visual-service-leads.json",
         "errors": []
@@ -4974,46 +4925,6 @@
           }
         ],
         "discoveredSocialLinks": [
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/p/DbGsk7RDLG6"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/p/Da50EACjfRQ"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/p/Da0UKynjQu7"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/p/DaneBhqjTZO"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/p/DaijjpzDeRQ"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/p/Dad3FQ7DebA"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/p/DaViQHvkd-5"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/p/DaTcViXtXGw"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/p/DaTB-beFuxM"
-          },
-          {
-            "platform": "instagram",
-            "url": "https://www.instagram.com/p/DZ-TV0eDUC9"
-          },
           {
             "platform": "facebook",
             "url": "https://www.facebook.com/stonefieldsestate"
@@ -5142,7 +5053,7 @@
       "id": "lagois-design-build-renovate",
       "name": "Lagois Design Build Renovate",
       "sourceFile": "research/visual-service-leads.json",
-      "capturedAt": "2026-07-23T20:42:23.360Z",
+      "capturedAt": "2026-07-28T23:59:08.834Z",
       "validation": {
         "file": "research/visual-service-leads.json",
         "errors": []
@@ -5285,10 +5196,6 @@
           {
             "platform": "tiktok",
             "url": "https://www.tiktok.com/@wix"
-          },
-          {
-            "platform": "linkedin",
-            "url": "https://www.linkedin.com/company/5295581/admin/dashboard"
           }
         ],
         "suppliedSocialsMissingFromOfficialSite": [],
@@ -5481,7 +5388,7 @@
       "id": "oakwood-design-build",
       "name": "OakWood Design & Build",
       "sourceFile": "research/visual-service-leads.json",
-      "capturedAt": "2026-07-23T20:42:23.360Z",
+      "capturedAt": "2026-07-28T23:59:08.834Z",
       "validation": {
         "file": "research/visual-service-leads.json",
         "errors": []

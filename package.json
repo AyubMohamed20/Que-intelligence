@@ -9,6 +9,7 @@
     "typecheck": "tsc --noEmit",
     "verify:leads": "node scripts/verify-leads.mjs",
     "verify:runtime": "node scripts/verify-runtime.mjs",
+    "verify:operations": "node scripts/verify-operations.mjs",
     "prepare:lead-index": "node scripts/build-outreach-index.mjs",
     "download:logos": "node scripts/download-business-logos.mjs"
   },

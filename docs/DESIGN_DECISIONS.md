@@ -1,10 +1,10 @@
 # Que Media Intelligence Design Decisions
 
-Date: 2026-07-20
+Updated: 2026-07-28
 
 ## Working scene
 
-A Que Media strategist uses this product at a desk in a bright office, usually with several research tabs open and limited time before choosing the next business to contact. The interface must stay calm and legible under heavy information, make evidence easy to verify, and keep the next best action visible without turning research into a sales pipeline.
+A Que Media strategist uses this product at a desk, usually with several research tabs open and limited time before choosing the next business to contact. The interface must stay calm and legible under heavy information, make evidence easy to verify, and keep lifecycle, contact, reply, and next-action state visible without burying the original research.
 
 ## Direction
 
@@ -33,7 +33,9 @@ A Que Media strategist uses this product at a desk in a bright office, usually w
 - Why Now rail: time-bounded triggers are presented as a reasoned brief, not an urgency badge.
 - Content DNA: public posts are classified into useful formats and tied to hooks, production choices, audience reactions, and missing opportunities.
 - Opportunity equation: fit, opportunity, timing, reachability, confidence, and effort remain visible instead of collapsing into one opaque number.
-- Manual-only outreach studio: drafts are editable and copyable, but there is no send control.
+- Human-approved outreach studio: drafts stay editable and evidence-linked; Instantly submission is a separate review surface showing the exact campaign, single eligible sender, recipient, subject, body, and approval statement.
+- Operational strip: opening, lead quality, email readiness, qualification, outreach, reply, and next action are visible before deeper research.
+- Daily goal: the large progress treatment uses confirmed first-send events and never conflates research volume with contacted businesses.
 
 ## Responsive behavior
 
@@ -47,7 +49,7 @@ A Que Media strategist uses this product at a desk in a bright office, usually w
 - Generic equal-card dashboard grids.
 - Hero metrics used as decoration.
 - Gradient text, glass surfaces, crypto glows, or background grid effects.
-- Automatic outreach, send buttons, campaigns, sequences, or mailbox controls.
+- Automatic or bulk outreach, hidden sender selection, unreviewed campaigns, or controls that imply queued means contacted.
 - Social metrics presented without access level or source provenance.
 - Empty states that do not explain the next useful action.
 - Seeded companies, invented research activity, placeholder evidence, or fabricated performance metrics.

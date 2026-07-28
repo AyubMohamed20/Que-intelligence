@@ -1,8 +1,8 @@
 /**
- * Shared domain types for Que Media Intelligence.
+ * Shared evidence and intelligence types for Que Media Intelligence.
  *
- * The product is research and preparation software. None of these types model
- * automated sending because every outreach action must remain human reviewed.
+ * Operational lifecycle and outreach records live in `operating-types.ts`.
+ * Instantly submission is always gated by a persisted human approval.
  */
 
 export type ISODate = string;

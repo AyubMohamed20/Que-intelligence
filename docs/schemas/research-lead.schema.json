@@ -1,0 +1,357 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://q-intelligence.local/schemas/research-lead.schema.json",
+  "title": "Q Intelligence structured research lead",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "business",
+    "location",
+    "contacts",
+    "socialProfiles",
+    "decisionMakers",
+    "services",
+    "products",
+    "discoveryReason",
+    "fitReason",
+    "likelyMarketingNeeds",
+    "recommendedServiceAngle",
+    "suggestedOutreachApproach",
+    "urgency",
+    "confidence",
+    "researchNotes",
+    "observations",
+    "evidence",
+    "scoreInputs",
+    "trace"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "1.0"
+    },
+    "business": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "category", "description", "status"],
+      "properties": {
+        "name": { "$ref": "#/$defs/nonEmptyString" },
+        "category": { "$ref": "#/$defs/nonEmptyString" },
+        "description": { "$ref": "#/$defs/nonEmptyString" },
+        "website": { "$ref": "#/$defs/httpUrl" },
+        "status": { "$ref": "#/$defs/openingStatus" },
+        "openingDate": { "$ref": "#/$defs/isoDateTime" },
+        "openingDateConfidence": { "$ref": "#/$defs/confidence" },
+        "foundedYear": {
+          "type": "integer",
+          "minimum": 1800,
+          "maximum": 2100
+        },
+        "ownership": { "type": "string" },
+        "logoUrl": { "$ref": "#/$defs/httpUrl" }
+      }
+    },
+    "location": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["city"],
+      "properties": {
+        "city": { "$ref": "#/$defs/nonEmptyString" },
+        "neighborhood": { "type": "string" },
+        "address": { "type": "string" },
+        "region": { "type": "string" }
+      }
+    },
+    "contacts": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/contact" }
+    },
+    "socialProfiles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["platform", "url"],
+        "properties": {
+          "platform": {
+            "enum": [
+              "instagram",
+              "facebook",
+              "tiktok",
+              "linkedin",
+              "x",
+              "youtube"
+            ]
+          },
+          "url": { "$ref": "#/$defs/httpUrl" },
+          "handle": { "type": "string" }
+        }
+      }
+    },
+    "decisionMakers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "role", "context", "confidence", "evidenceUrls"],
+        "properties": {
+          "name": { "$ref": "#/$defs/nonEmptyString" },
+          "role": { "$ref": "#/$defs/nonEmptyString" },
+          "context": { "$ref": "#/$defs/nonEmptyString" },
+          "confidence": { "$ref": "#/$defs/confidence" },
+          "evidenceUrls": { "$ref": "#/$defs/evidenceUrls" }
+        }
+      }
+    },
+    "services": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/nonEmptyString" }
+    },
+    "products": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/nonEmptyString" }
+    },
+    "discoveryReason": { "$ref": "#/$defs/nonEmptyString" },
+    "fitReason": { "$ref": "#/$defs/nonEmptyString" },
+    "likelyMarketingNeeds": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/nonEmptyString" }
+    },
+    "recommendedServiceAngle": { "$ref": "#/$defs/nonEmptyString" },
+    "suggestedOutreachApproach": { "$ref": "#/$defs/nonEmptyString" },
+    "urgency": {
+      "enum": ["low", "medium", "high", "urgent"]
+    },
+    "confidence": { "$ref": "#/$defs/confidence" },
+    "researchNotes": { "$ref": "#/$defs/nonEmptyString" },
+    "observations": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["title", "detail", "implication", "evidenceUrls"],
+        "properties": {
+          "title": { "$ref": "#/$defs/nonEmptyString" },
+          "detail": { "$ref": "#/$defs/nonEmptyString" },
+          "implication": { "$ref": "#/$defs/nonEmptyString" },
+          "evidenceUrls": { "$ref": "#/$defs/evidenceUrls" }
+        }
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 20,
+      "items": { "$ref": "#/$defs/evidence" }
+    },
+    "scoreInputs": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "recency",
+        "openingOrExpansion",
+        "marketingNeed",
+        "queMediaFit",
+        "decisionMakerAccess",
+        "emailReliability",
+        "socialOpportunity",
+        "websiteOpportunity",
+        "likelyBudget",
+        "businessScale",
+        "urgency",
+        "evidenceStrength"
+      ],
+      "properties": {
+        "recency": { "$ref": "#/$defs/zeroToFive" },
+        "openingOrExpansion": { "$ref": "#/$defs/zeroToFive" },
+        "marketingNeed": { "$ref": "#/$defs/zeroToFive" },
+        "queMediaFit": { "$ref": "#/$defs/zeroToFive" },
+        "decisionMakerAccess": { "$ref": "#/$defs/zeroToFive" },
+        "emailReliability": { "$ref": "#/$defs/zeroToFive" },
+        "socialOpportunity": { "$ref": "#/$defs/zeroToFive" },
+        "websiteOpportunity": { "$ref": "#/$defs/zeroToFive" },
+        "likelyBudget": { "$ref": "#/$defs/zeroToFive" },
+        "businessScale": { "$ref": "#/$defs/zeroToFive" },
+        "urgency": { "$ref": "#/$defs/zeroToFive" },
+        "evidenceStrength": { "$ref": "#/$defs/zeroToFive" }
+      }
+    },
+    "outreachDraft": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "subject",
+        "opening",
+        "body",
+        "callToAction",
+        "evidenceUrls"
+      ],
+      "properties": {
+        "subject": { "$ref": "#/$defs/nonEmptyString" },
+        "opening": { "$ref": "#/$defs/nonEmptyString" },
+        "body": { "$ref": "#/$defs/nonEmptyString" },
+        "callToAction": { "$ref": "#/$defs/nonEmptyString" },
+        "evidenceUrls": { "$ref": "#/$defs/evidenceUrls" }
+      }
+    },
+    "trace": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["actorType", "actorId", "researchedAt"],
+      "properties": {
+        "actorType": {
+          "enum": [
+            "human",
+            "codex",
+            "claude-code",
+            "research-agent",
+            "api"
+          ]
+        },
+        "actorId": { "$ref": "#/$defs/nonEmptyString" },
+        "process": { "type": "string" },
+        "batchId": { "type": "string" },
+        "researchedAt": { "$ref": "#/$defs/isoDateTime" }
+      }
+    }
+  },
+  "$defs": {
+    "nonEmptyString": {
+      "type": "string",
+      "minLength": 1
+    },
+    "httpUrl": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https?://"
+    },
+    "isoDateTime": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "confidence": {
+      "enum": ["low", "medium", "high"]
+    },
+    "openingStatus": {
+      "enum": [
+        "opening-soon",
+        "recently-opened",
+        "established",
+        "relocating",
+        "rebranding",
+        "expanding",
+        "reopening",
+        "renovating",
+        "new-service",
+        "unknown"
+      ]
+    },
+    "zeroToFive": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 5
+    },
+    "evidenceUrls": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "$ref": "#/$defs/httpUrl" }
+    },
+    "contact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kind",
+        "value",
+        "label",
+        "provenance",
+        "verificationStatus",
+        "evidenceUrls"
+      ],
+      "properties": {
+        "kind": {
+          "enum": ["email", "phone", "contact-form"]
+        },
+        "value": { "$ref": "#/$defs/nonEmptyString" },
+        "label": { "$ref": "#/$defs/nonEmptyString" },
+        "provenance": {
+          "enum": [
+            "official",
+            "inferred",
+            "third-party-listed",
+            "unavailable"
+          ]
+        },
+        "verificationStatus": {
+          "enum": [
+            "verified",
+            "usable",
+            "unverified",
+            "invalid",
+            "unavailable",
+            "verified-public"
+          ]
+        },
+        "contactType": {
+          "enum": [
+            "role-based",
+            "personal-business",
+            "general-business",
+            "unknown"
+          ]
+        },
+        "isPrimary": { "type": "boolean" },
+        "evidenceUrls": { "$ref": "#/$defs/evidenceUrls" }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "url",
+        "title",
+        "publisher",
+        "note",
+        "kind",
+        "discoveredAt",
+        "supports",
+        "confidence"
+      ],
+      "properties": {
+        "url": { "$ref": "#/$defs/httpUrl" },
+        "title": { "$ref": "#/$defs/nonEmptyString" },
+        "publisher": { "$ref": "#/$defs/nonEmptyString" },
+        "note": { "$ref": "#/$defs/nonEmptyString" },
+        "kind": {
+          "enum": [
+            "official-website",
+            "official-social",
+            "google-business",
+            "local-news",
+            "directory",
+            "press-release",
+            "municipal",
+            "commercial-development",
+            "community",
+            "other"
+          ]
+        },
+        "publishedAt": {
+          "oneOf": [
+            { "$ref": "#/$defs/isoDateTime" },
+            { "type": "null" }
+          ]
+        },
+        "discoveredAt": { "$ref": "#/$defs/isoDateTime" },
+        "supports": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/nonEmptyString" }
+        },
+        "confidence": { "$ref": "#/$defs/confidence" }
+      }
+    }
+  }
+}

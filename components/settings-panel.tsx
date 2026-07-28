@@ -127,15 +127,15 @@ export function SettingsPanel() {
       <section className="settings-section outreach-boundary surface" aria-labelledby="outreach-boundary-title">
         <div className="outreach-boundary__icon" aria-hidden="true"><LockKeyhole size={22} /></div>
         <div>
-          <span className="meta-label">Capability boundary</span>
-          <h2 id="outreach-boundary-title">Outreach stays manual</h2>
-          <p>This workspace can research, recommend, draft, and copy. It has no email provider, social posting token, sequence engine, or send action.</p>
+          <span className="meta-label">Security boundary</span>
+          <h2 id="outreach-boundary-title">Instantly credentials stay server-side</h2>
+          <p>The browser receives safe account and campaign eligibility metadata, never the API key. Every submission requires an authorized user, a healthy approved sender, and explicit confirmation.</p>
         </div>
-        <StatusBadge tone="positive">Enforced</StatusBadge>
+        <StatusBadge tone="positive">Human approval</StatusBadge>
       </section>
 
       <div className="settings-savebar">
-        <div><SlidersHorizontal aria-hidden="true" size={18} /><span>Preferences stay in this browser session. No research or notification worker is connected.</span></div>
+        <div><SlidersHorizontal aria-hidden="true" size={18} /><span>These display preferences stay in this browser session. Operational lead and outreach data is persisted separately.</span></div>
         <button ref={saveButtonRef} className="button button--primary" type="button" onClick={save} disabled={total !== 100}>
           <Save aria-hidden="true" size={16} /> Save local preferences
         </button>

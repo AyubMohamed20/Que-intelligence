@@ -3,7 +3,10 @@ import { ArrowRight, FileText, Radar } from "lucide-react";
 import Link from "next/link";
 import { PageHeading } from "@/components/page-heading";
 import { BusinessLogo, EmptyState, StatusBadge } from "@/components/ui";
-import { leadProfiles } from "@/lib/runtime-data";
+import {
+  getOperatingLeadProfile,
+  listOperatingLeadSummaries,
+} from "@/lib/server/lead-repository";
 
 export const metadata: Metadata = {
   title: "Reports",
@@ -19,7 +22,9 @@ function formatDate(value: string) {
 }
 
 export default function ReportsPage() {
-  const readyReports = leadProfiles.filter((lead) => lead.reportReady);
+  const readyReports = listOperatingLeadSummaries()
+    .map((lead) => getOperatingLeadProfile(lead.id))
+    .filter((lead): lead is NonNullable<typeof lead> => Boolean(lead?.reportReady));
 
   return (
     <div className="reports-library">
@@ -37,7 +42,7 @@ export default function ReportsPage() {
       {readyReports.length ? (
         <section className="report-queue surface" aria-labelledby="report-library-title">
           <div className="surface-header">
-            <div><h2 id="report-library-title">Ready reports</h2><p>Every report passed the current source, contact, duplicate, and website validation checks. Outreach still requires human review.</p></div>
+            <div><h2 id="report-library-title">Ready reports</h2><p>Every report passed the current source, contact, duplicate, and website validation checks. Instantly submission still requires explicit human approval.</p></div>
           </div>
           <div className="report-queue__table" role="table" aria-label="Ready intelligence reports">
             <div className="report-queue__row report-queue__head" role="row">
