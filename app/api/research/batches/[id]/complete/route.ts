@@ -9,7 +9,7 @@ export async function POST(
   try {
     const actor = authorizeRequest(request, "research:write");
     const { id } = await params;
-    const result = completeResearchBatch(id, actor);
+    const result = await completeResearchBatch(id, actor);
     if (result.status === "not-found") {
       return Response.json(
         {

@@ -33,7 +33,7 @@ export async function POST(request: Request) {
     }
     const payload = (await request.json()) as InstantlyWebhookPayload;
     return Response.json({
-      data: processInstantlyWebhook(payload),
+      data: await processInstantlyWebhook(payload),
     });
   } catch (error) {
     return apiErrorResponse(error);

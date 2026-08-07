@@ -66,11 +66,11 @@ function validateIdempotencyKey(value: string) {
   return /^[a-zA-Z0-9_.:-]{16,200}$/.test(value);
 }
 
-function validateSubmission(
+async function validateSubmission(
   leadId: string,
   submission: OutreachSubmission,
 ) {
-  const lead = getOperatingLeadProfile(leadId);
+  const lead = await getOperatingLeadProfile(leadId);
   if (!lead) {
     throw new OutreachSubmissionError(
       "Lead not found.",
@@ -168,7 +168,7 @@ function validateSubmission(
   return lead;
 }
 
-function reserveSubmission(
+async function reserveSubmission(
   leadId: string,
   submission: OutreachSubmission,
   actor: WorkspaceActor,
@@ -177,10 +177,11 @@ function reserveSubmission(
 ) {
   const timestamp = nowIso();
   const requestFingerprint = fingerprint(leadId, submission);
-  const existing = getOutreachByIdempotencyKey(idempotencyKey);
+  const existing = await getOutreachByIdempotencyKey(idempotencyKey);
   if (existing) return { existing, created: false as const };
 
-  const duplicate = getDatabase()
+  const db = await getDatabase();
+  const duplicate = (await db
     .prepare(`
       SELECT id FROM outreach_actions
       WHERE request_fingerprint = ?
@@ -191,22 +192,22 @@ function reserveSubmission(
     .get(
       requestFingerprint,
       new Date(Date.now() - 30 * 86_400_000).toISOString(),
-    ) as unknown as { id: string } | undefined;
+    )) as unknown as { id: string } | undefined;
   if (duplicate) {
     throw new OutreachSubmissionError(
       "An identical outreach action already exists for this lead and campaign.",
       409,
       "duplicate_outreach_blocked",
-      getOutreachById(duplicate.id),
+      await getOutreachById(duplicate.id),
     );
   }
 
-  const previousCount = getDatabase()
+  const previousCount = (await db
     .prepare("SELECT count(*) AS count FROM outreach_actions WHERE lead_id = ?")
-    .get(leadId) as unknown as { count: number };
+    .get(leadId)) as unknown as { count: number };
   const actionId = createId("outreach");
-  withTransaction((db) => {
-    db.prepare(`
+  await withTransaction(async (db) => {
+    await db.prepare(`
       INSERT INTO outreach_actions (
         id, lead_id, idempotency_key, request_fingerprint, recipient_email,
         sender_account, instantly_campaign_id, instantly_campaign_name,
@@ -242,7 +243,7 @@ function reserveSubmission(
       timestamp,
       timestamp,
     );
-    recordActivity(db, {
+    await recordActivity(db, {
       leadId,
       occurredAt: timestamp,
       type: "message-approved",
@@ -257,7 +258,7 @@ function reserveSubmission(
         evidenceIds: submission.evidenceIds,
       },
     });
-    recordAudit(db, {
+    await recordAudit(db, {
       actorId: actor.id,
       actorType: actor.actorType,
       action: "outreach.approve",
@@ -273,7 +274,7 @@ function reserveSubmission(
       },
     });
   });
-  return { existing: getOutreachById(actionId)!, created: true as const };
+  return { existing: (await getOutreachById(actionId))!, created: true as const };
 }
 
 export async function submitOutreach(
@@ -289,14 +290,14 @@ export async function submitOutreach(
       "idempotency_key_required",
     );
   }
-  const existing = getOutreachByIdempotencyKey(idempotencyKey);
+  const existing = await getOutreachByIdempotencyKey(idempotencyKey);
   if (existing) {
     const incomingFingerprint = fingerprint(leadId, submission);
-    const row = getDatabase()
+    const row = (await (await getDatabase())
       .prepare(
         "SELECT request_fingerprint FROM outreach_actions WHERE idempotency_key = ?",
       )
-      .get(idempotencyKey) as unknown as { request_fingerprint: string };
+      .get(idempotencyKey)) as unknown as { request_fingerprint: string };
     if (row.request_fingerprint !== incomingFingerprint) {
       throw new OutreachSubmissionError(
         "This idempotency key was already used with a different request.",
@@ -307,7 +308,7 @@ export async function submitOutreach(
     }
     return { action: existing, replayed: true };
   }
-  const lead = validateSubmission(leadId, submission);
+  const lead = await validateSubmission(leadId, submission);
   const options = await getInstantlyOptions();
   if (options.connectionState !== "connected") {
     throw new OutreachSubmissionError(
@@ -353,7 +354,7 @@ export async function submitOutreach(
       "sender_not_eligible",
     );
   }
-  const reservation = reserveSubmission(
+  const reservation = await reserveSubmission(
     leadId,
     submission,
     actor,
@@ -386,8 +387,8 @@ export async function submitOutreach(
       personalizationVariables: submission.personalizationVariables ?? {},
     });
     const timestamp = nowIso();
-    withTransaction((db) => {
-      db.prepare(`
+    await withTransaction(async (db) => {
+      await db.prepare(`
         UPDATE outreach_actions SET
           status = 'queued',
           instantly_lead_id = ?,
@@ -396,7 +397,7 @@ export async function submitOutreach(
           updated_at = ?
         WHERE id = ?
       `).run(instantlyLead.id, timestamp, actionId);
-      recordActivity(db, {
+      await recordActivity(db, {
         leadId,
         occurredAt: timestamp,
         type: "outreach",
@@ -411,7 +412,7 @@ export async function submitOutreach(
           senderAccount: sender.email,
         },
       });
-      recordAudit(db, {
+      await recordAudit(db, {
         actorId: actor.id,
         actorType: actor.actorType,
         action: "outreach.instantly.submit",
@@ -425,7 +426,7 @@ export async function submitOutreach(
         },
       });
     });
-    return { action: getOutreachById(actionId)!, replayed: false };
+    return { action: (await getOutreachById(actionId))!, replayed: false };
   } catch (error) {
     const timestamp = nowIso();
     const code =
@@ -436,8 +437,8 @@ export async function submitOutreach(
       error instanceof Error
         ? error.message
         : "Instantly submission failed. The local record was preserved.";
-    withTransaction((db) => {
-      db.prepare(`
+    await withTransaction(async (db) => {
+      await db.prepare(`
         UPDATE outreach_actions SET
           status = 'failed', delivery_status = 'not-sent',
           error_code = ?, error_message = ?,
@@ -445,7 +446,7 @@ export async function submitOutreach(
           updated_at = ?
         WHERE id = ?
       `).run(code, message, timestamp, actionId);
-      recordActivity(db, {
+      await recordActivity(db, {
         leadId,
         occurredAt: timestamp,
         type: "error",
@@ -455,7 +456,7 @@ export async function submitOutreach(
         actorType: actor.actorType,
         metadata: { actionId, code },
       });
-      recordAudit(db, {
+      await recordAudit(db, {
         actorId: actor.id,
         actorType: actor.actorType,
         action: "outreach.instantly.submit",
@@ -470,7 +471,7 @@ export async function submitOutreach(
       message,
       error instanceof InstantlyApiError ? error.status : 502,
       code,
-      getOutreachById(actionId),
+      await getOutreachById(actionId),
     );
   }
 }

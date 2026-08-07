@@ -14,7 +14,7 @@ export async function generateMetadata({
   params: Promise<{ id: string }>;
 }): Promise<Metadata> {
   const { id } = await params;
-  const lead = getOperatingLeadProfile(id);
+  const lead = await getOperatingLeadProfile(id);
   if (!lead) notFound();
   return {
     title: lead.name,
@@ -31,7 +31,7 @@ export default async function CompanyPage({
 }) {
   const { id } = await params;
   const { tab } = await searchParams;
-  const lead = getOperatingLeadProfile(id);
+  const lead = await getOperatingLeadProfile(id);
   if (!lead) notFound();
   const tabs: WorkspaceTab[] = [
     "overview",

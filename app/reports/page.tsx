@@ -21,10 +21,11 @@ function formatDate(value: string) {
   }).format(new Date(value));
 }
 
-export default function ReportsPage() {
-  const readyReports = listOperatingLeadSummaries()
-    .map((lead) => getOperatingLeadProfile(lead.id))
-    .filter((lead): lead is NonNullable<typeof lead> => Boolean(lead?.reportReady));
+export default async function ReportsPage() {
+  const summaries = await listOperatingLeadSummaries();
+  const readyReports = (
+    await Promise.all(summaries.map((lead) => getOperatingLeadProfile(lead.id)))
+  ).filter((lead): lead is NonNullable<typeof lead> => Boolean(lead?.reportReady));
 
   return (
     <div className="reports-library">

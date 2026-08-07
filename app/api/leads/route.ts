@@ -1,7 +1,7 @@
 import { listOperatingLeadSummaries } from "@/lib/server/lead-repository";
 
-export function GET() {
-  const leadSummaries = listOperatingLeadSummaries();
+export async function GET() {
+  const leadSummaries = await listOperatingLeadSummaries();
   return Response.json({
     data: leadSummaries,
     meta: {

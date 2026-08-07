@@ -40,8 +40,8 @@ export const viewport: Viewport = {
 
 export const dynamic = "force-dynamic";
 
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  const leadSummaries = listOperatingLeadSummaries();
+export default async function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  const leadSummaries = await listOperatingLeadSummaries();
   const companies = leadSummaries.map(({ id, name, industry, neighborhood }) => ({ id, name, industry, neighborhood }));
   return (
     <html lang="en" className={`${inter.variable} ${newsreader.variable}`}>

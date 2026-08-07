@@ -8,9 +8,9 @@ import {
 export const metadata = { title: "Outreach" };
 export const dynamic = "force-dynamic";
 
-export default function OutreachPage() {
-  const dashboard = getDailyDashboard();
-  const leads = listOperatingLeadSummaries();
+export default async function OutreachPage() {
+  const dashboard = await getDailyDashboard();
+  const leads = await listOperatingLeadSummaries();
 
   return (
     <>

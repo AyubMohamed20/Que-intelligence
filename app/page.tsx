@@ -5,9 +5,9 @@ import {
   listOperatingLeadSummaries,
 } from "@/lib/server/lead-repository";
 
-export default function HomePage() {
-  const dashboard = getDailyDashboard();
-  const leads = listOperatingLeadSummaries();
+export default async function HomePage() {
+  const dashboard = await getDailyDashboard();
+  const leads = await listOperatingLeadSummaries();
   return (
     <>
       <PageHeading

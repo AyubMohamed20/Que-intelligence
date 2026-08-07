@@ -11,7 +11,7 @@ export async function GET(
   { params }: { params: Promise<{ id: string }> },
 ) {
   const { id } = await params;
-  const profile = getOperatingLeadProfile(id);
+  const profile = await getOperatingLeadProfile(id);
 
   if (!profile) {
     return Response.json(
@@ -57,7 +57,7 @@ export async function PATCH(
         { status: 400 },
       );
     }
-    const lead = updateLeadStatus(id, body, actor);
+    const lead = await updateLeadStatus(id, body, actor);
     if (!lead) {
       return Response.json(
         { error: { code: "lead_not_found", message: "Lead not found." } },

@@ -15,7 +15,7 @@ export async function generateMetadata({
   params: Promise<{ id: string }>;
 }): Promise<Metadata> {
   const { id } = await params;
-  const lead = getOperatingLeadProfile(id);
+  const lead = await getOperatingLeadProfile(id);
   if (!lead?.reportReady) notFound();
   return {
     title: `${lead.name} Intelligence Report`,
@@ -29,7 +29,7 @@ export default async function ReportDetailPage({
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
-  const lead = getOperatingLeadProfile(id);
+  const lead = await getOperatingLeadProfile(id);
   if (!lead?.reportReady) notFound();
 
   return (

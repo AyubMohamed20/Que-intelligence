@@ -4,8 +4,8 @@ import { listOperatingLeadSummaries } from "@/lib/server/lead-repository";
 
 export const metadata = { title: "Companies" };
 
-export default function CompaniesPage() {
-  const leadSummaries = listOperatingLeadSummaries();
+export default async function CompaniesPage() {
+  const leadSummaries = await listOperatingLeadSummaries();
   return (
     <>
       <PageHeading

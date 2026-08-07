@@ -1323,9 +1323,13 @@ function duplicateSignals(input: ResearchLeadInput, candidate: LeadProfile) {
   return signals;
 }
 
-function findDuplicate(input: ResearchLeadInput) {
-  const candidates = listOperatingLeadSummaries()
-    .map((summary) => getOperatingLeadProfile(summary.id))
+async function findDuplicate(input: ResearchLeadInput) {
+  const summaries = await listOperatingLeadSummaries();
+  const candidates = (
+    await Promise.all(
+      summaries.map((summary) => getOperatingLeadProfile(summary.id)),
+    )
+  )
     .filter((profile): profile is NonNullable<typeof profile> => Boolean(profile))
     .map((profile) => ({
       profile,
@@ -1376,18 +1380,18 @@ export async function ingestResearchLead(
     );
   }
   if (input.trace.batchId) {
-    const batch = getDatabase()
+    const batch = (await (await getDatabase())
       .prepare(
         "SELECT id, status FROM research_batches WHERE id = ?",
       )
-      .get(input.trace.batchId) as unknown as
+      .get(input.trace.batchId)) as unknown as
       | { id: string; status: string }
       | undefined;
     if (!batch || batch.status !== "active") {
       throw new Error("trace.batchId must identify an active research batch.");
     }
   }
-  const duplicate = findDuplicate(input);
+  const duplicate = await findDuplicate(input);
   if (duplicate.ambiguous && !duplicate.exact) {
     const error = new Error(
       `A business with the same normalized name already exists (${duplicate.ambiguous.profile.id}). Add a stronger domain, email, phone, social, or address signal before retrying.`,
@@ -1501,12 +1505,12 @@ export async function ingestResearchLead(
       nextBestAction: built.profile.nextBestAction,
     };
     const timestamp = nowIso();
-    withTransaction((db) => {
-      db.prepare(`
+    await withTransaction(async (db) => {
+      await db.prepare(`
         UPDATE lead_profiles SET profile_json = ?, updated_at = ?
         WHERE id = ?
       `).run(JSON.stringify(merged), timestamp, id);
-      db.prepare(`
+      await db.prepare(`
         UPDATE lead_operations SET
           quality_score_json = ?,
           lifecycle_status = CASE
@@ -1550,7 +1554,7 @@ export async function ingestResearchLead(
         timestamp,
         id,
       );
-      recordActivity(db, {
+      await recordActivity(db, {
         leadId: id,
         occurredAt: timestamp,
         type: "lead-updated",
@@ -1564,7 +1568,7 @@ export async function ingestResearchLead(
           evidenceIds: remappedEvidence.map((item) => item.id),
         },
       });
-      recordAudit(db, {
+      await recordAudit(db, {
         actorId: actor.id,
         actorType: actor.actorType,
         action: "lead.research.merge",
@@ -1575,7 +1579,7 @@ export async function ingestResearchLead(
         metadata: { duplicateSignals: duplicate.exact!.signals },
       });
     });
-    const updated = getOperatingLeadProfile(id)!;
+    const updated = (await getOperatingLeadProfile(id))!;
     return {
       operation: "updated",
       lead: updated,
@@ -1587,7 +1591,7 @@ export async function ingestResearchLead(
 
   let uniqueId = id;
   let suffix = 2;
-  while (getOperatingLeadProfile(uniqueId)) {
+  while (await getOperatingLeadProfile(uniqueId)) {
     uniqueId = `${id}-${suffix}`;
     suffix += 1;
   }
@@ -1612,8 +1616,8 @@ export async function ingestResearchLead(
     : "pending-review";
   const timestamp = nowIso();
   const addedAt = timestamp;
-  withTransaction((db) => {
-    db.prepare(`
+  await withTransaction(async (db) => {
+    await db.prepare(`
       INSERT INTO lead_profiles (
         id, profile_json, source_kind, source_actor_type, source_actor_id,
         source_batch_id, created_at, updated_at
@@ -1627,7 +1631,7 @@ export async function ingestResearchLead(
       addedAt,
       timestamp,
     );
-    db.prepare(`
+    await db.prepare(`
       INSERT INTO lead_operations (
         lead_id, lifecycle_status, qualification_status, qualification_reason,
         opening_status, opening_date, opening_date_confidence, primary_email,
@@ -1671,7 +1675,7 @@ export async function ingestResearchLead(
       addedAt,
       timestamp,
     );
-    recordActivity(db, {
+    await recordActivity(db, {
       leadId: uniqueId,
       occurredAt: addedAt,
       type: "lead-created",
@@ -1687,7 +1691,7 @@ export async function ingestResearchLead(
       },
     });
     if (built.qualified) {
-      recordActivity(db, {
+      await recordActivity(db, {
         leadId: uniqueId,
         occurredAt: addedAt,
         type: "qualification",
@@ -1702,7 +1706,7 @@ export async function ingestResearchLead(
         },
       });
     }
-    recordAudit(db, {
+    await recordAudit(db, {
       actorId: actor.id,
       actorType: actor.actorType,
       action: "lead.create",
@@ -1717,7 +1721,7 @@ export async function ingestResearchLead(
       },
     });
   });
-  const created = getOperatingLeadProfile(uniqueId)!;
+  const created = (await getOperatingLeadProfile(uniqueId))!;
   return {
     operation: "created",
     lead: created,

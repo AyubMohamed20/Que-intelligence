@@ -3,7 +3,14 @@ import "server-only";
 import { randomUUID } from "node:crypto";
 import { mkdirSync } from "node:fs";
 import { dirname, isAbsolute, join } from "node:path";
-import { DatabaseSync } from "node:sqlite";
+import { pathToFileURL } from "node:url";
+import {
+  createClient,
+  type Client,
+  type InStatement,
+  type InValue,
+  type Transaction,
+} from "@libsql/client";
 import verificationReport from "@/research/verified-leads-audit.json";
 import { verifiedLeadProfiles } from "@/lib/verified-lead-data";
 import type {
@@ -13,8 +20,59 @@ import type {
 import { calculateProfileQualityScore } from "@/lib/server/lead-scoring";
 import { toLocalDate } from "@/lib/server/time";
 
+/**
+ * Async adapter over @libsql/client that keeps the prepare().all/get/run
+ * shape the repository layer was written against. Locally it opens a
+ * SQLite file; in managed environments it talks to Turso over HTTP via
+ * TURSO_DATABASE_URL / TURSO_AUTH_TOKEN.
+ */
+export interface Statement {
+  all(...args: Array<InValue | undefined>): Promise<unknown[]>;
+  get(...args: Array<InValue | undefined>): Promise<unknown>;
+  run(
+    ...args: Array<InValue | undefined>
+  ): Promise<{ changes: number; lastInsertRowid: number }>;
+}
+
+export interface Db {
+  prepare(sql: string): Statement;
+  exec(sql: string): Promise<void>;
+}
+
+interface Connection {
+  client: Client;
+  db: Db;
+}
+
 declare global {
-  var __qIntelligenceDatabase: DatabaseSync | undefined;
+  var __qIntelligenceConnection: Promise<Connection> | undefined;
+}
+
+function normalizeArgs(args: Array<InValue | undefined>): InValue[] {
+  return args.map((value) => (value === undefined ? null : value));
+}
+
+function wrap(executor: Client | Transaction): Db {
+  return {
+    prepare(sql: string): Statement {
+      const query = (args: Array<InValue | undefined>) =>
+        executor.execute({ sql, args: normalizeArgs(args) });
+      return {
+        all: async (...args) => (await query(args)).rows,
+        get: async (...args) => (await query(args)).rows[0],
+        run: async (...args) => {
+          const result = await query(args);
+          return {
+            changes: result.rowsAffected,
+            lastInsertRowid: Number(result.lastInsertRowid ?? 0),
+          };
+        },
+      };
+    },
+    async exec(sql: string) {
+      await executor.executeMultiple(sql);
+    },
+  };
 }
 
 function databasePath() {
@@ -31,12 +89,27 @@ function databasePath() {
     : join(/* turbopackIgnore: true */ process.cwd(), configured);
 }
 
-function migrate(db: DatabaseSync) {
-  db.exec(`
-    PRAGMA foreign_keys = ON;
-    PRAGMA journal_mode = WAL;
-    PRAGMA busy_timeout = 5000;
+function clientConfig() {
+  const url = process.env.TURSO_DATABASE_URL?.trim();
+  if (url) {
+    return { url, authToken: process.env.TURSO_AUTH_TOKEN?.trim() };
+  }
+  const path = databasePath();
+  mkdirSync(dirname(path), { recursive: true });
+  return { url: pathToFileURL(path).href };
+}
 
+async function migrate(client: Client) {
+  // WAL and busy_timeout only apply to a local file; remote Turso rejects
+  // or ignores them, so they are best-effort.
+  try {
+    await client.executeMultiple(`
+      PRAGMA foreign_keys = ON;
+      PRAGMA journal_mode = WAL;
+      PRAGMA busy_timeout = 5000;
+    `);
+  } catch {}
+  await client.executeMultiple(`
     CREATE TABLE IF NOT EXISTS lead_profiles (
       id TEXT PRIMARY KEY,
       profile_json TEXT NOT NULL,
@@ -198,7 +271,7 @@ function inferOpeningStatus(
   return "established";
 }
 
-function seedVerifiedProfiles(db: DatabaseSync) {
+async function seedVerifiedProfiles(client: Client) {
   const verificationById = new Map(
     (verificationReport.audits as Array<{
       id: string;
@@ -207,7 +280,7 @@ function seedVerifiedProfiles(db: DatabaseSync) {
       };
     }>).map((audit) => [audit.id, audit]),
   );
-  const insertProfile = db.prepare(`
+  const insertProfileSql = `
     INSERT INTO lead_profiles (
       id, profile_json, source_kind, source_actor_type, source_actor_id,
       source_batch_id, created_at, updated_at
@@ -216,8 +289,8 @@ function seedVerifiedProfiles(db: DatabaseSync) {
       profile_json = excluded.profile_json,
       updated_at = excluded.updated_at
     WHERE lead_profiles.source_kind = 'verified-snapshot'
-  `);
-  const insertOperations = db.prepare(`
+  `;
+  const insertOperationsSql = `
     INSERT OR IGNORE INTO lead_operations (
       lead_id, lifecycle_status, qualification_status, qualification_reason,
       opening_status, opening_date, opening_date_confidence, primary_email,
@@ -232,59 +305,63 @@ function seedVerifiedProfiles(db: DatabaseSync) {
       NULL, NULL, 'none', 'not-required', ?, NULL, NULL, '',
       'system', 'verified-research-pipeline', NULL, ?, ?, ?
     )
-  `);
-  const insertActivity = db.prepare(`
+  `;
+  const insertActivitySql = `
     INSERT OR IGNORE INTO activity_events (
       id, lead_id, occurred_at, local_date, type, title, detail,
       actor_id, actor_type, metadata_json
     ) VALUES (?, ?, ?, ?, 'research', ?, ?, 'verified-research-pipeline', 'system', ?)
-  `);
+  `;
 
-  db.exec("BEGIN IMMEDIATE");
-  try {
-    for (const profile of verifiedLeadProfiles) {
-      const emailChannel = profile.contactChannels.find(
-        (channel) => channel.kind === "email",
-      );
-      const audit = verificationById.get(profile.id);
-      const emailStatus: EmailVerificationStatus = emailChannel
-        ? audit?.contactVerification?.email?.listedOnWebsite
-          ? "verified"
-          : emailChannel.label.toLowerCase().includes("confirm")
-            ? "unverified"
-            : "usable"
-        : "unavailable";
-      const addedAt =
-        [...profile.sources]
-          .map((source) => source.capturedAt)
-          .sort()[0] ?? profile.lastEnrichedAt;
-      // Some derived competitor/source entries are stamped when a profile is
-      // rebuilt. The cohort's stable first-capture date is the truthful
-      // qualification baseline and avoids treating an application restart as
-      // newly qualified research.
-      const qualifiedAt = addedAt;
-      const openingStatus = inferOpeningStatus(
-        profile.whyNowSignals[0]?.type,
-        profile.whyNowSignals[0]?.title,
-      );
-      const openingDate = profile.whyNowSignals[0]?.occurredAt;
-      const qualityScore = calculateProfileQualityScore(profile, emailStatus);
-      const lifecycleStatus =
-        emailStatus === "verified" || emailStatus === "usable"
-          ? "ready-for-outreach"
-          : "qualified";
-      const operationalNextAction =
-        emailStatus === "verified" || emailStatus === "usable"
-          ? "Review the evidence and email draft, then approve an eligible Instantly campaign and sender."
-          : "Find or request a verified business email without guessing.";
+  const statements: InStatement[] = [];
+  for (const profile of verifiedLeadProfiles) {
+    const emailChannel = profile.contactChannels.find(
+      (channel) => channel.kind === "email",
+    );
+    const audit = verificationById.get(profile.id);
+    const emailStatus: EmailVerificationStatus = emailChannel
+      ? audit?.contactVerification?.email?.listedOnWebsite
+        ? "verified"
+        : emailChannel.label.toLowerCase().includes("confirm")
+          ? "unverified"
+          : "usable"
+      : "unavailable";
+    const addedAt =
+      [...profile.sources]
+        .map((source) => source.capturedAt)
+        .sort()[0] ?? profile.lastEnrichedAt;
+    // Some derived competitor/source entries are stamped when a profile is
+    // rebuilt. The cohort's stable first-capture date is the truthful
+    // qualification baseline and avoids treating an application restart as
+    // newly qualified research.
+    const qualifiedAt = addedAt;
+    const openingStatus = inferOpeningStatus(
+      profile.whyNowSignals[0]?.type,
+      profile.whyNowSignals[0]?.title,
+    );
+    const openingDate = profile.whyNowSignals[0]?.occurredAt;
+    const qualityScore = calculateProfileQualityScore(profile, emailStatus);
+    const lifecycleStatus =
+      emailStatus === "verified" || emailStatus === "usable"
+        ? "ready-for-outreach"
+        : "qualified";
+    const operationalNextAction =
+      emailStatus === "verified" || emailStatus === "usable"
+        ? "Review the evidence and email draft, then approve an eligible Instantly campaign and sender."
+        : "Find or request a verified business email without guessing.";
 
-      insertProfile.run(
+    statements.push({
+      sql: insertProfileSql,
+      args: [
         profile.id,
         JSON.stringify(profile),
         addedAt,
         profile.lastEnrichedAt,
-      );
-      insertOperations.run(
+      ],
+    });
+    statements.push({
+      sql: insertOperationsSql,
+      args: [
         profile.id,
         lifecycleStatus,
         "The profile passed the existing identity, source, public-contact, social, duplicate, and outreach-quality gates.",
@@ -308,8 +385,11 @@ function seedVerifiedProfiles(db: DatabaseSync) {
         JSON.stringify(qualityScore),
         addedAt,
         profile.lastEnrichedAt,
-      );
-      insertActivity.run(
+      ],
+    });
+    statements.push({
+      sql: insertActivitySql,
+      args: [
         `seed-research-${profile.id}`,
         profile.id,
         addedAt,
@@ -317,41 +397,53 @@ function seedVerifiedProfiles(db: DatabaseSync) {
         "Verified research record added",
         `${profile.sources.length} source records and ${profile.evidence.length} evidence records entered the verified cohort.`,
         JSON.stringify({ sourceCount: profile.sources.length }),
-      );
-    }
-    db.exec("COMMIT");
-  } catch (error) {
-    db.exec("ROLLBACK");
-    throw error;
+      ],
+    });
   }
+  await client.batch(statements, "write");
 }
 
-function createDatabase() {
-  const path = databasePath();
-  mkdirSync(dirname(path), { recursive: true });
-  const db = new DatabaseSync(path);
-  migrate(db);
-  seedVerifiedProfiles(db);
-  return db;
-}
-
-export function getDatabase() {
-  if (!globalThis.__qIntelligenceDatabase) {
-    globalThis.__qIntelligenceDatabase = createDatabase();
-  }
-  return globalThis.__qIntelligenceDatabase;
-}
-
-export function withTransaction<T>(operation: (db: DatabaseSync) => T): T {
-  const db = getDatabase();
-  db.exec("BEGIN IMMEDIATE");
+async function connect(): Promise<Connection> {
+  const client = createClient(clientConfig());
   try {
-    const result = operation(db);
-    db.exec("COMMIT");
-    return result;
+    await migrate(client);
+    await seedVerifiedProfiles(client);
   } catch (error) {
-    db.exec("ROLLBACK");
+    client.close();
     throw error;
+  }
+  return { client, db: wrap(client) };
+}
+
+function connection(): Promise<Connection> {
+  if (!globalThis.__qIntelligenceConnection) {
+    const pending = connect();
+    globalThis.__qIntelligenceConnection = pending;
+    pending.catch(() => {
+      if (globalThis.__qIntelligenceConnection === pending) {
+        globalThis.__qIntelligenceConnection = undefined;
+      }
+    });
+  }
+  return globalThis.__qIntelligenceConnection;
+}
+
+export async function getDatabase(): Promise<Db> {
+  return (await connection()).db;
+}
+
+export async function withTransaction<T>(
+  operation: (db: Db) => Promise<T> | T,
+): Promise<T> {
+  const { client } = await connection();
+  const transaction = await client.transaction("write");
+  try {
+    const result = await operation(wrap(transaction));
+    await transaction.commit();
+    return result;
+  } finally {
+    // Rolls back automatically when the transaction was not committed.
+    transaction.close();
   }
 }
 

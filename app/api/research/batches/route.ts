@@ -20,7 +20,7 @@ export async function GET(request: Request) {
         { status: 400 },
       );
     }
-    const batch = getResearchBatch(id);
+    const batch = await getResearchBatch(id);
     if (!batch) {
       return Response.json(
         {
@@ -41,7 +41,7 @@ export async function GET(request: Request) {
 export async function POST(request: Request) {
   try {
     const actor = authorizeRequest(request, "research:write");
-    return Response.json({ data: startResearchBatch(actor) }, { status: 201 });
+    return Response.json({ data: await startResearchBatch(actor) }, { status: 201 });
   } catch (error) {
     return apiErrorResponse(error);
   }

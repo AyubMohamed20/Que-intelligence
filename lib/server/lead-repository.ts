@@ -1,6 +1,5 @@
 import "server-only";
 
-import type { DatabaseSync } from "node:sqlite";
 import type {
   ActivityEvent,
   AuditLogEntry,
@@ -24,6 +23,7 @@ import {
   createId,
   getDatabase,
   withTransaction,
+  type Db,
 } from "@/lib/server/database";
 import { nowIso, toLocalDate, workspaceTimezone } from "@/lib/server/time";
 
@@ -306,37 +306,39 @@ function relationshipType(type: ActivityEvent["type"]): RelationshipEvent["type"
   return "research";
 }
 
-export function listOperatingLeadSummaries(): OperatingLeadSummary[] {
-  const rows = getDatabase()
+export async function listOperatingLeadSummaries(): Promise<OperatingLeadSummary[]> {
+  const db = await getDatabase();
+  const rows = (await db
     .prepare(`${leadJoinSql} ORDER BY o.updated_at DESC, p.id ASC`)
-    .all() as unknown as LeadJoinedRow[];
+    .all()) as unknown as LeadJoinedRow[];
   return rows.map((row) =>
     summaryFrom(parseJson<LeadProfile>(row.profile_json, {} as LeadProfile), mapState(row)),
   );
 }
 
-export function getOperatingLeadProfile(
+export async function getOperatingLeadProfile(
   id: string,
-): OperatingLeadProfile | undefined {
-  const row = getDatabase()
+): Promise<OperatingLeadProfile | undefined> {
+  const db = await getDatabase();
+  const row = (await db
     .prepare(`${leadJoinSql} WHERE p.id = ?`)
-    .get(id) as unknown as LeadJoinedRow | undefined;
+    .get(id)) as unknown as LeadJoinedRow | undefined;
   if (!row) return undefined;
   const profile = parseJson<LeadProfile>(row.profile_json, {} as LeadProfile);
   const state = mapState(row);
   const outreachHistory = (
-    getDatabase()
+    (await db
       .prepare(
         "SELECT * FROM outreach_actions WHERE lead_id = ? ORDER BY created_at DESC",
       )
-      .all(id) as unknown as OutreachRow[]
+      .all(id)) as unknown as OutreachRow[]
   ).map(mapOutreach);
   const operationalTimeline = (
-    getDatabase()
+    (await db
       .prepare(
         "SELECT * FROM activity_events WHERE lead_id = ? ORDER BY occurred_at DESC",
       )
-      .all(id) as unknown as ActivityRow[]
+      .all(id)) as unknown as ActivityRow[]
   ).map(mapActivity);
   const appendedTimeline: RelationshipEvent[] = operationalTimeline
     .filter((event) => !event.id.startsWith("seed-research-"))
@@ -367,25 +369,26 @@ export function getOperatingLeadProfile(
   };
 }
 
-export function getLeadByEmail(email: string) {
+export async function getLeadByEmail(email: string) {
   const normalized = email.trim().toLowerCase();
-  const row = getDatabase()
+  const db = await getDatabase();
+  const row = (await db
     .prepare(
       `${leadJoinSql} WHERE lower(o.primary_email) = ? LIMIT 1`,
     )
-    .get(normalized) as unknown as LeadJoinedRow | undefined;
+    .get(normalized)) as unknown as LeadJoinedRow | undefined;
   return row ? getOperatingLeadProfile(row.id) : undefined;
 }
 
-export function recordActivity(
-  db: DatabaseSync,
+export async function recordActivity(
+  db: Db,
   event: Omit<ActivityEvent, "id" | "localDate"> & {
     id?: string;
     localDate?: string;
   },
 ) {
   const id = event.id ?? createId("evt");
-  db.prepare(`
+  await db.prepare(`
     INSERT OR IGNORE INTO activity_events (
       id, lead_id, occurred_at, local_date, type, title, detail,
       actor_id, actor_type, metadata_json
@@ -405,15 +408,15 @@ export function recordActivity(
   return id;
 }
 
-export function recordAudit(
-  db: DatabaseSync,
+export async function recordAudit(
+  db: Db,
   entry: Omit<AuditLogEntry, "id" | "occurredAt"> & {
     id?: string;
     occurredAt?: string;
   },
 ) {
   const id = entry.id ?? createId("audit");
-  db.prepare(`
+  await db.prepare(`
     INSERT INTO audit_log (
       id, occurred_at, actor_id, actor_type, action, resource_type,
       resource_id, outcome, detail, metadata_json
@@ -460,12 +463,12 @@ const followUpStatuses = new Set<FollowUpStatus>([
   "paused",
 ]);
 
-export function updateLeadStatus(
+export async function updateLeadStatus(
   leadId: string,
   update: LeadStatusUpdate,
   actor: WorkspaceActor,
 ) {
-  const current = getOperatingLeadProfile(leadId);
+  const current = await getOperatingLeadProfile(leadId);
   if (!current) return undefined;
   if (
     update.lifecycleStatus &&
@@ -494,8 +497,8 @@ export function updateLeadStatus(
       ? timestamp
       : current.operations.qualifiedAt;
 
-  withTransaction((db) => {
-    db.prepare(`
+  await withTransaction(async (db) => {
+    await db.prepare(`
       UPDATE lead_operations SET
         lifecycle_status = ?,
         qualification_status = ?,
@@ -534,7 +537,7 @@ export function updateLeadStatus(
       timestamp,
       leadId,
     );
-    recordActivity(db, {
+    await recordActivity(db, {
       leadId,
       occurredAt: timestamp,
       type: qualificationChanged ? "qualification" : "status-change",
@@ -553,7 +556,7 @@ export function updateLeadStatus(
         nextAction: update.nextAction ?? current.operations.nextAction,
       },
     });
-    recordAudit(db, {
+    await recordAudit(db, {
       actorId: actor.id,
       actorType: actor.actorType,
       action: qualificationChanged
@@ -605,70 +608,70 @@ function recentLocalDates(days: number) {
   return [...new Set(dates)];
 }
 
-export function getDailyDashboard(): DailyOutreachDashboard {
-  const db = getDatabase();
+export async function getDailyDashboard(): Promise<DailyOutreachDashboard> {
+  const db = await getDatabase();
   const today = toLocalDate();
   const target = Number(process.env.Q_INTELLIGENCE_DAILY_TARGET || 10);
-  const scalar = (sql: string, ...params: Array<string | number>) => {
-    const row = db.prepare(sql).get(...params) as unknown as { count: number };
+  const scalar = async (sql: string, ...params: Array<string | number>) => {
+    const row = (await db.prepare(sql).get(...params)) as unknown as { count: number };
     return Number(row?.count ?? 0);
   };
-  const qualifiedAddedToday = scalar(
+  const qualifiedAddedToday = await scalar(
     "SELECT count(*) AS count FROM lead_operations WHERE qualification_status = 'qualified' AND qualified_local_date = ?",
     today,
   );
-  const emailReadyQualifiedToday = scalar(
+  const emailReadyQualifiedToday = await scalar(
     `SELECT count(*) AS count FROM lead_operations
      WHERE qualification_status = 'qualified'
        AND email_verification_status IN ('verified', 'usable')
        AND qualified_local_date = ?`,
     today,
   );
-  const totalEmailReadyQualified = scalar(
+  const totalEmailReadyQualified = await scalar(
     `SELECT count(*) AS count FROM lead_operations
      WHERE qualification_status = 'qualified'
        AND email_verification_status IN ('verified', 'usable')`,
   );
-  const newBusinessesContactedToday = scalar(
+  const newBusinessesContactedToday = await scalar(
     `SELECT count(DISTINCT lead_id) AS count FROM outreach_actions
      WHERE first_sent_local_date = ?
        AND status IN ('sent', 'delivered', 'replied')`,
     today,
   );
-  const followUpsCompletedToday = scalar(
+  const followUpsCompletedToday = await scalar(
     `SELECT count(*) AS count FROM outreach_actions
      WHERE first_sent_local_date = ? AND message_version > 1
        AND status IN ('sent', 'delivered', 'replied')`,
     today,
   );
-  const repliesReceivedToday = scalar(
+  const repliesReceivedToday = await scalar(
     `SELECT count(*) AS count FROM outreach_actions
      WHERE reply_date IS NOT NULL
        AND substr(reply_date, 1, 10) = ?`,
     today,
   );
-  const positiveRepliesToday = scalar(
+  const positiveRepliesToday = await scalar(
     `SELECT count(*) AS count FROM activity_events
      WHERE local_date = ? AND type = 'reply'
        AND json_extract(metadata_json, '$.positive') = 1`,
     today,
   );
-  const meetingsBookedToday = scalar(
+  const meetingsBookedToday = await scalar(
     `SELECT count(*) AS count FROM activity_events
      WHERE local_date = ? AND type = 'meeting'`,
     today,
   );
-  const sendingErrorsToday = scalar(
+  const sendingErrorsToday = await scalar(
     `SELECT count(*) AS count FROM outreach_actions
      WHERE local_date = ? AND status = 'failed'`,
     today,
   );
-  const readyQueueCount = scalar(
+  const readyQueueCount = await scalar(
     `SELECT count(*) AS count FROM lead_operations
      WHERE lifecycle_status = 'ready-for-outreach'
        AND email_verification_status IN ('verified', 'usable')`,
   );
-  const followUpDueCount = scalar(
+  const followUpDueCount = await scalar(
     `SELECT count(*) AS count FROM lead_operations
      WHERE lifecycle_status = 'follow-up-due'
         OR follow_up_status = 'due'`,
@@ -678,12 +681,12 @@ export function getDailyDashboard(): DailyOutreachDashboard {
   const performance = new Map(
     dates.map((date) => [date, emptyPerformancePoint(date)]),
   );
-  const activityRows = db
+  const activityRows = (await db
     .prepare(
       `SELECT local_date, type, metadata_json FROM activity_events
        WHERE local_date >= ? ORDER BY local_date ASC`,
     )
-    .all(dates[0]) as unknown as Array<{
+    .all(dates[0])) as unknown as Array<{
     local_date: string;
     type: ActivityEvent["type"];
     metadata_json: string;
@@ -703,12 +706,12 @@ export function getDailyDashboard(): DailyOutreachDashboard {
     if (row.type === "meeting") point.meetings += 1;
     if (row.type === "error") point.errors += 1;
   }
-  const operationRows = db
+  const operationRows = (await db
     .prepare(
       `SELECT qualified_local_date, email_verification_status
        FROM lead_operations WHERE qualified_local_date >= ?`,
     )
-    .all(dates[0]) as unknown as Array<{
+    .all(dates[0])) as unknown as Array<{
     qualified_local_date: string;
     email_verification_status: string;
   }>;
@@ -720,14 +723,14 @@ export function getDailyDashboard(): DailyOutreachDashboard {
       point.emailReady += 1;
     }
   }
-  const outreachRows = db
+  const outreachRows = (await db
     .prepare(
       `SELECT first_sent_local_date, message_version, status
        FROM outreach_actions
        WHERE first_sent_local_date >= ?
          AND status IN ('sent', 'delivered', 'replied')`,
     )
-    .all(dates[0]) as unknown as Array<{
+    .all(dates[0])) as unknown as Array<{
     first_sent_local_date: string;
     message_version: number;
     status: string;
@@ -760,11 +763,11 @@ export function getDailyDashboard(): DailyOutreachDashboard {
   };
 }
 
-export function listAuditLog(limit = 100): AuditLogEntry[] {
+export async function listAuditLog(limit = 100): Promise<AuditLogEntry[]> {
   const safeLimit = Math.min(250, Math.max(1, limit));
-  const rows = getDatabase()
+  const rows = (await (await getDatabase())
     .prepare("SELECT * FROM audit_log ORDER BY occurred_at DESC LIMIT ?")
-    .all(safeLimit) as unknown as Array<{
+    .all(safeLimit)) as unknown as Array<{
     id: string;
     occurred_at: string;
     actor_id: string;
@@ -790,10 +793,11 @@ export function listAuditLog(limit = 100): AuditLogEntry[] {
   }));
 }
 
-export function getResearchBatch(id: string): ResearchBatch | undefined {
-  const row = getDatabase()
+export async function getResearchBatch(id: string): Promise<ResearchBatch | undefined> {
+  const db = await getDatabase();
+  const row = (await db
     .prepare("SELECT * FROM research_batches WHERE id = ?")
-    .get(id) as unknown as
+    .get(id)) as unknown as
     | {
         id: string;
         status: ResearchBatch["status"];
@@ -805,7 +809,7 @@ export function getResearchBatch(id: string): ResearchBatch | undefined {
       }
     | undefined;
   if (!row) return undefined;
-  const counts = getDatabase()
+  const counts = (await db
     .prepare(`
       SELECT
         count(*) AS total_added,
@@ -815,7 +819,7 @@ export function getResearchBatch(id: string): ResearchBatch | undefined {
           THEN 1 ELSE 0 END) AS email_ready_count
       FROM lead_operations WHERE source_batch_id = ?
     `)
-    .get(id) as unknown as {
+    .get(id)) as unknown as {
     total_added: number;
     qualified_count: number;
     email_ready_count: number;
@@ -836,25 +840,25 @@ export function getResearchBatch(id: string): ResearchBatch | undefined {
   };
 }
 
-export function getLatestResearchBatch() {
-  const row = getDatabase()
+export async function getLatestResearchBatch() {
+  const row = (await (await getDatabase())
     .prepare(
       "SELECT id FROM research_batches ORDER BY started_at DESC LIMIT 1",
     )
-    .get() as unknown as { id: string } | undefined;
+    .get()) as unknown as { id: string } | undefined;
   return row ? getResearchBatch(row.id) : undefined;
 }
 
-export function startResearchBatch(actor: WorkspaceActor) {
+export async function startResearchBatch(actor: WorkspaceActor) {
   const timestamp = nowIso();
   const id = createId("batch");
-  withTransaction((db) => {
-    db.prepare(`
+  await withTransaction(async (db) => {
+    await db.prepare(`
       INSERT INTO research_batches (
         id, status, target_email_ready, started_at, completed_at, actor_id, actor_type
       ) VALUES (?, 'active', 10, ?, NULL, ?, ?)
     `).run(id, timestamp, actor.id, actor.actorType);
-    recordAudit(db, {
+    await recordAudit(db, {
       actorId: actor.id,
       actorType: actor.actorType,
       action: "research.batch.start",
@@ -865,15 +869,15 @@ export function startResearchBatch(actor: WorkspaceActor) {
       metadata: { targetEmailReady: 10 },
     });
   });
-  return getResearchBatch(id)!;
+  return (await getResearchBatch(id))!;
 }
 
-export function completeResearchBatch(id: string, actor: WorkspaceActor) {
-  const batch = getResearchBatch(id);
+export async function completeResearchBatch(id: string, actor: WorkspaceActor) {
+  const batch = await getResearchBatch(id);
   if (!batch) return { status: "not-found" as const };
   if (batch.emailReadyQualifiedCount < batch.targetEmailReady) {
-    withTransaction((db) => {
-      recordAudit(db, {
+    await withTransaction(async (db) => {
+      await recordAudit(db, {
         actorId: actor.id,
         actorType: actor.actorType,
         action: "research.batch.complete",
@@ -887,11 +891,11 @@ export function completeResearchBatch(id: string, actor: WorkspaceActor) {
     return { status: "blocked" as const, batch };
   }
   const timestamp = nowIso();
-  withTransaction((db) => {
-    db.prepare(
+  await withTransaction(async (db) => {
+    await db.prepare(
       "UPDATE research_batches SET status = 'complete', completed_at = ? WHERE id = ?",
     ).run(timestamp, id);
-    recordAudit(db, {
+    await recordAudit(db, {
       actorId: actor.id,
       actorType: actor.actorType,
       action: "research.batch.complete",
@@ -902,19 +906,19 @@ export function completeResearchBatch(id: string, actor: WorkspaceActor) {
       metadata: { batch },
     });
   });
-  return { status: "complete" as const, batch: getResearchBatch(id)! };
+  return { status: "complete" as const, batch: (await getResearchBatch(id))! };
 }
 
-export function getOutreachByIdempotencyKey(key: string) {
-  const row = getDatabase()
+export async function getOutreachByIdempotencyKey(key: string) {
+  const row = (await (await getDatabase())
     .prepare("SELECT * FROM outreach_actions WHERE idempotency_key = ?")
-    .get(key) as unknown as OutreachRow | undefined;
+    .get(key)) as unknown as OutreachRow | undefined;
   return row ? mapOutreach(row) : undefined;
 }
 
-export function getOutreachById(id: string) {
-  const row = getDatabase()
+export async function getOutreachById(id: string) {
+  const row = (await (await getDatabase())
     .prepare("SELECT * FROM outreach_actions WHERE id = ?")
-    .get(id) as unknown as OutreachRow | undefined;
+    .get(id)) as unknown as OutreachRow | undefined;
   return row ? mapOutreach(row) : undefined;
 }

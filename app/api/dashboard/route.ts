@@ -1,8 +1,8 @@
 import { getDailyDashboard } from "@/lib/server/lead-repository";
 
-export function GET() {
+export async function GET() {
   return Response.json({
-    data: getDailyDashboard(),
+    data: await getDailyDashboard(),
     meta: { asOf: new Date().toISOString() },
   });
 }

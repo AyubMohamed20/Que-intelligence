@@ -11,7 +11,7 @@ export async function GET(
   try {
     authorizeRequest(request, "lead:read");
     const { id } = await params;
-    const lead = getOperatingLeadProfile(id);
+    const lead = await getOperatingLeadProfile(id);
     if (!lead) {
       return Response.json(
         { error: { code: "lead_not_found", message: "Lead not found." } },

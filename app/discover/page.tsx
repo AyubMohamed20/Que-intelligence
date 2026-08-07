@@ -8,9 +8,9 @@ import {
 
 export const metadata = { title: "Discover" };
 
-export default function DiscoverPage() {
-  const leadSummaries = listOperatingLeadSummaries();
-  const latestBatch = getLatestResearchBatch();
+export default async function DiscoverPage() {
+  const leadSummaries = await listOperatingLeadSummaries();
+  const latestBatch = await getLatestResearchBatch();
   return (
     <>
       <PageHeading

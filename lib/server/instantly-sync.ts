@@ -56,7 +56,7 @@ function canonicalHash(payload: InstantlyWebhookPayload) {
     .digest("hex");
 }
 
-function findAction(payload: InstantlyWebhookPayload, leadId?: string) {
+async function findAction(payload: InstantlyWebhookPayload, leadId?: string) {
   const clauses: string[] = [];
   const values: string[] = [];
   if (leadId) {
@@ -72,13 +72,14 @@ function findAction(payload: InstantlyWebhookPayload, leadId?: string) {
     values.push(payload.campaign_id);
   }
   if (clauses.length === 0) return undefined;
-  return getDatabase()
+  const db = await getDatabase();
+  return (await db
     .prepare(
       `SELECT id, lead_id FROM outreach_actions
        WHERE ${clauses.join(" AND ")}
        ORDER BY created_at DESC LIMIT 1`,
     )
-    .get(...values) as unknown as ActionLookupRow | undefined;
+    .get(...values)) as unknown as ActionLookupRow | undefined;
 }
 
 function eventStatus(eventType: string): {
@@ -218,7 +219,7 @@ function safeTimestamp(value: unknown) {
   return nowIso();
 }
 
-export function processInstantlyWebhook(
+export async function processInstantlyWebhook(
   payload: InstantlyWebhookPayload,
   suppliedEventId?: string,
 ) {
@@ -226,17 +227,17 @@ export function processInstantlyWebhook(
     throw new Error("event_type is required.");
   }
   const eventId = suppliedEventId ?? canonicalHash(payload);
-  const existing = getDatabase()
+  const existing = await (await getDatabase())
     .prepare("SELECT id FROM webhook_events WHERE id = ?")
     .get(eventId);
   if (existing) return { duplicate: true, eventId, matched: false };
 
   const timestamp = safeTimestamp(payload.timestamp);
   const lead = payload.lead_email
-    ? getLeadByEmail(payload.lead_email)
+    ? await getLeadByEmail(payload.lead_email)
     : undefined;
-  const actionLookup = findAction(payload, lead?.id);
-  const action = actionLookup ? getOutreachById(actionLookup.id) : undefined;
+  const actionLookup = await findAction(payload, lead?.id);
+  const action = actionLookup ? await getOutreachById(actionLookup.id) : undefined;
   const transition = eventStatus(payload.event_type);
   const latestResponse =
     payload.reply_text ||
@@ -246,8 +247,8 @@ export function processInstantlyWebhook(
       ? payload.email_text
       : undefined);
 
-  withTransaction((db) => {
-    db.prepare(`
+  await withTransaction(async (db) => {
+    await db.prepare(`
       INSERT INTO webhook_events (
         id, received_at, event_type, lead_email, campaign_id,
         processed, error_message, payload_json
@@ -263,7 +264,7 @@ export function processInstantlyWebhook(
 
     if (action) {
       const firstSent = payload.event_type === "email_sent" ? timestamp : undefined;
-      db.prepare(`
+      await db.prepare(`
         UPDATE outreach_actions SET
           status = coalesce(?, status),
           delivery_status = coalesce(?, delivery_status),
@@ -325,7 +326,7 @@ export function processInstantlyWebhook(
           payload.event_type,
         );
       if (shouldUpdate) {
-        db.prepare(`
+        await db.prepare(`
           UPDATE lead_operations SET
             lifecycle_status = ?,
             last_contact_at = CASE
@@ -368,7 +369,7 @@ export function processInstantlyWebhook(
       }
     }
 
-    recordActivity(db, {
+    await recordActivity(db, {
       id: `instantly-${eventId}`,
       leadId: lead?.id,
       occurredAt: timestamp,
@@ -391,7 +392,7 @@ export function processInstantlyWebhook(
         nextAction: transition.nextAction,
       },
     });
-    recordAudit(db, {
+    await recordAudit(db, {
       id: `audit-instantly-${eventId}`,
       occurredAt: timestamp,
       actorId: "instantly",
@@ -422,7 +423,7 @@ export function processInstantlyWebhook(
 }
 
 function syntheticPayload(
-  action: NonNullable<ReturnType<typeof getOutreachById>>,
+  action: NonNullable<Awaited<ReturnType<typeof getOutreachById>>>,
   email: Awaited<ReturnType<typeof listInstantlyEmails>>[number],
 ): InstantlyWebhookPayload {
   const incoming =
@@ -464,20 +465,20 @@ export async function pollInstantlyActivity(
     clauses.push("lead_id = ?");
     params.push(leadId);
   }
-  const rows = getDatabase()
+  const rows = (await (await getDatabase())
     .prepare(
       `SELECT id FROM outreach_actions
        WHERE ${clauses.join(" AND ")}
        ORDER BY updated_at ASC LIMIT 10`,
     )
-    .all(...params) as unknown as Array<{ id: string }>;
+    .all(...params)) as unknown as Array<{ id: string }>;
   const results: Array<{
     actionId: string;
     events: number;
     error?: string;
   }> = [];
   for (const row of rows) {
-    const action = getOutreachById(row.id);
+    const action = await getOutreachById(row.id);
     if (!action) continue;
     try {
       const emails = await listInstantlyEmails({
@@ -488,7 +489,7 @@ export async function pollInstantlyActivity(
       let processed = 0;
       for (const email of [...emails].reverse()) {
         const payload = syntheticPayload(action, email);
-        const result = processInstantlyWebhook(
+        const result = await processInstantlyWebhook(
           payload,
           `poll-${createHash("sha256")
             .update(`${action.id}:${email.id}:${payload.event_type}`)
@@ -509,8 +510,8 @@ export async function pollInstantlyActivity(
     }
   }
   const timestamp = nowIso();
-  withTransaction((db) => {
-    db.prepare(`
+  await withTransaction(async (db) => {
+    await db.prepare(`
       INSERT INTO sync_state (key, value_json, updated_at)
       VALUES ('instantly:last-poll', ?, ?)
       ON CONFLICT(key) DO UPDATE SET
@@ -525,7 +526,7 @@ export async function pollInstantlyActivity(
       }),
       timestamp,
     );
-    recordAudit(db, {
+    await recordAudit(db, {
       actorId: actor.id,
       actorType: actor.actorType,
       action: "instantly.sync.poll",
