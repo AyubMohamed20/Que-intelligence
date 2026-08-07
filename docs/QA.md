@@ -1,16 +1,16 @@
 # Q Intelligence quality assurance record
 
-Last updated: 2026-07-28
+Last updated: 2026-08-07
 
 ## Automated validation
 
 The operational upgrade passed:
 
 - `npm run typecheck`;
-- `npm run verify:leads`: 22 records, 22 existing research packages ready, 22 reachable official surfaces, and zero schema, duplicate-ID, company-URL, social-URL, or excluded-client failures;
-- `npm run prepare:lead-index`: regenerated the verified 22-lead manual research index;
+- `npm run verify:leads`: 23 records, 23 existing research packages ready, 23 reachable official surfaces, and zero schema, duplicate-ID, company-URL, social-URL, or excluded-client failures;
+- `npm run prepare:lead-index`: regenerated the verified 23-lead manual research index;
 - `npm run build`: Next.js production compilation, TypeScript, page-data collection, and all dynamic route registrations;
-- `npm run verify:runtime`: 67 valid lead/API/page checks, three invalid-route checks, operational metadata, dashboard calculation, semantic not-found/noindex boundaries, and zero failures;
+- `npm run verify:runtime`: 70 valid lead/API/page checks, three invalid-route checks, operational metadata, dashboard calculation, semantic not-found/noindex boundaries, and zero failures;
 - `npm run verify:operations`: nine authenticated production-mode checks and zero failures.
 
 The operational test used a clean isolated SQLite path and temporary admin/session secrets. It verified:

@@ -2,7 +2,7 @@
 
 Q Intelligence is Q Media’s evidence-first operating system for targeted Ottawa client acquisition. It keeps research, qualification, public contacts, transparent scoring, personalized drafts, human-approved Instantly outreach, replies, next actions, and the daily target in one place.
 
-The application ships with a verified 22-business Ottawa-market research snapshot and a persistent operational layer. Existing evidence-rich profiles are preserved; new human or agent research enters through the same controlled schema and duplicate/quality gates.
+The application ships with a verified 23-business Ottawa-market research snapshot and a persistent operational layer. Existing evidence-rich profiles are preserved; new human or agent research enters through the same controlled schema and duplicate/quality gates.
 
 ## Local development
 

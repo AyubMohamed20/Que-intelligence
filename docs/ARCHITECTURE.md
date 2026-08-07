@@ -9,7 +9,7 @@ Q Intelligence is a Next.js 16/React 19 application with two complementary data 
 1. Evidence-rich `LeadProfile` documents preserve the strongest part of the original research application.
 2. A persistent SQLite operating store tracks mutable lifecycle, qualification, email readiness, outreach, replies, activities, batches, audit events, webhook deduplication, and sync state.
 
-The application seeds the original verified 22-business cohort only when a profile is absent. Restarting never overwrites operational changes.
+The application seeds the verified 23-business cohort only when a profile is absent. Restarting never overwrites operational changes.
 
 ```text
 Human/agent research

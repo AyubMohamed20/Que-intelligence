@@ -27,7 +27,7 @@ const payload = await listResponse.json();
 const leads = Array.isArray(payload.data) ? payload.data : [];
 const failures = [];
 
-if (leads.length !== 22) failures.push({ path: "/api/leads", issue: `Expected 22 leads, received ${leads.length}` });
+if (leads.length !== 23) failures.push({ path: "/api/leads", issue: `Expected 23 leads, received ${leads.length}` });
 if (payload.meta?.dataState !== "operational-system-of-record") failures.push({ path: "/api/leads", issue: `Unexpected data state: ${payload.meta?.dataState}` });
 if (payload.meta?.outreachCapability !== "human-approved-instantly") failures.push({ path: "/api/leads", issue: "Human-approved outreach boundary is missing" });
 

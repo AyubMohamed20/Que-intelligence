@@ -1,6 +1,6 @@
 # Que Media hospitality and experience leads
 
-Research captured July 20, 2026 and extended July 22 and July 23, 2026. This set contains nine real Ottawa-area businesses selected for Que Media's strengths in entertaining and educational short-form video. Contact details were taken from official business properties or named professional profiles. No private information, guessed email pattern, invented metric, or purchased-list field is included.
+Research captured July 20, 2026 and extended July 22, July 23, and August 7, 2026. This set contains ten real Ottawa-area businesses selected for Que Media's strengths in entertaining and educational short-form video. Contact details were taken from official business properties or named professional profiles. No private information, guessed email pattern, invented metric, or purchased-list field is included.
 
 The companion file, `hospitality-leads.json`, is the machine-readable source of truth. These are outreach-preparation records only. Nothing has been sent.
 
@@ -682,11 +682,104 @@ Would you be open to a 15-minute conversation if I send the three-video shot pla
 - Request owner-authorized Instagram and ordering analytics only after consent.
 
 
+## 10. Boss Battle Games Ottawa
+
+### Executive assessment
+
+Boss Battle Games Ottawa is a high-priority opening-month lead. The husband-and-wife operators opened at St. Laurent Shopping Centre on July 31, 2026 with a simple $20 plus HST all-day wristband and a collection built around original controls, CRTs, motion cabinets, fighters, rhythm games, shooters, classics, and pinball rather than tickets or prizes.
+
+The fit for Que Media is unusually concrete: the physical inventory is highly filmable, the owners have credible repair and operating stories, and four relevant Reddit threads generated 1,202 upvotes and 324 comments during the July 8 to August 7 research window. The recommended first engagement is a compact opening-month series built around rare machines, owner-led maintenance, player communities, and the all-day value proposition.
+
+### Verified identity and contact
+
+- Business: [Boss Battle Games Ottawa](https://www.bossbattlegames.com/boss-battle-games-ottawa-landing-page).
+- Legal operator disclosed by the official site: Final Round Entertainment Inc., DBA Boss Battle Games Ottawa.
+- Location: 1200 St. Laurent Boulevard, Unit 301, Ottawa, ON K1K 3B8, on the main floor beside Sport Chek.
+- Opening date: July 31, 2026, confirmed by the official Ottawa page.
+- Owners: Dustin and Phylicia Burd, a husband-and-wife team with an original Indianapolis operation dating to 2015.
+- Public general email: contact@bossbattlegames.com. Confirm that it routes Ottawa enquiries before outreach.
+- Ottawa phone: unavailable.
+- Instagram: [@bossbattlegamesottawa](https://www.instagram.com/bossbattlegamesottawa/).
+- Facebook: [@bbgottawa](https://www.facebook.com/bbgottawa/).
+- Permanent Ottawa hours, event packages, accessibility details, and a local direct-contact route were not published first-party on August 7.
+
+### Offer and audience fit
+
+Admission is $20 plus HST per person for an all-day wristband. Every cabinet, console, and pinball machine is free-play, and guests may leave for the food court or cinema and return that day. There are no tokens, game cards, ticket-redemption machines, or spectators. Supervised children are welcome, but every entrant pays.
+
+The official list contains 74 distinct named games. High-signal examples include DDR SuperNOVA 2, Guitar Hero Arcade, G-LOC Deluxe with motion, Jurassic Park Motion Theater, Initial D 3, Hydro Thunder, six-player X-Men, TMNT, The Simpsons, Time Crisis 3, Houses of the Dead, vector cabinets, Japanese candy cabinets, major fighters, and seven pinball machines. The list is not static, so every availability-sensitive post must be checked before publication.
+
+Priority audiences are Ottawa adults seeking 1980s and 1990s nostalgia; fighting-game, rhythm-game, pinball, and classic-arcade communities; couples and friend groups; families who want to play together; transit and mall visitors; and collectors seeking unusual original hardware.
+
+### Evidence-backed opportunities
+
+1. **Convert opening attention while it is still current.** The opening and preview discussions produced more than 1,200 Reddit upvotes. Visitors repeatedly praised the price, owner presence, layout, sound levels, and low queues. [Opening-day thread](https://www.reddit.com/r/ottawa/comments/1vc5w6u/boss_battle_games_is_open/) and [soft-opening thread](https://www.reddit.com/r/arcade/comments/1v3v4jm/sneak_peak_of_the_new_boss_battle_games_arcade_in/)
+2. **Make the physical collection understandable one machine at a time.** A long inventory cannot show why G-LOC pistons, vector displays, original controls, motion theatres, candy cabinets, or six-player games feel different from home emulation. Short demonstrations and repair stories can. [Official lineup](https://www.bossbattlegames.com/boss-battle-games-ottawa-landing-page)
+3. **Use the owners as credible storytellers.** Dustin maintains machines; Phylicia handles art, web, photography, merchandise, and social content. Their roles support a specific owner-led narrative without manufacturing a founder story. [Official team page](https://www.bossbattlegames.com/the-bbg-team)
+4. **Turn maintenance into transparent proof of care.** Initial D player two failed before opening and the owners were already sourcing parts. Repair diaries can make unavoidable vintage-machine downtime useful, provided every post states current availability accurately. [Opening discussion](https://www.reddit.com/r/ottawa/comments/1vc5w6u/boss_battle_games_is_open/)
+5. **Pair promotion with local conversion cleanup.** The launch page explains the core offer well, but permanent hours, an Ottawa phone or email, accessibility information, and group options remain unclear. Those details should be confirmed before a campaign drives more traffic.
+
+### Why now
+
+Boss Battle Games Ottawa opened July 31, 2026. Within the first week, the business had strong organic discussion among Ottawa residents, arcade enthusiasts, DDR players, pinball fans, and Gen X visitors. This is a genuine opening-month window rather than an evergreen marketing hypothesis.
+
+### Competitive frame
+
+- [House of TARG](https://www.houseoftarg.com/) combines arcade and pinball with food, alcohol, and live music.
+- [Funhaven](https://www.funhaven.com/attractions/arcade/) competes as a family amusement and redemption destination.
+- [Level One Game Pub](https://levelonegamepub.com/) competes through board games, consoles, food, and alcohol.
+- Boss Battle's clearest territory is an everyday all-day price, original arcade hardware, no redemption mechanics, owner-led curation, and mall and transit accessibility.
+
+### Que Media score
+
+- Content Fit: 97/100
+- Opportunity: 95/100
+- Response: 86/100
+- Overall: 93/100
+- Evidence: rare visual inventory and motion hardware 20/20; owner, repair, and collection stories 20/20; current launch timing and community response 20/20; repeatable community formats 19/20; trackable mall visits and day-pass action 18/20; local contact and information readiness 16/20.
+
+### Three tailored concepts
+
+1. **This machine should not still work**
+   - Hook: "A 1992 G-LOC with working pistons is moving again in an Ottawa mall."
+   - Show the cabinet moving, let Dustin explain the mechanism and one repair, and finish with a first-person ride reaction and the all-day wristband.
+   - Production: verify same-day operation, capture mechanical sound, and never encourage unsafe use.
+2. **Ottawa arcade mixtape**
+   - Hook: "Pick one: DDR, six-player X-Men, pinball, or a working vector monitor."
+   - Give four player communities one strong physical moment each and invite viewers to choose their first cabinet.
+   - Production: one hero cut, four community-specific cutdowns, and rights review before paid distribution.
+3. **$20 day-pass challenge**
+   - Hook: "How many arcade generations can two friends clear on one wristband?"
+   - Move from a 1980s classic to a 1990s multiplayer cabinet and modern pinball, then prove re-entry with a food-court break.
+   - Production: two consenting participants, clear sharing etiquette, and no promise that every machine is always available.
+
+### Manual outreach draft
+
+**Channel:** Email through the published general company address, only after confirming Ottawa routing
+
+**Subject:** An opening-month video series for Boss Battle Ottawa's rarest machines
+
+Hi Dustin, I saw the July 31 Ottawa opening and the response to the original-hardware lineup, especially the G-LOC motion cabinet, DDR SuperNOVA 2, vector games, and six-player X-Men.
+
+The strongest story is not simply that another arcade opened. It is that you and Phylicia are keeping unusual physical experiences playable and bringing the mall arcade back without tickets or game cards. Que Media could turn one owner-led shoot into three repeatable pieces: a rare-machine repair story, an Ottawa arcade mixtape for different player communities, and a $20 day-pass challenge. I would also pair the videos with a small Ottawa information cleanup so every post can send visitors to confirmed local hours and a direct contact route.
+
+Would you be open to a 15-minute call? I would walk you through the three-video opening-month plan and the exact shots Que Media would capture in one visit.
+
+This is a draft only. It has not been sent.
+
+### Research limits and pre-contact checks
+
+- Confirm permanent Ottawa hours, the preferred local contact, and whether the general email routes Ottawa enquiries.
+- Confirm which machines are operating on the proposed production day.
+- Ask about accessibility, support-person admission, filming rules, event packages, and capacity before making claims.
+- Treat the user-supplied 5.0 from 40 Google reviews as an August 7 snapshot until the live Google listing is independently opened and verified.
+- Do not infer revenue, foot traffic, ad spend, budget, ownership shares, or willingness to hire Que Media.
+
 ## Research integrity notes
 
 - Every business, website or primary public presence, contact route, named decision maker, and social account in this file was cross-checked against an official property or a cited professional source.
 - A missing phone remains missing. No number was inferred from aggregators.
-- Timely claims use dated 2026 sources, live official calendars captured July 20 or July 22, and Sukkar House sources captured July 23, 2026.
+- Timely claims use dated 2026 sources, live official calendars captured July 20 or July 22, Sukkar House sources captured July 23, and Boss Battle Games Ottawa sources captured August 7, 2026.
 - The 30-day discovery pass covered June 20 to July 20, 2026 and was used as a freshness screen. Business-specific "Why Now" claims were then point-verified against official pages or named local publications.
 - Rockin' Johnny's exact legal Merivale operator, direct Merivale contact details, and official opening date remain explicitly unverified rather than inferred.
 - Scores are prioritization aids for manual review. They are not factual claims about a company's finances, marketing budget, or willingness to hire Que Media.

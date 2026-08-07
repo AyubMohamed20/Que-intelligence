@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-07-28T23:59:08.834Z",
+  "generatedAt": "2026-08-07T20:29:01.071Z",
   "inputFiles": [
     "research/hospitality-leads.json",
     "research/wellness-leads.json",
     "research/visual-service-leads.json"
   ],
   "summary": {
-    "leadCount": 22,
-    "outreachReadyCount": 22,
+    "leadCount": 23,
+    "outreachReadyCount": 23,
     "validationErrorCount": 0,
-    "reachableWebsiteCount": 22,
+    "reachableWebsiteCount": 23,
     "duplicateIdCount": 0,
     "duplicateCompanyUrlCount": 0,
     "duplicateSocialUrlCount": 0,
@@ -20,7 +20,7 @@
       "id": "moo-shu-ice-cream-kitchen",
       "name": "Moo Shu Ice Cream & Kitchen",
       "sourceFile": "research/hospitality-leads.json",
-      "capturedAt": "2026-07-28T23:59:08.834Z",
+      "capturedAt": "2026-08-07T20:29:01.071Z",
       "validation": {
         "file": "research/hospitality-leads.json",
         "errors": []
@@ -269,7 +269,7 @@
       "id": "beyond-the-pale-brewing-company",
       "name": "Beyond the Pale Brewing Company",
       "sourceFile": "research/hospitality-leads.json",
-      "capturedAt": "2026-07-28T23:59:08.834Z",
+      "capturedAt": "2026-08-07T20:29:01.071Z",
       "validation": {
         "file": "research/hospitality-leads.json",
         "errors": []
@@ -579,7 +579,7 @@
       "id": "dominion-city-brewing-co",
       "name": "Dominion City Brewing Co.",
       "sourceFile": "research/hospitality-leads.json",
-      "capturedAt": "2026-07-28T23:59:08.834Z",
+      "capturedAt": "2026-08-07T20:29:01.071Z",
       "validation": {
         "file": "research/hospitality-leads.json",
         "errors": []
@@ -877,7 +877,7 @@
       "id": "house-of-targ",
       "name": "House of TARG",
       "sourceFile": "research/hospitality-leads.json",
-      "capturedAt": "2026-07-28T23:59:08.834Z",
+      "capturedAt": "2026-08-07T20:29:01.071Z",
       "validation": {
         "file": "research/hospitality-leads.json",
         "errors": []
@@ -1111,7 +1111,7 @@
       "id": "stolen-goods-cocktail-bar",
       "name": "Stolen Goods Cocktail Bar",
       "sourceFile": "research/hospitality-leads.json",
-      "capturedAt": "2026-07-28T23:59:08.834Z",
+      "capturedAt": "2026-08-07T20:29:01.071Z",
       "validation": {
         "file": "research/hospitality-leads.json",
         "errors": []
@@ -1330,7 +1330,7 @@
       "id": "escape-manor-ottawa",
       "name": "Escape Manor Ottawa",
       "sourceFile": "research/hospitality-leads.json",
-      "capturedAt": "2026-07-28T23:59:08.834Z",
+      "capturedAt": "2026-08-07T20:29:01.071Z",
       "validation": {
         "file": "research/hospitality-leads.json",
         "errors": []
@@ -1582,7 +1582,7 @@
       "id": "the-merry-dairy",
       "name": "The Merry Dairy",
       "sourceFile": "research/hospitality-leads.json",
-      "capturedAt": "2026-07-28T23:59:08.834Z",
+      "capturedAt": "2026-08-07T20:29:01.071Z",
       "validation": {
         "file": "research/hospitality-leads.json",
         "errors": []
@@ -1904,19 +1904,19 @@
       "id": "rockin-johnnys-diner",
       "name": "Rockin' Johnny's Diner",
       "sourceFile": "research/hospitality-leads.json",
-      "capturedAt": "2026-07-28T23:59:08.834Z",
+      "capturedAt": "2026-08-07T20:29:01.071Z",
       "validation": {
         "file": "research/hospitality-leads.json",
         "errors": []
       },
       "website": {
         "requestedUrl": "http://rockinjohnnysdiner.com/",
-        "finalUrl": "http://rockinjohnnysdiner.com/",
+        "finalUrl": "https://rockinjohnnysdiner.com/",
         "httpStatus": 200,
         "reachable": true,
         "title": "Rockin Johnnys Diner",
         "metaDescription": "Rockin Johnny&#x27;s Diner is a successful fifties style diner based in Ottawa, Canada. Locations in Kanata and Westgate Shopping Centre. Open ALL HOLIDAYS but CLOSED on Christmas Day. We look forward to seeing you.",
-        "score": 95,
+        "score": 100,
         "checks": [
           {
             "id": "reachable",
@@ -1930,9 +1930,9 @@
             "id": "https",
             "label": "Website uses HTTPS",
             "points": 5,
-            "passed": false,
-            "earned": 0,
-            "observation": "http://rockinjohnnysdiner.com/"
+            "passed": true,
+            "earned": 5,
+            "observation": "https://rockinjohnnysdiner.com/"
           },
           {
             "id": "title",
@@ -2036,7 +2036,7 @@
           "url": "http://rockinjohnnysdiner.com/",
           "reachable": true,
           "httpStatus": 200,
-          "finalUrl": "http://rockinjohnnysdiner.com/",
+          "finalUrl": "https://rockinjohnnysdiner.com/",
           "error": null
         },
         {
@@ -2096,7 +2096,7 @@
       "id": "sukkar-house",
       "name": "Sukkar House",
       "sourceFile": "research/hospitality-leads.json",
-      "capturedAt": "2026-07-28T23:59:08.834Z",
+      "capturedAt": "2026-08-07T20:29:01.071Z",
       "validation": {
         "file": "research/hospitality-leads.json",
         "errors": []
@@ -2107,7 +2107,7 @@
         "httpStatus": 200,
         "reachable": true,
         "title": "Sukkar house (&#064;sukkar.house) • Instagram photos and videos",
-        "metaDescription": "392 Followers, 5 Following, 23 Posts - Sukkar house (&#064;sukkar.house) on Instagram: &quot;Sweet moment start here &#x1f60e;&#x1f44c;&#x1f3fb;&#x1f9c7;\n&#x1f4cd; 885 Meadowlands Dr, Ottawa\n&#x1f4de; 3439999971&quot;",
+        "metaDescription": "402 Followers, 5 Following, 23 Posts - Sukkar house (&#064;sukkar.house) on Instagram: &quot;Sweet moment start here &#x1f60e;&#x1f44c;&#x1f3fb;&#x1f9c7;\n&#x1f4cd; 885 Meadowlands Dr, Ottawa\n&#x1f4de; 3439999971&quot;",
         "score": 85,
         "checks": [
           {
@@ -2140,7 +2140,7 @@
             "points": 10,
             "passed": true,
             "earned": 10,
-            "observation": "392 Followers, 5 Following, 23 Posts - Sukkar house (&#064;sukkar.house) on Instagram: &quot;Sweet moment start here &#x1f60e;&#x1f44c;&#x1f3fb;&#x1f9c7;\n&#x1f4cd; 885 Meadowlands Dr, Ottawa\n&#x1f4de; 3439999971&quot;"
+            "observation": "402 Followers, 5 Following, 23 Posts - Sukkar house (&#064;sukkar.house) on Instagram: &quot;Sweet moment start here &#x1f60e;&#x1f44c;&#x1f3fb;&#x1f9c7;\n&#x1f4cd; 885 Meadowlands Dr, Ottawa\n&#x1f4de; 3439999971&quot;"
           },
           {
             "id": "viewport",
@@ -2303,10 +2303,10 @@
         {
           "label": "Federal-corporation registry-derived record",
           "url": "https://opengovca.com/corporation/17546963",
-          "reachable": false,
-          "httpStatus": null,
-          "finalUrl": null,
-          "error": "fetch failed"
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://opengovca.com/corporation/17546963",
+          "error": null
         },
         {
           "label": "https://mychocola613.ca/",
@@ -2325,15 +2325,290 @@
           "error": null
         }
       ],
-      "reachableSourceCount": 6,
+      "reachableSourceCount": 7,
       "sourceCount": 10,
+      "outreachReady": true
+    },
+    {
+      "id": "boss-battle-games-ottawa",
+      "name": "Boss Battle Games Ottawa",
+      "sourceFile": "research/hospitality-leads.json",
+      "capturedAt": "2026-08-07T20:29:01.071Z",
+      "validation": {
+        "file": "research/hospitality-leads.json",
+        "errors": []
+      },
+      "website": {
+        "requestedUrl": "https://www.bossbattlegames.com/boss-battle-games-ottawa-landing-page",
+        "finalUrl": "https://www.bossbattlegames.com/boss-battle-games-ottawa-landing-page",
+        "httpStatus": 200,
+        "reachable": true,
+        "title": "Boss Battle Games Ottawa Landing Page &mdash; Boss Battle Games",
+        "metaDescription": "",
+        "score": 90,
+        "checks": [
+          {
+            "id": "reachable",
+            "label": "Website returns a successful response",
+            "points": 20,
+            "passed": true,
+            "earned": 20,
+            "observation": "HTTP 200"
+          },
+          {
+            "id": "https",
+            "label": "Website uses HTTPS",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "https://www.bossbattlegames.com/boss-battle-games-ottawa-landing-page"
+          },
+          {
+            "id": "title",
+            "label": "Page has a descriptive title",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Boss Battle Games Ottawa Landing Page &mdash; Boss Battle Games"
+          },
+          {
+            "id": "description",
+            "label": "Page has a meta description",
+            "points": 10,
+            "passed": false,
+            "earned": 0,
+            "observation": "No meta description found"
+          },
+          {
+            "id": "viewport",
+            "label": "Page declares a mobile viewport",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "Viewport declaration found"
+          },
+          {
+            "id": "h1",
+            "label": "Page has a primary heading",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "H1 found"
+          },
+          {
+            "id": "contact",
+            "label": "Page exposes a contact or booking action",
+            "points": 15,
+            "passed": true,
+            "earned": 15,
+            "observation": "Contact action found"
+          },
+          {
+            "id": "social",
+            "label": "Page links to a verified social account",
+            "points": 10,
+            "passed": true,
+            "earned": 10,
+            "observation": "2 supplied social link(s) found"
+          },
+          {
+            "id": "structured-data",
+            "label": "Page includes structured data",
+            "points": 5,
+            "passed": true,
+            "earned": 5,
+            "observation": "JSON-LD found"
+          },
+          {
+            "id": "canonical",
+            "label": "Page declares a canonical URL",
+            "points": 3,
+            "passed": true,
+            "earned": 3,
+            "observation": "Canonical found"
+          },
+          {
+            "id": "open-graph",
+            "label": "Page includes Open Graph metadata",
+            "points": 2,
+            "passed": true,
+            "earned": 2,
+            "observation": "Open Graph metadata found"
+          }
+        ],
+        "discoveredSocialLinks": [
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/bossbattlegamesottawa"
+          },
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/bbgottawa"
+          },
+          {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/bossbattlegamesindy"
+          },
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/bossbattlegames"
+          }
+        ],
+        "suppliedSocialsMissingFromOfficialSite": [],
+        "officialSocialsMissingFromResearch": []
+      },
+      "contactVerification": {
+        "phone": null,
+        "email": {
+          "value": "contact@bossbattlegames.com",
+          "listedOnWebsite": true
+        }
+      },
+      "socialChecks": [
+        {
+          "platform": "Instagram",
+          "handle": "@bossbattlegamesottawa",
+          "url": "https://www.instagram.com/bossbattlegamesottawa/",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/bossbattlegamesottawa/",
+          "error": null
+        },
+        {
+          "platform": "Facebook",
+          "handle": "@bbgottawa",
+          "url": "https://www.facebook.com/bbgottawa/",
+          "listedOnWebsite": true,
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/bbgottawa/",
+          "error": null
+        }
+      ],
+      "sourceChecks": [
+        {
+          "label": "Official Ottawa opening, pricing, location, policies, positioning, and machine list",
+          "url": "https://www.bossbattlegames.com/boss-battle-games-ottawa-landing-page",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.bossbattlegames.com/boss-battle-games-ottawa-landing-page",
+          "error": null
+        },
+        {
+          "label": "Official business entities and general company contact",
+          "url": "https://www.bossbattlegames.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.bossbattlegames.com/",
+          "error": null
+        },
+        {
+          "label": "Official owner roles and operating history",
+          "url": "https://www.bossbattlegames.com/the-bbg-team",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.bossbattlegames.com/the-bbg-team",
+          "error": null
+        },
+        {
+          "label": "Official public contact route",
+          "url": "https://www.bossbattlegames.com/contact",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.bossbattlegames.com/contact",
+          "error": null
+        },
+        {
+          "label": "Opening-day visitor review, owner replies, pricing, and operating issues",
+          "url": "https://www.reddit.com/r/ottawa/comments/1vc5w6u/boss_battle_games_is_open/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.reddit.com/r/ottawa/comments/1vc5w6u/boss_battle_games_is_open/",
+          "error": null
+        },
+        {
+          "label": "Soft-opening collection review and enthusiast response",
+          "url": "https://www.reddit.com/r/arcade/comments/1v3v4jm/sneak_peak_of_the_new_boss_battle_games_arcade_in/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.reddit.com/r/arcade/comments/1v3v4jm/sneak_peak_of_the_new_boss_battle_games_arcade_in/",
+          "error": null
+        },
+        {
+          "label": "Soft-opening walkthrough and pinball and cabinet inventory",
+          "url": "https://pinballnovice.blogspot.com/2026/07/boss-battles-games-in-ottawa.html",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://pinballnovice.blogspot.com/2026/07/boss-battles-games-in-ottawa.html",
+          "error": null
+        },
+        {
+          "label": "Independent co-owner identification and Indianapolis operating history",
+          "url": "https://nianticlabs.com/news/smb-spotlight-boss-battle-games?hl=en",
+          "reachable": false,
+          "httpStatus": 404,
+          "finalUrl": "https://explore.scopely.com/news/smb-spotlight-boss-battle-games?hl=en",
+          "error": "HTTP 404"
+        },
+        {
+          "label": "https://www.instagram.com/bossbattlegamesottawa/",
+          "url": "https://www.instagram.com/bossbattlegamesottawa/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.instagram.com/bossbattlegamesottawa/",
+          "error": null
+        },
+        {
+          "label": "https://www.facebook.com/bbgottawa/",
+          "url": "https://www.facebook.com/bbgottawa/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.facebook.com/bbgottawa/",
+          "error": null
+        },
+        {
+          "label": "https://mallfinder.ca/malls/st-laurent-shopping-centre-ottawa-on/stores/boss-battle-games",
+          "url": "https://mallfinder.ca/malls/st-laurent-shopping-centre-ottawa-on/stores/boss-battle-games",
+          "reachable": false,
+          "httpStatus": 429,
+          "finalUrl": "https://mallfinder.ca/malls/st-laurent-shopping-centre-ottawa-on/stores/boss-battle-games",
+          "error": "HTTP 429"
+        },
+        {
+          "label": "https://www.houseoftarg.com/",
+          "url": "https://www.houseoftarg.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.houseoftarg.com/",
+          "error": null
+        },
+        {
+          "label": "https://www.funhaven.com/attractions/arcade/",
+          "url": "https://www.funhaven.com/attractions/arcade/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.funhaven.com/attractions/arcade",
+          "error": null
+        },
+        {
+          "label": "https://levelonegamepub.com/",
+          "url": "https://levelonegamepub.com/",
+          "reachable": true,
+          "httpStatus": 200,
+          "finalUrl": "https://www.levelonegamepub.com/",
+          "error": null
+        }
+      ],
+      "reachableSourceCount": 7,
+      "sourceCount": 8,
       "outreachReady": true
     },
     {
       "id": "anatomy-physiotherapy-clinic",
       "name": "Anatomy Physiotherapy Clinic",
       "sourceFile": "research/wellness-leads.json",
-      "capturedAt": "2026-07-28T23:59:08.834Z",
+      "capturedAt": "2026-08-07T20:29:01.071Z",
       "validation": {
         "file": "research/wellness-leads.json",
         "errors": []
@@ -2343,8 +2618,8 @@
         "finalUrl": "https://anatomyphysioclinic.com/",
         "httpStatus": 200,
         "reachable": true,
-        "title": "Physiotherapy Orléans, Ottawa &amp; Stittsville | Anatomy Physio",
-        "metaDescription": "Experience expert physiotherapy in Orléans, Ottawa, &amp; Stittsville, ON at Anatomy Physiotherapy Clinic. Personalized care awaits you.",
+        "title": "Physiotherapy Orléans, Ottawa, Stittsville &amp; Nepean | Anatomy Physio",
+        "metaDescription": "Experience expert physiotherapy in Orléans, Ottawa, Stittsville &amp; Nepean, ON at Anatomy Physiotherapy Clinic. Personalized care awaits you.",
         "score": 100,
         "checks": [
           {
@@ -2369,7 +2644,7 @@
             "points": 10,
             "passed": true,
             "earned": 10,
-            "observation": "Physiotherapy Orléans, Ottawa &amp; Stittsville | Anatomy Physio"
+            "observation": "Physiotherapy Orléans, Ottawa, Stittsville &amp; Nepean | Anatomy Physio"
           },
           {
             "id": "description",
@@ -2377,7 +2652,7 @@
             "points": 10,
             "passed": true,
             "earned": 10,
-            "observation": "Experience expert physiotherapy in Orléans, Ottawa, &amp; Stittsville, ON at Anatomy Physiotherapy Clinic. Personalized care awaits you."
+            "observation": "Experience expert physiotherapy in Orléans, Ottawa, Stittsville &amp; Nepean, ON at Anatomy Physiotherapy Clinic. Personalized care awaits you."
           },
           {
             "id": "viewport",
@@ -2574,7 +2849,7 @@
       "id": "where-i-thrive",
       "name": "Where I Thrive",
       "sourceFile": "research/wellness-leads.json",
-      "capturedAt": "2026-07-28T23:59:08.834Z",
+      "capturedAt": "2026-08-07T20:29:01.071Z",
       "validation": {
         "file": "research/wellness-leads.json",
         "errors": []
@@ -2838,7 +3113,7 @@
       "id": "arro-wellness",
       "name": "Arro Wellness",
       "sourceFile": "research/wellness-leads.json",
-      "capturedAt": "2026-07-28T23:59:08.834Z",
+      "capturedAt": "2026-08-07T20:29:01.071Z",
       "validation": {
         "file": "research/wellness-leads.json",
         "errors": []
@@ -3090,7 +3365,7 @@
       "id": "iron-north-studio",
       "name": "Iron North Studio",
       "sourceFile": "research/wellness-leads.json",
-      "capturedAt": "2026-07-28T23:59:08.834Z",
+      "capturedAt": "2026-08-07T20:29:01.071Z",
       "validation": {
         "file": "research/wellness-leads.json",
         "errors": []
@@ -3359,7 +3634,7 @@
       "id": "refine-ottawa",
       "name": "Refine Ottawa",
       "sourceFile": "research/wellness-leads.json",
-      "capturedAt": "2026-07-28T23:59:08.834Z",
+      "capturedAt": "2026-08-07T20:29:01.071Z",
       "validation": {
         "file": "research/wellness-leads.json",
         "errors": []
@@ -3575,7 +3850,7 @@
       "id": "the-aesthetic-lounge",
       "name": "The Aesthetic Lounge",
       "sourceFile": "research/wellness-leads.json",
-      "capturedAt": "2026-07-28T23:59:08.834Z",
+      "capturedAt": "2026-08-07T20:29:01.071Z",
       "validation": {
         "file": "research/wellness-leads.json",
         "errors": []
@@ -3845,7 +4120,7 @@
       "id": "apartmint-hair-studio",
       "name": "ApartMint Hair Studio",
       "sourceFile": "research/wellness-leads.json",
-      "capturedAt": "2026-07-28T23:59:08.834Z",
+      "capturedAt": "2026-08-07T20:29:01.071Z",
       "validation": {
         "file": "research/wellness-leads.json",
         "errors": []
@@ -4071,7 +4346,7 @@
       "id": "saunders-farm",
       "name": "Saunders Farm",
       "sourceFile": "research/visual-service-leads.json",
-      "capturedAt": "2026-07-28T23:59:08.834Z",
+      "capturedAt": "2026-08-07T20:29:01.071Z",
       "validation": {
         "file": "research/visual-service-leads.json",
         "errors": []
@@ -4349,7 +4624,7 @@
       "id": "automindz",
       "name": "Automindz",
       "sourceFile": "research/visual-service-leads.json",
-      "capturedAt": "2026-07-28T23:59:08.834Z",
+      "capturedAt": "2026-08-07T20:29:01.071Z",
       "validation": {
         "file": "research/visual-service-leads.json",
         "errors": []
@@ -4536,7 +4811,7 @@
       "id": "artium-design-build-renovations",
       "name": "ARTium Design Build Renovations",
       "sourceFile": "research/visual-service-leads.json",
-      "capturedAt": "2026-07-28T23:59:08.834Z",
+      "capturedAt": "2026-08-07T20:29:01.071Z",
       "validation": {
         "file": "research/visual-service-leads.json",
         "errors": []
@@ -4821,7 +5096,7 @@
       "id": "stonefields-estate",
       "name": "Stonefields Estate",
       "sourceFile": "research/visual-service-leads.json",
-      "capturedAt": "2026-07-28T23:59:08.834Z",
+      "capturedAt": "2026-08-07T20:29:01.071Z",
       "validation": {
         "file": "research/visual-service-leads.json",
         "errors": []
@@ -5053,7 +5328,7 @@
       "id": "lagois-design-build-renovate",
       "name": "Lagois Design Build Renovate",
       "sourceFile": "research/visual-service-leads.json",
-      "capturedAt": "2026-07-28T23:59:08.834Z",
+      "capturedAt": "2026-08-07T20:29:01.071Z",
       "validation": {
         "file": "research/visual-service-leads.json",
         "errors": []
@@ -5388,7 +5663,7 @@
       "id": "oakwood-design-build",
       "name": "OakWood Design & Build",
       "sourceFile": "research/visual-service-leads.json",
-      "capturedAt": "2026-07-28T23:59:08.834Z",
+      "capturedAt": "2026-08-07T20:29:01.071Z",
       "validation": {
         "file": "research/visual-service-leads.json",
         "errors": []
